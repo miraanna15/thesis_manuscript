@@ -1,0 +1,1332 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="#item_4">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Newspaper>
+               <dc:title>British Intitute of Radiology</dc:title>
+            </bib:Newspaper>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grimbergen</foaf:surname>
+                        <foaf:givenname>Cornelis A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>den Heeten</foaf:surname>
+                        <foaf:givenname>Gerard J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_5"/>
+        <dc:date>10 April 2013</dc:date>
+        <dc:title>Pressure and breast thichness in mammography-what about physics.pdf</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_5">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&amp;ik=56079a0938&amp;view=att&amp;th=14b322eabd4d2db2&amp;attid=0.2&amp;disp=safe&amp;zw&amp;saduie=AG9B_P_4Km01SAY_OcYoj7EQZRd5&amp;sadet=1429256807878&amp;sadat=ANGjdJ9Menr4B7SfAvaTxmjwZ0goXJrECOGPLMSGCjMJZjrhHgSPKmJ-3YN5NUo&amp;sads=ZjTGXNQfBJvXBdpBYZZvuX85pt0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-04-17 07:46:36</dcterms:dateSubmitted>
+        <dc:title>Pressure and breast thichness in mammography-what about physics.pdf</dc:title>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="http://journals.aps.org/prd/abstract/10.1103/PhysRevD.75.013009">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>75</prism:volume>
+                <prism:number>1</prism:number>
+                <dc:title>Physical Review D</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rosner</foaf:surname>
+                        <foaf:givenname>Jonathan L.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://journals.aps.org/prd/abstract/10.1103/PhysRevD.75.013009</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>013009</bib:pages>
+        <dc:date>2007</dc:date>
+        <dcterms:dateSubmitted>2015-03-22 11:26:26</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>Mass splittings in Σ b and Σ b*</dc:title>
+    </bib:Article>
+    <bib:Article rdf:about="http://linkinghub.elsevier.com/retrieve/pii/S1361841508001035">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:13618415"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Zeike A . Taylor</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Olivier Comas</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Mario Cheng</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Josh Passenger</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>David J. Hawkes</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>David Atkinson</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Sébastien Ourselin</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_15"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://linkinghub.elsevier.com/retrieve/pii/S1361841508001035</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>234-244</bib:pages>
+        <dc:date>04/2009</dc:date>
+        <dcterms:dateSubmitted>2015-04-22 16:56:07</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>On modelling of anisotropic viscoelasticity for soft tissue simulation: Numerical solution and GPU execution</dc:title>
+        <z:shortTitle>On modelling of anisotropic viscoelasticity for soft tissue simulation</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:13618415">
+        <prism:volume>13</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>Medical Image Analysis</dc:title>
+        <dc:identifier>ISSN 13618415</dc:identifier>
+        <dc:identifier>DOI 10.1016/j.media.2008.10.001</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_15">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/15/taylor2009-On modeling of anisotropic viscoelasticity for soft tissue simulation.pdf"/>
+        <dc:title>taylor2009-On modeling of anisotropic viscoelasticity for soft tissue simulation.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://linkinghub.elsevier.com/retrieve/pii/S1350453308000210">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:13504533"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Palomar</foaf:surname>
+                        <foaf:givenname>A. Pérez del</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Calvo</foaf:surname>
+                        <foaf:givenname>B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Herrero</foaf:surname>
+                        <foaf:givenname>J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>López</foaf:surname>
+                        <foaf:givenname>J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Doblaré</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_19"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://linkinghub.elsevier.com/retrieve/pii/S1350453308000210</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1089-1097</bib:pages>
+        <dc:date>11/2008</dc:date>
+        <dcterms:dateSubmitted>2015-04-10 09:00:49</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>A finite element model to accurately predict real deformations of the breast</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:13504533">
+        <prism:volume>30</prism:volume>
+        <prism:number>9</prism:number>
+        <dc:title>Medical Engineering &amp; Physics</dc:title>
+        <dc:identifier>ISSN 13504533</dc:identifier>
+        <dc:identifier>DOI 10.1016/j.medengphy.2008.01.005</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_19">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/19/palomar2008-A finite model to accurately predict real deformation of the breast.pdf"/>
+        <dc:title>palomar2008-A finite model to accurately predict real deformation of the breast.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="http://books.google.com/books?hl=en&amp;lr=&amp;id=qF_RBQAAQBAJ&amp;oi=fnd&amp;pg=PP1&amp;dq=%22Drive,+Danvers,+MA+01923,+978-750-8400.+CCC+is+a+not-for-profit+organization+that%22+%22Pellettiere+and+T.+Knox,%22+%22only+for+identification+and+explanation+without+intent+to%22+%22licenses+and+registration+for+a+variety+of+users.+For+organizations+that+have+been+g&amp;ots=mRCbXO7R0L&amp;sig=jhZQdB0W6STEnVj-J0hleOsqIdk">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>CRC Press</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Duffy</foaf:surname>
+                        <foaf:givenname>Vincent</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://books.google.com/books?hl=en&amp;lr=&amp;id=qF_RBQAAQBAJ&amp;oi=fnd&amp;pg=PP1&amp;dq=%22Drive,+Danvers,+MA+01923,+978-750-8400.+CCC+is+a+not-for-profit+organization+that%22+%22Pellettiere+and+T.+Knox,%22+%22only+for+identification+and+explanation+without+intent+to%22+%22licenses+and+registration+for+a+variety+of+users.+For+organizations+that+have+been+g&amp;ots=mRCbXO7R0L&amp;sig=jhZQdB0W6STEnVj-J0hleOsqIdk</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2010</dc:date>
+        <dcterms:dateSubmitted>2015-03-22 11:16:31</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>Advances in applied digital human modeling</dc:title>
+    </bib:Book>
+    <bib:Article rdf:about="http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2702.2005.01121.x/full">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>14</prism:volume>
+                <prism:number>7</prism:number>
+                <dc:title>Journal of clinical nursing</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Williamson</foaf:surname>
+                        <foaf:givenname>Amelia</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hoggart</foaf:surname>
+                        <foaf:givenname>Barbara</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_29"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2702.2005.01121.x/full</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>798–804</bib:pages>
+        <dc:date>2005</dc:date>
+        <dcterms:dateSubmitted>2015-04-17 11:35:33</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>Pain: a review of three commonly used pain rating scales</dc:title>
+        <z:shortTitle>Pain</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_29">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/29/Williamson2005-pain a review of three commonly used pain rating scales.pdf"/>
+        <dc:title>Williamson2005-pain a review of three commonly used pain rating scales.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=698680">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Computer Vision and Pattern Recognition, 1998. Proceedings. 1998 IEEE Computer Society Conference on</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>IEEE</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kita</foaf:surname>
+                        <foaf:givenname>Yasuyo</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Highnam</foaf:surname>
+                        <foaf:givenname>Ralph</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brady</foaf:surname>
+                        <foaf:givenname>Michael</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_35"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=698680</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>700–707</bib:pages>
+        <dc:date>1998</dc:date>
+        <dcterms:dateSubmitted>2015-04-30 12:50:43</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>Correspondence between different view breast X-rays using a simulation of breast deformation</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_35">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/35/kita1998-cirrespondance between different view breast x-ray using simulation of breast deformation.pdf"/>
+        <dc:title>kita1998-cirrespondance between different view breast x-ray using simulation of breast deformation.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://link.springer.com/10.1007/s11517-007-0205-y">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0140-0118,%201741-0444"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zyganitidis</foaf:surname>
+                        <foaf:givenname>Christos</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bliznakova</foaf:surname>
+                        <foaf:givenname>Kristina</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pallikarakis</foaf:surname>
+                        <foaf:givenname>Nicolas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_43"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/s11517-007-0205-y</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>661-669</bib:pages>
+        <dc:date>2007-8-9</dc:date>
+        <dcterms:dateSubmitted>2015-04-30 12:38:30</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>A novel simulation algorithm for soft tissue compression</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0140-0118,%201741-0444">
+        <prism:volume>45</prism:volume>
+        <prism:number>7</prism:number>
+        <dc:title>Medical and Biological Engineering &amp; Computing</dc:title>
+        <dc:identifier>ISSN 0140-0118, 1741-0444</dc:identifier>
+        <dc:identifier>DOI 10.1007/s11517-007-0205-y</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_43">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/43/zyganitidis2007 A novel simulation algorithm for soft tissue compression.pdf"/>
+        <dc:title>zyganitidis2007 A novel simulation algorithm for soft tissue compression.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4303266">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0018-9294"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kellner</foaf:surname>
+                        <foaf:givenname>Albert L.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nelson</foaf:surname>
+                        <foaf:givenname>Thomas R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cervino</foaf:surname>
+                        <foaf:givenname>Laura I.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Boone</foaf:surname>
+                        <foaf:givenname>John M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_47"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4303266</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1885-1891</bib:pages>
+        <dc:date>10/2007</dc:date>
+        <dcterms:dateSubmitted>2015-04-15 17:41:58</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <dc:title>Simulation of Mechanical Compression of Breast Tissue</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0018-9294">
+        <prism:volume>54</prism:volume>
+        <prism:number>10</prism:number>
+        <dc:title>IEEE Transactions on Biomedical Engineering</dc:title>
+        <dc:identifier>ISSN 0018-9294</dc:identifier>
+        <dc:identifier>DOI 10.1109/TBME.2007.893493</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_47">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/47/kellner2007-simulation of mechanical compression of breast tissue.pdf"/>
+        <dc:title>kellner2007-simulation of mechanical compression of breast tissue.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_51">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://ac.els-cdn.com.gaelnomade.ujf-grenoble.fr/0738081X9500078T/1-s2.0-0738081X9500078T-main.pdf?_tid=60119478-ef3d-11e4-8319-00000aab0f6c&amp;acdnat=1430400941_c4e2d3f861249e0f0b89f156d87983c4</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-04-30 13:32:56</dcterms:dateSubmitted>
+        <dc:title>1-s2.0-0738081X9500078T-main.pdf</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Thesis rdf:about="#item_53">
+        <z:itemType>thesis</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>MILIONI DE CARVALHO</foaf:surname>
+                        <foaf:givenname>Pablo</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_54"/>
+        <dc:date>2014</dc:date>
+        <dc:title>Low-Dose 3D quantitative Vascular X-ray Imaging</dc:title>
+    </bib:Thesis>
+    <z:Attachment rdf:about="#item_54">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://libraries.ge.com/download?fileid=608227444101&amp;entity_id=42253679101&amp;sid=101</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-04-28 09:43:16</dcterms:dateSubmitted>
+        <dc:title>Low-Dose 3D quantitative Vascular X-ray Imaging.pdf</dc:title>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_56">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Newspaper></bib:Newspaper>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dullum</foaf:surname>
+                        <foaf:givenname>Joanna R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lewis</foaf:surname>
+                        <foaf:givenname>Elizabeth C.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mayer</foaf:surname>
+                        <foaf:givenname>Joni A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_57"/>
+        <link:link rdf:resource="#item_58"/>
+        <dc:date>2000</dc:date>
+        <dc:title>Rates and correlates of Discomfort Associated with Mammography</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_57">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/57/dullum2000-rates and correlates of disconfort associated with mammography.pdf"/>
+        <dc:title>dullum2000-rates and correlates of disconfort associated with mammography.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_58">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/58/dullum2000-rates and correlates of disconfort associated with mammography.pdf"/>
+        <dc:title>dullum2000-rates and correlates of disconfort associated with mammography.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_59">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>84</prism:volume>
+                <prism:number>4</prism:number>
+                <dc:title>European journal of radiology</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Branderhorst</foaf:surname>
+                        <foaf:givenname>Woutjan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Groot</foaf:surname>
+                        <foaf:givenname>Jerry E. de</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Highnam</foaf:surname>
+                        <foaf:givenname>Ralph</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chan</foaf:surname>
+                        <foaf:givenname>Ariane</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Böhm-Vélez</foaf:surname>
+                        <foaf:givenname>Marcela</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Mireille JM Broeders</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Gerard J. den Heeten</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Cornelis A. Grimbergen</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_60"/>
+        <bib:pages>596-602</bib:pages>
+        <dc:date>2015</dc:date>
+        <dc:title>Mammographic compression-a need for mechanical standardization.pdf</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_60">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&amp;ik=56079a0938&amp;view=att&amp;th=14b322eabd4d2db2&amp;attid=0.3&amp;disp=safe&amp;zw&amp;saduie=AG9B_P_4Km01SAY_OcYoj7EQZRd5&amp;sadet=1429256825237&amp;sadat=ANGjdJ99yG-SvnR5jNzwLC7M7M7RY9IchfBLOZ49BbD2D-jwtQ2QPC6sRUUceFo&amp;sads=912n7QmltuvE0u6PyCulxfPXkYs</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-04-17 07:47:03</dcterms:dateSubmitted>
+        <dc:title>Woutjan2015</dc:title>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Book rdf:about="http://books.google.com/books?hl=en&amp;lr=&amp;id=DGnVDgTfcZwC&amp;oi=fnd&amp;pg=PP2&amp;dq=%22Spatially+Selective%22+%22SNR+Field%22+%22Main+Contrast+Mechanisms+in+1H%22+%22Image+Reconstruction+from+Discrete%22+%22Artifacts+Due+to+Motion+and%22+%22Chemical+Shift%22+%22MRI+Techniques+for+Motion+Artifact%22+&amp;ots=GX2PffidYq&amp;sig=lMGit_KTQ_ym6ihumpmEiHlm_mY">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Academic Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kuperman</foaf:surname>
+                        <foaf:givenname>Vadim</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://books.google.com/books?hl=en&amp;lr=&amp;id=DGnVDgTfcZwC&amp;oi=fnd&amp;pg=PP2&amp;dq=%22Spatially+Selective%22+%22SNR+Field%22+%22Main+Contrast+Mechanisms+in+1H%22+%22Image+Reconstruction+from+Discrete%22+%22Artifacts+Due+to+Motion+and%22+%22Chemical+Shift%22+%22MRI+Techniques+for+Motion+Artifact%22+&amp;ots=GX2PffidYq&amp;sig=lMGit_KTQ_ym6ihumpmEiHlm_mY</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2000</dc:date>
+        <dcterms:dateSubmitted>2015-05-05 13:46:46</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>Magnetic resonance imaging: physical principles and applications</dc:title>
+        <z:shortTitle>Magnetic resonance imaging</z:shortTitle>
+    </bib:Book>
+    <bib:Article rdf:about="http://linkinghub.elsevier.com/retrieve/pii/S136184151400156X">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>20</prism:volume>
+                <prism:number>1</prism:number>
+                <dc:title>Medical Image Analysis</dc:title>
+                <dc:identifier>ISSN 13618415</dc:identifier>
+                <dc:identifier>DOI 10.1016/j.media.2014.10.010</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jiang</foaf:surname>
+                        <foaf:givenname>Yi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenname>Guo-Yang</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Qian</foaf:surname>
+                        <foaf:givenname>Lin-Xue</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hu</foaf:surname>
+                        <foaf:givenname>Xiang-Dong</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenname>Dong</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liang</foaf:surname>
+                        <foaf:givenname>Si</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cao</foaf:surname>
+                        <foaf:givenname>Yanping</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_64"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://linkinghub.elsevier.com/retrieve/pii/S136184151400156X</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>97-111</bib:pages>
+        <dc:date>02/2015</dc:date>
+        <dcterms:dateSubmitted>2015-05-05 16:37:23</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Characterization of the nonlinear elastic properties of soft tissues using the supersonic shear imaging (SSI) technique: Inverse method, ex vivo and in vivo experiments</dc:title>
+        <z:shortTitle>Characterization of the nonlinear elastic properties of soft tissues using the supersonic shear imaging (SSI) technique</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_64">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/64/jiang2015-characterization of the nonlinear elastic properties of soft tissues using the supersonic shear imaging technique.pdf"/>
+        <dc:title>jiang2015-characterization of the nonlinear elastic properties of soft tissues using the supersonic shear imaging technique.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6361384">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>19</prism:volume>
+                <prism:number>7</prism:number>
+                <dc:title>Visualization and Computer Graphics, IEEE Transactions on</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tam</foaf:surname>
+                        <foaf:givenname>Gary KL</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheng</foaf:surname>
+                        <foaf:givenname>Zhi-Quan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lai</foaf:surname>
+                        <foaf:givenname>Yu-Kun</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Langbein</foaf:surname>
+                        <foaf:givenname>Frank C.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenname>Yonghuai</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marshall</foaf:surname>
+                        <foaf:givenname>David</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Martin</foaf:surname>
+                        <foaf:givenname>Ralph R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sun</foaf:surname>
+                        <foaf:givenname>Xian-Fang</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rosin</foaf:surname>
+                        <foaf:givenname>Paul L.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_67"/>
+        <link:link rdf:resource="#item_68"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6361384</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1199–1217</bib:pages>
+        <dc:date>2013</dc:date>
+        <dcterms:dateSubmitted>2015-04-15 17:42:22</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>Registration of 3D point clouds and meshes: a survey from rigid to nonrigid</dc:title>
+        <z:shortTitle>Registration of 3D point clouds and meshes</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_67">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/67/tam2013-Registration of 3D point clouds and meshes a survey from rigid to nonrigid.pdf"/>
+        <dc:title>tam2013-Registration of 3D point clouds and meshes a survey from rigid to nonrigid.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_68">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/68/tam2013-Registration of 3D point clouds and meshes a survey from rigid to nonrigid.pdf"/>
+        <dc:title>tam2013-Registration of 3D point clouds and meshes a survey from rigid to nonrigid.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://stacks.iop.org/0031-9155/57/i=2/a=455?key=crossref.6e29b86ffc3b2c371cba5f9522681bbc">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0031-9155,%201361-6560"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Han</foaf:surname>
+                        <foaf:givenname>Lianghao</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hipwell</foaf:surname>
+                        <foaf:givenname>John H</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tanner</foaf:surname>
+                        <foaf:givenname>Christine</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Taylor</foaf:surname>
+                        <foaf:givenname>Zeike</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mertzanidou</foaf:surname>
+                        <foaf:givenname>Thomy</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Jorge Cardoso</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Sebastien Ourselin</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>David J Hawkes</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_70"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://stacks.iop.org/0031-9155/57/i=2/a=455?key=crossref.6e29b86ffc3b2c371cba5f9522681bbc</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>455-472</bib:pages>
+        <dc:date>2012-01-21</dc:date>
+        <dcterms:dateSubmitted>2015-04-21 10:09:49</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <dc:title>Development of patient-specific biomechanical models for predicting large breast deformation</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0031-9155,%201361-6560">
+        <prism:volume>57</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>Physics in Medicine and Biology</dc:title>
+        <dc:identifier>ISSN 0031-9155, 1361-6560</dc:identifier>
+        <dc:identifier>DOI 10.1088/0031-9155/57/2/455</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_70">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/70/han2012-development of âtient specific biomecanical models for predicting large breast deformation.pdf"/>
+        <dc:title>han2012-development of âtient specific biomecanical models for predicting large breast deformation.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://books.google.com/books?hl=en&amp;lr=&amp;id=mk-JpyF610YC&amp;oi=fnd&amp;pg=PA126&amp;dq=%22relative+axis:+r,+s.+The+strain+level+is+then+defined%22+%22not+account+properly+for+the+mechanical+behavior+of+the+tissues,+a+non-linear+law+can%22+%22the+modeling+assumptions+are,+the+PDEs+that+govern+CM+cannot+be%22+&amp;ots=u3L-STirWh&amp;sig=Xx1nh1e2DasYtZQxU_GNXp8XQTY">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Informatics in Oral Medicine: Advanced Techniques in Clinical and Diagnostic Technologies. Hershey, PA: Medical Information Science Reference</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lobos</foaf:surname>
+                        <foaf:givenname>Claudio</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Payan</foaf:surname>
+                        <foaf:givenname>Yohan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hitschfeld</foaf:surname>
+                        <foaf:givenname>Nancy</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://books.google.com/books?hl=en&amp;lr=&amp;id=mk-JpyF610YC&amp;oi=fnd&amp;pg=PA126&amp;dq=%22relative+axis:+r,+s.+The+strain+level+is+then+defined%22+%22not+account+properly+for+the+mechanical+behavior+of+the+tissues,+a+non-linear+law+can%22+%22the+modeling+assumptions+are,+the+PDEs+that+govern+CM+cannot+be%22+&amp;ots=u3L-STirWh&amp;sig=Xx1nh1e2DasYtZQxU_GNXp8XQTY</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>126–158</bib:pages>
+        <dc:date>2010</dc:date>
+        <dcterms:dateSubmitted>2015-04-10 09:10:03</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>Techniques for the generation of 3D Finite Element Meshes of human organs</dc:title>
+    </bib:Article>
+    <bib:Book rdf:about="#item_73">
+        <z:itemType>book</z:itemType>
+        <link:link rdf:resource="#item_74"/>
+        <dc:title>CatSim</dc:title>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_74">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/74/CatSim_Essential_Guidelines.pdf"/>
+        <dc:title>CatSim_Essential_Guidelines.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://linkinghub.elsevier.com/retrieve/pii/S053151310500333X">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:05315131"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Roose</foaf:surname>
+                        <foaf:givenname>Liesbet</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>De Maerteleire</foaf:surname>
+                        <foaf:givenname>Wim</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mollemans</foaf:surname>
+                        <foaf:givenname>Wouter</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Suetens</foaf:surname>
+                        <foaf:givenname>Paul</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_76"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://linkinghub.elsevier.com/retrieve/pii/S053151310500333X</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>485-490</bib:pages>
+        <dc:date>5/2005</dc:date>
+        <dcterms:dateSubmitted>2015-04-30 12:44:39</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Validation of different soft tissue simulation methods for breast augmentation</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:05315131">
+        <prism:volume>1281</prism:volume>
+        <dc:title>International Congress Series</dc:title>
+        <dc:identifier>ISSN 05315131</dc:identifier>
+        <dc:identifier>DOI 10.1016/j.ics.2005.03.126</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_76">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://ac.els-cdn.com.gaelnomade.ujf-grenoble.fr/S053151310500333X/1-s2.0-S053151310500333X-main.pdf?_tid=b565bd7a-ef36-11e4-a621-00000aacb360&amp;acdnat=1430398077_539ae30fde745b6a374c27c8cd4c7d9b</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-04-30 12:44:37</dcterms:dateSubmitted>
+        <dc:title>1-s2.0-S053151310500333X-main.pdf</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_77">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>53</prism:volume>
+                <prism:number>1</prism:number>
+                <dc:title>IEEE Transactions on Nuclear Science</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ruiter</foaf:surname>
+                        <foaf:givenname>Nicole V.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stotzka</foaf:surname>
+                        <foaf:givenname>Rainer</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>MULLER</foaf:surname>
+                        <foaf:givenname>Tim-Oliver</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gemmeke</foaf:surname>
+                        <foaf:givenname>Hartmut</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reichenbach</foaf:surname>
+                        <foaf:givenname>Jurgen R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kaiser</foaf:surname>
+                        <foaf:givenname>Werner</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_81"/>
+        <bib:pages>204-211</bib:pages>
+        <dc:date>2006</dc:date>
+        <dc:title>Model-Based Registration of X-Ray Mammograms and MR Images of the Female Breast.</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_81">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/81/ruiter2004-M6-6 model based registration of x-ray mammogramsand mrimages of the female breast.PDF"/>
+        <dc:title>ruiter2004-M6-6 model based registration of x-ray mammogramsand mrimages of the female breast.PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_82">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.ipen.br/biblioteca/cd/ieee/2004/DATA/2M06-6.PDF</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-04-20 11:35:57</dcterms:dateSubmitted>
+        <dc:title>2M06-6.pdf</dc:title>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.annualreviews.org/doi/abs/10.1146/annurev.bioeng.5.040202.121623">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1523-9829,%201545-4274"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>James F. Greenleaf</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Mostafa Fatemi</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Michael Insana</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.annualreviews.org/doi/abs/10.1146/annurev.bioeng.5.040202.121623</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>57-78</bib:pages>
+        <dc:date>08/2003</dc:date>
+        <dcterms:dateSubmitted>2015-04-15 17:39:11</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Selected methods for imaging elastic properties of biological tissues</dc:title>
+        <z:shortTitle>S &lt;span style=&quot;font-variant</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1523-9829,%201545-4274">
+        <prism:volume>5</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:title>Annual Review of Biomedical Engineering</dc:title>
+        <dc:identifier>ISSN 1523-9829, 1545-4274</dc:identifier>
+        <dc:identifier>DOI 10.1146/annurev.bioeng.5.040202.121623</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://doi.wiley.com/10.1002/wsbm.58">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:19395094"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rajagopal</foaf:surname>
+                        <foaf:givenname>Vijayaraghavan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nielsen</foaf:surname>
+                        <foaf:givenname>Poul M. F.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nash</foaf:surname>
+                        <foaf:givenname>Martyn P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_86"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://doi.wiley.com/10.1002/wsbm.58</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>293-304</bib:pages>
+        <dc:date>05/2010</dc:date>
+        <dcterms:dateSubmitted>2015-03-22 11:19:01</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Modeling breast biomechanics for multi-modal image analysis-successes and challenges</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:19395094">
+        <prism:volume>2</prism:volume>
+        <prism:number>3</prism:number>
+        <dc:title>Wiley Interdisciplinary Reviews: Systems Biology and Medicine</dc:title>
+        <dc:identifier>ISSN 19395094</dc:identifier>
+        <dc:identifier>DOI 10.1002/wsbm.58</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_86">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/86/Rajagopal2010-Wiley_Interdisciplinary_Reviews__Systems_Biology_and_Medicine.pdf"/>
+        <dc:title>Rajagopal2010-Wiley_Interdisciplinary_Reviews__Systems_Biology_and_Medicine.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://stacks.iop.org/0031-9155/49/i=18/a=014?key=crossref.4a8069c8c53067447eea388da01686c1">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>49</prism:volume>
+                <prism:number>18</prism:number>
+                <dc:title>Physics in Medicine and Biology</dc:title>
+                <dc:identifier>ISSN 0031-9155, 1361-6560</dc:identifier>
+                <dc:identifier>DOI 10.1088/0031-9155/49/18/014</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Abbas Samani</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Donald Plewes</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_88"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://stacks.iop.org/0031-9155/49/i=18/a=014?key=crossref.4a8069c8c53067447eea388da01686c1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>4395-4405</bib:pages>
+        <dc:date>2004-09-21</dc:date>
+        <dcterms:dateSubmitted>2015-04-30 13:26:33</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <dc:title>A method to measure the hyperelastic parameters of ex vivo breast tissue samples</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_88">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/88/samani2004-A method to mesure the hypereleqtic perameters of exvivo breast tissue samples.pdf"/>
+        <dc:title>samani2004-A method to mesure the hypereleqtic perameters of exvivo breast tissue samples.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Thesis rdf:about="http://cmic.cs.ucl.ac.uk/fileadmin/cmic/theses/Carter_PhD_Thesis.pdf">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>University of London</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Carter</foaf:surname>
+                        <foaf:givenname>Timothy John</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://cmic.cs.ucl.ac.uk/fileadmin/cmic/theses/Carter_PhD_Thesis.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2009</dc:date>
+        <dcterms:dateSubmitted>2015-03-22 11:15:10</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>Biomechanical modelling of the breast for image-guided surgery</dc:title>
+    </bib:Thesis>
+    <bib:Article rdf:about="http://linkinghub.elsevier.com/retrieve/pii/S0720048X14005981">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0720048X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Branderhorst</foaf:surname>
+                        <foaf:givenname>Woutjan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>de Groot</foaf:surname>
+                        <foaf:givenname>Jerry E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Highnam</foaf:surname>
+                        <foaf:givenname>Ralph</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chan</foaf:surname>
+                        <foaf:givenname>Ariane</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Böhm-Vélez</foaf:surname>
+                        <foaf:givenname>Marcela</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Broeders</foaf:surname>
+                        <foaf:givenname>Mireille J.M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>den Heeten</foaf:surname>
+                        <foaf:givenname>Gerard J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grimbergen</foaf:surname>
+                        <foaf:givenname>Cornelis A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://linkinghub.elsevier.com/retrieve/pii/S0720048X14005981</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>596-602</bib:pages>
+        <dc:date>04/2015</dc:date>
+        <dcterms:dateSubmitted>2015-03-22 11:17:45</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Mammographic compression – A need for mechanical standardization</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0720048X">
+        <prism:volume>84</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:title>European Journal of Radiology</dc:title>
+        <dc:identifier>ISSN 0720048X</dc:identifier>
+        <dc:identifier>DOI 10.1016/j.ejrad.2014.12.012</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_91">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://pubs.rsna.org/doi/pdf/10.1148/radiology.214.2.r00fe23547</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-04-17 11:12:31</dcterms:dateSubmitted>
+        <dc:title>Radiology 214/2 - radiology.214.2.r00fe23547</dc:title>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-3-540-30067-0%203-540-30067-8">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+           <foaf:Organization></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weishaupt</foaf:surname>
+                        <foaf:givenname>Dominik</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Köchli</foaf:surname>
+                        <foaf:givenname>Victor D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marincek</foaf:surname>
+                        <foaf:givenname>Borut</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_93"/>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_93">
+       <z:itemType>attachment</z:itemType>
+    </z:Attachment>
+</rdf:RDF>

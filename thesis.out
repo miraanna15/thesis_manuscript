@@ -1,0 +1,80 @@
+\BOOKMARK [0][-]{chapter*.1}{Contents}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
+\BOOKMARK [1][-]{section.1.1}{General Problem statement}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Technical approach}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.3}{Thesis overview}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.4}{Key contributions}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.5}{Software}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.6}{Ethics}{chapter.1}% 10
+\BOOKMARK [-1][-]{part.1}{I Background}{}% 11
+\BOOKMARK [0][-]{chapter.2}{ Clinical background}{part.1}% 12
+\BOOKMARK [1][-]{section.2.1}{darkgreen Introduction}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{darkgreen Breast anatomy}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{darkgreen Breast embryogenesis}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{darkgreen Breast Appearance}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.3}{darkgreen Internal structure}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.4}{darkgreen Adult breast texture changes}{section.2.2}% 18
+\BOOKMARK [1][-]{section.2.3}{darkgreen Breast Cancer}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.3.1}{darkgreen Cancer classification }{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.2}{darkgreen Breast cancer screening}{section.2.3}% 21
+\BOOKMARK [1][-]{section.2.4}{darkgreen Medical Imaging}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.4.1}{darkgreen X-ray mammography}{section.2.4}% 23
+\BOOKMARK [2][-]{subsection.2.4.2}{darkgreen Ultrasounds}{section.2.4}% 24
+\BOOKMARK [2][-]{subsection.2.4.3}{darkgreen Magnetic resonance imaging}{section.2.4}% 25
+\BOOKMARK [1][-]{section.2.5}{darkgreen Conclusion}{chapter.2}% 26
+\BOOKMARK [-1][-]{part.2}{II Biomechanical breast modeling}{}% 27
+\BOOKMARK [0][-]{chapter.3}{Background and state of the art}{part.2}% 28
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.2}{darkgreen Continuous mechanics}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.2.1}{Deformation and strain}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.2}{Stress measures}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.3}{darkgreen Conservation equations}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.4}{darkgreen Constitutive models}{section.3.2}% 34
+\BOOKMARK [1][-]{section.3.3}{darkgreen Finite Element Discretization}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.3.1}{darkgreen Eulerian and Lagrangian mesh description}{section.3.3}% 36
+\BOOKMARK [2][-]{subsection.3.3.2}{darkgreen Lagrangian mesh}{section.3.3}% 37
+\BOOKMARK [1][-]{section.3.4}{darkgreen Contact mechanics}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.4.1}{darkgreen Contact inteface equations}{section.3.4}% 39
+\BOOKMARK [2][-]{subsection.3.4.2}{darkgreen Surface interaction models}{section.3.4}% 40
+\BOOKMARK [2][-]{subsection.3.4.3}{darkgreen Contact formulation algorithm: Pure Penalty model}{section.3.4}% 41
+\BOOKMARK [1][-]{section.3.5}{darkgreen Breast biomechanical model: overview}{chapter.3}% 42
+\BOOKMARK [2][-]{subsection.3.5.1}{darkgreen Breast reference configuration}{section.3.5}% 43
+\BOOKMARK [2][-]{subsection.3.5.2}{darkgreen Constitutive models}{section.3.5}% 44
+\BOOKMARK [2][-]{subsection.3.5.3}{darkgreen Boundary conditions}{section.3.5}% 45
+\BOOKMARK [2][-]{subsection.3.5.4}{darkgreen Conclusion}{section.3.5}% 46
+\BOOKMARK [0][-]{chapter.4}{A new biomechanical breast model}{part.2}% 47
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 48
+\BOOKMARK [1][-]{section.4.2}{darkgreen Geometry extraction}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.2.1}{darkgreen Data acquisition}{section.4.2}% 50
+\BOOKMARK [2][-]{subsection.4.2.2}{darkgreen Image segmentation}{section.4.2}% 51
+\BOOKMARK [2][-]{subsection.4.2.3}{darkgreen Image registration}{section.4.2}% 52
+\BOOKMARK [2][-]{subsection.4.2.4}{darkgreen Patient-specific 3D geometry}{section.4.2}% 53
+\BOOKMARK [1][-]{section.4.3}{ Finite Elements Mesh}{chapter.4}% 54
+\BOOKMARK [1][-]{section.4.4}{darkgreen Breast stress-free geometry}{chapter.4}% 55
+\BOOKMARK [1][-]{section.4.5}{Boundary conditions}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.6}{Materials constitutive models}{chapter.4}% 57
+\BOOKMARK [0][-]{chapter.5}{Model validation}{part.2}% 58
+\BOOKMARK [1][-]{section.5.1}{Technical approach}{chapter.5}% 59
+\BOOKMARK [1][-]{section.5.2}{Results}{chapter.5}% 60
+\BOOKMARK [1][-]{section.5.3}{Discussions and conclusion}{chapter.5}% 61
+\BOOKMARK [-1][-]{part.3}{III Breast Compression: a comparative study}{}% 62
+\BOOKMARK [0][-]{chapter.6}{ Background }{part.3}% 63
+\BOOKMARK [1][-]{section.6.1}{Introduction }{chapter.6}% 64
+\BOOKMARK [1][-]{section.6.2}{Breast compression: overview }{chapter.6}% 65
+\BOOKMARK [1][-]{section.6.3}{Compression paddle designs}{chapter.6}% 66
+\BOOKMARK [1][-]{section.6.4}{Discussions and Conclusion}{chapter.6}% 67
+\BOOKMARK [0][-]{chapter.7}{Breast compression quality evaluation}{part.3}% 68
+\BOOKMARK [1][-]{section.7.1}{Compression paddles FE models}{chapter.7}% 69
+\BOOKMARK [1][-]{section.7.2}{Compresure quality metrics}{chapter.7}% 70
+\BOOKMARK [2][-]{subsection.7.2.1}{Patient comfort}{section.7.2}% 71
+\BOOKMARK [2][-]{subsection.7.2.2}{Image quality }{section.7.2}% 72
+\BOOKMARK [2][-]{subsection.7.2.3}{ Average glandular dose}{section.7.2}% 73
+\BOOKMARK [1][-]{section.7.3}{Results}{chapter.7}% 74
+\BOOKMARK [1][-]{section.7.4}{Discussions and conclusion}{chapter.7}% 75
+\BOOKMARK [-1][-]{part.4}{IV Thesis review}{}% 76
+\BOOKMARK [0][-]{chapter.8}{General conclusion and perspectives}{part.4}% 77
+\BOOKMARK [1][-]{section.8.1}{Conclusion}{chapter.8}% 78
+\BOOKMARK [1][-]{section.8.2}{Perspective}{chapter.8}% 79
+\BOOKMARK [0][-]{chapter*.55}{Bibliography}{part.4}% 80

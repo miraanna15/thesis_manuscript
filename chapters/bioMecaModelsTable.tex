@@ -1,0 +1,37 @@
+
+
+\begin{sidewaystable}
+\label{biomecamodelstab}
+    \centering
+    \small
+   \begin{tabularx}{22cm}{|X|X|X|p{5cm}|p{4cm}|X|}
+   \hline
+   Authors & Application & Computational Technique & Material models & Boundary conditions & Stress-free breast configuration  \\
+\hline
+   \cite{azar_methods_2002} & Image guided surgery & Small strain,continuum mechanics, FEM & skin-elastic linear, 
+   adipose,glamdular-hyperelastic polynomial &sliding (breast on the rib cage), contact regions (with lateral plates)& NA\\
+   \hline
+   \cite{rajagopal_development_2004,rajagopal_modelling_2007}, & Breast  compression& Finite strain, continuum mechanics, FEM& Homogeneous , Neo-Hookean model& Zero-displacement BC & images of breast submerged in water \\
+   \hline
+   \cite{pathmanathan_predicting_2008}&Image registration &Finite strain, continuum mechanics, FEM& Adipose, glandular, skin - hyperelastic materials; Cooper's ligaments-traversal isotropy factor & Zero-displacement BC; No-sliding contact surface & Backward analysis\\
+   \hline
+   \cite{han_development_2012}& Surgical simulations&Finite strain, continuum mechanics, FEM& Muscle, glandular, adipose- hyperelastic materials; Cooper's ligaments-traversal isotropy factor & Zero-displacement: anterior-posterior  direction (z-axis) for pectoral muscle, y-axis direction muscle surface& NA \\
+   \hline
+   \cite{gamage_modelling_2012}& Image guided surgery &Finite strain, continuum mechanics, FEM& homogeneous+ muscle- hyperelastic ideally incompressible materials& zero-displacement BC on rib cage surface, sternum, axilla ends, shoulder& inverse gravity (forward formulation)\\
+   \hline
+   \cite{patete_multi-tissue_2013}& Computer assisted breast surgery& Small strain,mass-spring & Adipose , glandular, skin & Zero-displacement BC on the  chest wall& NA\\
+   \hline
+   \cite{kuhlmann_mechanical_2013}& Predict soft
+tissue deformation during imaging& Finite strain, continuum mechanics, FEM& Adipose, glandular- linear gel-like (Eulerian formulation); skin-quasi-incompressible
+isotropic hyperelastic material (Lagrangian formulation) & Zero-displacement chest wall& iterative scheme, incremental gravitational acceleration\\
+   \hline
+   \cite{payan_application_2012}& MR-guided surgery & Finite strain, continuum mechanics, FEM & Homogeneous , Neo-Hookean model& sliding surface & Iterative scheme(forward problem, position update)\\
+   \hline
+   \cite{georgii_simulation_2016}&Surgery simulation & Finite strain, continuum mechanics, FEM & homogeneous elastic material, Cooper's ligaments-generic mass-spring model & sliding BC (breast on the pectoral muscle) & NA\\
+   \hline
+    \end{tabularx}
+     \caption{Breast biomechanical models}
+\end{sidewaystable}
+
+
+%\end{table}

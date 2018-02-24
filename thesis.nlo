@@ -1,0 +1,31 @@
+\nomenclatureentry{aUOQ@[{UOQ}]\begingroup Upper Outer Quadrant\nomeqref {2.0}|nompageref}{5}
+\nomenclatureentry{aUIQ@[{UIQ}]\begingroup Upper Inner Quadrant\nomeqref {2.0}|nompageref}{5}
+\nomenclatureentry{aLOQ@[{LOQ}]\begingroup Lower Outer Quadrant\nomeqref {2.0}|nompageref}{5}
+\nomenclatureentry{aLIQ@[{LIQ}]\begingroup Lower Inner Quadrant\nomeqref {2.0}|nompageref}{5}
+\nomenclatureentry{aILC@[{ILC}]\begingroup Invasive lobular carcinoma\nomeqref {2.0}|nompageref}{11}
+\nomenclatureentry{aUS@[{US}]\begingroup Ultrasound\nomeqref {2.0}|nompageref}{12}
+\nomenclatureentry{aMRI@[{MRI}]\begingroup Magnetic Resonance Imaging\nomeqref {2.0}|nompageref}{12}
+\nomenclatureentry{aFDA@[{FDA}]\begingroup Food and Drug Administration \nomeqref {2.0}|nompageref}{12}
+\nomenclatureentry{aFFDM@[{FFDM}]\begingroup Full Field Digital Mammography\nomeqref {2.0}|nompageref}{12}
+\nomenclatureentry{aCC@[{CC}]\begingroup Cranial-Caudal view\nomeqref {2.0}|nompageref}{13}
+\nomenclatureentry{aMLO@[{MLO}]\begingroup Mediolateral-Oblique view\nomeqref {2.0}|nompageref}{13}
+\nomenclatureentry{aSWE@[{SWE}]\begingroup Shear-Wave Elastography\nomeqref {2.0}|nompageref}{14}
+\nomenclatureentry{aRF@[{RF}]\begingroup  Radio-Frequency waves\nomeqref {2.0}|nompageref}{14}
+\nomenclatureentry{aFE@[{FE}]\begingroup Finite Element\nomeqref {2.0}|nompageref}{15}
+\nomenclatureentry{aIQ@[{IQ}]\begingroup Image Quality\nomeqref {2.0}|nompageref}{15}
+\nomenclatureentry{aAGD@[{AGD}]\begingroup Average Glandular Dose\nomeqref {2.0}|nompageref}{15}
+\nomenclatureentry{a$\mathcal{B}$@[{$\mathcal{B}$}]\begingroup Body\nomeqref {3.0}|nompageref}{18}
+\nomenclatureentry{a$p$@[{$p$}]\begingroup Particle or material point\nomeqref {3.0}|nompageref}{18}
+\nomenclatureentry{a$\Omega$@[{$\Omega$}]\begingroup Domain occupied by the body\nomeqref {3.0}|nompageref}{18}
+\nomenclatureentry{a$\Omega_1$@[{$\Omega_1$}]\begingroup Current or analyzed body configuration \nomeqref {3.0}|nompageref}{18}
+\nomenclatureentry{a$\Omega_0$@[{$\Omega_0$}]\begingroup Reference body configuration \nomeqref {3.0}|nompageref}{18}
+\nomenclatureentry{a$X$@[{$X$}]\begingroup Point position on the reference configuration\nomeqref {3.0}|nompageref}{18}
+\nomenclatureentry{a$x$@[{$x$}]\begingroup Point position on the current configuration\nomeqref {3.0}|nompageref}{18}
+\nomenclatureentry{a$u$@[{$u$}]\begingroup Particle displacement\nomeqref {3.1}|nompageref}{19}
+\nomenclatureentry{a$m$@[{$m$}]\begingroup Body mass\nomeqref {3.2}|nompageref}{19}
+\nomenclatureentry{a$F$@[{$F$}]\begingroup Deformation gradient\nomeqref {3.2}|nompageref}{20}
+\nomenclatureentry{a$J$@[{$J$}]\begingroup Jacobian determinant of the deformation gradient tensor\nomeqref {3.5}|nompageref}{20}
+\nomenclatureentry{a$l$@[{$l$}]\begingroup body stretch\nomeqref {3.6}|nompageref}{21}
+\nomenclatureentry{a$E_{xx}$@[{$E_{xx}$}]\begingroup Youngs's moduli of the material $xx$\nomeqref {4.0}|nompageref}{56}
+\nomenclatureentry{a$\nu$@[{$\nu$}]\begingroup Poisson's ratio\nomeqref {4.0}|nompageref}{56}
+\nomenclatureentry{a$E_{xx}^{l/r}$@[{$E_{xx}^{l/r}$}]\begingroup Young's modulus of the material xx for the left/right breast\nomeqref {4.0}|nompageref}{58}

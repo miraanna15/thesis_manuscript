@@ -1,0 +1,166 @@
+%
+% TU/e Style Master Thesis template for LaTeX
+%
+% Public version 1.0
+% 2010 - 2013 Thijs Nugteren and Joos Buijs
+	%
+% THIS IS THE MAIN FILE (i.e. compile this file, compiling the others directly won't work)
+%
+\documentclass[a4paper,12pt,twoside]{report}
+
+%all the other includes etc. are done in the thesis.sty file.
+\usepackage{thesis}
+\usepackage[authoryear]{natbib}
+\makenomenclature
+\definecolor{mygray}{gray}{0.9}
+%
+% These commands need to be defined in order to produce a correct nad personalized document
+%
+\newcommand{\shortdoctitle}{PhD Thesis}
+\newcommand{\doctitle}{Report}
+\newcommand{\docsubtitle}{Mid-term}
+
+\newcommand{\me}{MIRA Anna}
+\newcommand{\keywords}{Breast mechanics,FEM, Mammography}
+\newcommand{\version}{V1}
+\newcommand{\monthYear}{September 2016}
+
+%Be sure to use all the titles for your committee members!!! (their names show up on the very first page!)
+\newcommand{\firstCommitteeMember}{ Yohan Payan, TIMC-IMAG Lab, CNRS \& Univ. Grenoble Alpes}
+\newcommand{\secondCommitteeMember}{Serge Muller, GE-Healthcare, France}
+\newcommand{\thirdCommitteeMember}{Ann-Katherine Carton, GE-Healthcare, France}
+
+\author{\me}
+
+%
+% PDF settings
+%
+\hypersetup
+{
+    pdfauthor={\me},
+    pdftitle={\shortdoctitle},
+    pdfsubject={\doctitle},
+    pdfkeywords={\keywords}
+}
+
+\setlength\aftertitleunit{\baselineskip}
+
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}{}{0pt}{\Huge}
+\titleformat{name=\chapter,numberless}[display]
+  {\normalfont\huge\bfseries}{}{0pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{50pt}{*2}
+
+
+
+\begin{document}
+
+%use this include for PDF and distribution versions
+\pagenumbering{roman}
+\include{titlepage}
+
+\normalsize
+
+\clearemptydoublepage
+
+%Sometimes line numbers are nice, uncomment the next line to enable:
+\linenumbers
+
+%It could be handy to have a list of todos and brainstorms in your thesis
+%\chapter*{*General todos*}\todo{remove this chapter}
+%\input{chapters/general_todos}
+
+
+
+\tableofcontents
+
+\clearemptydoublepage
+
+\listoffigures
+
+\clearemptydoublepage
+
+\listoftables
+
+\clearemptydoublepage
+% Generate the glossary
+\printnomenclature
+\clearemptydoublepage
+
+%\lstlistoflistings
+
+%\clearemptydoublepage
+
+%\chapter{Introduction}\label{chapter:introduction}
+\setcounter{page}{0}
+\pagenumbering{arabic}
+%from here on, start the 'real' page numbering, from 1, with normal digits
+%\input{chapters/introduction}
+
+%\clearemptydoublepage
+%\chapter{Preliminaries}\label{chapter:preliminaries}
+
+\clearemptydoublepage
+
+
+\chapter{Introduction}\label{chapter:introduction}
+\input{chapters/introduction}
+%clinical background
+\clearemptydoublepage
+\part{Background}\label{part:background}
+\chapter{ Clinical background}\label{chapter:clinicalbachground}
+\input{chapters/background}
+
+\clearemptydoublepage
+\part{Biomechanical breast modeling}\label{part:bioMecaModels}
+\chapter{Background and state of the art}\label{chapter:bioMecaModelsBackground}
+\input{chapters/bioMecaModelsBackground}
+
+\chapter{A new biomechanical breast model}\label{chapter:myBioMecaModel}
+\input{chapters/mybioMecaModel}
+\chapter{Model validation}\label{chapter:modelvalidation}
+\input{chapters/modelvalidation}
+
+\clearemptydoublepage
+\part{Breast Compression: a comparative study}\label{part:breastcompressionDM}
+\chapter{ Background }\label{chapter:compression:introduction}
+\input{chapters/compression}
+
+\chapter{Breast compression quality evaluation}\label{chapter:compressionfem}
+\input{chapters/compressionfem}
+
+\clearemptydoublepage
+\part{Thesis review}\label{part:thesisreview}
+\chapter{General conclusion and perspectives}\label{chapter:generalconclusion}
+\input{chapters/thesisreview}
+
+
+%\chapter{State of the Art}\label{chapter:stateoftheart}
+%\input{chapters/stateoftheart}
+%\clearemptydoublepage
+
+%\chapter{Report}\label{chapter:validation}
+%\input{chapters/validation}
+
+%\clearemptydoublepage
+
+%\chapter{Conclusions}\label{chapter:conclusions}
+%\input{chapters/conclusions}
+
+%\clearemptydoublepage
+
+%Choose a good bibliography style, plain would do often, but these might be nice too
+%\bibliographystyle{these}
+\bibliographystyle{apalike}
+\bibliography{my_biomeca_model,breast_cancer_statistics,biomecanical_model,hyperelastic_parameters,breast_anatomy}
+
+%
+\clearemptydoublepage
+
+
+
+%\appendix
+%\addcontentsline{toc}{chapter}{Appendix}
+
+%\input{appendices/main}
+\end{document}

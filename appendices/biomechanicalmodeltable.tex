@@ -1,0 +1,37 @@
+
+\begin{sidewaystable}[!h]
+    \centering
+    \small
+   \begin{tabularx}{22cm}{|p{2.5cm}|p{2.5cm}|p{3.5cm}|X|p{3.5cm}|p{2.5cm}|}
+   \hline
+   Authors & Application & FE mesh & Material models & Boundary conditions & Stress-free config. \\
+\hline
+   \cite{azar_methods_2002} &  Computer assisted breast surgery & 8-Node hexahedrons (trilinear isotropic elements) & Skin-elastic linear, 
+   adipose,glamdular-hyperelastic polynomial & Sliding between breast - thorax and breast-paddle & Prone breast geometry\\
+   \hline
+   \cite{rajagopal_modelling_2007} & Breast compression & 8-Node hexahedrons (tricubic Hermite elements)& Homogeneous , Neo-Hookean model& Zero-displacement BC & Buoyant breast in water \\
+   \hline
+   \cite{pathmanathan_predicting_2008}&Image registration & 8-Node hexahedrons (trilinear elements)& Homogeneous breast-polynomial hyperelastic; Skin exponential hyperelastic  & Zero-displacement on muscle; Compression with imposed displacement & Inverse FE algorithm \\
+   \hline
+   \cite{han_nonlinear_2014}& Image registration& 4-Node tetrahedrons & Muscle, glandular, fatty, skin - Neo-Hookean model & Sliding on pectoral muscle & Inverse gravity \\
+   \hline
+   \cite{gamage_modelling_2012}&  Computer assisted breast surgery & 8-Node hexahedrons (tricubic Hermite elements) & Homogeneous+ muscle- Neo-Hookean incompressible model& Zero-displacement BC on rib cage surface, Sternum, axilla ends, shoulder & PC iterative algorithm \\
+   \hline
+   \cite{patete_multi_2013}& Computer assisted breast surgery& 4-Node tetrahedrons (trilinear isotropic elements) & Adipose , glandular, skin & Zero-displacement BC on the  chest wall&PC iterative algorithm\\
+   \hline
+   \cite{kuhlmann_mechanical_2013}& image registration & 4-Node tetrahedrons & Adipose, glandular- linear gel-like (Eulerian formulation); Skin - hyperelastic material (Lagrangian formulation) & Zero-displacement chest wall& PC iterative algorithm\\
+   \hline
+   
+   \cite{georgii_simulation_2016}&Surgery simulation & 8-Node hexahedrons, 2-node 3D spars & homogeneous elastic material, Cooper's ligaments-generic mass-spring model & sliding BC (breast on the pectoral muscle) & NA\\
+   \hline
+   \cite{eiben_surface_2016} & Surgery outcome prediction & 4-Node tetrahedrons & Fatty , glandular- Neo-Hookean model; skin- exponential hyperelastic & Zero-displacement BC & Inverse FE algorithm \\ 
+   \hline
+   \citep{garcia_mapping_2017} & 3D breast lesion localization & 4-Node tetrahedrons & adipose, glandular  - Neo-Hookean models &zero-displacement BC & Prone breast configuration\\
+   \hline
+    \end{tabularx}
+     \caption{Breast biomechanical models}
+     \label{table:mechanical_models_table}
+\end{sidewaystable}
+
+
+%\end{table}
