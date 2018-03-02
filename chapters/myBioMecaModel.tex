@@ -1,22 +1,18 @@
 \section{Introduction}\label{setion:introductionMyBioMecaModel}
+State of the art in breast finite elements modeling was described previously. Three model were identified representing the cutting-edge  technologies in the field. These models use prone MRI to create the breast reference geometry and supine MRI to compute patient-specific tissues mechanical properties. The models were evaluated using  the measured and the estimated position of the superficial fiducial landmarks or internal anatomical landmarks in supine configuration.   However, the authors assumed different boundary conditions and considered different tissues types.  
+In addition, none of the previous works have quantitatively evaluated the proposed model on an additional data set of the same patient. 
 
-A realistic biomechanical model of the breast requires
-accurate knowledge about the internal and external forces of
-the body. The previous section has focused on the internal
-properties of the breast model. In this section, we describe
-the loading forces and boundary conditions, both of which
-have a large influence on the behavior of the model.61 We differentiate
-between two stages: computing the unloaded reference
-state and establishing the boundary conditions for the
-compression.
+ This chapter present a new biomechanical model developed by combining the best practices and concepts proved by previous works. To be as realistic as possible, our model considered breast heterogeneity, anisotropy, sliding boundary conditions, initial pre-stresses and personalized hyper-elastic properties of breast tissue. In addition, new types of soft tissue were included representing the breast support matrix composed of suspensory ligaments and fascias. Moreover, our model was built using prone and supine breast configurations and was evaluated in supine tilted configuration (~ 45 degrees) of the same volunteer.
 
-\readysection{Geometry extraction}\label{section:geometryextraction}
+In the first part of this chapter the data acquisition protocol is described and details on numerical methods and softwares used to extract the patient specific breast geometry are given. Next, the different components of the finite elements mesh are presented and the mesh quality is assessed using shape parameters.  Then, the assumptions on boundary condition and materials models are explained. Finally the model optimization process is detailed and results on patient specific parameters and breast reference configuration are presented.   
+\clearpage
+\section{Geometry extraction}\label{section:geometryextraction}
 
 Geometry extraction is the first step in FE analysis, and it
-consists of obtaining the bio-mechanical 3D surface of the
-breast. We use the MRI volume of the patient to obtain the patient-specific breast volumes and the surrounding soft tissues. Prior to surface extraction the MR images are segmented and mapped to a single reference system.
+consists of obtaining the 3D surface of the
+breast. We use the MR images to obtain the patient-specific breast volumes and the surrounding soft tissues distribution. Prior to surface extraction the MRI volume is segmented and mapped to a single reference system. The next section describe the imaging acquisition protocol and the numerical method used to generate the 3D patient specific breast geometry.
 
-\readysubsection{Data acquisition}%\label{subsection:imageaquisition}
+\subsection{Data acquisition}%\label{subsection:imageaquisition}
 
  The images were acquired with a Siemens 3T scanner with T2 weighted image sequences. The in-plane image resolution was $0.5$x$0.5$ mm, and the slice thickness was 0.6 mm. During this acquisition, the contact between the breasts and the contours of the MRI tube, or with the patient body (arms, thorax), was minimized.
 \begin{figure}[H]
@@ -49,7 +45,7 @@ The volunteers were also asked to provide the compression force and breast thick
 \end{table}
 
 
-\readysubsection{Image segmentation}%\label{subsection:imagesegmentation}
+\subsection{Image segmentation}%\label{subsection:imagesegmentation}
 
 A semi-automated active contour method proposed by ITK-Snap software is used to segment the pectoral muscle, the breast and the internal organs from MR images. 
 
@@ -72,7 +68,7 @@ The segmentation process for one tissue type is performed progressively by small
  
 The process was repeated for both volunteers and for each breast configuration: supine, prone and supine tilted.
 
-\readysubsection{Image registration}%\label{subsection:image registration}
+\subsection{Image registration}\label{subsection:image registration}
 
 During the imaging acquisition process, the subject is moved in and out the MRI scanner. Therefore, the breast not only undergoes an elastic transformation, but also a rigid one. Prior to image acquisition, four landmarks are fixed on the chest wall.  The landmarks are placed on sternum and inframammary fold lines; regions known to be rich in fibrous ligaments limiting the soft tissues elastic deformation.  To assess the body position changes between the two configurations a rigid transform is computed by minimizing the Euclidian distance of the four points defined by the four landmarks. The transformation is estimated using the iterative closest point (ICP) algorithm proposed by ITK library.
 
@@ -94,7 +90,7 @@ In a  multy-gravity loading finite elements simulation, the gravity force is app
 \caption{Anatomical planes and nominal Cartesian axis directions.}\label{fig:xyz_axis_directions}
 \end{figure}
 
-\readysubsection{Patient-specific 3D geometry}
+\subsection{Patient-specific 3D geometry}
 
 \label{subsection:patientspecificgeometry}
 
@@ -133,7 +129,7 @@ The breast skin layer is added a posteriori   as a $2mm$ thick single layer of s
 \caption{Finite elements mesh components. The tissues components are cropped for visualization purposes.}\label{fig:meshcomponents}
 \end{figure} 
 
-\readysection{Breast stress-free geometry}\label{section:myStressFree}
+\section{Breast stress-free geometry}\label{section:myStressFree}
 To estimate the stress-free configuration of the breast, an adapted prediction-correction iterative approach was implemented. Prone and supine image data sets are used to compute the stress-free geometry. The overall iterative process is presented in Figure \ref{fig:myfixedpointalgo}. The first estimate of stress-free breast configuration is obtained by inverse gravity on supine geometry. Then, at each iteration, the estimated stress-free configuration is used to simulate breast deformation due to gravity in a prone position. The differences between result of this simulation and the real shape of the breast in prone position is quantified by computing the Euclidian distance $D_i$ between the \textit{active nodes} defined at the breast external surface. This distance is then used in the next iteration of our process to simulate an imposed displacement (Dirichlet condition) to the active node i in the stress-free condition. To limit any mesh distortion, the displacement is only partially imposed using a multiplicative regularization factor $ (\lambda<1)$. The process repeats as long as the new transformation improves the similarity between two geometries by more than $1mm$ on average. The similarity between the estimated and measured prone breast configuration is given by the mean Euclidean distance over the active nodes.                                                              
 
 \begin{figure}[!h]
@@ -158,19 +154,19 @@ First, to provide a rigid support for the muscle mesh component, zero displaceme
 \caption{Finite elements mesh boundaries}\label{fig:meshboundaries}
 \end{figure}
 
-Previous works have proved that to model breast deformation from prone to supine configurations breast tissues sliding over the chest wall have to be considered \citep{carter_application_2012,han_nonlinear_2014}. Moreover, anatomical books \citep{mugea2014aesthetic,clemente2011anatomy},  describe that the breast soft tissues are firmly attached to the deep fascia via suspensory ligaments but move freely over the pectoralis muscle.  Therefore, the juncture surface is modeled as a no-separation contact with a frictional behavior proposed by ANSYS Contact Technologies (see sec.\ref{subsection:surfaceinteractionmodels}). Penalty algorithm  is used with a meticulous control of contact normal and opening stiffness parameters. Stiffness parameters don't have a physical meaning and have to be identified by \textit{trial and error} methods. As they are very sensitive to the underlying elements stiffness and on the local deformation direction, new values have to be identified ant each new simulation case.    
+Previous works have proved that to model breast deformation from prone to supine configurations breast tissues sliding over the chest wall have to be considered \citep{carter_application_2012,han_nonlinear_2014}. Moreover, anatomical books \citep{mugea2014aesthetic,clemente2011anatomy},  describe that the breast soft tissues are firmly attached to the deep fascia via suspensory ligaments but move freely over the pectoralis muscle.  Therefore, the juncture surface is modeled as a no-separation contact with a frictional behavior proposed by ANSYS Contact Technologies (see sec.\ref{subsection:surfaceinteractionmodels}). Penalty algorithm  is used with a meticulous control of contact normal and opening stiffness parameters. Stiffness parameters don't have a physical meaning and have to be identified by \textit{trial and error} methods. Because they are extremely sensitive to the underlying elements stiffness and to the local deformation direction, new values have to be identified for each new simulation case.    
 
-To study the impact of the frictional coefficient parameter on tissues sliding, several simulation have been performed at different values of $\mu_f$. We found that, with the Coulombus friction law, even for a high values of $\mu_f$ the tissues sliding is overestimated. When simulating prone breast configuration from the supine one, the sliding overestimation results also in an unconvergent solution due to element distortion. At the contact surface, because of excessive sliding, the tissues accumulation in the region of the sternum line results in a sinuous contact surface  (fig. \ref{fig:overslidingProblem}) ; the finite elements  undergo important distortion and the solution is compromised. Therefore different strategies based on anatomical breast structures were investigated to limit the amount of sliding and to overcome solution instabilities (Annex 2). However, a small amount of friction improve the solution convergence capabilities (refer ansys manual), thus the friction coefficient is kept to $\mu_f = 0.1$. 
+To study the impact of the frictional coefficient parameter on tissues sliding, several simulation have been performed at different values of $\mu_f$. We found that, with the Coulombus friction law, even for a high values of $\mu_f$ the tissues sliding is overestimated. When simulating prone breast configuration from the supine one, the sliding overestimation results also in an unconvergent solution due to element distortion. At the contact surface, because of excessive sliding, the tissues accumulation in the region of the sternum line results in a sinuous surface  (fig. \ref{fig:overslidingProblem}) ; the finite elements  undergo important distortion and the solution is compromised. Therefore different strategies based on anatomical breast structures were investigated to limit the amount of sliding and to overcome solution instabilities (Annex 2). However, a small amount of friction improve the solution convergence capabilities (refer ansys manual), thus the friction coefficient is kept to $\mu_f = 0.1$. 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.7\textwidth,keepaspectratio]{figures/overslidingProblem.jpg} 
 \caption{Tissues acumulation on the sternum line with excessive sliding}\label{fig:overslidingProblem}
 \end{figure}
  
-The selected  model relies on ligamentous breast structures described on section \ref{subsection:internalstructures}. From breast support matrix only the largest structures are modeled, i.e. fascias and suspensory ligaments.  Superficial layer of superficial fascia is integrated in the skin layer, assuming a higher material stiffness. In addition, a new layer of 0.1mm thick shell elements is added at the juncture surface between muscle and breast tissue to model the deep layer of the superficial fascia. Shell elements and the underlying breast elements are sharing the same nodes. Since the deep fascia and muscle tissues are supposed to present similar elastic properties, the deep fascia is not explicitly modeled. Two ligamentous structures (inframammary ligament and deep medial ligament) are modeled using Ansys link type elements connecting breast posterior surface nodes to anterior muscle surface nodes (Figure \ref{fig:mesh_components_BC}).  
+The selected  strategies chosen to control the amount of tissues sliding relies on ligamentous breast structures described on section \ref{subsection:internalstructures}. From breast support matrix only the largest structures are modeled, i.e. fascias and suspensory ligaments.  Superficial layer of superficial fascia is integrated in the skin layer, assuming a higher material stiffness. In addition, a new layer of 0.1mm thick shell elements is added at the juncture surface between muscle and breast tissue to model the deep layer of the superficial fascia. Shell elements and the underlying breast elements are sharing the same nodes. Since the deep fascia and muscle tissues are supposed to present similar elastic properties, the deep fascia is not explicitly modeled. Two ligamentous structures (inframammary ligament and deep medial ligament) are modeled using Ansys link type elements connecting breast posterior surface nodes to anterior muscle surface nodes (Figure \ref{fig:mesh_components_BC}).  
 
 
-Several additional Dirichlet conditions are set on the mesh boundaries: superior and inferior ends of the deep fascia layer are constrained in Z direction; superior and inferior ends of skin layer are constrained in Y direction. For left and right lateral breast boundaries (Figure \ref{fig:meshboundaries}), Dirichlet conditions are too strong and preclude breast tissue to slide laterally. Therefore, in these regions new ligamentous structures are included with a cable-like behavior.
+Several additional Dirichlet conditions are set on the mesh boundaries: superior and inferior ends of the deep fascia layer are constrained in Z direction; superior and inferior ends of skin layer are constrained in Y direction. For left and right lateral breast boundaries (Figure \ref{fig:meshboundaries}), Dirichlet conditions are too strong and preclude breast tissue to slide laterally. Therefore, in these regions new ligamentous structures are included with a cable-like behavior (fig. \ref{fig:mesh_components_BC}).
 
 
 
@@ -198,9 +194,9 @@ The process implies multiple simulation based on imposed nodes displacement, the
 \caption{Process to estimate optimal material parameters}\label{fig:optimizationalgo}
 \end{figure}
  
- An optimization process including finite elements simulation with 6 parameters results is a complex and time consuming problem. The model simplification is performed in two steps. First, the parameters with non-significant effect on results are identified and set to a optimal fixed value. Next for parameters with high impact a sensitivity study is performed to redefine the search intervals and interval's discretization step.
+ An optimization process including finite elements simulation with 6 parameters results is a complex and time consuming problem. The model simplification is then performed in two steps. First, the parameters which variation have non-significant effect on simulation results are identified and set to a optimal fixed value. Next for parameters which variation have a high impact a sensitivity study is performed to redefine the search intervals and interval's discretization step.
  
- \subsubsection*{Model simplification}
+ \subsection{Model simplification}
 
 The breast tissues are mainly composed of water, an usual assumption  is to consider them as nearly incompressible materials \citep{fung_biomechanics_2013}. However,
 previous works proposed a Poisson's ratio value ranging between $\nu = 0.3$ \citep{hopp_automatic_2013} and $\nu = 0.5$ \citep{gamage_modelling_2012}. In a multi-loading gravity simulation, the breast volume is nearly constant, thus, the influence of  Poisson's ratio on nodes displacements is studied only for values laying between $\nu = [0.45 , 0.495]$ (fig. \ref{fig:poissonRatio}). 
@@ -216,9 +212,9 @@ The simulations were performed by applying the gravity force in posterio-anterio
 
 The pectoral muscle together with the thoracic cage are the breast tissues support,under gravity loading the muscle deformation is neglected. Therefore, its Young's modulus was not included on the parametric study and was chosen large enough so that only minimal deformations occur ($E_{muscle}=10kPa$).
 
-The  ligamentous breast structures are added with a cable-like behavior to reduce tissues sliding. Their young's modulus is also not included in the optimization process ans is set sufficiently high ($E_{ligam}=500kPa$) to preclude elastic deformation. 
+The  ligamentous breast structures are added with a cable-like behavior to reduce tissues sliding. Their young's modulus is also not included in the optimization process and is set sufficiently high ($E_{ligam}=500kPa$) to preclude their elastic deformation. 
 
-The adipose and glandular tissues are known to be extremily soft and to undego large deformation under gravity loading.  \cite{calvo_polynomial_2015} proposed a uniform polynomial material model for the mixture of adipose and glandular tissues. The authors also shown that the breast outer shape deformation does not depend on glandular distribution but is highly dependent on its volumetric. Here, the glandular and fatty tissues are also modeled as a single homogeneous material with an equivalent Young's modulus $E_{breast}$. The mechanical properties of the equivalent breast tissue is in direct relation with glandular and adipose volumes ratios. Because the left and right breasts may have a different granularity, two different parameters are considered ($E_{breast}^l$ \nomenclature{$E_{xx}^{l/r}$}{Young's modulus of the material xx for the left/right breast}, $E_{breast}^r$).
+The adipose and glandular tissues are known to be extremily soft and to undego large deformation under gravity loading.  \cite{calvo_polynomial_2015} proposed a uniform polynomial material model for the mixture of adipose and glandular tissues. The authors also shown that the breast outer shape deformation does not depend on glandular distribution but is highly dependent on its volumetric ratio. Here, the glandular and fatty tissues are also modeled as a single homogeneous material with an equivalent Young's modulus $E_{breast }$. The mechanical properties of the equivalent breast tissue is in direct relation with glandular and adipose volumes ratios. Because the left and right breasts may have a different granularity, two different parameters are considered ($E_{breast}^l$ \nomenclature{$E_{xx}^{l/r}$}{Young's modulus of the material xx for the left/right breast}, $E_{breast}^r$).
 
 Breast skin and superficial fascia are an essential part of the breast support matrix. The two layers are much stiffer than breast tissues and are the structures governing the amount of deformation. Their elastic behavior was included on the optimization process.
 
@@ -244,7 +240,7 @@ Max (kPa) & 6 & 58.4 & 5000& 4& 20 &250 \\
 \label{table:minandmaxelasticmodulus}
 \end{table}
 
-The figures shows that the model is very sensitive to the variation of Young’s modulus of breast tissue, skin and fascia (Figure \ref{fig:materialPropDiscretization}). However, beyond some values, the materials become too stiff and do not change significatively under gravity loadings.  Therefore, the search intervals for breast tissue and skin Young’s modulus are reduced such that a larger value impacts the cumulative change rate less than 20\% (max displacement less than $\sim 5mm$). As the fascia stiffness governs the lateral displacement and shows a smaller variation over the search interval, a threshold of 10 \% ($\sim 2.5mm)$ is chosen. The obtained results are summarized in table \ref{table:minandmaxelasticmodulus} 
+The figure shows that the model is very sensitive to the variation of Young’s modulus of breast tissue, skin and fascia (Figure \ref{fig:materialPropDiscretization}). However, beyond some values, the materials become too stiff and do not change significatively under gravity loadings.  Therefore, the search intervals for breast tissue and skin Young’s modulus are reduced such that a larger value impacts the cumulative change rate less than 20\% (max displacement less than $\sim 5mm$). As the fascia stiffness governs the lateral displacement and shows a smaller variation over the search interval, a threshold of 10 \% ($\sim 2.5mm)$ is chosen. The obtained results are summarized in table \ref{table:minandmaxelasticmodulus} 
 
 \begin{figure}[!h]
 \centering
@@ -252,10 +248,10 @@ The figures shows that the model is very sensitive to the variation of Young’s
 \caption{First column: relation between maximal and mean nodes displacement and the equivalent Young's modulus variation for different tissues. Second column: rate and cumulative change rate of node displacement in function of quivalent Young's modulus}\label{fig:materialPropDiscretization}
 \end{figure}
 
-\subsubsection*{Estimation of optimal constitutive parameters}
-The defined intervals by sensitive analysis are discretized by steps of $0.1 kPa$, $1kPa$ and $40 kPa$. The discretization step are chosen such that the change rate between two consecutive simulations is less than 10\%.
+\subsection{Estimation of optimal constitutive parameters}
+To perform the optimization process, the new intervals defined by sensitive analysis are discretized by steps of $0.1 kPa$, $1kPa$ and $40 kPa$. The discretization step are chosen such that the change rate between two consecutive simulations is less than 10\%.
 
-The previously described multi-loading gravity process was performed for each parameters set and the model error distribution is shown in fig \ref{fig:optimizationresults} . The contour lines are estimated by linear interpolation between two consecutive succeeded simulations. For very low values, below 0.2 kPa, 2 kPa and 80 kPa for breast, skin and fascia's Young's moduli respectively, the tissues deformation is too large and the finite element mesh becomes degenerated at the first step of multi-loading simulation. For values above 1 kPa, 5 kPa and 160 kPa, tissues deformation is too small compared to the ones measured on the MR images and the simulations were excluded. All other missing values correspond to failed simulations due to a non-converging force, specifically in the region of the contact surface between the breast and the muscle.
+The previously described multi-loading gravity process was performed for each parameters set and the model error distribution is shown in fig \ref{fig:optimizationresults}. The contour lines are estimated by linear interpolation between two consecutive succeeded simulations. We found that the breast tissues Young's modulus is lower than the ones proposed in the bibliography, therefore more simulations were done outside the defined interval. However, for very low values, below 0.2 kPa, 2 kPa and 80 kPa for breast, skin and fascia's Young's moduli respectively, the tissues deformation is too large and the finite element mesh becomes degenerated at the first step of multi-loading simulation. For values above 1 kPa, 5 kPa and 160 kPa, tissues deformation is too small compared to the ones measured on the MR images and the simulations were excluded. All other missing values correspond to failed simulations due to a non-converging force, specifically in the region of the contact surface between the breast and the muscle.
 
 \begin{figure}[!h]
 \centering
@@ -265,14 +261,19 @@ The previously described multi-loading gravity process was performed for each pa
 
  
 
-For very soft fascia ($E_{fascia} = 80kPa$), the lateral displacement of breast tissues is too important than the one measured on  MR images. Conversely, for stiff fascia material ($E_{fascia}=120 kPa$) the amount of sliding is too small; therefore, to match the breast geometry in supine configuration,very low values for Young modulus are required ( $E_{breast}< 0.2kPa$). For such low values, the breast tissues are highly deformed, thus the finite elements undergo distortions. Because of  errors in elements formulation the simulations giving the minimal Hausdorff distance have not succeed.   
+For very soft fascia ($E_{fascia} = 80kPa$), the lateral displacement of breast tissues is more important than the one measured on  MR images. Conversely, for stiff fascia material ($E_{fascia}=160 kPa$) the amount of sliding is too small; therefore, to match the breast geometry in supine configuration,very low values for Young modulus are required ( $E_{breast}< 0.2kPa$). For such low values, the breast tissues are highly deformed, thus the finite elements undergo distortions. Because of  errors in elements formulation the simulations giving the minimal Hausdorff distance have not succeed.   
 
 The set of parameters giving the best match between simulated and measured supine breast configurations is ($E_{breast}^r=0.3 kPa$,$E_{breast}^l=0.2 kPa$,$E_{skin}=4 kPa$,$E_{fascia}=120 kPa$).  
 
 
+\subsection{Conclusion}
 
 
+This chapter propose a new biomechanical breast model. The model was build on patient-specific data extracted from MR images in different breast configurations. New structures as pectoral fascia and suspensory breast ligaments were considered and their impact on breast mechanics was analyzed in a multi-loading gravity simulations.  A particular attention was granted to the estimation of subject-specific breast stress-free geometry and tissues constitutive models.
+ 
+The proposed breast model shows that introducing a sliding movement of the breast tissues over the pectoral muscle together with a ligamentous system and pectoral fascia, allows a better estimation of supine and prone configurations. The latter support structures provide a finer method for boundary conditions definition which also improve the convergence capability of the solution. It can be stated that the obtained Young’s modulus of breast soft tissues is relatively low (0.2-0.3kPa for breast tissues and 4kPa for skin), which is a contradictory result compared to some studies on the field. However, only with such small values together with sliding boundary conditions that prone and supine configurations were accurately estimated.
 
+With the obtained optimal constitutive parameters set  ($E_{breast}^r=0.3 kPa$,$E_{breast}^l=0.2 kPa$,$E_{skin}=4 kPa$,$E_{fascia}=120 kPa$) and the corresponding  breast stress-free configuration simulations with the gravity force oriented in different directions could by simulated. The next chapter evaluate the model accuracy on three breast configurations: supine, prone and supine tilted.
    
 
 

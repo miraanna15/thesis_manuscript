@@ -1,7 +1,17 @@
 \section{Introduction}\label{section:introductionbiomecamodelsbackground}
-\readysection{Continuous mechanics}\label{section:continuousmechanics}
 
-\subsection{Deformation and strain}%\label{subsection:defromationandstrain}
+
+Finite elements models are widely used to estimate body parts deformation udder predefined boundary conditions. Several biomechanical models of the breast were recently developed providing physics-based predictions of tissue motion and internal stress and strain intensity.  In our work, we assume that the strain intensity obtained during the tissues deformation may by correlated with the patient discomfort. Thus, a biomechanical model obtained from the patient's MRI volume can be subsequently used to mimic breast compression during the mammographic acquisition. The resulting tissues strain cartography can by used as a first quantification of the patient inconfort.
+
+This chapter provide theoretical background on continuous mechanic theory applied to soft tissues modeling. The principle of finite elements theory are defined including solid bodies and contact mechanics. An review of the existing biomechanical breast model is given describing the main challenges in the field and the proposed solution. These works proved the core foundation for the next developed patient specific breast model. 
+      
+\clearpage
+\section{Continuous mechanics}
+\label{section:continuousmechanics}
+Continuum mechanics is a branch of mechanics that deals with the analysis of the kinematics and the mechanical behavior of materials modeled as a continuous mass. Continuum mechanics is based on the continuum hypothesis: the matter is continuously distributed throughout the space occupied by the matter. The basis for the hypothesis is how physical quantities, as for example pressure, temperature, and velocity, are measured macroscopically.
+
+In this section the continuous mechanis theory applied to solids bodys was discribed using the following sources: \cite{belytschko_nonlinear_2013,abeyaratne_continuum_2012}.
+\subsection{Deformation and strain}\label{subsection:defromationandstrain}
 Continuous mechanics is the mathematical description of how  physical objects that occur in nature respond to the application of forces.
 
 	A \textbf{“body”} is the mathematical abstraction of an "object" and is defined by its geometric and constitutive properties.  At a macroscopic level, a solid "object" is described as homogeneous and continuous "body", i.e. the substance of the object has a unique composition and completely fills the space it occupies thus, ignoring the granular (atomic) nature of matter. In continuous mechanics, a body $\mathcal{B}$\nomenclature{$\mathcal{B}$}{Body} is composed of a set of \textbf{particles} $p$ \nomenclature{$p$}{Particle or material point} (or material points). Each particle is located at some defined \textbf{point}  $x$ in three dimensional space. The set of all the points in space, corresponding to the locations of all the particles, is the \textbf{domain} $\Omega$ \nomenclature{$\Omega$}{Domain occupied by the body} occupied by the body in a given configuration, here also named $geometry$. A particular body can change it's configuration and therefore the occupied region in the space when exposed to some external stimuli like force, pressure or heat.
@@ -25,12 +35,12 @@ Frequently, the reference configuration is fixed for a given study and is chosen
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.7\textwidth,keepaspectratio]{figures/referenceFig.png} 
-\caption[]{ }
+\caption{ The position of a particle in the reference and current body configurations.}
 \label{reference_config_theory}
 \end{center}
 \end{figure}
 
-Suppose that $G(\Omega_1)$ is the value of some extensive physical property  associated with the body $\beta$ in the current configuration (such as the body mass $m$\nomenclature{$m$}{Body mass}). There exists a density $g(x)$ such that:
+Suppose that $G(\Omega_1)$ is the value of some extensive physical property  associated with the body $\mathcal{B}$ in the current configuration (such as the body mass $m$\nomenclature{$m$}{Body mass}). There exists a density $g(x)$ such that:
  $$G(\Omega_1) = \int_{\Omega_1} g(x)dv$$  
  where $dv$ is the volume of the material element.
  Thus, the property $G(\Omega_1)$ is related to the body while the density $g(x)$ is related to the position of the body particle.
@@ -71,19 +81,9 @@ The Jacobian determinant of the deformation gradient tensor $J$\nomenclature{$J$
 \label{JacobianRelation}
 \end{equation}
 
-\subsubsection*{Decomposition of deformation gradient tensor into rotation and stretch}\label{deformationgradienttensor}
-The deformation gradient tensor represents the entire body deformation, which consist of rigid body rotation and body "stretch" (see fig. \ref{deformationGradientDecom}). As $dX$ and $dx$ are differential segments, the map $F$ is not affected by rigid-body translations.
-Generally, the body stretch is defined as the ratio of the deformed line elements to the length of the corresponding undeformed line element \nomenclature{$l$}{body stretch}:
-\begin{equation}
-l = \frac{\vert dx \vert}{\vert dX \vert}
-\end{equation} 
-
-Using polar decomposition theorem, the deformation tensor can be written as the product of a proper orthogonal tensor $R$ representing the rotational part, and a symmetric positive defined tensor $U$ representing the body distorsion. 
-\begin{equation}
-F = R \cdot U.
-\end{equation}
-where $U$ and $R$ are given by the relations $U = (F^T \cdot F)^ {\frac{1}{2}} $ and $R = F \cdot U^{-1}$. The tensor $U$ is also called the \textbf{right stretch tensor}.  Since there is a one-to-one relation between $U$ ans $U^2$, for the simplification of numerical calculus the stretch tensor can by replaced by the \textbf{Green deformation tensor} $C = F^T \cdot F$.
-
+\subsubsection*{Decomposition of the deformation gradient tensor into rotation and stretch}\label{deformationgradienttensor}
+The deformation gradient tensor $F$ completely characterizes
+the body deformation in the vicinity of a particle p. This deformation consist of a rigid body rotation and body "stretch" (see fig. \ref{deformationGradientDecom}). As $dX$ and $dx$ are differential segments, the map $F$ is not affected by rigid-body translations.  
 
 \begin{figure}
 \begin{center}
@@ -93,18 +93,45 @@ where $U$ and $R$ are given by the relations $U = (F^T \cdot F)^ {\frac{1}{2}} $
 \end{center}
 \end{figure}
 
-Where are three particular functions of $C$ called the principal scalar invariants.
+
+Generally, the body stretch is defined as the ratio of the deformed line elements to the length of the corresponding undeformed line element \nomenclature{$l$}{body stretch}
+\begin{equation}
+l = \frac{\vert dx \vert}{\vert dX \vert},
+\end{equation} 
+and consists locally on three mutually orthogonal stretches named \textbf{the principal stretches}.
+
+According to the polar decomposition theorem, the deformation tensor can be written as the product of a proper orthogonal tensor $R$ representing the rotational part, and a symmetric positive defined tensor $U$ representing the body distorsion. 
+\begin{equation}
+F = R \cdot U.
+\end{equation}
+where $U$ and $R$ are given by the relations $U = (F^T \cdot F)^ {\frac{1}{2}} $ and $R = F \cdot U^{-1}$. The essential property of tensor $U$ is that it is symmetric and positive, therefor it has three real positive eigenvalues
+$\lambda_1, \lambda_2, \lambda_3$ and a corresponding triplet of orthonormal eigenvectors $r_1, r_2, r_3$. Thus then a infinitesimal segment $dx$ is stretched by the tensor $U$, the segment is distorted in the principal direction of U by amounts of the corresponding eigenvalues of U. 
+
+The tensor $U$ is also called the \textbf{right stretch tensor}.  Since there is a one-to-one relation between $U$ ans $U^2$, for the simplification of numerical calculus the stretch tensor can by replaced by the \textbf{Green deformation tensor} $C = F^T \cdot F$.
+
+
+
+There are three particular functions of $C$ called the principal invaraints. 
+
 \begin{equation}
 \label{principal_invariants}
-I_1(C) = tr C, \ \ I_2(C)=\frac{1}{2}\left[ trC^2 - \left(tr C \right)^2 \right], \ \ I_3(C)=det(C) 
+I_1(C) = tr C, \ \ I_2(C)=\frac{1}{2}\left[ trC^2 - \left(tr C \right)^2 \right], \ \ I_3(C)=det(C) .
+\end{equation} 
+
+These functions are related to the three principal stretches by the next relations:
+\begin{equation}
+\label{principalstrechinvariantsrelation}
+I_1(C) = \lambda_1^2+\lambda_2^2+\lambda_3^2, \ \ I_2(C) = \lambda_1^2 \lambda_2^2 + \lambda_2^2 \lambda_3^2+ \lambda_3^2 \lambda_1^2, \ \ I_3(C) = \lambda_1^2 \lambda_2^2 \lambda_3^2
 \end{equation}
- The interpretation is that, the body "stretch" consists (locally) of three mutually orthogonal stretches, "the principal stretches".  The latter are scalar combinations of $C$ components that do not change under coordinate transformations for a given body configuration. The use of invariants will be an essential part of constitutive modeling, because the behavior of a material should not depend on the coordinate system.
+
+The essential property of the principal invariants is that they don't change under coordinate transformations for a given body configuration. Their use to compute the body stretch will be an essential part of constitutive modeling, because the behavior of a material should not depend on the coordinate system.
 
 It can be also shown that:
-
 \begin{equation}
+\label{eq:detinvariantrelation}
 det(C-\mu I) = -\mu ^3+I_1(C)\mu ^2-I_2(C)\mu +I_3(C)
-\end{equation}
+\end{equation} . 
+
 
 
 \subsubsection*{Strain measures}\label{strainmeasure}
@@ -113,20 +140,33 @@ Referring to small deformations, the engineering nominal strain is defined as th
 \epsilon = \frac{ dx  - dX }{	dX }
 \end{equation}
 
-Then the body is not deformed, the deformation gradient $F$ and therefore the right stretch tensor $U$ is equal to identity tensor $I$. The strain in such case is equal to zero. 
+When the body is not deformed, the deformation gradient $F$ and therefore the right stretch tensor $U$ is equal to identity tensor $I$. The strain in such a case is equal to zero. 
 
-Then one is modeling biological soft tissues, large deformation have to be considered. Therefore, the previously defined strain is no more applicable. For large deformations, a measure of strain can be any monotonically increasing function related to stretch in a one-to-one manner and what completely vanishes in the reference configuration.
+For most biological soft tissues, large deformation have to be considered. In that case, the previously defined strain is no more applicable. For large deformations, a measure of strain can be any monotonically increasing function related to stretch in a one-to-one manner, this function has to vanish in the reference configuration.
 
-In orthogonal coordinate system, an admissible function is:
+In orthogonal coordinate system, an admissible function is 
+
 \begin{equation}
-f(x) = \frac{1}{m}(x^m-1) \ \ (m \neq 0)\  \ and \ ln(x) \ \ (m=0)
-\end{equation}   
+f(x) = \frac{1}{m}(x^m-1) \ for \ (m \neq 0)\  \ and \ ln(x) \ for \ (m=0)
+\end{equation}
 
-Then $m=2$ the function is named the Green-Lagrangian stain tensor: 
+
+For $m = 0$ the function represents the Hencky strain tensor, 
+
+\begin{equation}
+E = ln(U), 
+\end{equation}
+
+for $m=1$  the function represents the Biot strain tensor 
+\begin{equation}
+E = U-I,
+\end{equation}
+and for $m=2$ the Green-Lagrangian stain tensor:
 \begin{equation}
 E = \frac{1}{2}(U^2-I) =  \frac{1}{2}(C-I)
 \end{equation}
-The Green-Lagrangian tensor is commonly used in practice as it can be computed without prior knowledge of the eigenvectors of Green deformation tensor C.
+
+The Green-Lagrangian tensor is commonly used in practice as, by using the relation \ref{eq:detinvariantrelation}, it can be computed without prior knowledge of the eigenvectors of the Green deformation tensor C.
 %Here only Green-Lagrangian strain is introduced. The Green-Lagrangian tensor $E$ is defined as:
 %\begin{equation}
 %dx^2 - dX^2 = 2dX \cdot E \cdot dX
@@ -151,7 +191,7 @@ Generally, forces are categorized as internal and external forces. An \textbf{ex
 \end{equation}
 
 The contact forces can act on the external surface of the body or on a imaginary internal surface enclosing a volume element (Fig. \ref{internalcontactForceDefinition}). 
-In general terms, the stress (or the \textbf{traction vector}) $t^n(x)$ is defined as contact force per unit area $da$ in the limit as $da \rightarrow 0$. Therefore $t^n(x)$ varies from point to point in intensity and orientation depending on the $da(n)$ orientation.  The stress vector projection on normal axis $n$ define the \textbf{normal stress vector} and it's projection on the tangential axis define the \textbf{shear stress vector}.
+In general terms, the stress (or the \textbf{traction vector}) $t^n(x)$ is defined as contact force per unit area $da$ in the limit as $da \rightarrow 0$. Therefore $t^n(x)$ varies from point to point in intensity and orientation depending on the $da(n)$ orientation.  The stress vector projection on normal axis $n$ defines the \textbf{normal stress vector} and it's projection on the tangential axis define the \textbf{shear stress vector}.
 
 
 \begin{figure}
@@ -162,9 +202,7 @@ In general terms, the stress (or the \textbf{traction vector}) $t^n(x)$ is defin
 \end{center}
 \end{figure}
 
-The stress on the boundary $\partial \Omega_1$ of the region occupied by the studied body is applied by external forces through physical contact along the boundary. When formulating and solving a boundary-value problem, this stress define the boundary conditions.
-
-
+The stress on the boundary $\partial \Omega_1$ of the region occupied by the body is applied by external forces through physical contacts along the boundary. When formulating and solving a boundary-value problem, this stress define the boundary conditions.
 
 
 \subsubsection*{Cauchy's lemma}
@@ -180,9 +218,9 @@ Cauchy’s law states that there exists a Cauchy stress tensor $\sigma$ which ma
 t^n = \sigma \cdot n \ \ \ where \  \ t^n_i = \sigma_{i,j} n_j
 \end{equation}
 
-Then large deformations are considered, the reference and current configurations of the body are significantly different and a clear distinction has to be made between them. The traction vector $t^n$ is defined in Eulerian coordinates (body current configuration) and is also called the \textbf{true stress}. Accordingly, the Cauchy stress tensor $\sigma$ is called the true stress tensor.
+When large deformations are considered, the reference and current configurations of the body are significantly different and a clear distinction has to be made between them. The traction vector $t^n$ is defined in Eulerian coordinates (body current configuration) and is also called the \textbf{true stress}. Accordingly, the Cauchy stress tensor $\sigma$ is called the true stress tensor.
 
-The definition of any measure with respect to the deformed configuration is less practical as the current configuration is usually unknown a priori. For the simplification of mathematical formulation, a new pseudostress is defined in the Lagrangian coordinate space named \textbf{engineering stress}. The engineering stress have no physical meaning and have to be converted in to true stress for any interpretations.
+The definition of any measure with respect to the deformed configuration is less practical as it is usually unknown a priori. For the simplification of mathematical formulation, a new pseudostress is defined in the Lagrangian coordinate space named the \textbf{engineering stress}. The engineering stress has no physical meaning and has to be converted in to true stress for any interpretations.
 
 
 \begin{figure}
@@ -196,29 +234,32 @@ The definition of any measure with respect to the deformed configuration is less
 
 Next, two pseodostress vectors are defined (Fig. \ref{stressnotion}):
 \begin{itemize}
-\item the contact force $df$ per unit area in reference configuration  $dA$.
-\item the contact pseudoforce $d\tilde{f}$ per unit area in reference configuration $dA$.  
+\item $T^N$ defined as the contact force $df$ per unit area $dA$ in reference configuration.
+\item $\tilde{T}^N$ defined as the contact pseudoforce $d\tilde{f}$ per unit area $dA$ in reference configuration .  
 \end{itemize}
+
 
 Accordingly, two pseudostress tensors are defined based on pseudostress vectors:
 \begin{itemize}
 \item $T^N = P \cdot N$, $P$ is called \textbf{first Piola-Kircchoff stress tensor},
 \item  $\tilde{T}^N = S \cdot N $, $S$ is called \textbf{second Piola-Kircchoff stress tensor}. 
 \end{itemize} 
+were $N$ is the normal vector of $dA$ area.
+
 The three stress tensors are linked by the next relation 
 \begin{equation}
 \sigma = J^{-1}F \cdot P = J^{-1} F \cdot S \cdot F^T
 \label{PK12}
 \end{equation}
-\readysubsection{Conservation equations}%\label{subsection:conservationequations}
-Three conservation low must to be satisfied by physical system subject to any applied boundary conditions: \textbf{conservation of mass, conservation of linear momentum} and \textbf{conservation of angular momentum}. The resulting equations describe partially the mechanical behavior of a continuous body.
+\subsection{Conservation equations}\label{subsection:conservationequations}
+Three conservation laws must be satisfied by physical system subject to any applied boundary conditions: \textbf{conservation of mass, conservation of linear momentum} and \textbf{conservation of angular momentum}. The resulting equations describe partially the mechanical behavior of a continuous body.
 
 \subsubsection*{ Conservation of mass}
-The mass $m$ of a body with the density $\rho$, that infill the space region $\Omega_1$ is given by :
+The mass $m$ of a body with the density $\rho$, that infills the space region $\Omega_1$ is given by :
 \begin{equation}
 m(\Omega) = \int_{\Omega} \rho(X)dV
 \end{equation}
-The mass conservation low requires that the body mass remain constant throughout all possible body configurations. For a Lagrangian formulation, this results in a relation between the body density in the reference configuration $\rho_1$ and the body density in the current configuration $\rho$.
+The mass conservation law requires that the body mass remains constant throughout all possible body configurations. For a Lagrangian formulation, this results in a relation between the body density in the reference configuration $\rho_1$ and the body density in the current configuration $\rho$.
 $$\int_{\Omega_1} \rho_1 dv = \int_{\Omega_0} \rho_0 dV = const. $$
 
 Using the relation \ref{JacobianRelation} one can deduce that:
@@ -226,18 +267,19 @@ Using the relation \ref{JacobianRelation} one can deduce that:
 \int_{\Omega_0} \left( \rho_1 J - \rho_0\right)dv = 0 \  \ and \  \ \rho_1 J = \rho_0
 \end{equation}
 \subsubsection*{Conservation of the linear momentum}
-Assume that a body $\beta$ defined on a arbitrary region $\Omega_1$ with boundary $\Gamma_1$ is subjected to a body-force $\rho  b$ and the surface traction $a t^n$. And let $X$ be the particle location in the deformed solid.
- The total force acting on the body $\beta$ is defined as:
+
+Assume that a body $\mathcal{B}$ is defined on a arbitrary region $\Omega_0$ with boundary $\Gamma_0$, and is subjected to a body-force $\rho_0  b$ and the surface traction $T^N$. And let $X$ be the particle location in the undeformed solid.
+ The total force acting on the body $\mathcal{B}$ is defined as:
 \begin{equation}
-f = \int_{\Omega_0}\rho_0 b(X)dV + \int_{\Gamma_0} T^N(X)dA
+f = \int_{\Omega_1}\rho_0 b(X)dV + \int_{\Gamma_0} T^N(X)dA
 \end{equation}
  
-The conservation of the linear momentum requires that the total forces acting on the body to be equal to the time rate change of the linear momentum. In a static problem the time rate change of the linear momentum is neglected and thus the next equilibrium equation is obtained.
+The conservation of the linear momentum requires that the total forces acting on the body to be equal to the time rate change of the linear momentum. In a static problem the time rate change of the linear momentum is neglected and thus an equilibrium equation is obtained.
 \begin{equation}
 \rho_0 b+\nabla_0 \cdot P  = 0
 \end{equation}
-here the $P_{ji}$ are the components of first Piola-Kircchoff stress tensor
-The equilibrium equation can be formulated in therms of the second Piola-Kircchoff stress tensor by using \ref{PK12} relations.
+Where the $P_{ji}$ are the components of first Piola-Kircchoff stress tensor
+The equilibrium equation can be formulated in terms of the second Piola-Kircchoff stress tensor by using \ref{PK12} relations.
 \subsubsection*{Conservation of angular momentum}
 The conservation of angular momentum requires that the resultant momentum on any part of the body about a fixed point $\mathcal{O}$ equals the rate of increasing of its angular momentum (about $\mathcal{O}$). For a static problem, the integral form of the conservation of angular momentum is defined as:
 \begin{equation}
@@ -245,7 +287,7 @@ The conservation of angular momentum requires that the resultant momentum on any
 \int_{\Omega_0} X \times \rho_0 b(X)dV + \int_{\partial \Omega_0} X \times  T^N(X)dA = 0
 \end{equation}
 
-The relation \ref{angularMomentum} demands that the second Piola-Kircchoff stress tensor by a symmetric tensor:
+The relation \ref{angularMomentum} requires that the second Piola-Kircchoff stress tensor is a symmetric tensor:
 \begin{equation}
 S = S^T
 \end{equation}
@@ -256,8 +298,73 @@ In summary, the conservation equations are fulfilled if and only if the followin
 with the traction on the surface related to the stress through $\tilde{T^n} = S \cdot N$.
  For the simplification of mathematical calculus, the constitutive equations are formulated in therms of the second Piola-Kircchof stress tensor using the relations \ref{PK12}.
 
+\subsection{Constitutive models}\label{subsection:constitutivemodels}
+   The constitutive models, called also material models, define the relation between stress and strain of a physical system under the action of external stimuli. It is almost impossible to define a universal material behavior capable to model the material response to all possible conditions. Thus, for a given martial, several constitutive models can be defined depending on the studied characteristics. \\
+	Biological materials are classified into:
+	\begin{itemize}
+\item \textit{ Isotropic or anisotropic materials:} the response of a isotropic (anisotropic) material to an applied load is independent (dependent) of the direction of loading.
+\item\textit{ Compressible or incompressible materials:} in a compressible (incompressible) material the volume is changed (unchanged) during the deformation and the density remains constant. For a incompressible material the Jacobian determinant of the deformation tensor $J$ is equal to 1. 
+\item \textit{ Homogeneous or heterogeneous materials} the material properties of a homogeneous (heterogeneous) materials is independent (dependent) of the position within the body.
+	\end{itemize}
+
+Biological soft tissues are modeled using elastic materials model. The elasticity is the property of a solid material to return to its original size and shape when the influence of a external force is removed. In this case the strains are said to be reversible. 
+	 
+Considering small deformations, the stress-strain law of a linear material is given by the \textbf{Hook's law} $$\sigma = \lambda \epsilon,$$ where  the coefficient of proportionality $\lambda$ is named \textbf{Young's modulus}. \\
+For large deformation the stress-strain relationship is deduced from a potential function. A \textbf{hyperelastic} material is an elastic material for which the work is independent of the deformation path. The material reversibility and path-independent behavior implies the absence of energy dissipation during the deformation. Thus there exist a \textbf{potential} function $W(\epsilon)$ such that $$S = \frac{\partial W(E)}{\partial E}= 2\frac{\partial \psi (C)}{\partial C}$$.\\
+Moreover, if the material is isotropic, the stored strain energy $W$ of a hyperelastic material can by written as a function of principal invariants ($I_1, I_2, I_3$) of the Green deformation tensor $C$ previously defined in equation \ref{principal_invariants}.
+
+We introduce below the most used potential functions for the characterization of biological soft tissues.
+ 
+For the simplification of potential expressions we define the first and the second deviatoric strain invariants :
+\begin{center}
+$\overline{I}_1=\frac{I_1}{I_3^{2/3}} $;  $\overline{I}_2=\frac{I_2}{I_3^{4/3}}$
+\end{center}
+
+We also define the \textit{ bulk modulus} as measure of a material's resistance to compression; the shear modulus as the ration of shear stress to the shear strain; and the Poisson ratio as the ration between longitudinal strain to the transverse strain describing the body shape change . For small deformation the bulk modulus and shear modulus are linked to the Young's modulus and Poisson ration by the next relations:
+ \begin{center}
+  $K = \frac{E}{3(1-2\nu)}$ and $\mu = \frac{E}{2(1+\nu)}$
+ \end{center}
+  
+\subsubsection*{Neo-Hookean potential function}
+The Neo-Hookean \citep{treloar_elasticity_1943} law is an extension of the Hook's law to large deformations. The potential function is based only on the first invariant and is given by 
+\begin{equation}
+\label{eq:Neo-Hookmodel}
+W =\frac{\mu}{2} (\overline{I}_1-3) + \frac{K}{2}(J-1)^2
+\end{equation}
+Where $\mu$ and $K$ are initial shear modulus and initial bulk modulus respectively. 
+\subsubsection*{Mooney-Rivlin potential function}
+The potential function of a Mooney-Rivlin \citep{rivlin_large_1951} material is defined as:
+\begin{equation}
+\label{eq:mooneyRivlingmodel}
+W=\frac{\mu_1}{2}(\overline{I}_1-3)+\frac{\mu_2}{2}(\overline{I}_2-3)+\frac{K}{2}(J-2)^2
+\end{equation}
+Where the constants $\mu_1$ and $\mu_2$ describing the material properties are linked to the initial shear modulus $\mu = (\mu_1+\mu_2)$. And the constant $K$ is the initial bulk modulus. 
+
+\subsubsection*{Gent potential function}
+The potential function of a Gent \citep{gent_forms_1958} material model is defined as:
+\begin{equation}
+\label{gentmodel}
+W=-\frac{\mu J_m}{2}ln\left(1-\frac{\overline{I}_1-3}{J_m}\right)+\frac{K}{2}\left(\frac{J^2-1}{2}-lnJ\right)
+\end{equation}
+ Where, as previously the $\mu$ and $K$ constants are the initial shear modulus and the initial bulk modulus respectively. And $J_m$ is a parameter limiting the value of $(\overline{I}_1-3)$
+\subsubsection*{Ogden model}
+The Ogden \citep{ogden_large_1972} material model is based on the three principal stretches ($\lambda_1,\lambda_2,\lambda_3$) and $2N$ material constants, where $N$ is the number of polynomials that constitute the potential function:
+\begin{equation}
+\label{eq:ogdenmodel}
+W= \sum^N_{i = 1} \frac{\mu_i}{\alpha_i}(\lambda_1^{\alpha_i}+\lambda_2^{\alpha_i}+\lambda_3^{\alpha_i}-3) + \sum_{k=1}^N \frac{K}{2}(J-1)^{2k}
+\end{equation}
+Where $\mu_i$ and $\alpha_i$ are material constants, and $K$ is the bulk modulus.
+
+\subsubsection*{Yeoh model}
+The potential function of Yeoh \citep{yeoh_characterization_1990} model is based on the first invariant:
+\begin{equation}
+\label{eq:yeohmodel}
+W = \sum_{i=1}^N \mu_i(\overline{I}_1 - 3)^i + \sum_{k=1}^N \frac{K}{2}(J-1)^{2k}
+\end{equation}
+
+
 \subsubsection*{Govering equations of Lagrangian formulation} 
-We consider a body $\beta$ which occupies in the reference configuration the domain $\Omega_0$ with a boundary $\Gamma_0$`. The governing equations for the mechanical behavior of a continuous body are:
+We consider a body $\mathcal{B}$ which occupies in the reference configuration the domain $\Omega_0$ with a boundary $\Gamma_0$`. The governing equations for the mechanical behavior of a continuous body are:
 \begin{enumerate}
 \item Conservation of mass $\rho_1 J = \rho_0$
 \item Conservation of linear momentum $\nabla \cdot P + \rho b = 0$
@@ -270,63 +377,16 @@ We consider a body $\beta$ which occupies in the reference configuration the dom
 
 Where we note $\Gamma_0^{t_i}$ the set of prescribed traction  $\overline{t}$ on the body boundary $\Gamma_0$ ; and $\Gamma_0^{int}$ is the union of all surfaces where the stresses are discontinuous in the body (material interfaces).
 
-The momentum equation together with the traction boundary condition and interior traction continuity condition are called Generalized Momentum Balance (GBM).
-
-
-\readysubsection{Constitutive models}%\label{subsection:constitutivemodels}
-   The constitutive models, called also material models, define the relation between stress and strain of a physical system under the action of a external stimuli. It is very complex to define a universal material behavior capable to model the material response to all possible conditions. Thus, for one martial, several constitutive models can be defined depending on the studied characteristics. \\
-	Based on different characteristics biological materials are classified into:
-	\begin{itemize}
-\item \textit{ Isotropic or anisotropic materials:} the response of a isotropic (anisotropic) material to an applied load is independent (dependent) of the direction of loading.
-\item\textit{ Compressible or incompressible materials:} in a compressible (incompressible) material the volume is changed (unchanged) during the deformation and the density remains constant. For a incompressible material the Jacobian determinant of the deformation tensor $J$ is equal to 1. 
-\item \textit{ Homogeneous or heterogeneous materials} the response of a homogeneous (heterogeneous) materials is independent (dependent) of the position within the body.
-	\end{itemize}
-
-Biological soft tissues are modeled using elastic materials model. The elasticity is the property of a solid material to return to its original size and shape when the influence of a external force is removed. In this case the strains are said to be reversible. 
-	 
-Considering small deformations, the stress-strain law of a linear material is given by the \textbf{Hook's law} $$\sigma = \lambda \epsilon,$$ where  the coefficient of proportionality $\lambda$ is named \textbf{Young's modulus}. \\
-For large deformation the stress-strain relationship is deduced from a potential function. A \textbf{hyperelastic} material is an elastic material for which the work is independent of the deformation path. The material reversibility and path-independent behavior implies the absence of energy dissipation during the deformation. Thus there exist a \textbf{potential} function $W(\epsilon)$ such that $$S = \frac{\partial W(E)}{\partial E}= 2\frac{\partial \psi (C)}{\partial C}$$.\\
-Moreover, if the material is isotropic, the stored strain energy $W$ of a hyperelastic material can by written as a function of principal invariants ($I_1, I_2, I_3$) of the Green deformation tensor $C$ previously defined in equation \ref{principal_invariants}. Next, we introduce the most used potential functions for characterization of biological soft materials.
- 
-For the simplification of potential expressions we define the first and the second deviatoric strain invariant :
-\begin{center}
-$\overline{I}_1=\frac{I_1}{I_3^{1/3}} $;  $\overline{I}_2=\frac{I_2}{I_3^{2/3}}$
-\end{center}
-
-We also define the \textit{ bulk modulus} as measure of a material's resistance to compression; the shear modulus as the ration of shear stress to the shear strain; and the Poisson ratio as the ration between longitudinal strain to the transverse strain describing the body shape change . For small deformation the bulk modulus and shear modulus are linked to the Young's modulus and Poisson ration by the next relations:
- \begin{center}
-  $K = \frac{E}{3(1-2\nu)}$ and $\mu = \frac{E}{2(1+\nu)}$
- \end{center}
-  
-\subsubsection*{Neo-Hookean potential function}
-The Neo-Hooken low is an extension of the Hook's low to large deformations. The potential function is based only on the first invariant and is given by 
-\begin{equation}
-\label{Neo-Hook}
-W =\frac{\mu}{2} (\overline{I}_1-3) + \frac{K}{2}(J-1)^2
-\end{equation}
-Where $\mu$ and $K$ are initial shear modulus and initial bulk modulus respectively. 
-\subsubsection*{Mooney-Rivling potential function}
-The potential function of a Mooney-Rivling material is defined as:
-\begin{equation}
-W=\frac{\mu_1}{2}(\overline{I}_1-3)+\frac{\mu_2}{2}(\overline{I}_2-3)+\frac{K}{2}(J-2)^2
-\end{equation}
-Where the constants $\mu_1$ and $\mu_2$ describing the material properties are linked to the initial shear modulus $\mu = (\mu_1+\mu_2)$. And the constant $K$ is the initial bulk modulus. 
-\subsubsection*{Gent potential function}
-The potential function of a Gent material model is defined as:
-\begin{equation}
-W=-\frac{\mu J_m}{2}ln\left(1-\frac{\overline{I}_1-3}{J_m}\right)+\frac{K}{2}\left(\frac{J^2-1}{2}-lnJ\right)
-\end{equation}
- Where, as previous the $\mu$ and $K$ constants are the initial shear modulus and the initial bulk modulus respectively. And $J_m$ is the limiting value of $(\overline{I}_1-3)$
-
-\readysection{Finite Element Discretization}
+The momentum equation together with the traction boundary condition and interior traction continuity condition are called generalized momentum balance (GMB) \nomenclature{GBM}{generalized momentum balance}.
+\section{Finite Element Discretization}
 
 \label{section:lagrangianmesh}
-As previously described, in continuous mechanics the body deformation is expressed in terms of partial differential equations (PDE). For the majority of problems, the PDEs cannot be solved analytically, therefore approximation methods are developed. To this end, the finite element (FE) method has become the standard numerical calculation to compute such approximations. The computational domain, the unknown solution, and its partial derivatives are discretized, so as to obtain a set of algebraic equations for the function values at a finite number of discrete locations. The unknowns of the discrete problem are
+In continuous mechanics the body deformation is expressed in terms of partial differential equations (PDE \nomenclature{PDE}{partial differential equations}). For the majority of problems, the PDEs cannot be solved analytically, therefore approximation methods are developed. To this end, the finite element (FE) method has become the standard numerical calculation to compute such approximations. The computational domain, the unknown solution, and its partial derivatives are discretized, so as to obtain a set of algebraic equations for the function values at a finite number of discrete locations. The unknowns of the discrete problem are
 associated with a computational mesh which represents a subdivision of the domain $\Omega_0$ into many small control volumes $\Omega_k$
 
-\readysubsection{Eulerian and Lagrangian mesh description}
+\subsection{Eulerian and Lagrangian mesh description}
 
-The mesh description depends on the chosen independent variables (Eulerian or Lagrangian formulation). In a Eulerian mesh, the Eulerian coordinates of nodes are fixed (coincident with spatial points) and the material point change in time (see Figure \ref{lagrangian_mesh}.b). In this case the mesh has to be large enough to contain the body in its current configuration. Throughout the deformation the material points will belong to different elements. Whereas, in a Lagrangian mesh, the Lagrangian coordinates of nodes are time invariant, nodal trajectory corresponds with material points trajectory and no material passes between elements (see Figure \ref{lagrangian_mesh}.a). 
+The mesh description depends on the chosen independent variables (Eulerian or Lagrangian formulation). An Eulerian mesh formulation is usually used to solve problems linked to fluid like materials and a Lagrangian mesh for solid like materials. In an Eulerian mesh, the Eulerian coordinates of nodes are fixed (coincident with spatial points) and the material point change in time (see Figure \ref{lagrangian_mesh}.b). In this case the mesh has to be large enough to contain the body in its current configuration. Throughout the deformation, the material points will belong to different elements. On the contrary, in a Lagrangian mesh, the Lagrangian coordinates of nodes are time invariant, nodal trajectory corresponds with material points trajectory and no material passes between elements (see Figure \ref{lagrangian_mesh}.a). 
 
 \begin{figure}[!h]
 \centering
@@ -336,31 +396,30 @@ The mesh description depends on the chosen independent variables (Eulerian or La
 \end{figure}
  
 
-In a Lagrangian mesh the boundary and interface nodes remains coincident with body boundaries and material interfaces throughout the entire deformation. Thus, the boundary conditions are defined directly on the respective nodes. On the other hand, in a Eulerian mesh the boundary and interface conditions have to be defined on point which are not nodes. This implies important complications in multi-dimensional problems.  
+In a Lagrangian mesh, the boundary and interface nodes remain coincident with body boundaries and material interfaces throughout the entire deformation. Thus, the boundary conditions are defined directly on the respective nodes. On the other hand, in a Eulerian mesh the boundary and interface conditions have to be defined on point which are not nodes. This implies important complications in multi-dimensional problems.  
 
 An important drawback of a Lagrangian mesh affect mainly the large deformation domain. As the nodes are coincident with the material points, the elements deform with materials. Therefore, the magnitude of deformation is limited because of element distortion. The limited distortion that most elements can sustain without performance degradation or failure is a important factor in nonlinear analysis with Lagrangian formulation. 
+ 
 
-In conclusion, an Eulerian mesh formulation is usually used to solve problems linked to fluid like materials and a Lagrangian mesh for solid like materials.
+\subsection{Lagrangian mesh}\label{subsection:lagrangianmesh}
 
-\readysubsection{Lagrangian mesh}\label{subsection:lagrangianmesh}
-
-The general approach of the FE method in Lagrangian formulation is shown in Fig. \ref{fe_method}. First the momentum equations with given boundary conditions is multiplied by an appropriate test functions. The test function has to satisfy all displacement boundary conditions and to be smooth enough so that all derivatives in momentum equations are well defined. Then performing an integration by parts, the week formulation of GBM is obtained, also called the principle of virtual work. \textcolor{darkred}{cite Belytschko}
+The general approach of the FE method in Lagrangian formulation is shown in Fig. \ref{fe_method}. First the momentum equations with given boundary conditions are multiplied by a set of appropriate test functions. The test functions have to satisfy all displacement boundary conditions and to be smooth enough so that all derivatives in momentum equations are well defined. Then performing an integration by parts, the week formulation of GMB is obtained, also called the principle of virtual work \citep{belytschko_nonlinear_2013}. 
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.8\textwidth,keepaspectratio]{figures/fe_method.jpg}
-\caption{From strong formulation of the generalized momentum balance to numerical equations.}
+\caption{From strong formulation of the generalized momentum balance (GMB) to numerical equations.}
 \label{fe_method}
 \end{figure}
 
 
 
 
- The momentum equations and the traction boundary conditions, usually called the strong form, cannot be directly discretized by FE method. The strong formulation of the GBN equations impose the $C_1$ continuity conditions on the field variables. Therefore, the solution of this problem does not always exist. This is true especially in the case of complex domains with different material interfaces. In order to overcome these difficulties, weak formulations are preferred. The week formulation of GMB reduce the continuity requirements thereby allowing the use of easy-to-construct and implement polynomials. Because of the reduction in the requirements of function smoothness, the weak forms never give an exact solution but one can obtain a relatively accurate solution with the discretization refinement.
+ The momentum equations and the traction boundary conditions, usually called the strong form, cannot be directly discretized by FE method. The strong formulation of the GMB equations impose the $C_1$ continuity conditions on the field variables. Therefore, the solution of this problem does not always exist. This is true especially in the case of complex domains with different material interfaces. In order to overcome these difficulties, weak formulations are preferred. The week formulation of GMB reduces the continuity requirements thereby allowing the use of easy-to-construct and implement polynomials. Because of the reduction in the requirements of function smoothness, the weak forms never give an exact solution but one can obtain a relatively accurate solution with the discretization refinement.
 
 
 
-From the week form of the GBM equations, the numerical system of equations is formulated by using finite elements interpolants for the mechanical displacement and the test functions.   The whole domain is discretization into a number of smaller areas or volumes which are called \textbf{finite elements} and their assembly is called a\textbf{ mesh}. Elements can be of various shapes (as shown in Figure \ref{discretization}.a),  quadrilateral or triangular in two dimensions, and tetrahedral or hexahedron in three-dimensions.
+From the week form of the GMB equations, the numerical system of equations is formulated by using finite elements interpolants for the mechanical displacement and the test functions.   The whole domain is discretization into a number of smaller areas or volumes which are called \textbf{finite elements} and their assembly is called a\textbf{ mesh}. Elements can be of various shapes (as shown in Figure \ref{discretization}.b),  quadrilateral or triangular in two dimensions, and tetrahedral or hexahedron in three-dimensions.
 
 
 \begin{figure}[!h]
@@ -370,20 +429,20 @@ From the week form of the GBM equations, the numerical system of equations is fo
 \label{discretization}
 \end{figure}
 
- The mechanical displacement is approximated at the discretization points called finite element\textbf{ nodes}. The nodes are at the corners of the elements for a linear type, and at the corners and midsides of the elements for a quadratic type (figure \ref{discretization}.b). The displacement of each point within an element is fixed by the values of the displacements of the nodes of the element. In this way, the problem of finding the displacement of every point within the body is replaced by the problem of finding the displacements of a finite number of points.
+ The mechanical displacement is approximated at the discretization points called finite element\textbf{ nodes}. The nodes are at the vertices corners of the elements for a linear type, and at the vertices corners and midsides of the elements edges for a quadratic type (figure \ref{discretization}.b). The displacement of each point within an element is interpolated from the values of the displacements of the nodes of the element. In this way, the problem of finding the displacement of every point within the body is replaced by the problem of finding the displacements of a finite number of nodes.
  
- As in a Lagrangian mesh the nodes are following the motions, for large deformation the finite elements can be highly distorted. Therefore, the shape quality is generally followed all along the deformation process. Several shape parameters as a function elements geometry have been proposed as: aspect ratio, maximum corner angle, Jacobian ratio, skewness, parallel deviation, warping factor. The acceptable limit values are proper to the elements types. 
+ As in a Lagrangian mesh the nodes are following the motions, for large deformation the finite elements can be highly distorted. Therefore, the elements shape quality is generally checked all along the deformation process. Several shape parameters for each element type have been proposed such as: aspect ratio, maximum corner angle, Jacobian ratio, skewness, parallel deviation, warping factor. The acceptable limit values of these shape factors are proper to the elements types. 
  
-In the following only shape parameters of linear triangular elements are presented.  
+In the following only the shape parameters of the linear triangular elements are presented.  
  \subsubsection*{Triangle aspect ratio }
- The element's shape aspect ratio is computed using only the corner nodes of the element (Figure \ref{fig:aspectratio}). First, two lines are created: one through a node ($K$) and the midpoint of the opposite edge ($ K'$), the second through the midpoint of the others two edges ($J'$ and $ I'$). Then two rectangles are created, each rectangle have a pair of edges parallel to one of previously defined lines. The rectangle edges have to pass through the nodes and the triangle's edges midpoints. This construction is repeated for each triangle's node resulting in 6 rectangles. The aspect ratio of a rectangle is defined as the ration between the longer and shorter side. Thus, the triangle's aspect ratio is defined as the maximal aspect ratio over the 6 rectangles divided by squared root of 3. 
+ The element's shape aspect ratio is computed using only the vertices corner nodes of the element (Figure \ref{fig:aspectratio}). First, two lines are created: one through a node ($K$) and the midpoint of the opposite edge ($ K'$), the second through the midpoint of the others two edges ($J'$ and $ I'$). Then two rectangles are created, each rectangle have a pair of edges parallel to one of previously defined lines. The rectangle edges have to pass through the nodes and the triangle's edges midpoints. This construction is repeated for each triangle's node resulting in 6 rectangles. The aspect ratio of a rectangle is defined as the ratio between the longer and shorter side. Thus, the triangle's aspect ratio is defined as the maximal aspect ratio over the 6 rectangles divided by squared root of 3. 
  
  The best possible aspect ratio is 1 and is represented by an equilateral triangle. An element with an aspect ratio larger than 20 is considered as bad aspect element, large aspect ratio may degrade solution performance.
  
  \begin{figure}[!h]
 \centering
 \includegraphics[width=0.9\textwidth,keepaspectratio]{figures/aspectRatio.png} 
-\caption{Computation of aspect ratio for a triangle}
+\caption{Computation of the aspect ratio for a triangle}
 \label{fig:aspectratio}
 \end{figure}  
 
@@ -409,7 +468,7 @@ The skewness of a triangular element is computed using the equivalent volume dev
 \label{fig:skewness}
 \end{figure}
  
-\readysection{Contact mechanics}\label{section:contactmechanics}
+\section{Contact mechanics}\label{section:contactmechanics}
 
 In order to transfer the loads between elements, the nodes have to be connected together. If two bodies are separated with no commune nodes, no interaction will occur during the deformation and the bodies will pass through each other. Here, an asymmetric surface-to-surface contact method is used to solve the multi-body interaction problems.
 
@@ -422,7 +481,7 @@ The intersection consists of two surfaces distinguished as \textbf{target} and \
 \item if the surface $\Gamma_A$ is larger than $\Gamma_B$, the surface $\Gamma_A$ denote the target and the $\Gamma_B$ the contact surfaces.
 \end{itemize} 
 For the following, we identify $\Gamma_A$ as the target surface and $\Gamma_B$ as the contact surface (Figure \ref{contact_bodies}).
-\readysubsection{Contact inteface equations}%\label{governingequations}
+\subsection{Contact inteface equations}%\label{governingequations}
  In multi-body interaction process, in addition to standard governing equations, two more contact conditions have to be fulfilled: the two bodies cannot interpenetrate and the traction must satisfy momentum conservation on the contact interfaces.
    
 
@@ -460,7 +519,7 @@ t^n \leq 0, \ \ u_n-g \leq 0, \ \ t_n(u^n-g) = 0
 \end{equation}
  Where $g$ is the gap between the two bodies.
 
-\readysubsection{Surface interaction models}%
+\subsection{Surface interaction models}%
 
 \label{subsection:surfaceinteractionmodels}
 When two solid bodies are placed together under a nonzero normal force and acted upon by another tangential force, a \textbf{friction force} $f_{friction}$ tangential to the interface and opposite to the applied force is created. Depending on whether the applied force can overcome the friction force opposing it, the bodies may or may not move relative to the other. The body motion along the interface is called \textbf{sliding}. The \textbf{sliding force}, $f_{sliding}$ is the applied tangential force which cause the sliding motion between the two bodies.
@@ -508,7 +567,7 @@ Then a frictionless contact model is used, $\mu_f = 0$, the tangential tractions
 
 Several contact models can be combined to model a physical contact between two bodies.   
 
-\readysubsection{Contact formulation algorithm: Pure Penalty model}%\label{subsection:purepenalty}
+\subsection{Contact formulation algorithm: Pure Penalty model}%\label{subsection:purepenalty}
 
 \subsubsection*{Pinball region}
 
@@ -568,13 +627,13 @@ where $d$ represents the penetration or gap amount and $k_c$ is the normal conta
  
  The biggest challenge here is that the magnitude of the stiffness contact constants is completely unknown beforehand. The contact force at each node have to be large enough to push the contact surface back to the target surface and eliminate unwanted penetration or gap. In the same time, if the the contact force is too large, it pushes the contact surface far away from the pinball region causing error and solution instabilities.
 
-\readysection{Breast biomechanical model: overview}
+\section{Breast biomechanical model: overview}
 
 Biomechanical modelling of breast tissues is widely investigated for various medical applications such as surgical procedure training, pre-operative planning, diagnosis and clinical biopsy, image guided surgery, image registration, and material parameter estimation (Table \ref{table:mechanical_models_table}). For the last 20 years, several research groups have presented their breast models based on finite elements theory.  The complexity and relevance to breast anatomy of each model depend on the research purpose for which it was designed. 
  
 As described in Section \ref{section:continuousmechanics}, to build a mechanical breast model, one need to provide the breast geometry in a \textbf{reference configuration}, the \textbf{constitutive models} of tissues composing the breast volume and the \textbf{boundary conditions}. The definition of all variables has an significant impact on model accuracy.
 
-\readysubsection{Breast reference configuration} 
+\subsection{Breast reference configuration} 
 
 A large number of existing patient specific models are using volumetric data from MR images \cite{carter_biomechanical_2009},\cite{kellner_simulation_2007}, \cite{conley_realization_2015} \cite{eiben_symmetric_2016}, \cite{martinez_finite_2017}  or CT images \cite{palomar_finite_2008},\cite{sturgeon_finite_element_2016} to compute the breast geometry. Acquired data represents deformed breast soft tissues due to in-vivo conditions, and therefore initial pre-stresses are included. Generally, for breast deformation simulations, the reference configuration is chosen to be the breast geometry in a stress-free configuration, without being deformed by any force, including gravity.
 
@@ -601,7 +660,7 @@ The initial pre-stresses are generally unknown and it is extremely difficult to 
  \subsubsection*{Inverse FE algorithm}
 \cite{pathmanathan_predicting_2008} and later \cite{vavourakis_inverse_2016} proposed an analytic computation of the reference state of breast by reparametrizing the equilibrium equation and solving finite elements formulation of the inverse motion. The model provides good estimates of breast reference configurations but need large numerical resources. \cite{eiben_breast_2014} showed that, the prediction-correction iterative algorithm and the inverse FE algorithm are similar in terms of resulting accuracy. 
 
-\readysubsection{Constitutive models}
+\subsection{Constitutive models}
 
 Global breast mechanics are governed by breast tissue compositions and their individual mechanical properties. The breast soft tissues are known to be incompressibles, nonlinear, anisotropic, and viscous materials. However, according to \cite{wellman_breast_1999} the breast tissues viscosity can be neglected when the mechanical load is applied within short time scales.  
 
@@ -674,16 +733,22 @@ The surrounding breast fascias and the supervisory ligament form the breast supp
  %microscopic and macroscopic studi of fascia
  The fibrous tissues obtain their elasticity from elastic fibers and their structural support from collagen fibers. As reported by \cite{riggio_anatomical_2000} the superficial fascia is made up of both collagen and elastic fibers. In contrast, the Cooper's ligaments appeared to be composed almost of collagen fibers.  The mechanical properties of a single collagen fiber from a rat tail were studied by \cite{wenger_mechanical_2007}, according to authors their elastic modulus range between $5 GPa$ and $11 GPa$. Other studies on biomechanical characterization of human body superficial fascia are available in literature. The most frequently studied is on the plantar fascia and foot ligaments with a Young's modulus ranging between $0 MPa$ and $700 MPa$ \citep{cheung_effects_2004,kongsgaard_mechanical_2011}. 
 
-\readysubsection{Boundary conditions}
+\subsection{Boundary conditions}
 
 Direclet conditions are usually used to constrain the sternum/axilla ends and the posterior surface of the breast or the thoracic cage if the muscular tissues are considered \citep{griesenauer_breast_2017,rajagopal_creating_2008,pathmanathan_predicting_2008, gamage_modelling_2012,griesenauer_breast_2017}. As reported by \cite{carter_biomechanical_2009} the zero-displacement boundary conditions in a multi-gravity loading framework result in a over-constrained model and sliding conditions on the mesh nodes corresponding to the chest wall have to be considered.    
 
   Later, several teams using biomechanical breast models for multy modality image registration or surgical planing showed what included the sliding boundary conditions  \citep{georgii_simulation_2016,han_nonlinear_2014}  improve the registration accuracy. However those studies were the biomechanical model is designed for breast compression, the tissues sliding over the chest wall is neglected and fixed boundary conditions are usually assumed \citep{sturgeon_finite_element_2016, martinez_finite_2017}.
   
- \readysubsection{Conclusion}
+ \subsection{Conclusion}
  
- During the last decades, several breast biomechanical models were proposed however, only a small part of them \citep{carter_biomechanical_2009,gamage_modelling_2012,han_nonlinear_2014} were evaluated with respect to the real tissues deformation. As we intend to build-up a subject specific breast biomechanical model capable of estimating multi-loading gravity deformations our assumption will rely only on already evaluated model within a same framework.
- 
-Today's outstanding breast biomechanical models are represented by the next three models:   \cite{eiben_surface_2016}, \cite{han_nonlinear_2014}, \cite{gamage_modelling_2012}.  \cite{gamage_modelling_2012} proposed a finite elements model capable to estimate the supine breast configuration from the prone one. To assess the quality of fit, the root-mean-squared error (RMSE) form the point to surface distance was computed.  Conform to the authors, the breast supine geometry was estimated within an RMSE of 5mm (maximal distance of 9.3 mm).  In the same time, \cite{han_nonlinear_2014} developed a breast biomechanical model for image registration. The estimates were computed for five subjects, and the accuracy was assessed by computing the Euclidian Distance (ED) between anatomical landmarks.  The mean ED range between 11.5 mm and 39.2 mm (maximal ED range between 20.3mm and 61.7mm).  Finally, \cite{eiben_surface_2016} proposed a new model to estimate the up-standing breast configuration from the prone one. The model was evaluated on 3 subject. The supine configuration was then computed from the prone one and the quality of fit was measured in terms of the mean Eulerian Distance between manually selected internal landmarks. Thus, the supine breast configuration was estimated within a mean distance ranging between $12.2mm$ and $19.8 mm$. The model evaluation for the up-standing configuration was not presented.   
+ During the last decades, several breast biomechanical models were proposed however, only a small part of them \citep{carter_biomechanical_2009,gamage_modelling_2012,han_nonlinear_2014} were evaluated with respect to the real tissues deformation. As we intend to build-up a subject specific breast biomechanical model capable of estimating multi-loading gravity deformations our assumption will rely only on already evaluated model within a same framework. In this chapter, three biggest challenges were identifies:  the estimation of the breast reference geometry, the estimation of patient specific material properties and the definition of the boundary condition and namely the breast-muscle interface. Today's outstanding breast biomechanical models are represented by the next three models:   \cite{eiben_surface_2016}, \cite{han_nonlinear_2014}, \cite{gamage_modelling_2012}.   
+
+ \cite{gamage_modelling_2012} proposed a finite elements model capable to estimate the supine breast configuration from the prone one. The breast stress-free configuration was estimated using a prediction-correction iterative algorithm optimization process, in this purpose the skin surfaces on prone configuration was used as ground-truth. Contrariwise, the material constitutive parameters were identified using the skin surface on supine breast configuration by applying an non-linear optimization algorithm. Breast tissues sliding over the chest wall was considered partially by modeling the pectoral muscle as a soft structure and including it into the optimization process. The models was evaluated for the supine breast configuration by computing the root-mean-squared error (RMSE) from the point to surface distance between the estimated and measured data. Conform to the authors, the breast supine geometry was estimated within an RMSE of 5mm (maximal distance of 9.3 mm). 
+
+In the same time, \cite{han_nonlinear_2014} developed a breast biomechanical model for image registration. The estimates of supine breast configuration  were computed for five subjects, and the accuracy was assessed by computing the Euclidian distance between anatomical landmarks.  The mean Euclidian distance range between 11.5 mm and 39.2 mm (maximal Euclidian distance range between 20.3mm and 61.7mm). The authors modelled the elongation of the pectoral muscle using a contact sliding model. Only the material constitutive parameters were adapted to the patients breast mechanics, the stress-free breast geometry being estimated by inverse gravity. 
+
+Finally, \cite{eiben_surface_2016} proposed a new model to estimate the up-standing breast configuration from the prone one. The model was evaluated on 3 subject. The patient specific stress-free geometry was computed using a inverse finite elements u-p formulation. The material parameters were optimized such that the best fit in supine configuration is obtained. The estimates quality was measured in terms of the mean Eulerian Distance between manually selected internal landmarks. Thus, the supine breast configuration was estimated within a mean distance ranging between $12.2mm$ and $19.8 mm$. The model evaluation for the up-standing configuration was not presented.
+
+    
  
  \input{appendices/biomechanicalmodeltable.tex}

@@ -6,6 +6,12 @@ Abbas, S., Bishop, J., Yaffe, M.~J., and Plewes, D.~B. (2001).
   {MRI} data.
 \newblock {\em Medical Imaging, {IEEE} Transactions on}, 20(4):271--279.
 
+\bibitem[Abeyaratne, 2012]{abeyaratne_continuum_2012}
+Abeyaratne, R. (2012).
+\newblock {\em Continuum Mechanics: Volume II of Lecture Notes on The Mechanics
+  of Elastic Solids}.
+\newblock Cambridge MA and Singapore.
+
 \bibitem[Abu-Hijleh et~al., 2006]{abu_membranous_2006}
 Abu-Hijleh, M., Roshier, A., Al-Shboul, Q., Dharap, A., and Harris, P. (2006).
 \newblock The membranous layer of superficial fascia: evidence for its
@@ -30,6 +36,12 @@ Andrews, F.~J. (2001).
 \newblock {\em Journal of Medical Imaging and Radiation Oncology},
   45(2):113--117.
 
+\bibitem[Aro et~al., 1996]{aro_pain_1996}
+Aro, A.~R., Absetz-Yl{\"o}stalo, P., Eerola, T., Pamilo, M., and L{\"o}nnqvist,
+  J. (1996).
+\newblock Pain and discomfort during mammography.
+\newblock {\em European Journal of Cancer}, 32(10):1674--1679.
+
 \bibitem[Aro et~al., 1999]{aro_psychosocial_1999}
 Aro, A.~R., De~Koning, H.~J., Absetz, P., and Schreck, M. (1999).
 \newblock Psychosocial predictors of first attendance for organised mammography
@@ -46,6 +58,11 @@ Azar, F.~S., Metaxas, D.~N., and Schnall, M.~D. (2002).
 Bayati, S. and Seckel, B.~R. (1995).
 \newblock Inframammary crease ligament.
 \newblock {\em Plastic and reconstructive surgery}, 95(3):501--508.
+
+\bibitem[Belytschko et~al., 2013]{belytschko_nonlinear_2013}
+Belytschko, T., Liu, W.~K., Moran, B., and Elkhodary, K. (2013).
+\newblock {\em Nonlinear finite elements for continua and structures}.
+\newblock John wiley \& sons.
 
 \bibitem[Bucki et~al., 2010]{bucki_fast_2010}
 Bucki, M., Lobos, C., and Payan, Y. (2010).
@@ -122,6 +139,14 @@ Conley, R.~H., Meszoely, I.~M., Weis, J.~A., Pheiffer, T.~S., Arlinghaus,
   for breast cancer surgery using supine mri.
 \newblock {\em International journal of computer assisted radiology and
   surgery}, 10(12):1985--1996.
+
+\bibitem[de~Groot et~al., 2015]{de_pain_2015}
+de~Groot, J.~E., Broeders, M.~J., Grimbergen, C.~A., and den Heeten, G.~J.
+  (2015).
+\newblock Pain-preventing strategies in mammography: an observational study of
+  simultaneously recorded pain and breast mechanics throughout the entire
+  breast compression cycle.
+\newblock {\em BMC women's health}, 15(1):26.
 
 \bibitem[Dullum et~al., 2000]{dullum_rates_2000}
 Dullum, J.~R., Lewis, E.~C., and Mayer, J.~A. (2000).
@@ -227,6 +252,17 @@ Gefen, A. and Dilmoney, B. (2007).
 \newblock Mechanics of the normal woman's breast.
 \newblock {\em Technology and Health Care}, 15(4):259--271.
 
+\bibitem[Gent, 1996]{gent_new_1996}
+Gent, A. (1996).
+\newblock A new constitutive relation for rubber.
+\newblock {\em Rubber chemistry and technology}, 69(1):59--61.
+
+\bibitem[Gent and Thomas, 1958]{gent_forms_1958}
+Gent, A. and Thomas, A. (1958).
+\newblock Forms for the stored (strain) energy function for vulcanized rubber.
+\newblock {\em Journal of Polymer Science Part A: Polymer Chemistry},
+  28(118):625--628.
+
 \bibitem[Georgii et~al., 2016]{georgii_simulation_2016}
 Georgii, J., Paetz, T., Harz, M., Stoecker, C., Rothgang, M., Colletta, J.,
   Schilling, K., Schlooz-Vries, M., Mann, R.~M., and Hahn, H.~K. (2016).
@@ -247,6 +283,13 @@ Griesenauer, R.~H., Weis, J.~A., Arlinghaus, L.~R., Meszoely, I.~M., and Miga,
 \newblock Breast tissue stiffness estimation for surgical guidance using
   gravity-induced excitation.
 \newblock {\em Physics in Medicine and Biology}, 62(12):4756.
+
+\bibitem[Groot et~al., 2015]{groot_towards_2015}
+Groot, J. E.~d., Branderhorst, W., Grimbergen, C.~A., Heeten, G. J.~d., and
+  Broeders, M.~J. (2015).
+\newblock Towards personalized compression in mammography: A comparison study
+  between pressure- and force-standardization.
+\newblock {\em European Journal of Radiology}, 84(3):384--391.
 
 \bibitem[Han et~al., 2014]{han_nonlinear_2014}
 Han, L., Hipwell, J.~H., Eiben, B., Barratt, D., Modat, M., Ourselin, S., and
@@ -294,6 +337,12 @@ Itoh, A., Ueno, E., Tohno, E., Kamma, H., Takahashi, H., Shiina, T., Yamakawa,
 \newblock Breast disease: clinical application of us elastography for
   diagnosis.
 \newblock {\em Radiology}, 239(2):341--350.
+
+\bibitem[Kaliske and Rothert, 1997]{kaliske_finite_1997}
+Kaliske, M. and Rothert, H. (1997).
+\newblock On the finite element implementation of rubber-like materials at
+  finite strains.
+\newblock {\em Engineering Computations}, 14(2):216--232.
 
 \bibitem[Kanitakis, 2002]{kanitakis2002anatomy}
 Kanitakis, J. (2002).
@@ -387,6 +436,13 @@ Nordez, A. and Hug, F. (2010).
   is highly related to muscle activity level.
 \newblock {\em Journal of applied physiology}, 108(5):1389--1394.
 
+\bibitem[Ogden, 1972]{ogden_large_1972}
+Ogden, R.~W. (1972).
+\newblock Large deformation isotropic elasticity--on the correlation of theory
+  and experiment for incompressible rubberlike solids.
+\newblock In {\em Proc. R. Soc. Lond. A}, volume 326, pages 565--584. The Royal
+  Society.
+
 \bibitem[Olgun et~al., 2014]{olgun_use_2014}
 Olgun, D.~{\c{C}}., Korkmazer, B., K{\i}l{\i}{\c{c}}, F., Dikici, A.~S.,
   Velidedeo{\u{g}}lu, M., Aydo{\u{g}}an, F., Kantarc{\i}, F., and Y{\i}lmaz,
@@ -444,6 +500,12 @@ Pike, M.~C., Spicer, D.~V., Dahmoush, L., and Press, M.~F. (1993).
   cancer risk.
 \newblock {\em Epidemiologic reviews}, 15(1):17--35.
 
+\bibitem[Poulos et~al., 2003]{poulos_breast_2003}
+Poulos, A., McLean, D., Rickard, M., and Heard, R. (2003).
+\newblock Breast compression in mammography: how much is enough?
+\newblock {\em Journal of Medical Imaging and Radiation Oncology},
+  47(2):121--126.
+
 \bibitem[Rajagopal et~al., 2010a]{rajagopal_mapping_2010}
 Rajagopal, V., Chung, J.-H., Highnam, R.~P., Warren, R., Nielsen, P.~M., and
   {Martyn P. Nash} (2010a).
@@ -476,6 +538,12 @@ Riggio, E., Quattrone, P., and Nava, M. (2000).
 \newblock Anatomical study of the breast superficial fascial system: the
   inframammary fold unit.
 \newblock {\em European Journal of Plastic Surgery}, 23(6):310--315.
+
+\bibitem[Rivlin and Saunders, 1951]{rivlin_large_1951}
+Rivlin, R.~S. and Saunders, D. (1951).
+\newblock Large elastic deformations of isotropic materials vii. experiments on
+  the deformation of rubber.
+\newblock {\em Phil. Trans. R. Soc. Lond. A}, 243(865):251--288.
 
 \bibitem[Rohan et~al., 2014]{rohan_finite_2014}
 Rohan, P.-Y., Lobos, C., Nazari, M.~A., Perrier, P., and Payan, Y. (2014).
@@ -546,6 +614,11 @@ Tanner, C., Schnabel, J.~A., Hill, D. L.~G., Hawkes, D.~J., Leach, M.~O., and
 \newblock Factors influencing the accuracy of biomechanical breast models.
 \newblock {\em Medical Physics}, 33(6):1758.
 
+\bibitem[Treloar, 1943]{treloar_elasticity_1943}
+Treloar, L. (1943).
+\newblock The elasticity of a network of long-chain molecules—ii.
+\newblock {\em Transactions of the Faraday Society}, 39:241--246.
+
 \bibitem[Ulger et~al., 2003]{ulger2003effect}
 Ulger, H., Erdogan, N., Kumanlioglu, S., and Unur, E. (2003).
 \newblock Effect of age, breast size, menopausal and hormonal status on
@@ -592,6 +665,12 @@ Yaffe, M., Boone, J., Packard, N., Alonzo-Proulx, O., Huang, S.-Y., Peressotti,
   C., Al-Mayah, A., and Brock, K. (2009).
 \newblock The myth of the 50-50 breast.
 \newblock {\em Medical physics}, 36(12):5437--5443.
+
+\bibitem[Yeoh, 1990]{yeoh_characterization_1990}
+Yeoh, O. (1990).
+\newblock Characterization of elastic properties of carbon-black-filled rubber
+  vulcanizates.
+\newblock {\em Rubber chemistry and technology}, 63(5):792--805.
 
 \bibitem[Youk et~al., 2017]{youk_shear_2017}
 Youk, J.~H., Gweon, H.~M., and Son, E.~J. (2017).
