@@ -244,7 +244,7 @@ Accordingly, two pseudostress tensors are defined based on pseudostress vectors:
 \item $T^N = P \cdot N$, $P$ is called \textbf{first Piola-Kircchoff stress tensor},
 \item  $\tilde{T}^N = S \cdot N $, $S$ is called \textbf{second Piola-Kircchoff stress tensor}. 
 \end{itemize} 
-were $N$ is the normal vector of $dA$ area.
+were $N$ is the normal vector of unit area $dA$.
 
 The three stress tensors are linked by the next relation 
 \begin{equation}
@@ -433,7 +433,7 @@ From the week form of the GMB equations, the numerical system of equations is fo
  
  As in a Lagrangian mesh the nodes are following the motions, for large deformation the finite elements can be highly distorted. Therefore, the elements shape quality is generally checked all along the deformation process. Several shape parameters for each element type have been proposed such as: aspect ratio, maximum corner angle, Jacobian ratio, skewness, parallel deviation, warping factor. The acceptable limit values of these shape factors are proper to the elements types. 
  
-In the following only the shape parameters of the linear triangular elements are presented.  
+In the following only the shape parameters of the linear triangular elements are presented \citep{ansys_theory_2009}.  
  \subsubsection*{Triangle aspect ratio }
  The element's shape aspect ratio is computed using only the vertices corner nodes of the element (Figure \ref{fig:aspectratio}). First, two lines are created: one through a node ($K$) and the midpoint of the opposite edge ($ K'$), the second through the midpoint of the others two edges ($J'$ and $ I'$). Then two rectangles are created, each rectangle have a pair of edges parallel to one of previously defined lines. The rectangle edges have to pass through the nodes and the triangle's edges midpoints. This construction is repeated for each triangle's node resulting in 6 rectangles. The aspect ratio of a rectangle is defined as the ratio between the longer and shorter side. Thus, the triangle's aspect ratio is defined as the maximal aspect ratio over the 6 rectangles divided by squared root of 3. 
  
@@ -459,30 +459,35 @@ The maximum corner angle is computed using nodes position in 3D space. The best 
 The aspect ratio and the maximal corner deviation of a tetrahedra is computed using the definition of the same measure on a triangle. The elements shape parameter is assigned as the worst value over the triangles defined by the tetrahedra's faces and cross-sections.  
 
 \subsubsection*{Skewness }
-The skewness of a triangular element is computed using the equivalent volume deviation method. It is defined as the difference between the optimal and real cell size over the optimal cell size. The optimal size is the size of an equilateral cell with the same circumradius. According to its definition, the value of 0 indicates an ideal cell, from 0 to 0.75 the cell is considered to have a good quality, from 0.75 to 1 the cell is considered to have a bad quality and a value of 1 indicates a completely degenerated cell (Figure \ref{fig:skewness}).   
+The skewness of a triangular element is computed using the equivalent volume deviation method. It is defined as the difference between the optimal and real cell size over the optimal cell size. The optimal size is the size of an equilateral cell with the same circum radius. According to its definition, the value of 0 indicates an ideal cell, from 0 to 0.75 the cell is considered to have a good quality, from 0.75 to 1 the cell is considered to have a bad quality and a value of 1 indicates a completely degenerated cell (Figure \ref{fig:skewness}).   
 
  \begin{figure}[!h]
 \centering
 \includegraphics[width=0.6\textwidth,keepaspectratio]{figures/skewness.png} 
-\caption{Example of triangles with different skewness.}
+\caption{Example of triangles with different skewness with the corresponding circum radius.}
 \label{fig:skewness}
 \end{figure}
  
 \section{Contact mechanics}\label{section:contactmechanics}
 
-In order to transfer the loads between elements, the nodes have to be connected together. If two bodies are separated with no commune nodes, no interaction will occur during the deformation and the bodies will pass through each other. Here, an asymmetric surface-to-surface contact method is used to solve the multi-body interaction problems.
+In order to transfer the loads between elements, the nodes have to be connected together. If two bodies are separated with no common nodes, no interaction will occur during the deformation and the bodies will pass through each other. Here, an asymmetric surface-to-surface contact method is used to solve the multi-body interaction problems.
 
 Let's consider two different bodies $\mathcal{A}$ and $\mathcal{B}$ and their occupied domains $\Omega_A$ and $\Omega_B$ with boundaries $\Gamma_A$ and $\Gamma_B$ respectively (see Figure \ref{contact_bodies}). Also, we note $\Omega$ the domain of intersection of two bodies. The contact interface is the intersection of the surfaces of the two bodies:
 $$\Gamma = \Gamma_A \cap \Gamma_B.$$
-The intersection consists of two surfaces distinguished as \textbf{target} and \textbf{contact} surfaces. The choice of the surfaces is made following the next guidelines:
+The intersection consists of two surfaces, usually distinguished as \textbf{target} and \textbf{contact} surfaces. For a asymmetric contact the choice of the surfaces is made following these next guidelines, the target surface property are enumerated in the priority order:
 \begin{itemize}
-\item if the one body $\mathcal{A}$ is stiffer then the body $\mathcal{B}$, the surfaces $\Gamma_A$ define the target and $\Gamma_B$ the contact surface;
-\item if $\Gamma_A$ is a concave surface getting in contact with the convex surface $\Gamma_B$, the surface $\Gamma_A$ define the target and $\Gamma_B$ the contact surface.
-\item if the surface $\Gamma_A$ is larger than $\Gamma_B$, the surface $\Gamma_A$ denote the target and the $\Gamma_B$ the contact surfaces.
+\item if the body $\mathcal{A}$ is stiffer than the body $\mathcal{B}$, the surface $\Gamma_A$ defines the target and $\Gamma_B$ the contact surface;
+\item if $\Gamma_A$ is a concave surface getting in contact with the convex surface $\Gamma_B$, the surface $\Gamma_A$ defines the target and $\Gamma_B$ the contact surface.
+\item if the surface $\Gamma_A$ is larger than $\Gamma_B$, the surface $\Gamma_A$ denotes the target and the $\Gamma_B$ the contact surfaces.
 \end{itemize} 
-For the following, we identify $\Gamma_A$ as the target surface and $\Gamma_B$ as the contact surface (Figure \ref{contact_bodies}).
+For the following, we identify $\Gamma_A$ as the target surface and $\Gamma_B$ as the contact surface (Figure \ref{contact_bodies}). 
+
+ Sometimes, the asymmetric contact do not perform satisfactory results and an symmetric contact is needed. When defining a symmetric contact each surfaces coming in contact are designated to be both, contact and target surface type. Therefore two set of contact pairs are defined. The symmetric contact may be used then the distinction between the contact and the target surfaces is not clear or to reduce the contact penetration, however it use will results in a more time consuming solution.
+
+
+
 \subsection{Contact inteface equations}%\label{governingequations}
- In multi-body interaction process, in addition to standard governing equations, two more contact conditions have to be fulfilled: the two bodies cannot interpenetrate and the traction must satisfy momentum conservation on the contact interfaces.
+ In the case of multi-body interaction, in addition to the standard mechanical governing equations, two more contact conditions have to be fulfilled: the two bodies cannot interpenetrate and the traction must satisfy momentum conservation on the contact interfaces.
    
 
  \begin{center}
@@ -498,7 +503,7 @@ For the following, we identify $\Gamma_A$ as the target surface and $\Gamma_B$ a
   \begin{equation}
   t_A + t_B=0
 \end{equation}
-On the contact boundary surface $\Gamma$ the traction vectors is decomposed into it's normal and tangential components:
+On the contact boundary surface $\Gamma$ the traction vector is decomposed into it's normal and tangential components:
 
 $$t_A^n = t_A \cdot n_A,  \ \ \ t_B^n = t_B \cdot n_B$$
 $$t_A^t = t_A - t_A^n n_A, \ \ \ t_B^t = t_B - t_B^n n_B$$
@@ -511,20 +516,20 @@ t_A^n + t_B^n = 0, \ \ \ t_A^t + t_B^t = 0
  \subsubsection*{Inter-penetrability condition}
 The bodies implied in a multi-body problem must fulfill the inter-penetrability condition:
 \begin{equation}
-\Omega_A \cup \Omega_B = 0
+\Omega_A \cap \Omega_B = 0
 \end{equation}
-Decomposing the displacement $u$ into normal and tangential components $u^n$ and $u^t$ respectively the inter-penetrability condition can be written as:
+Decomposing the displacement $u$ into its normal and tangential components $u^n$ and $u^t$ respectively the inter-penetrability condition can be written as:
 \begin{equation}
-t^n \leq 0, \ \ u_n-g \leq 0, \ \ t_n(u^n-g) = 0
+t^n \leq 0, \ \ u^n-g \leq 0, \ \ t^n(u^n-g n_a) = 0
 \end{equation}
- Where $g$ is the gap between the two bodies.
+ Where $g$ is the gap between the two bodies and $n_a$ is the normal to the target surface.
 
 \subsection{Surface interaction models}%
 
 \label{subsection:surfaceinteractionmodels}
-When two solid bodies are placed together under a nonzero normal force and acted upon by another tangential force, a \textbf{friction force} $f_{friction}$ tangential to the interface and opposite to the applied force is created. Depending on whether the applied force can overcome the friction force opposing it, the bodies may or may not move relative to the other. The body motion along the interface is called \textbf{sliding}. The \textbf{sliding force}, $f_{sliding}$ is the applied tangential force which cause the sliding motion between the two bodies.
+When two solid bodies are placed together under a nonzero normal force and acted upon by another with a tangential force, a \textbf{friction force} $f_{friction}$ tangential to the interface and opposite to the applied force is created. Depending on whether the applied force can overcome the friction force opposing it, the bodies may or may not move relative to each other. The body motion along the interface is called \textbf{sliding}. The \textbf{sliding force}, $f_{sliding}$ is the applied tangential force which causes the sliding motion between the two bodies.
   
-The problem in determining whether relative motion will or will not occur is one of balancing the involved forces. According to allowed relative body motion in tangential or normal directions, five types of surface interaction models are distinguished: bonded, rough, no-separation, frictional and frictionless. Table \ref{contactB} resume each mechanical behavior. If the body motion is not allowed in normal or tangential direction, once the bodies get in contact, the respective components of traction are equals $t_A=t_B$ . Which means that, for a pure \textbf{bonded} contact, the two bodies are considered as a unique solid body.    
+Determining whether relative motion will or will not occur requires balancing the involved forces. According to the allowed relative body motion in tangential or normal directions, five types of surface interaction models are distinguished: bonded, rough, no-separation, frictional and frictionless. Table \ref{contactB} resumes each corresponding mechanical behavior. If the body motion is not allowed in normal or tangential direction, once the bodies get in contact, the respective components of traction are equals ($t_A=t_B$), which means that, for a pure \textbf{bonded} contact, the two bodies are considered as a unique solid body.    
 
 \begin{table}[H]
 
@@ -544,14 +549,13 @@ Frictionless & Yes & Yes, $f_{friction} = 0$ \\
 Frictional & Yes & Yes, if $f_{sliding} > f_{friction}$\\
 \hline
 \end{tabular}
-\caption{Surface interaction models and behaviors}
+\caption{Surface interaction models and corresponding mechanical behaviors}
 \label{contactB}
 \end{center}
 \end{table}
 
-\textit{Frictional} contact behavior is defined using Coulomb friction low.
-For a continuous body the Coulomb friction model is applied at each point of the contact interface.
-Consider that bodies $\mathcal{A}$ and $\mathcal{B}$ which are in contact within the surface $\Gamma$, then for all $x \in \Gamma$ :
+The \textit{frictional} contact behavior is defined using Coulomb friction law. For a continuous body the Coulomb friction model is applied at each point of the contact interface.
+Considering that bodies $\mathcal{A}$ and $\mathcal{B}$ which are in contact within the surface $\Gamma$, then for all $x \in \Gamma$ :
 \begin{equation}
 \label{stiking}
 if \ \Vert t^t(x) \Vert < -\mu_f t^n(x),\ \ \Delta u^t=0 
@@ -561,19 +565,19 @@ if \ \Vert t^t(x) \Vert < -\mu_f t^n(x),\ \ \Delta u^t=0
 if \ \Vert t^t(x) \Vert = -\mu_f t^n(x),\ \ \Delta u^t=-k(x)t^t(x),\ \ k(x)>0
 \end{equation}
 
-Where $\mu_f$ is the material property named \textbf{friction coefficient},  $\Delta u^t$ is the slip incremental in the tangential direction and $k(x)$ is a variable computed from the momentum equation. The condition \ref{stiking} is known as sticking condition: the tangential traction is less than the critical value, thus no sliding occurs. Reciprocally, condition \ref{sliding} is called sliding condition.
+Where $\mu_f$ is the material property named \textbf{friction coefficient},  $\Delta u^t$ is the slip incremental in the tangential direction and $k(x)$ is a variable computed from the momentum equation. The condition \ref{stiking} is known as the sticking condition: the tangential traction is less than the critical value, thus no sliding occurs. Reciprocally, condition \ref{sliding} is called the sliding condition.
 
-Then a frictionless contact model is used, $\mu_f = 0$, the tangential tractions vanish completely: $t_A^t = t_B^t = 0$. Then rough contact is modeled the friction coefficient $\mu_f$ is equal to infinity, therefore sticking condition is always fulfilled. 
+When a frictionless contact model is used, $\mu_f = 0$, the tangential tractions vanish completely: $t_A^t = t_B^t = 0$. On the contrary, when a rough contact is modeled, the friction coefficient $\mu_f$ is equal to infinity, so that the sticking condition is always fulfilled. 
 
-Several contact models can be combined to model a physical contact between two bodies.   
+In practice, several contact models can be combined to model a physical contact between two bodies.   
 
 \subsection{Contact formulation algorithm: Pure Penalty model}%\label{subsection:purepenalty}
 
 \subsubsection*{Pinball region}
 
-Contact problem present two primary difficulties. First is the traction conditions computation when frictional models are considered. And second is the unpredictability of regions which will get in contact with each other during the deformation process.
+Contact formulation presents two primary difficulties from a computational point of view. First, the traction conditions have to be estimated for each considered frictional model. And second is the unpredictability of regions which will get in contact with each other during the deformation process.
 
-The region of contact depends on materials properties and imposed boundary conditions; therefore, it is very difficult to know a priori where the surfaces will come in contact. To formulate analytic equations, one has to know exactly the nodes involved in the contact process. Therefore, during the body deformation the program calculates if the contact is opened or closed. The status is defined using a sliding pinball (Figure \ref{pinball}). The pinball slide over the contact surface points and search for the target surface. If the node to surface distance is smaller than the pinball radius the contact is considered closed otherwise the contact is considered opened.   
+The region of contact depends on materials properties and imposed boundary conditions; therefore, it is difficult to know a priori where the surfaces will be in contact. To formulate analytic equations, one has to know exactly the nodes involved in the contact process. Therefore, during body deformation, the program calculates if the contact is \textit{opened} or \textit{closed}. The status is defined using a sliding pinball (Figure \ref{pinball}). The pinball slides over the contact surface points and searches for the target surface. If the node to surface distance is smaller than the pinball radius, the contact is considered to be closed otherwise the contact is considered to be opened.   
 
  \begin{center}
 \begin{figure}
@@ -614,41 +618,42 @@ Computing the gap or penetration at single points increase numerical instabiliti
 
 
 \subsubsection*{Finite element mesh}
-For the finite element calculus, contact and target surfaces have to be discretized in 2D linear or quadratic elements consistent with the underling 3D element mesh (Figure \ref{discretization}). The elements are named contact and target elements respectively.  They have no material properties apart the friction coefficient $\mu_f$. The stress-strain as well as the gap or penetration measures are computed for each mesh node of the discretized surface.
+For the finite element computation, contact and target surfaces have to be discretized with 2D linear or quadratic elements consistent with the underling 3D element mesh (Figure \ref{discretization}). The elements are named contact and target elements respectively.  They have no material properties apart the friction coefficient $\mu_f$. The stress-strain as well as the gap or penetration measures are computed for each mesh node of the discretized surface.
 
 \subsubsection*{Pure Penalty method}
-In this work, mathematical expression of contact compatibility conditions is formulated using penalty method. Then one is using penalty contact formulation, additional contact properties are defined to manage contact behavior as: normal stiffness factor, tangential stiffness factor and contact opening factor. The latter constants play an important role in the numerical calculus but have no physical meaning.
+In this manuscript, one of the most popular mathematical expression of contact compatibility conditions is used, namely the penalty method. With such a method, additional contact properties are defined to manage contact behavior: a normal stiffness factor, opening stiffness factor, and a tangential stiffness factor. Such factors play an important role in the numerical computation but have no physical meaning.
 
 The penalty method uses a spring like relationship to introduce a force for all nodes pairs (contact-target) that are defined to be in closed contact (Figure \ref{normalContactdistance}). The contact force is computed using the following expression:
 \begin{equation}
 f_c = k_c d
 \end{equation}
-where $d$ represents the penetration or gap amount and $k_c$ is the normal contact stiffness of opening contact stiffness constants respectively. The tangential contact stiffness works in the same way enforcing the responding frictional force. Some finite amount of penetration, $d > 0$, is required mathematically to maintain 	equilibrium. However, physical contacting bodies do not interpenetrate ($d = 0$). 
+where $d$ represents the penetration or gap amount and $k_c$ is the normal stiffness factor or the opening stiffness factor respectively. The tangential stiffness factor works in the same way enforcing the responding frictional force. Even if physical contacting bodies do not interpenetrate ($d = 0$), some finite amount of penetration, $d > 0$, is required mathematically to maintain equilibrium. 
  
- The biggest challenge here is that the magnitude of the stiffness contact constants is completely unknown beforehand. The contact force at each node have to be large enough to push the contact surface back to the target surface and eliminate unwanted penetration or gap. In the same time, if the the contact force is too large, it pushes the contact surface far away from the pinball region causing error and solution instabilities.
+ The biggest challenge here is that the magnitude of the stiffness contact factors are completely unknown beforehand. The contact force at each node have to be large enough to push the contact surface back to the target surface and eliminate unwanted penetration or gap. In the same time, if the the contact force is too large, it pushes the contact surface far away from the pinball region causing error and solution instabilities.
 
 \section{Breast biomechanical model: overview}
 
-Biomechanical modelling of breast tissues is widely investigated for various medical applications such as surgical procedure training, pre-operative planning, diagnosis and clinical biopsy, image guided surgery, image registration, and material parameter estimation (Table \ref{table:mechanical_models_table}). For the last 20 years, several research groups have presented their breast models based on finite elements theory.  The complexity and relevance to breast anatomy of each model depend on the research purpose for which it was designed. 
+Biomechanical modelling of breast tissues has been widely investigated for various medical applications such as surgical procedure training, pre-operative planning, diagnosis and clinical biopsy, image guided surgery, image registration, and material parameter estimation (Table \ref{table:mechanical_models_table}). For the last 20 years, several research groups have presented their breast models based on finite elements modeling.  The complexity and relevance to breast anatomy of each model depend on the research purposes for which it was designed. 
  
-As described in Section \ref{section:continuousmechanics}, to build a mechanical breast model, one need to provide the breast geometry in a \textbf{reference configuration}, the \textbf{constitutive models} of tissues composing the breast volume and the \textbf{boundary conditions}. The definition of all variables has an significant impact on model accuracy.
+As described in Section \ref{section:continuousmechanics}, to build such a mechanical breast model, one need to provide the breast geometry in a \textbf{reference configuration}, the \textbf{constitutive models} of tissues composing the volume and the \textbf{boundary conditions}. The definition of all these variables has a significant impact on model accuracy.
 
 \subsection{Breast reference configuration} 
 
-A large number of existing patient specific models are using volumetric data from MR images \cite{carter_biomechanical_2009},\cite{kellner_simulation_2007}, \cite{conley_realization_2015} \cite{eiben_symmetric_2016}, \cite{martinez_finite_2017}  or CT images \cite{palomar_finite_2008},\cite{sturgeon_finite_element_2016} to compute the breast geometry. Acquired data represents deformed breast soft tissues due to in-vivo conditions, and therefore initial pre-stresses are included. Generally, for breast deformation simulations, the reference configuration is chosen to be the breast geometry in a stress-free configuration, without being deformed by any force, including gravity.
+A large number of existing patient specific models are using volumetric data from MR images \cite{carter_biomechanical_2009},\cite{kellner_simulation_2007}, \cite{conley_realization_2015} \cite{eiben_symmetric_2016}, \cite{martinez_finite_2017}  or CT images \cite{palomar_finite_2008},\cite{sturgeon_finite_element_2016} to design the breast geometry. During such exams, the acquired breast tissues are already deformed with deformation that significantly change breast geometries, for example if the patient is in a supine or in a prone position. Moreover, the deformed breast configurations include already the initial pre-stresses which are generally unknown and are extremely difficult to measure in clinical conditions. 
+ 
 
-The initial pre-stresses are generally unknown and it is extremely difficult to measure them in clinical conditions. The bibliography presents four different strategies allowing to estimate the breast reference configuration.
+To model the breast tissues deformation under gravity loading,  the reference state is chosen to be the breast geometry in a stress-free configuration, i.e. without being deformed by any force, including gravity. The breast stress-free geometry is practically impossible to measure, therefore several estimation methods have been proposed. The four most used ones are described bellow.
 
- \subsubsection*{Prone breast configuration}
- Considering existing image modalities, in a clinical framework woman breast is compressed only in a up-right or prone body position. Therefore, \cite{han_development_2012}, \cite{ruiter_model_based_2006} and \cite{sturgeon_finite_element_2016} have estimated breast compression starting from breast configuration in prone body position, neglecting tissues pre-stresses. This assumption is justified only for a breast compression simulation, as the gravity induced pre-stresses are negligible when compared to the compression induced stress. However, for a different framework, as a multi-loading simulation the latter assumption highly penalizes simulation results. 
+ 
+ 
   \subsubsection*{Inverse gravity}\label{subsubsection:inversegravity}
- \citep{palomar_finite_2008, sturgeon_finite_element_2016} used the inverse gravity method to estimate the stress-free geometry. In their work, the authors just reversed the gravity effects without consideration of pre-stresses of breast tissues in prone configuration. According to \cite{eiben_breast_2014} the inverse gravity methods gives a poor approximation of the breast reference state and can be used only with small deformations or highly constrained models.  
+ \citep{palomar_finite_2008, sturgeon_finite_element_2016} used the inverse gravity method to estimate the stress-free geometry from the prone position measured during the exam. In their work, the authors just reversed the gravity effects without considering th initial stresses already included in the breast prone configuration. According to \cite{eiben_breast_2014} the inverse gravity methods gives a poor approximation of the breast reference state and can be used only with small deformations or highly constrained models.  
 
  \subsubsection*{Breast neutral buoyancy configuration}
- Assuming that breast density is equal to water density, \cite{rajagopal_creating_2008} compute the breast stress-free configuration by imaging the breast immersed in water. Following the same physical assumptions, \cite{kuhlmann_mechanical_2013} proposed to estimate the stress-free configuration by applying a hydro-static distributed load on the breast surface in prone configuration. Even though the estimated geometries are accurate enough, these methods are time-consuming and in very uncomfortable in a clinical framework. 
+ Assuming that breast density is equal to water density, \cite{rajagopal_creating_2008} compute the breast stress-free configuration by imaging the breast immersed in water. Following the same physical assumptions, \cite{kuhlmann_mechanical_2013} proposed to estimate the stress-free configuration by applying a hydro-static distributed load on the breast surface collected in a prone configuration. Even though the estimated geometries are accurate enough, these methods are time-consuming and is difficult to transpose in a clinical framework. 
 
  \subsubsection*{Prediction-correction iterative algorithm}
- The prediction-correction method was first proposed by \citep{govindjee_computational_1998} and adapted later by \cite{carter_biomechanical_2009} and \cite{eiben_breast_2014}. The original method is based on the prediction-correction iterative scheme represented in Figure \ref{predictioncorectionalgo}. The first approximation of the breast reference configuration is estimates by a applying the inverse gravity method on prone breast configuration (see section \ref{subsubsection:inversegravity}).  Next, a numerical breast prone configuration is computed and compared to the corresponding measured one. The difference between the two geometries used to update the reference breast configuration. The process is repeated until the convergence is achieved. The methods were validated using the neutral buoyancy breast shape.
+ The prediction-correction iterative method was first proposed by \citep{govindjee_computational_1998} and adapted later by \cite{carter_biomechanical_2009} and \cite{eiben_breast_2014}. The original method is based on the prediction-correction iterative scheme represented in Figure \ref{predictioncorectionalgo}. The first approximation of the breast reference configuration is estimated by applying the inverse gravity method on the prone breast configuration (see above ).  Then, a numerical breast prone configuration is computed and compared to the corresponding measured one. The difference between the two prone geometries (The measured one and the simulated one) is used to update the reference breast configuration. The process is repeated until the convergence is achieved (i.e. then the difference is minimal). These methods were validated using the neutral buoyancy breast shape.
 
 \begin{figure}[!h]
 \centering

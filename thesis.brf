@@ -68,29 +68,30 @@
 \backcite {ogden_large_1972}{{35}{2.2.4}{equation.2.2.30}}
 \backcite {yeoh_characterization_1990}{{35}{2.2.4}{equation.2.2.31}}
 \backcite {belytschko_nonlinear_2013}{{37}{2.3.2}{subsection.2.3.2}}
-\backcite {carter_biomechanical_2009}{{45}{2.5.1}{subsection.2.5.1}}
-\backcite {kellner_simulation_2007}{{45}{2.5.1}{subsection.2.5.1}}
-\backcite {conley_realization_2015}{{45}{2.5.1}{subsection.2.5.1}}
-\backcite {eiben_symmetric_2016}{{45}{2.5.1}{subsection.2.5.1}}
-\backcite {martinez_finite_2017}{{45}{2.5.1}{subsection.2.5.1}}
-\backcite {palomar_finite_2008}{{45}{2.5.1}{subsection.2.5.1}}
-\backcite {sturgeon_finite_element_2016}{{45}{2.5.1}{subsection.2.5.1}}
+\backcite {ansys_theory_2009}{{38}{2.3.2}{figure.caption.24}}
+\backcite {carter_biomechanical_2009}{{46}{2.5.1}{subsection.2.5.1}}
+\backcite {kellner_simulation_2007}{{46}{2.5.1}{subsection.2.5.1}}
+\backcite {conley_realization_2015}{{46}{2.5.1}{subsection.2.5.1}}
+\backcite {eiben_symmetric_2016}{{46}{2.5.1}{subsection.2.5.1}}
+\backcite {martinez_finite_2017}{{46}{2.5.1}{subsection.2.5.1}}
+\backcite {palomar_finite_2008}{{46}{2.5.1}{subsection.2.5.1}}
+\backcite {sturgeon_finite_element_2016}{{46}{2.5.1}{subsection.2.5.1}}
 \backcite {han_development_2012}{{46}{2.5.1}{subsection.2.5.1}}
 \backcite {ruiter_model_based_2006}{{46}{2.5.1}{subsection.2.5.1}}
 \backcite {sturgeon_finite_element_2016}{{46}{2.5.1}{subsection.2.5.1}}
-\backcite {palomar_finite_2008}{{46}{2.5.1}{subsection.2.5.1}}
-\backcite {sturgeon_finite_element_2016}{{46}{2.5.1}{subsection.2.5.1}}
-\backcite {eiben_breast_2014}{{46}{2.5.1}{subsection.2.5.1}}
-\backcite {rajagopal_creating_2008}{{46}{2.5.1}{subsection.2.5.1}}
-\backcite {kuhlmann_mechanical_2013}{{46}{2.5.1}{subsection.2.5.1}}
-\backcite {govindjee_computational_1998}{{46}{2.5.1}{subsection.2.5.1}}
-\backcite {carter_biomechanical_2009}{{46}{2.5.1}{subsection.2.5.1}}
-\backcite {eiben_breast_2014}{{46}{2.5.1}{subsection.2.5.1}}
+\backcite {palomar_finite_2008}{{47}{2.5.1}{subsection.2.5.1}}
+\backcite {sturgeon_finite_element_2016}{{47}{2.5.1}{subsection.2.5.1}}
+\backcite {eiben_breast_2014}{{47}{2.5.1}{subsection.2.5.1}}
+\backcite {rajagopal_creating_2008}{{47}{2.5.1}{subsection.2.5.1}}
+\backcite {kuhlmann_mechanical_2013}{{47}{2.5.1}{subsection.2.5.1}}
+\backcite {govindjee_computational_1998}{{47}{2.5.1}{subsection.2.5.1}}
+\backcite {carter_biomechanical_2009}{{47}{2.5.1}{subsection.2.5.1}}
+\backcite {eiben_breast_2014}{{47}{2.5.1}{subsection.2.5.1}}
 \backcite {pathmanathan_predicting_2008}{{47}{2.5.1}{figure.caption.33}}
 \backcite {vavourakis_inverse_2016}{{47}{2.5.1}{figure.caption.33}}
 \backcite {eiben_breast_2014}{{47}{2.5.1}{figure.caption.33}}
-\backcite {wellman_breast_1999}{{47}{2.5.2}{subsection.2.5.2}}
-\backcite {tanner_factors_2006}{{47}{2.5.2}{subsection.2.5.2}}
+\backcite {wellman_breast_1999}{{48}{2.5.2}{subsection.2.5.2}}
+\backcite {tanner_factors_2006}{{48}{2.5.2}{subsection.2.5.2}}
 \backcite {azar_methods_2002}{{48}{2.5.2}{subsection.2.5.2}}
 \backcite {carter_biomechanical_2009}{{48}{2.5.2}{subsection.2.5.2}}
 \backcite {rajagopal_modeling_2010}{{48}{2.5.2}{subsection.2.5.2}}
@@ -104,27 +105,27 @@
 \backcite {martinez_finite_2017}{{48}{2.5.2}{subsection.2.5.2}}
 \backcite {eder_comparison_2014}{{48}{2.5.2}{subsection.2.5.2}}
 \backcite {rajagopal_creating_2008}{{48}{2.5.2}{subsection.2.5.2}}
-\backcite {krouskop_elastic_1998}{{48}{2.5.2}{subsection.2.5.2}}
-\backcite {han_development_2012}{{48}{2.5.2}{subsection.2.5.2}}
-\backcite {lorenzen_menstrual-cycle_2003}{{48}{2.5.2}{subsection.2.5.2}}
-\backcite {carter_biomechanical_2009}{{48}{2.5.2}{table.caption.34}}
-\backcite {eder_comparison_2014}{{48}{2.5.2}{table.caption.34}}
-\backcite {krouskop_elastic_1998}{{49}{\caption@xref {??}{ on input line 687}}{table.caption.34}}
-\backcite {krouskop_elastic_1998}{{49}{\caption@xref {??}{ on input line 688}}{table.caption.34}}
-\backcite {wellman_breast_1999}{{49}{\caption@xref {??}{ on input line 689}}{table.caption.34}}
-\backcite {wellman_breast_1999}{{49}{\caption@xref {??}{ on input line 690}}{table.caption.34}}
-\backcite {samani_method_2004}{{49}{\caption@xref {??}{ on input line 691}}{table.caption.34}}
-\backcite {van_initial_2003}{{49}{\caption@xref {??}{ on input line 693}}{table.caption.34}}
-\backcite {sinkus_viscoelastic_2005}{{49}{\caption@xref {??}{ on input line 694}}{table.caption.34}}
-\backcite {rajagopal_creating_2008}{{49}{\caption@xref {??}{ on input line 695}}{table.caption.34}}
-\backcite {carter_determining_2009}{{49}{\caption@xref {??}{ on input line 696}}{table.caption.34}}
-\backcite {han_development_2012}{{49}{\caption@xref {??}{ on input line 697}}{table.caption.34}}
-\backcite {gamage_modelling_2012}{{49}{\caption@xref {??}{ on input line 698}}{table.caption.34}}
-\backcite {griesenauer_breast_2017}{{49}{\caption@xref {??}{ on input line 699}}{table.caption.34}}
+\backcite {krouskop_elastic_1998}{{49}{2.5.2}{subsection.2.5.2}}
+\backcite {han_development_2012}{{49}{2.5.2}{subsection.2.5.2}}
+\backcite {lorenzen_menstrual-cycle_2003}{{49}{2.5.2}{subsection.2.5.2}}
+\backcite {carter_biomechanical_2009}{{49}{2.5.2}{table.caption.34}}
+\backcite {eder_comparison_2014}{{49}{2.5.2}{table.caption.34}}
 \backcite {rajagopal_creating_2008}{{49}{2.5.2}{table.caption.34}}
 \backcite {nordez_muscle_2010}{{49}{2.5.2}{table.caption.34}}
 \backcite {zajac_muscle_1989}{{49}{2.5.2}{table.caption.34}}
 \backcite {feldman_once_1986}{{49}{2.5.2}{table.caption.34}}
+\backcite {krouskop_elastic_1998}{{50}{\caption@xref {??}{ on input line 693}}{table.caption.34}}
+\backcite {krouskop_elastic_1998}{{50}{\caption@xref {??}{ on input line 694}}{table.caption.34}}
+\backcite {wellman_breast_1999}{{50}{\caption@xref {??}{ on input line 695}}{table.caption.34}}
+\backcite {wellman_breast_1999}{{50}{\caption@xref {??}{ on input line 696}}{table.caption.34}}
+\backcite {samani_method_2004}{{50}{\caption@xref {??}{ on input line 697}}{table.caption.34}}
+\backcite {van_initial_2003}{{50}{\caption@xref {??}{ on input line 699}}{table.caption.34}}
+\backcite {sinkus_viscoelastic_2005}{{50}{\caption@xref {??}{ on input line 700}}{table.caption.34}}
+\backcite {rajagopal_creating_2008}{{50}{\caption@xref {??}{ on input line 701}}{table.caption.34}}
+\backcite {carter_determining_2009}{{50}{\caption@xref {??}{ on input line 702}}{table.caption.34}}
+\backcite {han_development_2012}{{50}{\caption@xref {??}{ on input line 703}}{table.caption.34}}
+\backcite {gamage_modelling_2012}{{50}{\caption@xref {??}{ on input line 704}}{table.caption.34}}
+\backcite {griesenauer_breast_2017}{{50}{\caption@xref {??}{ on input line 705}}{table.caption.34}}
 \backcite {abbas_biomechanical_2001}{{50}{2.5.2}{table.caption.34}}
 \backcite {chung_modelling_2008}{{50}{2.5.2}{table.caption.34}}
 \backcite {rajagopal_mapping_2010}{{50}{2.5.2}{table.caption.34}}
@@ -132,68 +133,68 @@
 \backcite {georgii_simulation_2016}{{50}{2.5.2}{table.caption.34}}
 \backcite {lima_eassessment_2018}{{50}{2.5.2}{table.caption.34}}
 \backcite {leong_quantitative_2013}{{50}{2.5.2}{table.caption.34}}
-\backcite {carter_biomechanical_2009}{{50}{2.5.2}{table.caption.34}}
-\backcite {sutradhar_vivo_2013}{{50}{2.5.2}{table.caption.34}}
-\backcite {hendriks_relative_2006}{{50}{2.5.2}{table.caption.34}}
-\backcite {carter_determining_2009}{{50}{2.5.2}{table.caption.34}}
-\backcite {han_nonlinear_2014}{{50}{2.5.2}{table.caption.34}}
-\backcite {azar_methods_2002}{{50}{2.5.2}{table.caption.34}}
-\backcite {pathmanathan_predicting_2008}{{50}{2.5.2}{table.caption.34}}
-\backcite {han_development_2012}{{50}{2.5.2}{table.caption.34}}
+\backcite {carter_biomechanical_2009}{{51}{2.5.2}{table.caption.34}}
+\backcite {sutradhar_vivo_2013}{{51}{2.5.2}{table.caption.34}}
+\backcite {hendriks_relative_2006}{{51}{2.5.2}{table.caption.34}}
+\backcite {carter_determining_2009}{{51}{2.5.2}{table.caption.34}}
+\backcite {han_nonlinear_2014}{{51}{2.5.2}{table.caption.34}}
+\backcite {azar_methods_2002}{{51}{2.5.2}{table.caption.34}}
+\backcite {pathmanathan_predicting_2008}{{51}{2.5.2}{table.caption.34}}
+\backcite {han_development_2012}{{51}{2.5.2}{table.caption.34}}
 \backcite {georgii_simulation_2016}{{51}{2.5.2}{table.caption.34}}
 \backcite {gefen_mechanics_2007}{{51}{2.5.2}{table.caption.34}}
-\backcite {riggio_anatomical_2000}{{51}{2.5.2}{table.caption.34}}
-\backcite {wenger_mechanical_2007}{{51}{2.5.2}{table.caption.34}}
-\backcite {cheung_effects_2004}{{51}{2.5.2}{table.caption.34}}
-\backcite {kongsgaard_mechanical_2011}{{51}{2.5.2}{table.caption.34}}
-\backcite {griesenauer_breast_2017}{{51}{2.5.3}{subsection.2.5.3}}
-\backcite {rajagopal_creating_2008}{{51}{2.5.3}{subsection.2.5.3}}
-\backcite {pathmanathan_predicting_2008}{{51}{2.5.3}{subsection.2.5.3}}
-\backcite {gamage_modelling_2012}{{51}{2.5.3}{subsection.2.5.3}}
-\backcite {griesenauer_breast_2017}{{51}{2.5.3}{subsection.2.5.3}}
-\backcite {carter_biomechanical_2009}{{51}{2.5.3}{subsection.2.5.3}}
-\backcite {georgii_simulation_2016}{{51}{2.5.3}{subsection.2.5.3}}
-\backcite {han_nonlinear_2014}{{51}{2.5.3}{subsection.2.5.3}}
-\backcite {sturgeon_finite_element_2016}{{51}{2.5.3}{subsection.2.5.3}}
-\backcite {martinez_finite_2017}{{51}{2.5.3}{subsection.2.5.3}}
-\backcite {carter_biomechanical_2009}{{51}{2.5.4}{subsection.2.5.4}}
-\backcite {gamage_modelling_2012}{{51}{2.5.4}{subsection.2.5.4}}
-\backcite {han_nonlinear_2014}{{51}{2.5.4}{subsection.2.5.4}}
+\backcite {riggio_anatomical_2000}{{52}{2.5.2}{table.caption.34}}
+\backcite {wenger_mechanical_2007}{{52}{2.5.2}{table.caption.34}}
+\backcite {cheung_effects_2004}{{52}{2.5.2}{table.caption.34}}
+\backcite {kongsgaard_mechanical_2011}{{52}{2.5.2}{table.caption.34}}
+\backcite {griesenauer_breast_2017}{{52}{2.5.3}{subsection.2.5.3}}
+\backcite {rajagopal_creating_2008}{{52}{2.5.3}{subsection.2.5.3}}
+\backcite {pathmanathan_predicting_2008}{{52}{2.5.3}{subsection.2.5.3}}
+\backcite {gamage_modelling_2012}{{52}{2.5.3}{subsection.2.5.3}}
+\backcite {griesenauer_breast_2017}{{52}{2.5.3}{subsection.2.5.3}}
+\backcite {carter_biomechanical_2009}{{52}{2.5.3}{subsection.2.5.3}}
+\backcite {georgii_simulation_2016}{{52}{2.5.3}{subsection.2.5.3}}
+\backcite {han_nonlinear_2014}{{52}{2.5.3}{subsection.2.5.3}}
+\backcite {sturgeon_finite_element_2016}{{52}{2.5.3}{subsection.2.5.3}}
+\backcite {martinez_finite_2017}{{52}{2.5.3}{subsection.2.5.3}}
+\backcite {carter_biomechanical_2009}{{52}{2.5.4}{subsection.2.5.4}}
+\backcite {gamage_modelling_2012}{{52}{2.5.4}{subsection.2.5.4}}
+\backcite {han_nonlinear_2014}{{52}{2.5.4}{subsection.2.5.4}}
 \backcite {eiben_surface_2016}{{52}{2.5.4}{subsection.2.5.4}}
 \backcite {han_nonlinear_2014}{{52}{2.5.4}{subsection.2.5.4}}
 \backcite {gamage_modelling_2012}{{52}{2.5.4}{subsection.2.5.4}}
 \backcite {gamage_modelling_2012}{{52}{2.5.4}{subsection.2.5.4}}
-\backcite {han_nonlinear_2014}{{52}{2.5.4}{subsection.2.5.4}}
-\backcite {eiben_surface_2016}{{52}{2.5.4}{subsection.2.5.4}}
-\backcite {azar_methods_2002}{{53}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
-\backcite {rajagopal_modelling_2007}{{53}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
-\backcite {pathmanathan_predicting_2008}{{53}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
-\backcite {han_nonlinear_2014}{{53}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
-\backcite {gamage_modelling_2012}{{53}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
-\backcite {patete_multi_2013}{{53}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
-\backcite {kuhlmann_mechanical_2013}{{53}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
-\backcite {georgii_simulation_2016}{{53}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
-\backcite {eiben_surface_2016}{{53}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
-\backcite {garcia_mapping_2017}{{53}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
-\backcite {ruiter_model_based_2006}{{60}{3.3}{section.3.3}}
-\backcite {gamage_modelling_2012}{{60}{3.3}{section.3.3}}
-\backcite {han_nonlinear_2014}{{60}{3.3}{section.3.3}}
-\backcite {palomar_finite_2008}{{60}{3.3}{section.3.3}}
-\backcite {griesenauer_breast_2017}{{60}{3.3}{section.3.3}}
-\backcite {fung_classical_2017}{{60}{3.3}{section.3.3}}
-\backcite {rohan_finite_2014}{{60}{3.3}{section.3.3}}
-\backcite {bucki_fast_2010}{{61}{3.4}{figure.caption.44}}
-\backcite {carter_application_2012}{{62}{3.5}{figure.caption.45}}
-\backcite {han_nonlinear_2014}{{62}{3.5}{figure.caption.45}}
-\backcite {mugea2014aesthetic}{{62}{3.5}{figure.caption.45}}
-\backcite {clemente2011anatomy}{{62}{3.5}{figure.caption.45}}
-\backcite {fung_biomechanics_2013}{{65}{3.6.1}{subsection.3.6.1}}
-\backcite {hopp_automatic_2013}{{65}{3.6.1}{subsection.3.6.1}}
-\backcite {gamage_modelling_2012}{{65}{3.6.1}{subsection.3.6.1}}
-\backcite {calvo_polynomial_2015}{{67}{3.6.1}{figure.caption.49}}
-\backcite {sutradhar_vivo_2013}{{72}{4.3}{section.4.3}}
-\backcite {kaliske_finite_1997}{{73}{4.3}{figure.caption.53}}
-\backcite {gent_new_1996}{{73}{4.3}{figure.caption.53}}
+\backcite {han_nonlinear_2014}{{53}{2.5.4}{subsection.2.5.4}}
+\backcite {eiben_surface_2016}{{53}{2.5.4}{subsection.2.5.4}}
+\backcite {azar_methods_2002}{{54}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
+\backcite {rajagopal_modelling_2007}{{54}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
+\backcite {pathmanathan_predicting_2008}{{54}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
+\backcite {han_nonlinear_2014}{{54}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
+\backcite {gamage_modelling_2012}{{54}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
+\backcite {patete_multi_2013}{{54}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
+\backcite {kuhlmann_mechanical_2013}{{54}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
+\backcite {georgii_simulation_2016}{{54}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
+\backcite {eiben_surface_2016}{{54}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
+\backcite {garcia_mapping_2017}{{54}{\caption@xref {??}{ on input line 31}}{table.caption.35}}
+\backcite {ruiter_model_based_2006}{{61}{3.3}{section.3.3}}
+\backcite {gamage_modelling_2012}{{61}{3.3}{section.3.3}}
+\backcite {han_nonlinear_2014}{{61}{3.3}{section.3.3}}
+\backcite {palomar_finite_2008}{{61}{3.3}{section.3.3}}
+\backcite {griesenauer_breast_2017}{{61}{3.3}{section.3.3}}
+\backcite {fung_classical_2017}{{61}{3.3}{section.3.3}}
+\backcite {rohan_finite_2014}{{61}{3.3}{section.3.3}}
+\backcite {bucki_fast_2010}{{62}{3.4}{figure.caption.44}}
+\backcite {carter_application_2012}{{63}{3.5}{figure.caption.45}}
+\backcite {han_nonlinear_2014}{{63}{3.5}{figure.caption.45}}
+\backcite {mugea2014aesthetic}{{63}{3.5}{figure.caption.45}}
+\backcite {clemente2011anatomy}{{63}{3.5}{figure.caption.45}}
+\backcite {fung_biomechanics_2013}{{66}{3.6.1}{subsection.3.6.1}}
+\backcite {hopp_automatic_2013}{{66}{3.6.1}{subsection.3.6.1}}
+\backcite {gamage_modelling_2012}{{66}{3.6.1}{subsection.3.6.1}}
+\backcite {calvo_polynomial_2015}{{68}{3.6.1}{figure.caption.49}}
+\backcite {sutradhar_vivo_2013}{{73}{4.3}{section.4.3}}
+\backcite {kaliske_finite_1997}{{74}{4.3}{figure.caption.53}}
+\backcite {gent_new_1996}{{74}{4.3}{figure.caption.53}}
 \backcite {groot_towards_2015}{{79}{5.2.1}{subsection.5.2.1}}
 \backcite {de_pain_2015}{{80}{5.2.2}{subsection.5.2.2}}
 \backcite {groot_towards_2015}{{80}{5.2}{figure.caption.55}}

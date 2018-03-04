@@ -1,4 +1,4 @@
-\select@language {british}
+\babel@toc {british}{}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Breast embryogenesis: embryonic evolution of duct system. The epidermis is responsible for the creation of ductal system and alveoli, the dermis mesenchyme is responsible for the creation of connective tissue and vessels}}{11}{figure.caption.10}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Breast development sequence into subcutaneous tissues. A Mammary bud development by splitting the superficial fascia in 2 layers. B Mammary bud development by superficial fascia retracting}}{12}{figure.caption.11}
@@ -15,30 +15,30 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces a) Discretization of a 2D domain with triangular finite elements :Lagrangian mesh . b) Different types of finite elements\relax }}{38}{figure.caption.24}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Computation of the aspect ratio for a triangle\relax }}{39}{figure.caption.25}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Example of triangles with different maximal corner angles.\relax }}{39}{figure.caption.26}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Example of triangles with different skewness.\relax }}{40}{figure.caption.27}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Example of triangles with different skewness with the corresponding circum radius.\relax }}{40}{figure.caption.27}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Multi-body contact problem.\relax }}{41}{figure.caption.28}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Contact status update using a pinball of radius r.\relax }}{43}{figure.caption.30}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Contact status update using a pinball of radius r.\relax }}{44}{figure.caption.30}
 \contentsline {figure}{\numberline {2.13}{\ignorespaces a) Body $\mathcal {A}$ and body $\mathcal {B}$ are close but not in contact. The $d_1(x_B,\mathcal {A})$ measure define the gap between the bodies at point $x_B$. b) Body $\mathcal {B}$ have penetrated the body $\mathcal {A}$. The $d_1(x_B,\mathcal {A})$ measure gives the penetration at point $x_B$.\relax }}{44}{figure.caption.31}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces The contact surface projection over the target surface: a) Target discretized area; b) contact discretized area; c) intersection of the projected surfaces.\relax }}{44}{figure.caption.32}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Prediction-correction algorithm\relax }}{47}{figure.caption.33}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces The contact surface projection over the target surface: a) Target discretized area; b) contact discretized area; c) intersection of the projected surfaces.\relax }}{45}{figure.caption.32}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Prediction-correction algorithm\relax }}{48}{figure.caption.33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces MRI images in three breast configuration: first line- subject 1; second line- subject 2\relax }}{55}{figure.caption.36}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Breast tissues segmentation on the breast MRI of the second subject. Prone breast configuration. White-voxel belongs to breast tissue; blue - voxel don't belongs to fatty tissue\relax }}{56}{figure.caption.38}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Registered MRI images: first line- subject 1; second line- subject 2; first column - prone configuration versus supine; second column - supine tilted versus supine \relax }}{58}{figure.caption.39}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Anatomical planes and nominal Cartesian axis directions.\relax }}{59}{figure.caption.40}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces 3D geometries generation. a) MR images; b) segmeted image; c) corresponding 3D geometries\relax }}{59}{figure.caption.41}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Finite elements mesh quality.\relax }}{60}{figure.caption.42}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Finite elements mesh components. The tissues components are cropped for visualization purposes.\relax }}{61}{figure.caption.43}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Fixed point type iterative algorithm for stress-free geometry approximation. $D_i$ - mean node to node distance over the active nodes at iteration $i$, $G$ - gravity force\relax }}{62}{figure.caption.44}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Finite elements mesh boundaries\relax }}{63}{figure.caption.45}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Tissues acumulation on the sternum line with excessive sliding\relax }}{64}{figure.caption.46}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Components of the finite elements mesh.\relax }}{64}{figure.caption.47}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Process to estimate optimal material parameters\relax }}{66}{figure.caption.48}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Process to estimate optimal material parameters\relax }}{66}{figure.caption.49}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces First column: relation between maximal and mean nodes displacement and the equivalent Young's modulus variation for different tissues. Second column: rate and cumulative change rate of node displacement in function of quivalent Young's modulus\relax }}{68}{figure.caption.51}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Hausdorff distance on the skin surface over the constitutive parameters space\relax }}{69}{figure.caption.52}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces MRI images in three breast configuration: first line- subject 1; second line- subject 2\relax }}{56}{figure.caption.36}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Breast tissues segmentation on the breast MRI of the second subject. Prone breast configuration. White-voxel belongs to breast tissue; blue - voxel don't belongs to fatty tissue\relax }}{57}{figure.caption.38}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Registered MRI images: first line- subject 1; second line- subject 2; first column - prone configuration versus supine; second column - supine tilted versus supine \relax }}{59}{figure.caption.39}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Anatomical planes and nominal Cartesian axis directions.\relax }}{60}{figure.caption.40}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 3D geometries generation. a) MR images; b) segmeted image; c) corresponding 3D geometries\relax }}{60}{figure.caption.41}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Finite elements mesh quality.\relax }}{61}{figure.caption.42}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Finite elements mesh components. The tissues components are cropped for visualization purposes.\relax }}{62}{figure.caption.43}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Fixed point type iterative algorithm for stress-free geometry approximation. $D_i$ - mean node to node distance over the active nodes at iteration $i$, $G$ - gravity force\relax }}{63}{figure.caption.44}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Finite elements mesh boundaries\relax }}{64}{figure.caption.45}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Tissues acumulation on the sternum line with excessive sliding\relax }}{65}{figure.caption.46}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Components of the finite elements mesh.\relax }}{65}{figure.caption.47}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Process to estimate optimal material parameters\relax }}{67}{figure.caption.48}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Process to estimate optimal material parameters\relax }}{67}{figure.caption.49}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces First column: relation between maximal and mean nodes displacement and the equivalent Young's modulus variation for different tissues. Second column: rate and cumulative change rate of node displacement in function of quivalent Young's modulus\relax }}{69}{figure.caption.51}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Hausdorff distance on the skin surface over the constitutive parameters space\relax }}{70}{figure.caption.52}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Three breast configurations: prone, supine and supine tilted. First line - MR images in 3 breast configurations. Second and third lines - point to node distance from simulated breast shape (surface mesh) to the measured one (black grid lines).\relax }}{73}{figure.caption.53}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Three breast configurations: prone, supine and supine tilted. First line - MR images in 3 breast configurations. Second and third lines - point to node distance from simulated breast shape (surface mesh) to the measured one (black grid lines).\relax }}{74}{figure.caption.53}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces left: cranio-caudal breast compression; righ - mediolateral oblique breast compression \relax }}{79}{figure.caption.54}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces A typeical breast compression cycle. Reproduced from \cite {groot_towards_2015}\relax }}{80}{figure.caption.55}

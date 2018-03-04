@@ -1,4 +1,4 @@
-\select@language {british}
+\babel@toc {british}{}
 \contentsline {chapter}{Contents}{{\fontencoding {OT1}\selectfont iii}}{chapter*.1}
 \contentsline {chapter}{List of Figures}{{\fontencoding {OT1}\selectfont vii}}{chapter*.2}
 \contentsline {chapter}{List of Tables}{{\fontencoding {OT1}\selectfont xi}}{chapter*.3}
@@ -37,33 +37,33 @@
 \contentsline {subsection}{\numberline {2.3.1}Eulerian and Lagrangian mesh description}{36}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Lagrangian mesh}{37}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}Contact mechanics}{40}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Contact inteface equations}{40}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}Contact inteface equations}{41}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Surface interaction models}{42}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Contact formulation algorithm: Pure Penalty model}{43}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}Breast biomechanical model: overview}{45}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Breast reference configuration}{45}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Constitutive models}{47}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Boundary conditions}{51}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}Conclusion}{51}{subsection.2.5.4}
-\contentsline {chapter}{\numberline {3}A new biomechanical breast model}{54}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{54}{section.3.1}
-\contentsline {section}{\numberline {3.2}Geometry extraction}{55}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Data acquisition}{55}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Image segmentation}{56}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Image registration}{57}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Patient-specific 3D geometry}{57}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3} Finite Elements Mesh}{59}{section.3.3}
-\contentsline {section}{\numberline {3.4}Breast stress-free geometry}{61}{section.3.4}
-\contentsline {section}{\numberline {3.5}Boundary conditions}{62}{section.3.5}
-\contentsline {section}{\numberline {3.6}Materials constitutive models}{65}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Model simplification}{65}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Estimation of optimal constitutive parameters}{68}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Conclusion}{70}{subsection.3.6.3}
-\contentsline {chapter}{\numberline {4}Model validation}{71}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{71}{section.4.1}
-\contentsline {section}{\numberline {4.2}Technical approach}{72}{section.4.2}
-\contentsline {section}{\numberline {4.3}Results}{72}{section.4.3}
-\contentsline {section}{\numberline {4.4}Discussions and conclusion}{74}{section.4.4}
+\contentsline {section}{\numberline {2.5}Breast biomechanical model: overview}{46}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Breast reference configuration}{46}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Constitutive models}{48}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Boundary conditions}{52}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}Conclusion}{52}{subsection.2.5.4}
+\contentsline {chapter}{\numberline {3}A new biomechanical breast model}{55}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{55}{section.3.1}
+\contentsline {section}{\numberline {3.2}Geometry extraction}{56}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Data acquisition}{56}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Image segmentation}{57}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Image registration}{58}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Patient-specific 3D geometry}{58}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3} Finite Elements Mesh}{60}{section.3.3}
+\contentsline {section}{\numberline {3.4}Breast reference configuration}{62}{section.3.4}
+\contentsline {section}{\numberline {3.5}Boundary conditions}{63}{section.3.5}
+\contentsline {section}{\numberline {3.6}Materials constitutive models}{66}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Model simplification}{66}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Estimation of optimal constitutive parameters}{69}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Conclusion}{71}{subsection.3.6.3}
+\contentsline {chapter}{\numberline {4}Model validation}{72}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{72}{section.4.1}
+\contentsline {section}{\numberline {4.2}Technical approach}{73}{section.4.2}
+\contentsline {section}{\numberline {4.3}Results}{73}{section.4.3}
+\contentsline {section}{\numberline {4.4}Discussions and conclusion}{75}{section.4.4}
 \contentsline {part}{{\fontencoding {OT1}\selectfont IV}\hspace {1em}Breast Compression: a comparative study}{77}{part.4}
 \contentsline {chapter}{\numberline {5} Background }{78}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction }{78}{section.5.1}
