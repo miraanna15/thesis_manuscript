@@ -1,14 +1,14 @@
-\babel@toc {british}{}
+\select@language {british}
 \contentsline {chapter}{Contents}{{\fontencoding {OT1}\selectfont iii}}{chapter*.1}
 \contentsline {chapter}{List of Figures}{{\fontencoding {OT1}\selectfont vii}}{chapter*.2}
 \contentsline {chapter}{List of Tables}{{\fontencoding {OT1}\selectfont xi}}{chapter*.3}
 \contentsline {part}{{\fontencoding {OT1}\selectfont I}\hspace {1em}Introduction}{1}{part.1}
-\contentsline {chapter}{General Problem statement}{2}{chapter*.4}
-\contentsline {chapter}{Technical approach}{3}{chapter*.5}
-\contentsline {chapter}{Thesis overview}{4}{chapter*.6}
-\contentsline {chapter}{Key contributions}{5}{chapter*.7}
-\contentsline {chapter}{Software}{6}{chapter*.8}
-\contentsline {chapter}{Ethics}{7}{chapter*.9}
+\contentsline {chapter}{General Problem statement}{2}{chapter*.5}
+\contentsline {chapter}{Technical approach}{3}{chapter*.6}
+\contentsline {chapter}{Thesis overview}{4}{chapter*.7}
+\contentsline {chapter}{Key contributions}{5}{chapter*.8}
+\contentsline {chapter}{Software}{6}{chapter*.9}
+\contentsline {chapter}{Ethics}{7}{chapter*.10}
 \contentsline {part}{{\fontencoding {OT1}\selectfont II}\hspace {1em}Background}{9}{part.2}
 \contentsline {chapter}{\numberline {1} Clinical background}{10}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction}{10}{section.1.1}
@@ -51,14 +51,14 @@
 \contentsline {subsection}{\numberline {3.2.1}Data acquisition}{56}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Image segmentation}{57}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Image registration}{58}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Patient-specific 3D geometry}{58}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.4}Patient-specific 3D geometry}{59}{subsection.3.2.4}
 \contentsline {section}{\numberline {3.3} Finite Elements Mesh}{60}{section.3.3}
-\contentsline {section}{\numberline {3.4}Breast reference configuration}{62}{section.3.4}
+\contentsline {section}{\numberline {3.4}Breast reference configuration}{61}{section.3.4}
 \contentsline {section}{\numberline {3.5}Boundary conditions}{63}{section.3.5}
-\contentsline {section}{\numberline {3.6}Materials constitutive models}{66}{section.3.6}
+\contentsline {section}{\numberline {3.6}Materials constitutive models}{65}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Model simplification}{66}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Estimation of optimal constitutive parameters}{69}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Conclusion}{71}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.2}Estimation of optimal constitutive parameters}{68}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Conclusion}{69}{subsection.3.6.3}
 \contentsline {chapter}{\numberline {4}Model validation}{72}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{72}{section.4.1}
 \contentsline {section}{\numberline {4.2}Technical approach}{73}{section.4.2}
@@ -73,17 +73,17 @@
 \contentsline {subsection}{\numberline {5.2.3}Compression paddle designs}{81}{subsection.5.2.3}
 \contentsline {section}{\numberline {5.3}Pain and discomfort}{82}{section.5.3}
 \contentsline {section}{\numberline {5.4}Image quality and average glandular dose}{82}{section.5.4}
-\contentsline {section}{\numberline {5.5}Discussions and Conclusion}{82}{section.5.5}
+\contentsline {section}{\numberline {5.5}Conclusion}{82}{section.5.5}
 \contentsline {chapter}{\numberline {6}Breast compression quality evaluation}{83}{chapter.6}
 \contentsline {section}{\numberline {6.1}Breast compression simulation}{83}{section.6.1}
 \contentsline {section}{\numberline {6.2}Image acquisition simulation }{83}{section.6.2}
 \contentsline {section}{\numberline {6.3}Compresure quality metrics}{83}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Patient comfort}{83}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Image quality }{83}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.2}Image quality }{84}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3} Average glandular dose}{84}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Results}{84}{section.6.4}
-\contentsline {section}{\numberline {6.5}Discussions and conclusion}{89}{section.6.5}
+\contentsline {section}{\numberline {6.4}Results}{85}{section.6.4}
+\contentsline {section}{\numberline {6.5}Discussions and conclusion}{90}{section.6.5}
 \contentsline {part}{{\fontencoding {OT1}\selectfont V}\hspace {1em}Thesis review}{91}{part.5}
-\contentsline {chapter}{Conclusion}{92}{chapter*.63}
-\contentsline {chapter}{Perspective}{93}{chapter*.64}
-\contentsline {chapter}{Bibliography}{94}{chapter*.65}
+\contentsline {chapter}{Conclusion}{92}{chapter*.64}
+\contentsline {chapter}{Perspective}{93}{chapter*.65}
+\contentsline {chapter}{Bibliography}{94}{chapter*.66}

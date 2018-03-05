@@ -1,0 +1,71 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{$\lambda$}]\begingroup Young's moduli\nomeqref {2.27}
+		\nompageref{33}
+  \item [{$\mathcal{B}$}]\begingroup Body\nomeqref {2.0}\nompageref{25}
+  \item [{$\mu$}]\begingroup shear moduli\nomeqref {2.27}
+		\nompageref{34}
+  \item [{$\nu$}]\begingroup Poisson ratio\nomeqref {2.27}
+		\nompageref{34}
+  \item [{$\Omega$}]\begingroup Domain occupied by the body\nomeqref {2.0}
+		\nompageref{25}
+  \item [{$\Omega_0$}]\begingroup Reference body configuration \nomeqref {2.0}
+		\nompageref{25}
+  \item [{$\Omega_1$}]\begingroup Current or analyzed body configuration \nomeqref {2.0}
+		\nompageref{25}
+  \item [{$E_{xx}$}]\begingroup Youngs's moduli of the material $xx$\nomeqref {3.0}
+		\nompageref{66}
+  \item [{$E_{xx}^{l/r}$}]\begingroup Young's modulus of the material xx for the left/right breast\nomeqref {3.0}
+		\nompageref{68}
+  \item [{$F$}]\begingroup Deformation gradient\nomeqref {2.2}
+		\nompageref{27}
+  \item [{$J$}]\begingroup Jacobian determinant of the deformation gradient tensor\nomeqref {2.5}
+		\nompageref{27}
+  \item [{$l$}]\begingroup body stretch\nomeqref {2.6}\nompageref{27}
+  \item [{$m$}]\begingroup Body mass\nomeqref {2.2}\nompageref{26}
+  \item [{$p$}]\begingroup Particle or material point\nomeqref {2.0}
+		\nompageref{25}
+  \item [{$u$}]\begingroup Particle displacement\nomeqref {2.1}
+		\nompageref{25}
+  \item [{$X$}]\begingroup Point position on the reference configuration\nomeqref {2.0}
+		\nompageref{25}
+  \item [{$x$}]\begingroup Point position on the current configuration\nomeqref {2.0}
+		\nompageref{25}
+  \item [{AGD}]\begingroup Average Glandular Dose\nomeqref {1.0}
+		\nompageref{22}
+  \item [{CC}]\begingroup Cranial-Caudal view\nomeqref {1.0}
+		\nompageref{20}
+  \item [{FDA}]\begingroup Food and Drug Administration \nomeqref {1.0}
+		\nompageref{19}
+  \item [{FE}]\begingroup Finite Element\nomeqref {1.0}\nompageref{22}
+  \item [{FFDM}]\begingroup Full Field Digital Mammography\nomeqref {1.0}
+		\nompageref{19}
+  \item [{GBM}]\begingroup generalized momentum balance\nomeqref {2.32}
+		\nompageref{35}
+  \item [{ILC}]\begingroup Invasive lobular carcinoma\nomeqref {1.0}
+		\nompageref{18}
+  \item [{IQ}]\begingroup Image Quality\nomeqref {1.0}\nompageref{22}
+  \item [{K}]\begingroup Bulk moduli\nomeqref {2.27}\nompageref{34}
+  \item [{LIQ}]\begingroup Lower Inner Quadrant\nomeqref {1.0}
+		\nompageref{12}
+  \item [{LOQ}]\begingroup Lower Outer Quadrant\nomeqref {1.0}
+		\nompageref{12}
+  \item [{MLO}]\begingroup Mediolateral-Oblique view\nomeqref {1.0}
+		\nompageref{20}
+  \item [{MRI}]\begingroup Magnetic Resonance Imaging\nomeqref {1.0}
+		\nompageref{19}
+  \item [{PDE}]\begingroup partial differential equations\nomeqref {2.32}
+		\nompageref{36}
+  \item [{RF}]\begingroup  Radio-Frequency waves\nomeqref {1.0}
+		\nompageref{21}
+  \item [{SWE}]\begingroup Shear-Wave Elastography\nomeqref {1.0}
+		\nompageref{21}
+  \item [{UIQ}]\begingroup Upper Inner Quadrant\nomeqref {1.0}
+		\nompageref{12}
+  \item [{UOQ}]\begingroup Upper Outer Quadrant\nomeqref {1.0}
+		\nompageref{12}
+  \item [{US}]\begingroup Ultrasound\nomeqref {1.0}\nompageref{19}
+
+\end{thenomenclature}

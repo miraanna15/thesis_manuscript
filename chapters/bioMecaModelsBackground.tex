@@ -1,9 +1,9 @@
 \section{Introduction}\label{section:introductionbiomecamodelsbackground}
 
 
-Finite elements models are widely used to estimate body parts deformation udder predefined boundary conditions. Several biomechanical models of the breast were recently developed providing physics-based predictions of tissue motion and internal stress and strain intensity.  In our work, we assume that the strain intensity obtained during the tissues deformation may by correlated with the patient discomfort. Thus, a biomechanical model obtained from the patient's MRI volume can be subsequently used to mimic breast compression during the mammographic acquisition. The resulting tissues strain cartography can by used as a first quantification of the patient inconfort.
+Finite elements models are widely used to estimate body parts deformation udder predefined boundary conditions. Several biomechanical models of the breast were recently developed providing physics-based predictions of tissue motion and internal stress and strain intensity.  In our work, we assume that the strain intensity obtained during the tissues deformation may by correlated with the patient discomfort. Thus, a biomechanical model obtained from the patient's MRI volume can be subsequently used to mimic breast compression during the mammographic acquisition. The resulting tissues strain cartography can be used as a first quantification of the patient inconfort.
 
-This chapter provide theoretical background on continuous mechanic theory applied to soft tissues modeling. The principle of finite elements theory are defined including solid bodies and contact mechanics. An review of the existing biomechanical breast model is given describing the main challenges in the field and the proposed solution. These works proved the core foundation for the next developed patient specific breast model. 
+This chapter provide theoretical background on continuous mechanic theory applied to soft tissues modeling. The principle of finite elements theory is defined including solid bodies and contact mechanics. A review of the existing biomechanical breast model is given describing the main challenges in the field and the proposed solution. These works proved the core foundation for the next developed patient specific breast model. 
       
 \clearpage
 \section{Continuous mechanics}
@@ -12,9 +12,9 @@ Continuum mechanics is a branch of mechanics that deals with the analysis of the
 
 In this section the continuous mechanis theory applied to solids bodys was discribed using the following sources: \cite{belytschko_nonlinear_2013,abeyaratne_continuum_2012}.
 \subsection{Deformation and strain}\label{subsection:defromationandstrain}
-Continuous mechanics is the mathematical description of how  physical objects that occur in nature respond to the application of forces.
+Continuous mechanics is the mathematical description of how physical objects that occur in nature respond to the application of forces.
 
-	A \textbf{“body”} is the mathematical abstraction of an "object" and is defined by its geometric and constitutive properties.  At a macroscopic level, a solid "object" is described as homogeneous and continuous "body", i.e. the substance of the object has a unique composition and completely fills the space it occupies thus, ignoring the granular (atomic) nature of matter. In continuous mechanics, a body $\mathcal{B}$\nomenclature{$\mathcal{B}$}{Body} is composed of a set of \textbf{particles} $p$ \nomenclature{$p$}{Particle or material point} (or material points). Each particle is located at some defined \textbf{point}  $x$ in three dimensional space. The set of all the points in space, corresponding to the locations of all the particles, is the \textbf{domain} $\Omega$ \nomenclature{$\Omega$}{Domain occupied by the body} occupied by the body in a given configuration, here also named $geometry$. A particular body can change it's configuration and therefore the occupied region in the space when exposed to some external stimuli like force, pressure or heat.
+	A \textbf{body} is the mathematical abstraction of an \textit{object} and is defined by its geometric and constitutive properties.  At a macroscopic level, a solid \textit{object} is described as homogeneous and continuous body, i.e. the substance of the object has a unique composition and completely fills the space it occupies thus, ignoring the granular (atomic) nature of matter. In continuous mechanics, a body $\mathcal{B}$\nomenclature{$\mathcal{B}$}{Body} is composed of a set of \textbf{particles} $p$ \nomenclature{$p$}{Particle or material point} (or material points). Each particle is located at some defined \textbf{point}  $x$ in three dimensional space. The set of all the points in space, corresponding to the locations of all the particles, is the \textbf{domain} $\Omega$ \nomenclature{$\Omega$}{Domain occupied by the body} occupied by the body in a given configuration, here also named $geometry$. A particular body can change its configuration and therefore the occupied region in the space when exposed to some external stimuli like force, pressure or heat.
 	
  The \textbf{configuration} of a body is defined as a one-to-one mapping between the particle $p$ and position $x$, $\Omega_0 = \chi_0 (\mathcal{B})$ (see figure \ref{reference_config_theory}). To describe the solid's respond to external stimuli one needs to know the changes in geometrical characteristics between at least two configurations: the configuration that one wishes to analyze $\Omega_1$ \nomenclature{$\Omega_1$}{Current or analyzed body configuration }, and the \textbf{reference configuration} relative to which the changes are to be measured $\Omega_0$  \nomenclature{$\Omega_0$}{Reference body configuration }. Here, see figure \ref{reference_config_theory}, the mappings $\chi_0$ and $\chi_1$ take $p \rightarrow X$\nomenclature{$X$}{Point position on the reference configuration} and $p \rightarrow x$\nomenclature{$x$}{Point position on the current configuration}, thus $X$ and $x$ are the positions of particle $p$ in the two configurations under consideration.
 
@@ -46,7 +46,7 @@ Suppose that $G(\Omega_1)$ is the value of some extensive physical property  ass
  Thus, the property $G(\Omega_1)$ is related to the body while the density $g(x)$ is related to the position of the body particle.
 \subsubsection*{Eulerian and Lagrangian formulations}
 There are two classical techniques used to describe the body physical characteristics depending on the choice of independent variables.
- Some physical characteristics, such as mass density, can be defined for each individual particle. In such cases, the body characteristics are defined by the function $$m =  \mathcal{M}(p)$$ for all $p \in \mathcal{B}$. Here the coordinate system remains consistent and moves with the particle. Therefore, the coordinates of both, the particle and the attached variable, do not change along the deformation. A particle is an abstract entity and cannot be used in numerical calculations, thus it is described by its location in reference configuration $p= \chi_0^{-1}(X)$ .
+ Some physical characteristics, such as mass density, can be defined for each individual particle. In such cases, the body characteristics are defined by the function $$m = \mathcal{M}(p)$$ for all $p \in \mathcal{B}$. Here the coordinate system remains consistent and moves with the particle. Therefore, the coordinates of both, the particle and the attached variable, do not change along the deformation. A particle is an abstract entity and cannot be used in numerical calculations, thus it is described by its location in reference configuration $p= \chi_0^{-1}(X)$ .
  $$m =  \mathcal{M}(p) = \mathcal{M}(\chi_0^{-1}(X))$$
  We call $X$ Lagrangian or material coordinates and their application is called Lagrangian or material description.  
  
@@ -83,7 +83,7 @@ The Jacobian determinant of the deformation gradient tensor $J$\nomenclature{$J$
 
 \subsubsection*{Decomposition of the deformation gradient tensor into rotation and stretch}\label{deformationgradienttensor}
 The deformation gradient tensor $F$ completely characterizes
-the body deformation in the vicinity of a particle p. This deformation consist of a rigid body rotation and body "stretch" (see fig. \ref{deformationGradientDecom}). As $dX$ and $dx$ are differential segments, the map $F$ is not affected by rigid-body translations.  
+the body deformation in the vicinity of a particle p. This deformation consists of a rigid body rotation and body \textit{stretch} (see Figure \ref{deformationGradientDecom}). As $dX$ and $dx$ are differential segments, the map $F$ is not affected by rigid-body translations.  
 
 \begin{figure}
 \begin{center}
@@ -105,7 +105,7 @@ According to the polar decomposition theorem, the deformation tensor can be writ
 F = R \cdot U.
 \end{equation}
 where $U$ and $R$ are given by the relations $U = (F^T \cdot F)^ {\frac{1}{2}} $ and $R = F \cdot U^{-1}$. The essential property of tensor $U$ is that it is symmetric and positive, therefor it has three real positive eigenvalues
-$\lambda_1, \lambda_2, \lambda_3$ and a corresponding triplet of orthonormal eigenvectors $r_1, r_2, r_3$. Thus then a infinitesimal segment $dx$ is stretched by the tensor $U$, the segment is distorted in the principal direction of U by amounts of the corresponding eigenvalues of U. 
+$\lambda_1, \lambda_2, \lambda_3$ and a corresponding triplet of orthonormal eigenvectors $r_1, r_2, r_3$. Thus then an infinitesimal segment $dx$ is stretched by the tensor $U$, the segment is distorted in the principal direction of U by amounts of the corresponding eigenvalues of U. 
 
 The tensor $U$ is also called the \textbf{right stretch tensor}.  Since there is a one-to-one relation between $U$ ans $U^2$, for the simplification of numerical calculus the stretch tensor can by replaced by the \textbf{Green deformation tensor} $C = F^T \cdot F$.
 
@@ -130,7 +130,7 @@ It can be also shown that:
 \begin{equation}
 \label{eq:detinvariantrelation}
 det(C-\mu I) = -\mu ^3+I_1(C)\mu ^2-I_2(C)\mu +I_3(C)
-\end{equation} . 
+\end{equation}. 
 
 
 
@@ -142,7 +142,7 @@ Referring to small deformations, the engineering nominal strain is defined as th
 
 When the body is not deformed, the deformation gradient $F$ and therefore the right stretch tensor $U$ is equal to identity tensor $I$. The strain in such a case is equal to zero. 
 
-For most biological soft tissues, large deformation have to be considered. In that case, the previously defined strain is no more applicable. For large deformations, a measure of strain can be any monotonically increasing function related to stretch in a one-to-one manner, this function has to vanish in the reference configuration.
+For most biological soft tissues, large deformation has to be considered. In that case, the previously defined strain is no more applicable. For large deformations, a measure of strain can be any monotonically increasing function related to stretch in a one-to-one manner, this function has to vanish in the reference configuration.
 
 In orthogonal coordinate system, an admissible function is 
 
@@ -191,7 +191,7 @@ Generally, forces are categorized as internal and external forces. An \textbf{ex
 \end{equation}
 
 The contact forces can act on the external surface of the body or on a imaginary internal surface enclosing a volume element (Fig. \ref{internalcontactForceDefinition}). 
-In general terms, the stress (or the \textbf{traction vector}) $t^n(x)$ is defined as contact force per unit area $da$ in the limit as $da \rightarrow 0$. Therefore $t^n(x)$ varies from point to point in intensity and orientation depending on the $da(n)$ orientation.  The stress vector projection on normal axis $n$ defines the \textbf{normal stress vector} and it's projection on the tangential axis define the \textbf{shear stress vector}.
+In general terms, the stress (or the \textbf{traction vector}) $t^n(x)$ is defined as contact force per unit area $da$ in the limit as $da \rightarrow 0$. Therefore $t^n(x)$ varies from point to point in intensity and orientation depending on the $da(n)$ orientation.  The stress vector projection on normal axis $n$ defines the \textbf{normal stress vector} and its projection on the tangential axis define the \textbf{shear stress vector}.
 
 
 \begin{figure}
@@ -202,7 +202,7 @@ In general terms, the stress (or the \textbf{traction vector}) $t^n(x)$ is defin
 \end{center}
 \end{figure}
 
-The stress on the boundary $\partial \Omega_1$ of the region occupied by the body is applied by external forces through physical contacts along the boundary. When formulating and solving a boundary-value problem, this stress define the boundary conditions.
+The stress on the boundary $\partial \Omega_1$ of the region occupied by the body is applied by external forces through physical contacts along the boundary. When formulating and solving a boundary-value problem, this stress defines the boundary conditions.
 
 
 \subsubsection*{Cauchy's lemma}
@@ -235,7 +235,7 @@ The definition of any measure with respect to the deformed configuration is less
 Next, two pseodostress vectors are defined (Fig. \ref{stressnotion}):
 \begin{itemize}
 \item $T^N$ defined as the contact force $df$ per unit area $dA$ in reference configuration.
-\item $\tilde{T}^N$ defined as the contact pseudoforce $d\tilde{f}$ per unit area $dA$ in reference configuration .  
+\item $\tilde{T}^N$ defined as the contact pseudoforce $d\tilde{f}$ per unit area $dA$ in reference configuration.  
 \end{itemize}
 
 
@@ -296,72 +296,83 @@ In summary, the conservation equations are fulfilled if and only if the followin
 \rho_1 J = \rho_0, \ \ \nabla_0 \cdot S \cdot F^T + \rho_0 b =0, \ \ S=S^T 
 \end{equation}
 with the traction on the surface related to the stress through $\tilde{T^n} = S \cdot N$.
- For the simplification of mathematical calculus, the constitutive equations are formulated in therms of the second Piola-Kircchof stress tensor using the relations \ref{PK12}.
+ For the simplification of mathematical calculus, the constitutive equations are formulated in terms of the second Piola-Kircchof stress tensor using the relations \ref{PK12}.
 
 \subsection{Constitutive models}\label{subsection:constitutivemodels}
    The constitutive models, called also material models, define the relation between stress and strain of a physical system under the action of external stimuli. It is almost impossible to define a universal material behavior capable to model the material response to all possible conditions. Thus, for a given martial, several constitutive models can be defined depending on the studied characteristics. \\
 	Biological materials are classified into:
 	\begin{itemize}
-\item \textit{ Isotropic or anisotropic materials:} the response of a isotropic (anisotropic) material to an applied load is independent (dependent) of the direction of loading.
-\item\textit{ Compressible or incompressible materials:} in a compressible (incompressible) material the volume is changed (unchanged) during the deformation and the density remains constant. For a incompressible material the Jacobian determinant of the deformation tensor $J$ is equal to 1. 
-\item \textit{ Homogeneous or heterogeneous materials} the material properties of a homogeneous (heterogeneous) materials is independent (dependent) of the position within the body.
+\item \textit{ Isotropic or anisotropic materials:} in a isotropic (anisotropic) material the values of a property is constant (vary) with respect to the direction.
+
+\item\textit{ Compressible or incompressible materials:} in a compressible (incompressible) material the volume changes (remains constant) during the deformation and the density remains constant. For a incompressible material the Jacobian determinant of the deformation tensor $J$ is equal to 1. 
+
+\item \textit{Homogeneous or heterogeneous materials} in a homogeneous (heterogeneous) material the values of a property is constant (vary) with respect to the position within the body.
 	\end{itemize}
 
-Biological soft tissues are modeled using elastic materials model. The elasticity is the property of a solid material to return to its original size and shape when the influence of a external force is removed. In this case the strains are said to be reversible. 
+Biological soft tissues are modeled using elastic materials model. The elasticity is the property of a solid material to return to its original size and shape when the influence of an external force is removed. In this case the strains are said to be reversible. 
 	 
-Considering small deformations, the stress-strain law of a linear material is given by the \textbf{Hook's law} $$\sigma = \lambda \epsilon,$$ where  the coefficient of proportionality $\lambda$ is named \textbf{Young's modulus}. \\
-For large deformation the stress-strain relationship is deduced from a potential function. A \textbf{hyperelastic} material is an elastic material for which the work is independent of the deformation path. The material reversibility and path-independent behavior implies the absence of energy dissipation during the deformation. Thus there exist a \textbf{potential} function $W(\epsilon)$ such that $$S = \frac{\partial W(E)}{\partial E}= 2\frac{\partial \psi (C)}{\partial C}$$.\\
+Considering small deformations, the stress-strain law of a linear material is given by the \textbf{Hook's law} $$\sigma = \lambda \epsilon,$$ where  the coefficient of proportionality $\lambda$ \nomenclature{$\lambda$}{Young's moduli} is named \textbf{Young's moduli}. 
+
+ Elastic materials may be defined also with a non-linear stress-strain relationship. In such cases the elastic moduli ($\lambda $) is defined in function of strain $\epsilon$ $$\lambda = \frac{\partial \sigma}{\partial \epsilon} = f(\epsilon).$$
+
+For example, for an elastic exponential material \citep{azar_methods_2002} the elastic moduli is computed using the function 
+\begin{equation}
+f(\epsilon) = b e^{m \epsilon},
+\end{equation} 
+where b and m are material parameters.
+ 
+For large deformation the stress-strain relationship is deduced from a potential function. A \textbf{hyperelastic} material is an elastic material for which the work is independent of the deformation path. The material reversibility and path-independent behavior implies the absence of energy dissipation during the deformation. Thus there exist a \textbf{potential} function $W(E)$ such that $$S = \frac{\partial W(E)}{\partial E}= 2\frac{\partial \psi (C)}{\partial C}$$.\\
 Moreover, if the material is isotropic, the stored strain energy $W$ of a hyperelastic material can by written as a function of principal invariants ($I_1, I_2, I_3$) of the Green deformation tensor $C$ previously defined in equation \ref{principal_invariants}.
 
 We introduce below the most used potential functions for the characterization of biological soft tissues.
  
-For the simplification of potential expressions we define the first and the second deviatoric strain invariants :
+For the simplification of potential expressions, we define the first and the second deviatoric strain invariants:
 \begin{center}
 $\overline{I}_1=\frac{I_1}{I_3^{2/3}} $;  $\overline{I}_2=\frac{I_2}{I_3^{4/3}}$
 \end{center}
 
-We also define the \textit{ bulk modulus} as measure of a material's resistance to compression; the shear modulus as the ration of shear stress to the shear strain; and the Poisson ratio as the ration between longitudinal strain to the transverse strain describing the body shape change . For small deformation the bulk modulus and shear modulus are linked to the Young's modulus and Poisson ration by the next relations:
+We also define the \textbf{ Bulk moduli} \nomenclature{K}{Bulk moduli} as measure of a material's resistance to compression; the \textbf{shear moduli}\nomenclature{$\mu$}{shear moduli} as the ratio of shear stress to the shear strain; and the \textbf{Poisson ratio} \nomenclature{$\nu$}{Poisson ratio} as the ratio between longitudinal strain to the transverse strain describing the body shape change . For small deformation the Bulk moduli and shear moduli are linked to the Young's moduli and Poisson ratio by the next relations:
  \begin{center}
-  $K = \frac{E}{3(1-2\nu)}$ and $\mu = \frac{E}{2(1+\nu)}$
+  $K = \frac{\lambda}{3(1-2\nu)}$ and $\mu = \frac{\lambda}{2(1+\nu)}$
  \end{center}
   
 \subsubsection*{Neo-Hookean potential function}
 The Neo-Hookean \citep{treloar_elasticity_1943} law is an extension of the Hook's law to large deformations. The potential function is based only on the first invariant and is given by 
 \begin{equation}
 \label{eq:Neo-Hookmodel}
-W =\frac{\mu}{2} (\overline{I}_1-3) + \frac{K}{2}(J-1)^2
+W =\frac{\mu}{2} (\overline{I}_1-3) + \frac{K}{2}(J-1)^2,
 \end{equation}
-Where $\mu$ and $K$ are initial shear modulus and initial bulk modulus respectively. 
+where $\mu$ and $K$ are initial shear moduli and initial Bulk moduli respectively. 
 \subsubsection*{Mooney-Rivlin potential function}
 The potential function of a Mooney-Rivlin \citep{rivlin_large_1951} material is defined as:
 \begin{equation}
 \label{eq:mooneyRivlingmodel}
-W=\frac{\mu_1}{2}(\overline{I}_1-3)+\frac{\mu_2}{2}(\overline{I}_2-3)+\frac{K}{2}(J-2)^2
+W=\frac{\mu_1}{2}(\overline{I}_1-3)+\frac{\mu_2}{2}(\overline{I}_2-3)+\frac{K}{2}(J-2)^2,
 \end{equation}
-Where the constants $\mu_1$ and $\mu_2$ describing the material properties are linked to the initial shear modulus $\mu = (\mu_1+\mu_2)$. And the constant $K$ is the initial bulk modulus. 
+where the constants $\mu_1$ and $\mu_2$ describing the material properties are linked to the initial shear moduli $\mu = (\mu_1+\mu_2)$. And the constant $K$ is the initial Bulk moduli. 
 
 \subsubsection*{Gent potential function}
 The potential function of a Gent \citep{gent_forms_1958} material model is defined as:
 \begin{equation}
 \label{gentmodel}
-W=-\frac{\mu J_m}{2}ln\left(1-\frac{\overline{I}_1-3}{J_m}\right)+\frac{K}{2}\left(\frac{J^2-1}{2}-lnJ\right)
+W=-\frac{\mu J_m}{2}ln\left(1-\frac{\overline{I}_1-3}{J_m}\right)+\frac{K}{2}\left(\frac{J^2-1}{2}-lnJ\right),
 \end{equation}
- Where, as previously the $\mu$ and $K$ constants are the initial shear modulus and the initial bulk modulus respectively. And $J_m$ is a parameter limiting the value of $(\overline{I}_1-3)$
+ where $\mu$ and $K$ constants are the initial shear moduli and the initial Bulk moduli respectively. And $J_m$ is a parameter limiting the value of $(\overline{I}_1-3)$
 \subsubsection*{Ogden model}
 The Ogden \citep{ogden_large_1972} material model is based on the three principal stretches ($\lambda_1,\lambda_2,\lambda_3$) and $2N$ material constants, where $N$ is the number of polynomials that constitute the potential function:
 \begin{equation}
 \label{eq:ogdenmodel}
-W= \sum^N_{i = 1} \frac{\mu_i}{\alpha_i}(\lambda_1^{\alpha_i}+\lambda_2^{\alpha_i}+\lambda_3^{\alpha_i}-3) + \sum_{k=1}^N \frac{K}{2}(J-1)^{2k}
+W= \sum^N_{i = 1} \frac{\mu_i}{\alpha_i}(\lambda_1^{\alpha_i}+\lambda_2^{\alpha_i}+\lambda_3^{\alpha_i}-3) + \sum_{k=1}^N \frac{K}{2}(J-1)^{2k},
 \end{equation}
-Where $\mu_i$ and $\alpha_i$ are material constants, and $K$ is the bulk modulus.
+where $\mu_i$ and $\alpha_i$ are material constants, and $K$ is the Bulk moduli.
 
 \subsubsection*{Yeoh model}
 The potential function of Yeoh \citep{yeoh_characterization_1990} model is based on the first invariant:
 \begin{equation}
 \label{eq:yeohmodel}
-W = \sum_{i=1}^N \mu_i(\overline{I}_1 - 3)^i + \sum_{k=1}^N \frac{K}{2}(J-1)^{2k}
+W = \sum_{i=1}^N \mu_i(\overline{I}_1 - 3)^i + \sum_{k=1}^N \frac{K}{2}(J-1)^{2k},
 \end{equation}
-
+where the $\mu_i$ are material constants and $K$ is the Bulk moduli.
 
 \subsubsection*{Govering equations of Lagrangian formulation} 
 We consider a body $\mathcal{B}$ which occupies in the reference configuration the domain $\Omega_0$ with a boundary $\Gamma_0$`. The governing equations for the mechanical behavior of a continuous body are:
@@ -429,11 +440,11 @@ From the week form of the GMB equations, the numerical system of equations is fo
 \label{discretization}
 \end{figure}
 
- The mechanical displacement is approximated at the discretization points called finite element\textbf{ nodes}. The nodes are at the vertices corners of the elements for a linear type, and at the vertices corners and midsides of the elements edges for a quadratic type (figure \ref{discretization}.b). The displacement of each point within an element is interpolated from the values of the displacements of the nodes of the element. In this way, the problem of finding the displacement of every point within the body is replaced by the problem of finding the displacements of a finite number of nodes.
+ The mechanical displacement is approximated at the discretization points called finite element\textbf{nodes}. The nodes are at the vertices corners of the elements for a linear type, and at the vertices corners and midsides of the elements edges for a quadratic type (figure \ref{discretization}.b). The displacement of each point within an element is interpolated from the values of the displacements of the nodes of the element. In this way, the problem of finding the displacement of every point within the body is replaced by the problem of finding the displacements of a finite number of nodes.
  
  As in a Lagrangian mesh the nodes are following the motions, for large deformation the finite elements can be highly distorted. Therefore, the elements shape quality is generally checked all along the deformation process. Several shape parameters for each element type have been proposed such as: aspect ratio, maximum corner angle, Jacobian ratio, skewness, parallel deviation, warping factor. The acceptable limit values of these shape factors are proper to the elements types. 
  
-In the following only the shape parameters of the linear triangular elements are presented \citep{ansys_theory_2009}.  
+In the following, only the shape parameters of the linear triangular elements are presented \citep{ansys_theory_2017}.  
  \subsubsection*{Triangle aspect ratio }
  The element's shape aspect ratio is computed using only the vertices corner nodes of the element (Figure \ref{fig:aspectratio}). First, two lines are created: one through a node ($K$) and the midpoint of the opposite edge ($ K'$), the second through the midpoint of the others two edges ($J'$ and $ I'$). Then two rectangles are created, each rectangle have a pair of edges parallel to one of previously defined lines. The rectangle edges have to pass through the nodes and the triangle's edges midpoints. This construction is repeated for each triangle's node resulting in 6 rectangles. The aspect ratio of a rectangle is defined as the ratio between the longer and shorter side. Thus, the triangle's aspect ratio is defined as the maximal aspect ratio over the 6 rectangles divided by squared root of 3. 
  
@@ -474,7 +485,7 @@ In order to transfer the loads between elements, the nodes have to be connected 
 
 Let's consider two different bodies $\mathcal{A}$ and $\mathcal{B}$ and their occupied domains $\Omega_A$ and $\Omega_B$ with boundaries $\Gamma_A$ and $\Gamma_B$ respectively (see Figure \ref{contact_bodies}). Also, we note $\Omega$ the domain of intersection of two bodies. The contact interface is the intersection of the surfaces of the two bodies:
 $$\Gamma = \Gamma_A \cap \Gamma_B.$$
-The intersection consists of two surfaces, usually distinguished as \textbf{target} and \textbf{contact} surfaces. For a asymmetric contact the choice of the surfaces is made following these next guidelines, the target surface property are enumerated in the priority order:
+The intersection consists of two surfaces, usually distinguished as \textbf{target} and \textbf{contact} surfaces. For an asymmetric contact each surface has a single designation and the choice of the surfaces type is made following these next guidelines (the target surface property are enumerated in their priority order):
 \begin{itemize}
 \item if the body $\mathcal{A}$ is stiffer than the body $\mathcal{B}$, the surface $\Gamma_A$ defines the target and $\Gamma_B$ the contact surface;
 \item if $\Gamma_A$ is a concave surface getting in contact with the convex surface $\Gamma_B$, the surface $\Gamma_A$ defines the target and $\Gamma_B$ the contact surface.
@@ -482,7 +493,7 @@ The intersection consists of two surfaces, usually distinguished as \textbf{targ
 \end{itemize} 
 For the following, we identify $\Gamma_A$ as the target surface and $\Gamma_B$ as the contact surface (Figure \ref{contact_bodies}). 
 
- Sometimes, the asymmetric contact do not perform satisfactory results and an symmetric contact is needed. When defining a symmetric contact each surfaces coming in contact are designated to be both, contact and target surface type. Therefore two set of contact pairs are defined. The symmetric contact may be used then the distinction between the contact and the target surfaces is not clear or to reduce the contact penetration, however it use will results in a more time consuming solution.
+ Sometimes, the asymmetric contact does not perform satisfactory results and a symmetric contact is needed. When defining a symmetric contact each surface coming in contact is designated to be both, contact and target surface type. Therefore, two set of contact pairs are defined. The symmetric contact may be used then the distinction between the contact and the target surfaces is not clear or to reduce the contact penetration, however it usually results in a more time-consuming solution.
 
 
 
@@ -503,7 +514,7 @@ For the following, we identify $\Gamma_A$ as the target surface and $\Gamma_B$ a
   \begin{equation}
   t_A + t_B=0
 \end{equation}
-On the contact boundary surface $\Gamma$ the traction vector is decomposed into it's normal and tangential components:
+On the contact boundary surface $\Gamma$ the traction vector is decomposed into its normal and tangential components:
 
 $$t_A^n = t_A \cdot n_A,  \ \ \ t_B^n = t_B \cdot n_B$$
 $$t_A^t = t_A - t_A^n n_A, \ \ \ t_B^t = t_B - t_B^n n_B$$
@@ -520,7 +531,7 @@ The bodies implied in a multi-body problem must fulfill the inter-penetrability 
 \end{equation}
 Decomposing the displacement $u$ into its normal and tangential components $u^n$ and $u^t$ respectively the inter-penetrability condition can be written as:
 \begin{equation}
-t^n \leq 0, \ \ u^n-g \leq 0, \ \ t^n(u^n-g n_a) = 0
+t^n \leq 0, \ \ u^n-g n_a \leq 0, \ \ t^n(u^n-g n_a) = 0
 \end{equation}
  Where $g$ is the gap between the two bodies and $n_a$ is the normal to the target surface.
 
@@ -542,7 +553,7 @@ Bonded & No & No\\
 \hline
 Rough & Yes & No, $f_{friction} \gg f_{sliding}$ \\
 \hline
-No-separation & No & Yes,  $f_{friction} = 0$ \\
+No-separation & No & Yes, $f_{friction} = 0$ \\
 \hline
 Frictionless & Yes & Yes, $f_{friction} = 0$ \\
 \hline
@@ -555,7 +566,7 @@ Frictional & Yes & Yes, if $f_{sliding} > f_{friction}$\\
 \end{table}
 
 The \textit{frictional} contact behavior is defined using Coulomb friction law. For a continuous body the Coulomb friction model is applied at each point of the contact interface.
-Considering that bodies $\mathcal{A}$ and $\mathcal{B}$ which are in contact within the surface $\Gamma$, then for all $x \in \Gamma$ :
+Considering that bodies $\mathcal{A}$ and $\mathcal{B}$ which are in contact within the surface $\Gamma$, then for all $x \in \Gamma$:
 \begin{equation}
 \label{stiking}
 if \ \Vert t^t(x) \Vert < -\mu_f t^n(x),\ \ \Delta u^t=0 
@@ -577,17 +588,17 @@ In practice, several contact models can be combined to model a physical contact 
 
 Contact formulation presents two primary difficulties from a computational point of view. First, the traction conditions have to be estimated for each considered frictional model. And second is the unpredictability of regions which will get in contact with each other during the deformation process.
 
-The region of contact depends on materials properties and imposed boundary conditions; therefore, it is difficult to know a priori where the surfaces will be in contact. To formulate analytic equations, one has to know exactly the nodes involved in the contact process. Therefore, during body deformation, the program calculates if the contact is \textit{opened} or \textit{closed}. The status is defined using a sliding pinball (Figure \ref{pinball}). The pinball slides over the contact surface points and searches for the target surface. If the node to surface distance is smaller than the pinball radius, the contact is considered to be closed otherwise the contact is considered to be opened.   
+The region of contact depends on materials properties and imposed boundary conditions; therefore, it is difficult to know a priori where the surfaces will be in contact. To formulate analytic equations, one has to know exactly the nodes involved in the contact process. Therefore, during body deformation, the program calculates if the contact is \textit{opened} or \textit{closed}. The status is defined using a sliding pinball (Figure \ref{fig:pinball}). The pinball slides over the contact surface nodes and searches for the target surface. If the node to surface distance is smaller than the pinball radius, the contact is considered to be closed (Figure \ref{fig:pinball}, green nodes) otherwise the contact is considered to be opened (Figure \ref{fig:pinball}, gray nodes).    
 
- \begin{center}
-\begin{figure}
-\centerline{\includegraphics[width=1\textwidth,keepaspectratio]{figures/pinball.jpg} }
-\caption{Contact status update using a pinball of radius r.}
-\label{pinball}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=1\textwidth,keepaspectratio]{figures/pinball.jpg} 
+\caption{Contact status update using a pinball of radius r. Green nodes- updated nodes to closed contact status; gray nodes - updated nodes to open contact status; blue nodes- nodes which contact status need to be updated}
+\label{fig:pinball}
 \end{figure}
-\end{center}
+
  
- \subsubsection*{Distance measures} 
+ \subsubsection*{Gap and penetration measures} 
   Let's consider a point $x_B$ bellowing to the body surface $\Gamma_B$ and $x_A$ the intersection point of the surface normal $n_B$ with the surface $\Gamma_A$ (Figure \ref{gap_penetration}). The point to surface distance $d_1(x_B,\mathcal{A})$  is defined as:
 \begin{equation}
 \label{normalContactdistance}
@@ -597,14 +608,14 @@ d_1(x_B,\mathcal{A}) = \Vert x_B-x_A \Vert = \left[  \Sigma_{i={1,2,3}}\left( x_
  \begin{center}
 \begin{figure}
 \centerline{\includegraphics[width=1\textwidth,keepaspectratio]{figures/gap_penetration.jpg} }
-\caption{  a) Body $\mathcal{A}$ and body $\mathcal{B}$  are close but not in contact. The  $d_1(x_B,\mathcal{A})$ measure define the gap between the bodies at point $x_B$.  b) Body $\mathcal{B}$ have penetrated the body $\mathcal{A}$. The $d_1(x_B,\mathcal{A})$ measure gives the penetration at point $x_B$.}
+\caption{a) Body $\mathcal{A}$ and body $\mathcal{B}$ are close but not in contact. The $d_1(x_B,\mathcal{A})$ measure define the gap between the bodies at point $x_B$.  b) Body $\mathcal{B}$ have penetrated the body $\mathcal{A}$. The $d_1(x_B,\mathcal{A})$ measure gives the penetration at point $x_B$.}
 \label{gap_penetration}
 \end{figure}
 \end{center}
 
-If the intersection point $x_A$ is located inside the pinball area, the node to surface distance define the amount of \textbf{gap} or \textbf{penetration} at the respective point (Figure \ref{gap_penetration}).
+If the intersection point $x_A$ is located inside the pinball area, the node to surface distance define the amount of \textbf{gap} or \textbf{penetration} of the respective node (Figure \ref{gap_penetration}).
  
-Computing the gap or penetration at single points increase numerical instabilities.  Therefore, in this work, the gap and penetration are computed in an averaged manner over the projected surface areas. Figure \ref{projecte_surface} show the projected surface areas (c) obtained by the intersection of the target surface (a) with the projected contact surface (b). 
+Computing the gap or penetration at single points increase numerical instabilities.  Therefore, in this work, the gap and penetration are computed in an averaged manner over the projected surface areas. Figure \ref{projecte_surface} show the projected surface areas (c) obtained by the intersection of the target surface areas (a) with the projected contact surface areas (b) over the target areas (a). 
 
  \begin{center}
 \begin{figure}
@@ -614,11 +625,11 @@ Computing the gap or penetration at single points increase numerical instabiliti
 \end{figure}
 \end{center}
 
- The interested reader is referred to ANSYS contact technology guide for more details on the contact modeling.
+ The interested reader is referred to ANSYS contact technology guide \citep{ansys_contact_2017} for more details on the contact modeling.
 
 
 \subsubsection*{Finite element mesh}
-For the finite element computation, contact and target surfaces have to be discretized with 2D linear or quadratic elements consistent with the underling 3D element mesh (Figure \ref{discretization}). The elements are named contact and target elements respectively.  They have no material properties apart the friction coefficient $\mu_f$. The stress-strain as well as the gap or penetration measures are computed for each mesh node of the discretized surface.
+For the finite element computation, contact and target surfaces have to be discretized with 2D linear or quadratic elements (Figure \ref{discretization}) consistent with the underling 3D element mesh. The elements are named contact and target elements respectively.  They have no material properties apart the friction coefficient $\mu_f$. The stress-strain as well as the gap or penetration measures are computed for each mesh node of the discretized surface.
 
 \subsubsection*{Pure Penalty method}
 In this manuscript, one of the most popular mathematical expression of contact compatibility conditions is used, namely the penalty method. With such a method, additional contact properties are defined to manage contact behavior: a normal stiffness factor, opening stiffness factor, and a tangential stiffness factor. Such factors play an important role in the numerical computation but have no physical meaning.
@@ -629,11 +640,17 @@ f_c = k_c d
 \end{equation}
 where $d$ represents the penetration or gap amount and $k_c$ is the normal stiffness factor or the opening stiffness factor respectively. The tangential stiffness factor works in the same way enforcing the responding frictional force. Even if physical contacting bodies do not interpenetrate ($d = 0$), some finite amount of penetration, $d > 0$, is required mathematically to maintain equilibrium. 
  
- The biggest challenge here is that the magnitude of the stiffness contact factors are completely unknown beforehand. The contact force at each node have to be large enough to push the contact surface back to the target surface and eliminate unwanted penetration or gap. In the same time, if the the contact force is too large, it pushes the contact surface far away from the pinball region causing error and solution instabilities.
+ The biggest challenge here is that the magnitude of the stiffness contact factors is completely unknown beforehand. The contact force at each node have to be large enough to push the contact surface back to the target surface and eliminate unwanted penetration or gap. In the same time, if the contact force is too large, it pushes the contact surface far away from the pinball region causing error and solution instabilities.
 
 \section{Breast biomechanical model: overview}
 
 Biomechanical modelling of breast tissues has been widely investigated for various medical applications such as surgical procedure training, pre-operative planning, diagnosis and clinical biopsy, image guided surgery, image registration, and material parameter estimation (Table \ref{table:mechanical_models_table}). For the last 20 years, several research groups have presented their breast models based on finite elements modeling.  The complexity and relevance to breast anatomy of each model depend on the research purposes for which it was designed. 
+
+Several groups have proposed biomechanical breast models to register uncompressed volumetric breast data to the compressed one \citep{han_development_2012,ruiter_model_based_2006,sturgeon_finite_element_2016} or to compressed projection mammographic data \citep{kellner_simulation_2007}. Within this framework, the authors modeled the breast deformation from prone to compressed prone position assuming linear elastic materials, zero residual stress and Dirichlet boundary conditions.
+However, compression-like breast deformation is too limited to characterize global breast mechanics.
+
+ Applications such as image guided surgery or preoperative planning imply a wider range of deformations. Therefore biomechanical breast models capable of estimating gravity induced deformation between different body position were proposed, for example from supine to prone positions (named also multi-loading gravity simulations) \citep{gamage_modelling_2012,georgii_simulation_2016,eiben_surface_2016} . Considering the involved large deformation, these models need to be more accurate with respect to mechanical and anatomical breast properties. In this respect, a patient-specific model is needed considering more personalized boundary conditions, material models and a better representation of breast anatomy. 
+
  
 As described in Section \ref{section:continuousmechanics}, to build such a mechanical breast model, one need to provide the breast geometry in a \textbf{reference configuration}, the \textbf{constitutive models} of tissues composing the volume and the \textbf{boundary conditions}. The definition of all these variables has a significant impact on model accuracy.
 
@@ -642,18 +659,18 @@ As described in Section \ref{section:continuousmechanics}, to build such a mecha
 A large number of existing patient specific models are using volumetric data from MR images \cite{carter_biomechanical_2009},\cite{kellner_simulation_2007}, \cite{conley_realization_2015} \cite{eiben_symmetric_2016}, \cite{martinez_finite_2017}  or CT images \cite{palomar_finite_2008},\cite{sturgeon_finite_element_2016} to design the breast geometry. During such exams, the acquired breast tissues are already deformed with deformation that significantly change breast geometries, for example if the patient is in a supine or in a prone position. Moreover, the deformed breast configurations include already the initial pre-stresses which are generally unknown and are extremely difficult to measure in clinical conditions. 
  
 
-To model the breast tissues deformation under gravity loading,  the reference state is chosen to be the breast geometry in a stress-free configuration, i.e. without being deformed by any force, including gravity. The breast stress-free geometry is practically impossible to measure, therefore several estimation methods have been proposed. The four most used ones are described bellow.
+To model the breast tissues deformation under gravity loading, the reference state is chosen to be the breast geometry in a stress-free configuration, i.e. without being deformed by any force, including gravity. The breast stress-free geometry is practically impossible to measure; therefore, several estimation methods have been proposed. The four most used ones are described below.
 
  
  
   \subsubsection*{Inverse gravity}\label{subsubsection:inversegravity}
- \citep{palomar_finite_2008, sturgeon_finite_element_2016} used the inverse gravity method to estimate the stress-free geometry from the prone position measured during the exam. In their work, the authors just reversed the gravity effects without considering th initial stresses already included in the breast prone configuration. According to \cite{eiben_breast_2014} the inverse gravity methods gives a poor approximation of the breast reference state and can be used only with small deformations or highly constrained models.  
+ \citep{palomar_finite_2008, sturgeon_finite_element_2016} used the inverse gravity method to estimate the stress-free geometry from the prone position measured during the exam. In their work, the authors just reversed the gravity effects without considering the initial stresses already included in the breast prone configuration. According to \cite{eiben_breast_2014} the inverse gravity methods gives a poor approximation of the breast reference state and can be used only with small deformations or highly constrained models.  
 
  \subsubsection*{Breast neutral buoyancy configuration}
  Assuming that breast density is equal to water density, \cite{rajagopal_creating_2008} compute the breast stress-free configuration by imaging the breast immersed in water. Following the same physical assumptions, \cite{kuhlmann_mechanical_2013} proposed to estimate the stress-free configuration by applying a hydro-static distributed load on the breast surface collected in a prone configuration. Even though the estimated geometries are accurate enough, these methods are time-consuming and is difficult to transpose in a clinical framework. 
 
  \subsubsection*{Prediction-correction iterative algorithm}
- The prediction-correction iterative method was first proposed by \citep{govindjee_computational_1998} and adapted later by \cite{carter_biomechanical_2009} and \cite{eiben_breast_2014}. The original method is based on the prediction-correction iterative scheme represented in Figure \ref{predictioncorectionalgo}. The first approximation of the breast reference configuration is estimated by applying the inverse gravity method on the prone breast configuration (see above ).  Then, a numerical breast prone configuration is computed and compared to the corresponding measured one. The difference between the two prone geometries (The measured one and the simulated one) is used to update the reference breast configuration. The process is repeated until the convergence is achieved (i.e. then the difference is minimal). These methods were validated using the neutral buoyancy breast shape.
+ The prediction-correction iterative method was first proposed by \citep{govindjee_computational_1998} and adapted later by \cite{carter_biomechanical_2009} and \cite{eiben_breast_2014}. The original method is based on the prediction-correction iterative scheme represented in Figure \ref{predictioncorectionalgo}. The first approximation of the breast reference configuration is estimated by applying the inverse gravity method on the prone breast configuration (see above).  Then, a numerical breast prone configuration is computed and compared to the corresponding measured one. The difference between the two prone geometries (The measured one and the simulated one) is used to update the reference breast configuration. The process is repeated until the convergence is achieved (i.e. then the difference is minimal). These methods were validated using the neutral buoyancy breast shape.
 
 \begin{figure}[!h]
 \centering
@@ -663,21 +680,21 @@ To model the breast tissues deformation under gravity loading,  the reference st
 
 
  \subsubsection*{Inverse FE algorithm}
-\cite{pathmanathan_predicting_2008} and later \cite{vavourakis_inverse_2016} proposed an analytic computation of the reference state of breast by reparametrizing the equilibrium equation and solving finite elements formulation of the inverse motion. The model provides good estimates of breast reference configurations but need large numerical resources. \cite{eiben_breast_2014} showed that, the prediction-correction iterative algorithm and the inverse FE algorithm are similar in terms of resulting accuracy. 
+\cite{pathmanathan_predicting_2008} and later \cite{vavourakis_inverse_2016} proposed an analytic computation of the breast reference state by reparametrizing the equilibrium equation and by solving a finite element formulation of the inverse motion. The model provides good estimates of breast reference configurations but needs large numerical resources. \cite{eiben_breast_2014} showed that the prediction-correction iterative algorithm and the inverse FE algorithm are similar in terms of resulting accuracy. 
 
 \subsection{Constitutive models}
 
-Global breast mechanics are governed by breast tissue compositions and their individual mechanical properties. The breast soft tissues are known to be incompressibles, nonlinear, anisotropic, and viscous materials. However, according to \cite{wellman_breast_1999} the breast tissues viscosity can be neglected when the mechanical load is applied within short time scales.  
+Global breast mechanics is governed by breast tissue compositions and their individual mechanical properties. The breast soft tissues are known to be incompressible, nonlinear, anisotropic, and viscous materials. However, according to \cite{wellman_breast_1999} the breast tissues viscosity can be neglected when the mechanical load is applied within short time scales.  
 
-Under large compression and body position change the breast volume varies due to the blood flows, thus soft tissues are frequently modeled as quasi-incompressible materials with a Poisson ratio ranging between $\nu = {0.45-0.5}$. The influence of the Poisson ratio within linear constitutive models was studied by \cite{tanner_factors_2006}, according to the authors the best estimates are obtained with high Poisson ratio ($\nu = {0.495,0.499}$). The soft breast tissues are predominately composed of water; therefore, the density is considered to be equal to $9810 kg/m^3$.  
+Under large compression and body position changes, the breast volume can vary due to blood flows. Thus, soft tissues are frequently modeled as quasi-incompressible materials with a Poisson ratio ranging between $\nu = {0.45-0.5}$. The influence of the Poisson ratio within linear constitutive models was studied for breast by \cite{tanner_factors_2006}; according to the authors, the best estimates are obtained with high Poisson ratio ($\nu = {0.495,0.499}$). The breast tissues are predominately composed of water; therefore, the density is considered to be equal to $981\ kg/m^3$.  
 
 
-For the last decades several constitutive models were used to model the breast tissues response to a external force: exponential elastic \citep{azar_methods_2002}, Neo-Hookean hyper-elastic \citep{carter_biomechanical_2009,rajagopal_modeling_2010,sturgeon_finite_element_2016, eiben_breast_2016, han_nonlinear_2014, garcia_mapping_2017}, Money-Rivling \citep{samani_elastic_2007,tanner_factors_2006,carter_application_2012,martinez_finite_2017}. \cite{eder_comparison_2014} compared the most popular models in a multi-loading gravity simulation, according to the authors the Neo-Hookean model proposed by \cite{rajagopal_creating_2008} gives the best estimates.
+For the last decades several constitutive models were used to model the breast tissues response to an external force: exponential elastic \citep{azar_methods_2002}, Neo-Hookean hyper-elastic \citep{carter_biomechanical_2009,rajagopal_modeling_2010,sturgeon_finite_element_2016, eiben_breast_2016, han_nonlinear_2014, garcia_mapping_2017}, Money-Rivlin \citep{samani_elastic_2007,tanner_factors_2006,carter_application_2012,martinez_finite_2017}. \cite{eder_comparison_2014} compared the most popular models in a multi-loading gravity simulation; according to the authors, the Neo-Hookean model proposed by \cite{rajagopal_creating_2008} gives the best estimates.
 
 \subsubsection*{Glandular and adipose tissues biomechanical properties }
- Multiple studies have shown that breast composition and so its mechanical behavior undergo substantial changes during woman lifetime (section \ref{subsection:adultbreasttexturechanges}). The first studies on mechanical proprieties estimation of breast tissues were done in diagnostic purposes. Then the breast is developing bening or malign disorders, their mechanical properties differ from the ones of the normal breast tissues.  In a study of 142 simples, bellowing to 4 type of tissues,  \cite{krouskop_elastic_1998} found that depending on the pre-compression level Young’s modulus of invasive carcinoma is from 5 to 25 times larger than the one of normal adipose tissue  ( from 5\% to 20\% pre-compression).  
+ Multiple studies have shown that breast composition, and so its mechanical behavior undergo substantial changes during woman lifetime (section \ref{subsection:adultbreasttexturechanges}). The first studies on mechanical proprieties estimation of breast tissues were done in diagnosis purposes. When the breast is developing benign or malign disorders, its mechanical properties differ from the ones of the normal breast tissues.  In a study of 142 samples, bellowing to 4 type of tissues, \cite{krouskop_elastic_1998} found that depending on the pre-compression level, Young moduli of invasive carcinoma is from 5 to 25 times larger than the one of normal adipose tissue  ( from 5\% to 20\% strain levels).  
 
-Later, several research groups (Table \ref{table:materialproperties}) have studied the elastic modulus of adipose and glandular tissues. The breast tissues elastic parameters range between 0.1 kPa and 271.8 kPa. Such big variation may be explained by the differences in the used experimental set-up but also by the participant's physical condition, age or period of the menstrual cycle. For example, \cite{han_development_2012} though using the same FE method, found significantly inter-individual variability, with the shear modulus ranging between $0.22-43.64 kPa$. \cite{lorenzen_menstrual-cycle_2003} showed that during the menstrual cycle, due to the hormonal changes, the elastic properties of the glandular tissues can change by about 30\%.
+Later, several research groups (Table \ref{table:materialproperties}) have studied the elastic moduli of adipose and glandular tissues. The breast tissues elastic parameters range between 0.1 kPa and 271.8 kPa. Such huge variation may be explained by the differences in the experimental set-up used to estimate stiffness, but also by the participant's physical condition, age or period of the menstrual cycle. For example, \cite{han_development_2012}, though using the same FE method, found significantly inter-individual variability, with the shear moduli ranging between $0.22-43.64 kPa$. \cite{lorenzen_menstrual-cycle_2003} showed that during the menstrual cycle, due to the hormonal changes, the elastic properties of the glandular tissues can change by about 30\%.
 
 \begin{table}[!h]
 \centering
@@ -689,71 +706,73 @@ Later, several research groups (Table \ref{table:materialproperties}) have studi
 
 && model &Adipose $kPa$ & Glandular $kPa$ \\  \hline
 
-\cite{krouskop_elastic_1998} & Indentation-5\% . & Linear elastic & $E=19 \pm 7$ &$ E=33 \pm 11$ \\ \hline
- \cite{krouskop_elastic_1998}   & Indentation- 20\%& Linear elastic & $E=20 \pm 6  $& $E = 57 \pm 19 $ \\  \hline
- \cite{wellman_breast_1999}  & Indentation - 5\% & Linear elastic & $E=6.6 $ & $E= 33 $\\ \hline
- \cite{wellman_breast_1999}  & Indentation - 15\% & Linear elastic &$ E= 17.4 $& $E= 271.8 $ \\ \hline
- \cite{samani_method_2004} & Indentation & Linear elastic & $E = 3.25 \pm 0.91 $ & $E = 3.24 \pm 0.61 $ \\ \hline \hline
+\cite{krouskop_elastic_1998} & Indentation-5\% . & Linear elastic & $\lambda=19 \pm 7\ kPa$ &$ \lambda =33 \pm 11\ kPa$ \\ \hline
+ \cite{krouskop_elastic_1998}   & Indentation- 20\%& Linear elastic & $\lambda=20 \pm 6\ kPa  $& $\lambda= 57 \pm 19\ kPa $ \\  \hline
+ \cite{wellman_breast_1999}  & Indentation - 5\% & Linear elastic & $\lambda=6.6\ kPa $ & $\lambda= 33 \ kPa$\\ \hline
+ \cite{wellman_breast_1999}  & Indentation - 15\% & Linear elastic &$ \lambda = 17.4\ kPa $& $\lambda= 271.8\ kPa $ \\ \hline
+ \cite{azar_methods_2002} & Indentation & Exp. elastic & $b = 4.46\ kPa$; $m=7.4$ & $b = 15.1\ kPa$; $m=10$ \\ \hline
+ \cite{samani_method_2004} & Indentation & Linear elastic & $\lambda= 3.25 \pm 0.91\ kPa $ & $\lambda= 3.24 \pm 0.61\ kPa $ \\ \hline \hline
  \multicolumn{5}{|c|}{\textbf{In-vivo estimation}}\\ \hline
- \cite{van_initial_2003} & MRE & Linear elastic & $E = 17-26 $ & $E = 26-30 $ \\ \hline
- \cite{sinkus_viscoelastic_2005}&MRE& Visco-elastic & \multicolumn{2}{|c|}{$\mu = 2.9 \pm 0.3$} \\ \hline
- \cite{rajagopal_creating_2008}  & MRI-FEM& Neo-Hookean & $\mu = 0.16$ & $\mu = 0.26$ \\ \hline
- \cite{carter_determining_2009} & MRI-FEM& Neo-Hookean &$\mu = 0.25$ & $\mu = 0.4$ \\ \hline
- \cite{han_development_2012} & MRI-FEM & Neo-Hookean & $E= 1$ & $E = 0.22-43.64 $ \\ \hline 
- \cite{gamage_modelling_2012} & MRI-FEM & Neo-Hookean & \multicolumn{2}{|c|}{$\mu = 0.1 $} \\ \hline
- \cite{griesenauer_breast_2017} & MRI-FEM & Hooks law & $E = 0.25$ & $E = 2$\\ \hline
+ \cite{van_initial_2003} & MRE & Linear elastic & $\lambda= 17-26\ kPa $ & $\lambda= 26-30\ kPa $ \\ \hline
+ \cite{sinkus_viscoelastic_2005}&MRE& Visco-elastic & \multicolumn{2}{|c|}{$\mu = 2.9 \pm 0.3\ kPa$} \\ \hline
+ \cite{rajagopal_creating_2008}  & MRI-FEM& Neo-Hookean & $\mu = 0.16$\ kPa & $\mu = 0.26\ kPa$ \\ \hline
+ \cite{carter_determining_2009} & MRI-FEM& Neo-Hookean &$\mu = 0.25\ kPa$ & $\mu = 0.4\ kPa$ \\ \hline
+ \cite{han_development_2012} & MRI-FEM & Neo-Hookean & $\lambda= 1\ kPa$ & $\lambda = 0.22-43.64\ kPa $ \\ \hline 
+ \cite{gamage_modelling_2012} & MRI-FEM & Neo-Hookean & \multicolumn{2}{|c|}{$\mu = 0.1\ kPa $} \\ \hline
+ \cite{griesenauer_breast_2017} & MRI-FEM & Hooks law & $\lambda= 0.25\ kPa$ & $\lambda= 2\ kPa$\\ \hline
 \end{tabular}
 \caption{Material properties for adipose and glandular tissues.}
 \label{table:materialproperties}
 \end{table}
 
-An important difference in estimated values of elastic modulus of breast soft tissues is observed between the linear elastic and hyperelastic models. If only in-vivo studies with Neo-Hookean material models are considered, the range of the adipose and glandular shear modulus is significantly lower than $ 50kPa$. 
+An important difference in estimated values of breast elastic moduli is observed between the linear elastic and hyperelastic models. If only in-vivo studies with Neo-Hookean material models are considered, the range of the adipose and glandular shear moduli is significantly lower than $ 50kPa$. 
 
-\cite{carter_biomechanical_2009} compared one parameter Neo-Hookean potential function with five parameters Money-Rivling potential function for various material properties. The multy-loading gravity simulation were thus performed on 3 subjects. According to the authors the Money-Rivling models underestimates the tissues deformation by at least 75\% then the subject is re-positioned from the supine to the prone positions. The best estimates were given by the Neo-Hookean model with the initial shear modulus equal to $0.2kPa$.  
+\cite{carter_biomechanical_2009} compared a one parameter Neo-Hookean potential function with a five parameters Money-Rivlin potential function for various material properties. The multi-loading gravity simulations were thus performed on 3 subjects. According to the authors, even for parameters 10 times softer than the literature \citep{abbas_biomechanical_2001}, the Money-Rivlin model underestimates the tissues deformation by at least 75\% when the subject is re-positioned from the supine to the prone positions. The best estimates were given by the Neo-Hookean model with the initial shear moduli equal to $0.2kPa$.  
 
-Previously listed researches clearly showed the variability of elastic modulus of the same tissue between and within individuals. \cite{eder_comparison_2014} made a larger analysis including all material models proposed in the literature. According to authors, many of them are too stiff permitting not enough deformation within the gravity loading. The most reliable identified values is the ones given by \cite{rajagopal_creating_2008} (Table \ref{table:materialproperties}).
+Previously listed researches clearly showed the variability of elastic moduli of the same tissue between and within individuals. \cite{eder_comparison_2014} made a larger analysis including all material models proposed in the literature. According to authors, many of them are too stiff permitting not enough deformation within the gravity loading. This study has shown that the most reliable elastic moduli values are the ones given by \cite{rajagopal_creating_2008} (Table \ref{table:materialproperties}).
 
 \subsubsection*{Muscle biomechanical properties.} 
 Muscle is a kinematically, geometrically, and materially complex tissue. Muscle mechanical behavior depends on its contractile active and passive elastic properties \citep{nordez_muscle_2010}. In biomechanics the muscle is modeled using complex models as Hill-type models
 \citep{zajac_muscle_1989}, Feldman’s lambda model \citep{feldman_once_1986} which are considering the variation of muscle elasticity in function of muscle state. In breast biomechanical models the muscle is combined with the thoracic cage and is frequently considered as a rigid breast support. In most of models, the pectoral muscle is modeled by imposing zero-displacement conditions on nodes closer to the chest wall \citep{abbas_biomechanical_2001,chung_modelling_2008,rajagopal_mapping_2010}  
 or by allowing them to slide along the chest wall line \citep{han_nonlinear_2014,georgii_simulation_2016}.   
 
-The muscle is nonlinear, anisotropic, incompressible material.  The bibliographic data on static mechanical properties of the muscle-tendon unit assessed by supersonic shear wave imaging elastography state a Young's modullus in range of $20kPa$ to $300kPa$  depending on the muscle location and subject's physical condition \citep{lima_eassessment_2018}.  The muscle shear modulus on the upper trapezius was studied by \cite{leong_quantitative_2013}, according to authors the muscle shear elasticity  at rest was $17.11\pm 5.82 kPa$, and this increased to $26.56\pm 12.32 kPa$ during active arm holding at 30\textdegree  abduction. 
+The muscle is nonlinear, anisotropic, incompressible material.  The bibliographic data on static mechanical properties of the muscle-tendon unit assessed by supersonic shear wave imaging elastography state a Young's modullus in range of $20kPa$ to $300kPa$ depending on the muscle location and subject's physical condition \citep{lima_eassessment_2018}.  The muscle shear moduli on the upper trapezius was studied by \cite{leong_quantitative_2013}, according to authors the muscle shear elasticity at rest was $17.11\pm 5.82 kPa$, and this increased to $26.56\pm 12.32 kPa$ during active arm holding at 30\textdegree  abduction. 
 
 \subsubsection*{Skin biomechanical properties}
-Several studies shown the importance of skin in biomechanical breast modeling. According to \cite{carter_biomechanical_2009}, a model which include the skin estimate better the tissues deformation under gravity loading.
+Several studies have shown the importance of skin in biomechanical breast modeling. According to \cite{carter_biomechanical_2009}, a model which includes the skin estimates better the tissues deformation under gravity loading.
 
- \cite{sutradhar_vivo_2013} published a complete study of breast skin estimating its elasticity for 16 different breast regions. The study was done on 23 female volunteers aging from 29 to 75 ears. The authors found that the skin elastic modulus range between $15-480 kPa$ with an average of $334\pm 88 kPa$. The elastic modulus in the lateral region (mean $370 kPa$) has the highest value followed by the superior region (mean $355 kPa$). The inferior region (mean $331 kPa$) follows next, with the medial region having the
-lowest value (mean $316 kPa$). However, no significant variation of elastic modulus in radial direction was found. 
+ \cite{sutradhar_vivo_2013} published a complete study of breast skin estimating its elasticity for 16 different breast regions. The study was done on 23 female volunteers aging from 29 to 75 years. The authors found that the skin elastic moduli range between $15-480 kPa$ with an average of $334\pm 88 kPa$. The elastic moduli in the lateral region (mean $370 kPa$) has the highest value followed by the superior region (mean $355 kPa$); the inferior region (mean $331 kPa$) follows next, with the medial region having the
+lowest value (mean $316 kPa$). However, no significant variation of elastic moduli in radial direction was found. 
  
-Other researches on skin elasticity are available, but they are not specific to the breast skin. \cite{hendriks_relative_2006} estimated in-vivo skin proprieties by suction testing. The skin was considered as a homogeneous, isotropic, incompressible, hyperelastic material. The study was performed on 14 subjects and the obtained average of elastic modulus for skin was $58.4 kPa$.
+Other researches on skin elasticity are available, but they are not specific to the breast skin. \cite{hendriks_relative_2006} estimated in-vivo skin properties by suction testing. The skin was considered as a homogeneous, isotropic, incompressible, hyperelastic material. The study was performed on 14 subjects and the obtained average of elastic moduli for skin was $58.4 kPa$.
 
-The estimation of the breast skin elasticity by the means of finite elements using Neo-Hookean potential function has resulted in softer materials model. \cite{carter_determining_2009} found a initial shear modulus equal to $16kPa$, whereas \cite{han_nonlinear_2014} found that for the five studied subjects the skin shear modulus ranged between $2.47 kPa$ and $5.78kPa$. 
+The estimation of the breast skin elasticity by the means of finite elements using Neo-Hookean potential function has resulted in softer materials model. \cite{carter_determining_2009} found an initial shear modulus equal to $16kPa$, whereas \cite{han_nonlinear_2014} found that for the five studied subjects the skin shear moduli ranged between $2.47 kPa$ and $5.78kPa$. 
 
 \subsubsection*{Fascias and ligaments biomechanical properties}
-The surrounding breast fascias and the supervisory ligament form the breast support matrix. These structures are wall described for surgical purposes (thickness, location etc), however little is known about their mechanical properties. The first biomechanical breast model taking into account the effect of Cooper's ligaments was proposed by \cite{azar_methods_2002} and took up later by \cite{pathmanathan_predicting_2008} and \cite{han_development_2012}. The authors designed a new material model for fatty tissues including the anisotropic behavior of breast ligaments. Later, \cite{georgii_simulation_2016} come up with a spring-mass generic model for the breast support matrix. According to the authors, including the ligaments into the finite elements breast model have increased the robustness of the prone-supine simulation with respect to the input parameters. 
+The surrounding breast fascias and the supervisory ligament form the breast support matrix. These structures are well described for surgical purposes (thickness, location etc), however little is known about their mechanical properties. The first biomechanical breast model taking into account the effect of Cooper's ligaments was proposed by \cite{azar_methods_2002} and took up later by \cite{pathmanathan_predicting_2008} and \cite{han_development_2012}. The authors designed a new material model for fatty tissues including the anisotropic behavior of breast ligaments. Later, \cite{georgii_simulation_2016} come up with a spring-mass generic model for the breast support matrix. According to the authors, including the ligaments into the finite elements breast model have increased the robustness of the prone-supine simulation with respect to the input parameters. 
 
- To our knowledge, where are no experimental data describing the mechanical properties of breast superficial fascia. An approximation of the elastic modulus of Cooper's ligaments is given by \cite{gefen_mechanics_2007} by extrapolating from known ligamentous structure in the human body. The authors estimated the elastic modulus of suspensory ligaments to relay between $80 - 400 MPa$
+ To our knowledge, where are no experimental data describing the mechanical properties of breast superficial fascia. An approximation of the elastic moduli of Cooper's ligaments is given by \cite{gefen_mechanics_2007} by extrapolating from known ligamentous structure in the human body. The authors estimated the elastic moduli of suspensory ligaments to relay between $80 - 400 MPa$
  
- %microscopic and macroscopic studi of fascia
- The fibrous tissues obtain their elasticity from elastic fibers and their structural support from collagen fibers. As reported by \cite{riggio_anatomical_2000} the superficial fascia is made up of both collagen and elastic fibers. In contrast, the Cooper's ligaments appeared to be composed almost of collagen fibers.  The mechanical properties of a single collagen fiber from a rat tail were studied by \cite{wenger_mechanical_2007}, according to authors their elastic modulus range between $5 GPa$ and $11 GPa$. Other studies on biomechanical characterization of human body superficial fascia are available in literature. The most frequently studied is on the plantar fascia and foot ligaments with a Young's modulus ranging between $0 MPa$ and $700 MPa$ \citep{cheung_effects_2004,kongsgaard_mechanical_2011}. 
+ %microscopic and macroscopic study of fascia
+ Fibrous tissues get their elasticity from elastin elastic fibers and their structural support from collagen fibers. As reported by \cite{riggio_anatomical_2000}, the superficial fascia is made up of both collagen and elastin fibers. In contrast, the Cooper's ligaments appeared to be composed almost of collagen fibers.  The mechanical properties of a single collagen fiber from a rat tail were studied by \cite{wenger_mechanical_2007}; according to the authors the corresponding elastic moduli range between $5 GPa$ and $11 GPa$. Other studies on biomechanical characterization of human body superficial fascia are available in the literature. The most frequently studied structures are the plantar fascia and foot ligaments, with a Young's moduli ranging between $0.1e^{-3} MPa$ \citep{gefen_vivo_2003} and $700 MPa$ \citep{cheung_effects_2004}. 
 
 \subsection{Boundary conditions}
 
-Direclet conditions are usually used to constrain the sternum/axilla ends and the posterior surface of the breast or the thoracic cage if the muscular tissues are considered \citep{griesenauer_breast_2017,rajagopal_creating_2008,pathmanathan_predicting_2008, gamage_modelling_2012,griesenauer_breast_2017}. As reported by \cite{carter_biomechanical_2009} the zero-displacement boundary conditions in a multi-gravity loading framework result in a over-constrained model and sliding conditions on the mesh nodes corresponding to the chest wall have to be considered.    
+Dirichlet conditions are usually used to constrain the sternum/axilla ends and the posterior surface of the breast or the thoracic cage if the muscular tissues are considered \citep{griesenauer_breast_2017,rajagopal_creating_2008,pathmanathan_predicting_2008, gamage_modelling_2012,griesenauer_breast_2017}. As reported by \cite{carter_biomechanical_2009} the zero-displacement boundary conditions in a multi-gravity loading framework result in an over-constrained model; in that case sliding conditions on the mesh nodes corresponding to the chest wall have to be considered.    
 
-  Later, several teams using biomechanical breast models for multy modality image registration or surgical planing showed what included the sliding boundary conditions  \citep{georgii_simulation_2016,han_nonlinear_2014}  improve the registration accuracy. However those studies were the biomechanical model is designed for breast compression, the tissues sliding over the chest wall is neglected and fixed boundary conditions are usually assumed \citep{sturgeon_finite_element_2016, martinez_finite_2017}.
+  Later, several teams using biomechanical breast models for multy modality image registration or surgical planing showed that including the sliding boundary conditions \citep{georgii_simulation_2016,han_nonlinear_2014}  improves the registration accuracy. However the most studies in which the biomechanical model is designed for breast compression, the tissues sliding over the chest wall is neglected and fixed boundary conditions are usually assumed \citep{sturgeon_finite_element_2016, martinez_finite_2017}.
   
  \subsection{Conclusion}
  
- During the last decades, several breast biomechanical models were proposed however, only a small part of them \citep{carter_biomechanical_2009,gamage_modelling_2012,han_nonlinear_2014} were evaluated with respect to the real tissues deformation. As we intend to build-up a subject specific breast biomechanical model capable of estimating multi-loading gravity deformations our assumption will rely only on already evaluated model within a same framework. In this chapter, three biggest challenges were identifies:  the estimation of the breast reference geometry, the estimation of patient specific material properties and the definition of the boundary condition and namely the breast-muscle interface. Today's outstanding breast biomechanical models are represented by the next three models:   \cite{eiben_surface_2016}, \cite{han_nonlinear_2014}, \cite{gamage_modelling_2012}.   
+ During the last decades, several breast biomechanical models were proposed. However, only a small part of them \citep{carter_biomechanical_2009,gamage_modelling_2012,han_nonlinear_2014} were evaluated with respect to real tissues deformations. As we intend to build-up a subject specific breast biomechanical model capable of estimating multi-loading gravity deformations, we will only consider as relevant the biomechanical models that were evaluated and compared with real data. In this chapter, three biggest challenges were identified:  the estimation of the breast reference geometry, the estimation of patient specific material properties and the definition of the boundary condition and namely the breast-muscle interface. Today's outstanding breast biomechanical models are represented by the next three models:   \cite{eiben_surface_2016}, \cite{han_nonlinear_2014}, \cite{gamage_modelling_2012}.   
 
- \cite{gamage_modelling_2012} proposed a finite elements model capable to estimate the supine breast configuration from the prone one. The breast stress-free configuration was estimated using a prediction-correction iterative algorithm optimization process, in this purpose the skin surfaces on prone configuration was used as ground-truth. Contrariwise, the material constitutive parameters were identified using the skin surface on supine breast configuration by applying an non-linear optimization algorithm. Breast tissues sliding over the chest wall was considered partially by modeling the pectoral muscle as a soft structure and including it into the optimization process. The models was evaluated for the supine breast configuration by computing the root-mean-squared error (RMSE) from the point to surface distance between the estimated and measured data. Conform to the authors, the breast supine geometry was estimated within an RMSE of 5mm (maximal distance of 9.3 mm). 
+ \cite{gamage_modelling_2012} proposed a finite elements model capable to estimate the supine breast configuration from the prone one. The breast stress-free configuration was estimated using a prediction-correction iterative algorithm optimization process, in this purpose the skin surfaces on prone configuration was used as ground-truth. Contrariwise, the material constitutive parameters were identified using the skin surface on supine breast configuration by applying a non-linear optimization algorithm. Breast tissues sliding over the chest wall was considered partially by modeling the pectoral muscle as a soft structure and including it into the optimization process. The models were evaluated for the supine breast configuration by computing the root-mean-squared error (RMSE) from the point to surface distance between the estimated and measured data. Conform to the authors, the breast supine geometry was estimated within an RMSE of 5mm (maximal distance of 9.3 mm). 
 
-In the same time, \cite{han_nonlinear_2014} developed a breast biomechanical model for image registration. The estimates of supine breast configuration  were computed for five subjects, and the accuracy was assessed by computing the Euclidian distance between anatomical landmarks.  The mean Euclidian distance range between 11.5 mm and 39.2 mm (maximal Euclidian distance range between 20.3mm and 61.7mm). The authors modelled the elongation of the pectoral muscle using a contact sliding model. Only the material constitutive parameters were adapted to the patients breast mechanics, the stress-free breast geometry being estimated by inverse gravity. 
+In the same time, \cite{han_nonlinear_2014} developed a breast biomechanical model for image registration. The estimates of supine breast configuration were computed for five subjects, and the accuracy was assessed by computing the Euclidian distance between anatomical landmarks.  The mean Euclidian distance range between 11.5 mm and 39.2 mm (maximal Euclidian distance ranged between 20.3mm and 61.7mm). The authors modelled the elongation of the pectoral muscle using a contact sliding model. Only the material constitutive parameters were adapted to the patient’s breast mechanics, the stress-free breast geometry being estimated by inverse gravity. 
 
-Finally, \cite{eiben_surface_2016} proposed a new model to estimate the up-standing breast configuration from the prone one. The model was evaluated on 3 subject. The patient specific stress-free geometry was computed using a inverse finite elements u-p formulation. The material parameters were optimized such that the best fit in supine configuration is obtained. The estimates quality was measured in terms of the mean Eulerian Distance between manually selected internal landmarks. Thus, the supine breast configuration was estimated within a mean distance ranging between $12.2mm$ and $19.8 mm$. The model evaluation for the up-standing configuration was not presented.
+Finally, \cite{eiben_surface_2016} proposed a new model to estimate the up-standing breast configuration from the prone one. The model was evaluated on 3 subject. The patient specific stress-free geometry was computed using an inverse finite elements u-p formulation. The material parameters were optimized such that the best fit in supine configuration is obtained. The estimates quality was measured in terms of the mean Eulerian Distance between manually selected internal landmarks. Thus, the supine breast configuration was estimated within a mean distance ranging between $12.2mm$ and $19.8 mm$. The model evaluation for the up-standing configuration was not presented.
 
-    
+A new biomechanical breast model is proposed in the next chapter considering the patient specific breast geometry and elastic properties as proposed by the previous models. In addition, the breast tissues sliding over the chest wall is modeled by including new anatomical structures as superficial fascia and suspensory ligaments. We believe that global breast mechanics are driven by these stiff structures. Finally, the model will be evaluated by confrontation with real data collected from MR images.        
  
  \input{appendices/biomechanicalmodeltable.tex}
+

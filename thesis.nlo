@@ -26,8 +26,13 @@
 \nomenclatureentry{a$F$@[{$F$}]\begingroup Deformation gradient\nomeqref {2.2}|nompageref}{27}
 \nomenclatureentry{a$J$@[{$J$}]\begingroup Jacobian determinant of the deformation gradient tensor\nomeqref {2.5}|nompageref}{27}
 \nomenclatureentry{a$l$@[{$l$}]\begingroup body stretch\nomeqref {2.6}|nompageref}{27}
-\nomenclatureentry{aGBM@[{GBM}]\begingroup generalized momentum balance\nomeqref {2.32}|nompageref}{35}
-\nomenclatureentry{aPDE@[{PDE}]\begingroup partial differential equations\nomeqref {2.32}|nompageref}{36}
-\nomenclatureentry{a$E_{xx}$@[{$E_{xx}$}]\begingroup Youngs's moduli of the material $xx$\nomeqref {3.0}|nompageref}{66}
-\nomenclatureentry{a$\nu$@[{$\nu$}]\begingroup Poisson's ratio\nomeqref {3.0}|nompageref}{66}
-\nomenclatureentry{a$E_{xx}^{l/r}$@[{$E_{xx}^{l/r}$}]\begingroup Young's modulus of the material xx for the left/right breast\nomeqref {3.0}|nompageref}{68}
+\nomenclatureentry{a$\lambda$@[{$\lambda$}]\begingroup Young's moduli\nomeqref {2.27}|nompageref}{33}
+\nomenclatureentry{aK@[{K}]\begingroup Bulk moduli\nomeqref {2.28}|nompageref}{34}
+\nomenclatureentry{a$\mu$@[{$\mu$}]\begingroup shear moduli\nomeqref {2.28}|nompageref}{34}
+\nomenclatureentry{a$\nu$@[{$\nu$}]\begingroup Poisson ratio\nomeqref {2.28}|nompageref}{34}
+\nomenclatureentry{aGBM@[{GBM}]\begingroup generalized momentum balance\nomeqref {2.33}|nompageref}{35}
+\nomenclatureentry{aPDE@[{PDE}]\begingroup partial differential equations\nomeqref {2.33}|nompageref}{36}
+\nomenclatureentry{a$\alpha$@[{$\alpha$}]\begingroup multiplicative regularization factor\nomeqref {3.0}|nompageref}{62}
+\nomenclatureentry{a$D_i$@[{$D_i$}]\begingroup position difference of the node $i$ between the estimated and measured breast prone configurations\nomeqref {3.0}|nompageref}{62}
+\nomenclatureentry{a$\lambda_{xx}$@[{$\lambda_{xx}$}]\begingroup Youngs's moduli of the material $xx$\nomeqref {3.0}|nompageref}{65}
+\nomenclatureentry{a$\lambda_{xx}^{l/r}$@[{$\lambda_{xx}^{l/r}$}]\begingroup Young's modulus of the material xx for the left/right breast\nomeqref {3.0}|nompageref}{67}

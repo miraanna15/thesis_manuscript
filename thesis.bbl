@@ -1,11 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[Abbas et~al., 2001]{abbas_biomechanical_2001}
-Abbas, S., Bishop, J., Yaffe, M.~J., and Plewes, D.~B. (2001).
-\newblock Biomechanical 3-d finite element modeling of the human breast using
-  {MRI} data.
-\newblock {\em Medical Imaging, {IEEE} Transactions on}, 20(4):271--279.
-
 \bibitem[Abeyaratne, 2012]{abeyaratne_continuum_2012}
 Abeyaratne, R. (2012).
 \newblock {\em Continuum Mechanics: Volume II of Lecture Notes on The Mechanics
@@ -36,10 +30,14 @@ Andrews, F.~J. (2001).
 \newblock {\em Journal of Medical Imaging and Radiation Oncology},
   45(2):113--117.
 
-\bibitem[ANSYS, 2009]{ansys_theory_2009}
-ANSYS, I. (2009).
+\bibitem[ANSYS, 2017a]{ansys_contact_2017}
+ANSYS (2017a).
+\newblock {\em ANSYS Contact Technology Guide}, 17 edition.
+
+\bibitem[ANSYS, 2017b]{ansys_theory_2017}
+ANSYS (2017b).
 \newblock {\em Theory reference for the mechanical APDL and mechanical
-  applications}, 12 edition.
+  applications}, 17 edition.
 
 \bibitem[Aro et~al., 1996]{aro_pain_1996}
 Aro, A.~R., Absetz-Yl{\"o}stalo, P., Eerola, T., Pamilo, M., and L{\"o}nnqvist,
@@ -252,6 +250,12 @@ Garcia, E., Oliver, A., Diaz, O., Diez, Y., Gubern-Merida, A., Marti, R., and
 \newblock In {\em SPIE Medical Imaging}, pages 1013504--1013504. International
   Society for Optics and Photonics.
 
+\bibitem[Gefen, 2003]{gefen_vivo_2003}
+Gefen, A. (2003).
+\newblock The in vivo elastic properties of the plantar fascia during the
+  contact phase of walking.
+\newblock {\em Foot \& ankle international}, 24(3):238--244.
+
 \bibitem[Gefen and Dilmoney, 2007]{gefen_mechanics_2007}
 Gefen, A. and Dilmoney, B. (2007).
 \newblock Mechanics of the normal woman's breast.
@@ -366,12 +370,6 @@ Kemp~Jacobsen, K., O'meara, E.~S., Key, D., SM~Buist, D., Kerlikowske, K.,
 \newblock Comparing sensitivity and specificity of screening mammography in the
   united states and denmark.
 \newblock {\em International journal of cancer}, 137(9):2198--2207.
-
-\bibitem[Kongsgaard et~al., 2011]{kongsgaard_mechanical_2011}
-Kongsgaard, M., Nielsen, C., Hegnsvad, S., Aagaard, P., and Magnusson, S.
-  (2011).
-\newblock Mechanical properties of the human achilles tendon, in vivo.
-\newblock {\em Clinical Biomechanics}, 26(7):772--777.
 
 \bibitem[Kopans, 2007]{kopans2007breast}
 Kopans, D.~B. (2007).
@@ -563,6 +561,12 @@ Ruiter, N.~V., Stotzka, R., {MULLER}, T.-O., Gemmeke, H., Reichenbach, J.~R.,
 \newblock Model-based registration of x-ray mammograms and {MR} images of the
   female breast.
 \newblock {\em {IEEE} Transactions on Nuclear Science}, 53(1):204--211.
+
+\bibitem[Samani et~al., 2001]{abbas_biomechanical_2001}
+Samani, A., Bishop, J., Yaffe, M.~J., and Plewes, D.~B. (2001).
+\newblock Biomechanical 3-d finite element modeling of the human breast using
+  {MRI} data.
+\newblock {\em Medical Imaging, {IEEE} Transactions on}, 20(4):271--279.
 
 \bibitem[Samani and Plewes, 2004]{samani_method_2004}
 Samani, A. and Plewes, D. (2004).

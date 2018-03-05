@@ -1,39 +1,39 @@
-\babel@toc {british}{}
+\select@language {british}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Breast embryogenesis: embryonic evolution of duct system. The epidermis is responsible for the creation of ductal system and alveoli, the dermis mesenchyme is responsible for the creation of connective tissue and vessels}}{11}{figure.caption.10}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Breast development sequence into subcutaneous tissues. A Mammary bud development by splitting the superficial fascia in 2 layers. B Mammary bud development by superficial fascia retracting}}{12}{figure.caption.11}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Left: thorax landmarks; Right: four breast quadrans\relax }}{12}{figure.caption.12}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Breast anatomy\relax }}{14}{figure.caption.13}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Skin anatomy\relax }}{15}{figure.caption.14}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Suspensory ligaments\relax }}{16}{figure.caption.15}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Lymphatic system and Mammary Arteries for adult female breast}}{16}{figure.caption.16}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Mammographyc exam}}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Breast embryogenesis: embryonic evolution of duct system. The epidermis is responsible for the creation of ductal system and alveoli, the dermis mesenchyme is responsible for the creation of connective tissue and vessels}}{11}{figure.caption.11}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Breast development sequence into subcutaneous tissues. A Mammary bud development by splitting the superficial fascia in 2 layers. B Mammary bud development by superficial fascia retracting}}{12}{figure.caption.12}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Left: thorax landmarks; Right: four breast quadrans\relax }}{12}{figure.caption.13}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Breast anatomy\relax }}{14}{figure.caption.14}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Skin anatomy\relax }}{15}{figure.caption.15}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Suspensory ligaments\relax }}{16}{figure.caption.16}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Lymphatic system and Mammary Arteries for adult female breast}}{16}{figure.caption.17}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Mammographyc exam}}{20}{figure.caption.18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The position of a particle in the reference and current body configurations.\relax }}{26}{figure.caption.18}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces a) Lagrangian mesh formulation. b) Euler mesh formulation\relax }}{36}{figure.caption.22}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces From strong formulation of the generalized momentum balance (GMB) to numerical equations.\relax }}{37}{figure.caption.23}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces a) Discretization of a 2D domain with triangular finite elements :Lagrangian mesh . b) Different types of finite elements\relax }}{38}{figure.caption.24}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Computation of the aspect ratio for a triangle\relax }}{39}{figure.caption.25}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Example of triangles with different maximal corner angles.\relax }}{39}{figure.caption.26}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Example of triangles with different skewness with the corresponding circum radius.\relax }}{40}{figure.caption.27}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Multi-body contact problem.\relax }}{41}{figure.caption.28}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Contact status update using a pinball of radius r.\relax }}{44}{figure.caption.30}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces a) Body $\mathcal {A}$ and body $\mathcal {B}$ are close but not in contact. The $d_1(x_B,\mathcal {A})$ measure define the gap between the bodies at point $x_B$. b) Body $\mathcal {B}$ have penetrated the body $\mathcal {A}$. The $d_1(x_B,\mathcal {A})$ measure gives the penetration at point $x_B$.\relax }}{44}{figure.caption.31}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces The contact surface projection over the target surface: a) Target discretized area; b) contact discretized area; c) intersection of the projected surfaces.\relax }}{45}{figure.caption.32}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Prediction-correction algorithm\relax }}{48}{figure.caption.33}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The position of a particle in the reference and current body configurations.\relax }}{26}{figure.caption.19}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces a) Lagrangian mesh formulation. b) Euler mesh formulation\relax }}{36}{figure.caption.23}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces From strong formulation of the generalized momentum balance (GMB) to numerical equations.\relax }}{37}{figure.caption.24}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces a) Discretization of a 2D domain with triangular finite elements :Lagrangian mesh . b) Different types of finite elements\relax }}{38}{figure.caption.25}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Computation of the aspect ratio for a triangle\relax }}{39}{figure.caption.26}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Example of triangles with different maximal corner angles.\relax }}{39}{figure.caption.27}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Example of triangles with different skewness with the corresponding circum radius.\relax }}{40}{figure.caption.28}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Multi-body contact problem.\relax }}{41}{figure.caption.29}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Contact status update using a pinball of radius r. Green nodes- updated nodes to closed contact status; gray nodes - updated nodes to open contact status; blue nodes- nodes which contact status need to be updated\relax }}{44}{figure.caption.31}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces a) Body $\mathcal {A}$ and body $\mathcal {B}$ are close but not in contact. The $d_1(x_B,\mathcal {A})$ measure define the gap between the bodies at point $x_B$. b) Body $\mathcal {B}$ have penetrated the body $\mathcal {A}$. The $d_1(x_B,\mathcal {A})$ measure gives the penetration at point $x_B$.\relax }}{44}{figure.caption.32}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces The contact surface projection over the target surface: a) Target discretized area; b) contact discretized area; c) intersection of the projected surfaces.\relax }}{45}{figure.caption.33}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Prediction-correction algorithm\relax }}{48}{figure.caption.34}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces MRI images in three breast configuration: first line- subject 1; second line- subject 2\relax }}{56}{figure.caption.36}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces MRI images in three breast configuration: first line- subject 1; second line- subject 2\relax }}{56}{figure.caption.37}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Breast tissues segmentation on the breast MRI of the second subject. Prone breast configuration. White-voxel belongs to breast tissue; blue - voxel don't belongs to fatty tissue\relax }}{57}{figure.caption.38}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Registered MRI images: first line- subject 1; second line- subject 2; first column - prone configuration versus supine; second column - supine tilted versus supine \relax }}{59}{figure.caption.39}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Anatomical planes and nominal Cartesian axis directions.\relax }}{60}{figure.caption.40}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Registered MRI images: first line- subject 1; second line- subject 2; first column - prone configuration versus supine; second column - supine tilted versus supine \relax }}{58}{figure.caption.39}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Anatomical planes and nominal Cartesian axis directions.\relax }}{59}{figure.caption.40}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces 3D geometries generation. a) MR images; b) segmeted image; c) corresponding 3D geometries\relax }}{60}{figure.caption.41}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Finite elements mesh quality.\relax }}{61}{figure.caption.42}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Finite elements mesh components. The tissues components are cropped for visualization purposes.\relax }}{62}{figure.caption.43}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Fixed point type iterative algorithm for stress-free geometry approximation. $D_i$ - mean node to node distance over the active nodes at iteration $i$, $G$ - gravity force\relax }}{63}{figure.caption.44}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Finite elements mesh boundaries\relax }}{64}{figure.caption.45}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Tissues acumulation on the sternum line with excessive sliding\relax }}{65}{figure.caption.46}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Finite elements mesh components. The tissues components are cropped for visualization purposes.\relax }}{61}{figure.caption.43}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Fixed point type iterative algorithm for stress-free geometry approximation. $D_i$ - mean node to node distance over the active nodes at iteration $i$, $G$ - gravity force\relax }}{62}{figure.caption.44}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Finite elements mesh boundaries\relax }}{63}{figure.caption.45}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Tissues acumulation on the sternum line with excessive sliding\relax }}{64}{figure.caption.46}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Components of the finite elements mesh.\relax }}{65}{figure.caption.47}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Process to estimate optimal material parameters\relax }}{67}{figure.caption.48}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Process to estimate optimal material parameters\relax }}{66}{figure.caption.48}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Process to estimate optimal material parameters\relax }}{67}{figure.caption.49}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces First column: relation between maximal and mean nodes displacement and the equivalent Young's modulus variation for different tissues. Second column: rate and cumulative change rate of node displacement in function of quivalent Young's modulus\relax }}{69}{figure.caption.51}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Hausdorff distance on the skin surface over the constitutive parameters space\relax }}{70}{figure.caption.52}
@@ -45,8 +45,8 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Characteristic breast flattening curve as function of the applied force. Reproduced from \cite {groot_towards_2015}\relax }}{81}{figure.caption.56}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Breast compression between the paddle (up) and the receiver (down): a) Rigid paddle; b)Flex paddle with flexion angle $\alpha $\relax }}{82}{figure.caption.57}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Microclcification distribution over the smallest breast volume $(d=10mm)$: a)axial view, b) sagittal view.\relax }}{84}{figure.caption.58}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Resulting breast thickness for a given compression force\relax }}{84}{figure.caption.59}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Stress, strain and contact pressure distribution for the first subject\relax }}{86}{figure.caption.60}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Stress, strain and contact pressure distribution for the second subject\relax }}{87}{figure.caption.61}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Breast nominal thickness (BNT), average glandular dose (AGD), signal-to-noise-ratio (SNR) and signal-difference-to-noise (SDNR) for both volunteers and both compression paddle types\relax }}{88}{figure.caption.62}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Microclcification distribution over the smallest breast volume $(d=10mm)$: a)axial view, b) sagittal view.\relax }}{84}{figure.caption.59}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Resulting breast thickness for a given compression force\relax }}{85}{figure.caption.60}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Stress, strain and contact pressure distribution for the first subject\relax }}{87}{figure.caption.61}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Stress, strain and contact pressure distribution for the second subject\relax }}{88}{figure.caption.62}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Breast nominal thickness (BNT), average glandular dose (AGD), signal-to-noise-ratio (SNR) and signal-difference-to-noise (SDNR) for both volunteers and both compression paddle types\relax }}{89}{figure.caption.63}
