@@ -51,6 +51,12 @@ Aro, A.~R., De~Koning, H.~J., Absetz, P., and Schreck, M. (1999).
   screening.
 \newblock {\em Journal of Medical Screening}, 6(2):82--88.
 
+\bibitem[Askhar and Zaki, 2017]{askhar_female_2017}
+Askhar, L.~K. and Zaki, Y.~H. (2017).
+\newblock Female patients’ perception of pain caused by mammography in the
+  western region of saudi arabia.
+\newblock {\em Saudi medical journal}, 38(7):768.
+
 \bibitem[Azar et~al., 2002]{azar_methods_2002}
 Azar, F.~S., Metaxas, D.~N., and Schnall, M.~D. (2002).
 \newblock Methods for modeling and predicting mechanical deformations of the
@@ -66,6 +72,21 @@ Bayati, S. and Seckel, B.~R. (1995).
 Belytschko, T., Liu, W.~K., Moran, B., and Elkhodary, K. (2013).
 \newblock {\em Nonlinear finite elements for continua and structures}.
 \newblock John wiley \& sons.
+
+\bibitem[Boone, 1999]{boone_glandular_1999}
+Boone, J.~M. (1999).
+\newblock Glandular breast dose for monoenergetic and high-energy x-ray beams:
+  Monte carlo assessment.
+\newblock {\em Radiology}, 213(1):23--37.
+
+\bibitem[Broeders et~al., 2015]{broeders_comparison_2015}
+Broeders, M.~J., ten Voorde, M., Veldkamp, W.~J., van Engen, R.~E., van
+  Landsveld-Verhoeven, C., NL’t Jong-Gunneman, M., de~Win, J., Droogh-de
+  Greve, K., Paap, E., and den Heeten, G.~J. (2015).
+\newblock Comparison of a flexible versus a rigid breast compression paddle:
+  pain experience, projected breast area, radiation dose and technical image
+  quality.
+\newblock {\em European radiology}, 25(3):821--829.
 
 \bibitem[Bucki et~al., 2010]{bucki_fast_2010}
 Bucki, M., Lobos, C., and Payan, Y. (2010).
@@ -113,6 +134,12 @@ Chan, H.-P., Galhotra, S., Vyborny, C.~J., MacMahon, H., Jokich, P.~M., et~al.
   radiography. i. automated detection of microcalcifications in mammography.
 \newblock {\em Medical physics}, 14(4):538--548.
 
+\bibitem[Chen et~al., 2012]{chen_analysis_2012}
+Chen, B., Wang, Y., Sun, X., Guo, W., Zhao, M., Cui, G., Hu, L., Li, P., Ren,
+  Y., Feng, J., et~al. (2012).
+\newblock Analysis of patient dose in full field digital mammography.
+\newblock {\em European journal of radiology}, 81(5):868--872.
+
 \bibitem[Cheung et~al., 2004]{cheung_effects_2004}
 Cheung, J. T.-M., Zhang, M., and An, K.-N. (2004).
 \newblock Effects of plantar fascia stiffness on the biomechanical responses of
@@ -143,6 +170,12 @@ Conley, R.~H., Meszoely, I.~M., Weis, J.~A., Pheiffer, T.~S., Arlinghaus,
 \newblock {\em International journal of computer assisted radiology and
   surgery}, 10(12):1985--1996.
 
+\bibitem[Dance et~al., 2000]{dance_additional_2000}
+Dance, D., Skinner, C., Young, K., Beckett, J., and Kotre, C. (2000).
+\newblock Additional factors for the estimation of mean glandular breast dose
+  using the uk mammography dosimetry protocol.
+\newblock {\em Physics in medicine \& biology}, 45(11):3225.
+
 \bibitem[de~Groot et~al., 2015]{de_pain_2015}
 de~Groot, J.~E., Broeders, M.~J., Grimbergen, C.~A., and den Heeten, G.~J.
   (2015).
@@ -155,6 +188,12 @@ de~Groot, J.~E., Broeders, M.~J., Grimbergen, C.~A., and den Heeten, G.~J.
 Dullum, J.~R., Lewis, E.~C., and Mayer, J.~A. (2000).
 \newblock Rates and correlates of discomfort associated with mammography.
 \newblock {\em Radiology}, 214(2):547--552.
+
+\bibitem[Dustler et~al., 2012]{dustler_breast_2012}
+Dustler, M., Andersson, I., Brorson, H., Fr{\"o}jd, P., Mattsson, S., Tingberg,
+  A., Zackrisson, S., and F{\"o}rnvik, D. (2012).
+\newblock Breast compression in mammography: pressure distribution patterns.
+\newblock {\em Acta Radiologica}, 53(9):973--980.
 
 \bibitem[Eder et~al., 2014]{eder_comparison_2014}
 Eder, M., Raith, S., Jalali, J., Volf, A., Settles, M., Machens, H.-G., and
@@ -250,6 +289,12 @@ Garcia, E., Oliver, A., Diaz, O., Diez, Y., Gubern-Merida, A., Marti, R., and
 \newblock In {\em SPIE Medical Imaging}, pages 1013504--1013504. International
   Society for Optics and Photonics.
 
+\bibitem[Geeraert et~al., 2012]{geeraert_breast_2012}
+Geeraert, N., Klausza, R., Mullera, S., et~al. (2012).
+\newblock Breast characteristics and dosimetric data in x-ray mammography a
+  large sample worldwide survey.
+\newblock In {\em Bonn: IAEA conference}. Citeseer.
+
 \bibitem[Gefen, 2003]{gefen_vivo_2003}
 Gefen, A. (2003).
 \newblock The in vivo elastic properties of the plantar fascia during the
@@ -300,6 +345,17 @@ Groot, J. E.~d., Branderhorst, W., Grimbergen, C.~A., Heeten, G. J.~d., and
   between pressure- and force-standardization.
 \newblock {\em European Journal of Radiology}, 84(3):384--391.
 
+\bibitem[Hafslund, 2000]{hafslund_mammography_2000}
+Hafslund, B. (2000).
+\newblock Mammography and the experience of pain and anxiety.
+\newblock {\em Radiography}, 6(4):269--272.
+
+\bibitem[Hammerstein et~al., 1979]{richard_absorbed_1979}
+Hammerstein, R.~G., Miller, D.~W., White, D.~R., Ellen~Masterson, M., Woodard,
+  H.~Q., and Laughlin, J.~S. (1979).
+\newblock Absorbed radiation dose in mammography.
+\newblock {\em radiology}, 130(2):485--491.
+
 \bibitem[Han et~al., 2014]{han_nonlinear_2014}
 Han, L., Hipwell, J.~H., Eiben, B., Barratt, D., Modat, M., Ourselin, S., and
   Hawkes, D.~J. (2014).
@@ -313,6 +369,12 @@ Han, L., year, J.~H., Tanner, C., Taylor, Z., Mertzanidou, T., {Jorge Cardoso},
 \newblock Development of patient-specific biomechanical models for predicting
   large breast deformation.
 \newblock {\em Physics in Medicine and Biology}, 57(2):455--472.
+
+\bibitem[Helvie et~al., 1994]{helvie_breast_1994}
+Helvie, M., Chan, H.-P., Adler, D., and Boyd, P. (1994).
+\newblock Breast thickness in routine mammograms: effect on image quality and
+  radiation dose.
+\newblock {\em AJR. American journal of roentgenology}, 163(6):1371--1374.
 
 \bibitem[Hendriks et~al., 2006]{hendriks_relative_2006}
 Hendriks, F., Brokken, D., Oomens, C., Bader, D., and Baaijens, F. (2006).
@@ -340,6 +402,11 @@ Huang, S.-Y., Boone, J.~M., Yang, K., Packard, N.~J., McKenney, S.~E., Prionas,
   breast ct.
 \newblock {\em Medical physics}, 38(4):2180--2191.
 
+\bibitem[Ikeda and Sickles, 1988]{ikeda_second_1988}
+Ikeda, D.~M. and Sickles, E.~A. (1988).
+\newblock Second-screening mammography: one versus two views per breast.
+\newblock {\em Radiology}, 168(3):651--656.
+
 \bibitem[Itoh et~al., 2006]{itoh_breast_2006}
 Itoh, A., Ueno, E., Tohno, E., Kamma, H., Takahashi, H., Shiina, T., Yamakawa,
   M., and Matsumura, T. (2006).
@@ -358,6 +425,12 @@ Kanitakis, J. (2002).
 \newblock Anatomy, histology and immunohistochemistry of normal human skin.
 \newblock {\em European journal of dermatology: EJD}, 12(4):390--9.
 
+\bibitem[Keemers-Gels et~al., 2000]{keemers_pain_2000}
+Keemers-Gels, M., Groenendijk, R., Van Den~Heuvel, J., Boetes, C., Peer, P.,
+  and Wobbes, T. (2000).
+\newblock Pain experienced by women attending breast cancer screening.
+\newblock {\em Breast cancer research and treatment}, 60(3):235--240.
+
 \bibitem[Kellner et~al., 2007]{kellner_simulation_2007}
 Kellner, A.~L., Nelson, T.~R., Cervino, L.~I., and Boone, J.~M. (2007).
 \newblock Simulation of mechanical compression of breast tissue.
@@ -370,6 +443,19 @@ Kemp~Jacobsen, K., O'meara, E.~S., Key, D., SM~Buist, D., Kerlikowske, K.,
 \newblock Comparing sensitivity and specificity of screening mammography in the
   united states and denmark.
 \newblock {\em International journal of cancer}, 137(9):2198--2207.
+
+\bibitem[Kim et~al., 2006]{kim_computer_2006}
+Kim, S.~J., Moon, W.~K., Cho, N., Cha, J.~H., Kim, S.~M., and Im, J.-G. (2006).
+\newblock Computer-aided detection in digital mammography: comparison of
+  craniocaudal, mediolateral oblique, and mediolateral views.
+\newblock {\em Radiology}, 241(3):695--701.
+
+\bibitem[Ko et~al., 2013]{ko_dose_2013}
+Ko, M.-S., Kim, H.~H., Cha, J.~H., Shin, H.~J., Kim, J.~H., and Kim, M.~J.
+  (2013).
+\newblock Dose reduction in automatic optimization parameter of full field
+  digital mammography: Breast phantom study.
+\newblock {\em Journal of breast cancer}, 16(1):90--96.
 
 \bibitem[Kopans, 2007]{kopans2007breast}
 Kopans, D.~B. (2007).
@@ -422,10 +508,22 @@ Mart{\'\i}nez-Mart{\'\i}nez, F., Rup{\'e}rez-Moreno, M., Mart{\'\i}nez-Sober,
   mechanical behavior of the breast tissues under compression in real-time.
 \newblock {\em Computers in Biology and Medicine}, 90:116--124.
 
+\bibitem[Mercer et~al., 2013]{mercer_practitioner_2013}
+Mercer, C., Hogg, P., Lawson, R., Diffey, J., and Denton, E. (2013).
+\newblock Practitioner compression force variability in mammography: a
+  preliminary study.
+\newblock {\em The British journal of radiology}, 86(1022):20110596.
+
 \bibitem[Mugea and Shiffman, 2014]{mugea2014aesthetic}
 Mugea, T.~T. and Shiffman, M.~A. (2014).
 \newblock {\em Aesthetic Surgery of the Breast}.
 \newblock Springer.
+
+\bibitem[NCI, 2012]{NCI_2012}
+NCI (2012).
+\newblock Breast and adjacent lymph nodes, national cancer institute.
+\newblock
+  https://www.cancer.gov/publications/patient-education/wyntk-breast-cancer.
 
 \bibitem[NHSBSP, 2012]{NHSBSP_2012}
 NHSBSP (2012).
@@ -439,12 +537,26 @@ Nordez, A. and Hug, F. (2010).
   is highly related to muscle activity level.
 \newblock {\em Journal of applied physiology}, 108(5):1389--1394.
 
+\bibitem[Obenauer et~al., 2002]{obenauer_screen_2002}
+Obenauer, S., Luftner-Nagel, S., Von~Heyden, D., Munzel, U., Baum, F., and
+  Grabbe, E. (2002).
+\newblock Screen film vs full-field digital mammography: image quality,
+  detectability and characterization of lesions.
+\newblock {\em European radiology}, 12(7):1697--1702.
+
 \bibitem[Ogden, 1972]{ogden_large_1972}
 Ogden, R.~W. (1972).
 \newblock Large deformation isotropic elasticity--on the correlation of theory
   and experiment for incompressible rubberlike solids.
 \newblock In {\em Proc. R. Soc. Lond. A}, volume 326, pages 565--584. The Royal
   Society.
+
+\bibitem[O’Leary et~al., 2011]{oleary_compression_2011}
+O’Leary, D., Teape, A., Hammond, J., Rainford, L., and Grant, T. (2011).
+\newblock Compression force recommendations in mammography must be linked to
+  image quality.
+\newblock In {\em Proceedings of the European Congress of Radiology}, pages
+  1--19.
 
 \bibitem[Olgun et~al., 2014]{olgun_use_2014}
 Olgun, D.~{\c{C}}., Korkmazer, B., K{\i}l{\i}{\c{c}}, F., Dikici, A.~S.,
@@ -453,6 +565,13 @@ Olgun, D.~{\c{C}}., Korkmazer, B., K{\i}l{\i}{\c{c}}, F., Dikici, A.~S.,
 \newblock Use of shear wave elastography to differentiate benign and malignant
   breast lesions.
 \newblock {\em Diagnostic and Interventional Radiology}, 20(3):239.
+
+\bibitem[{\O}ster{\aa}s et~al., 2018]{osteraas_average_2018}
+{\O}ster{\aa}s, B.~H., Skaane, P., Gullien, R., and Martinsen, A. C.~T. (2018).
+\newblock Average glandular dose in paired digital mammography and digital
+  breast tomosynthesis acquisitions in a population based screening program:
+  effects of measuring breast density, air kerma and beam quality.
+\newblock {\em Physics in medicine and biology}.
 
 \bibitem[Palomar et~al., 2008]{palomar_finite_2008}
 Palomar, A. P.~d., Calvo, B., Herrero, J., López, J., and Doblaré, M. (2008).
@@ -485,6 +604,19 @@ Pechter, E.~A. (1998).
   breast size.
 \newblock {\em Plastic and reconstructive surgery}, 102(4):1259--1265.
 
+\bibitem[Peipins et~al., 2006]{peipins_impact_2006}
+Peipins, L.~A., Shapiro, J.~A., Bobo, J.~K., and Berkowitz, Z. (2006).
+\newblock Impact of women’s experiences during mammography on adherence to
+  rescreening (united states).
+\newblock {\em Cancer causes \& control}, 17(4):439--447.
+
+\bibitem[Perry et~al., 2008]{perry_european_2008}
+Perry, N., Broeders, M., de~Wolf, C., T{\"o}rnberg, S., Holland, R., and von
+  Karsa, L. (2008).
+\newblock European guidelines for quality assurance in breast cancer screening
+  and diagnosis. —summary document.
+\newblock {\em Annals of Oncology}, 19(4):614--622.
+
 \bibitem[Peters et~al., 2008]{peters_meta_2008}
 Peters, N.~H., Borel~Rinkes, I.~H., Zuithoff, N.~P., Mali, W.~P., Moons, K.~G.,
   and Peeters, P.~H. (2008).
@@ -502,6 +634,11 @@ Pike, M.~C., Spicer, D.~V., Dahmoush, L., and Press, M.~F. (1993).
 \newblock Estrogens progestogens normal breast cell proliferation and breast
   cancer risk.
 \newblock {\em Epidemiologic reviews}, 15(1):17--35.
+
+\bibitem[Pilcher, 1917]{pilcher_breast_1917}
+Pilcher, L.~S. (1917).
+\newblock The breast, its anomalies, its diseases and their treatment.
+\newblock {\em Annals of Surgery}, 65(4):527.
 
 \bibitem[Poulos et~al., 2003]{poulos_breast_2003}
 Poulos, A., McLean, D., Rickard, M., and Heard, R. (2003).
@@ -579,6 +716,12 @@ Samani, A., Zubovits, J., and Plewes, D. (2007).
 \newblock Elastic moduli of normal and pathological human breast tissues: an
   inversion-technique-based investigation of 169 samples.
 \newblock {\em Physics in medicine and biology}, 52(6):1565.
+
+\bibitem[Saunders and Samei, 2008]{saunders_effect_2008}
+Saunders, R.~S. and Samei, E. (2008).
+\newblock The effect of breast compression on mass conspicuity in digital
+  mammography.
+\newblock {\em Medical physics}, 35(10):4464--4473.
 
 \bibitem[Sinkus et~al., 2005]{sinkus_viscoelastic_2005}
 Sinkus, R., Tanter, M., Xydeas, T., Catheline, S., Bercoff, J., and Fink, M.
@@ -668,6 +811,18 @@ Whelehan, P., Evans, A., Wells, M., and MacGillivray, S. (2013).
 \newblock The effect of mammography pain on repeat participation in breast
   cancer screening: a systematic review.
 \newblock {\em The Breast}, 22(4):389--394.
+
+\bibitem[Williams et~al., 2008]{williams_optimization_2008}
+Williams, M.~B., Raghunathan, P., More, M.~J., Seibert, J.~A., Kwan, A., Lo,
+  J.~Y., Samei, E., Ranger, N.~T., Fajardo, L.~L., McGruder, A., et~al. (2008).
+\newblock Optimization of exposure parameters in full field digital
+  mammography.
+\newblock {\em Medical physics}, 35(6Part1):2414--2423.
+
+\bibitem[Williamson and Hoggart, 2005]{williamson_pain_2005}
+Williamson, A. and Hoggart, B. (2005).
+\newblock Pain: a review of three commonly used pain rating scales.
+\newblock {\em Journal of clinical nursing}, 14(7):798--804.
 
 \bibitem[Yaffe et~al., 2009]{yaffe2009myth}
 Yaffe, M., Boone, J., Packard, N., Alonzo-Proulx, O., Huang, S.-Y., Peressotti,

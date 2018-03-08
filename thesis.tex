@@ -24,7 +24,7 @@ hesis}
 \newcommand{\me}{MIRA Anna}
 \newcommand{\keywords}{Breast mechanics,FEM, Mammography}
 \newcommand{\version}{V2}
-\newcommand{\monthYear}{September 2016}
+\newcommand{\monthYear}{2017}
 
 %Be sure to use all the titles for your committee members!!! (their names show up on the very first page!)
 \newcommand{\firstCommitteeMember}{ Yohan Payan, TIMC-IMAG Lab, CNRS \& Univ. Grenoble Alpes}
@@ -108,13 +108,15 @@ hesis}
 \input{chapters/introduction}
 %clinical background
 \clearemptydoublepage
-\part{Background}\label{part:background}
+
 \chapter{ Clinical background}\label{chapter:clinicalbachground}
 \input{chapters/background}
 
 \clearemptydoublepage
-\part{Biomechanical breast modeling}\label{part:bioMecaModels}
-\chapter{Background and state of the art}\label{chapter:bioMecaModelsBackground}
+%\part{Biomechanical breast modeling}\label{part:bioMecaModels}
+
+\chapter{Biomechanical model of the breast -  state of the art}\label{chapter:bioMecaModelsBackground}
+
 \input{chapters/bioMecaModelsBackground}
 
 \chapter{A new biomechanical breast model}\label{chapter:myBioMecaModel}
@@ -123,15 +125,15 @@ hesis}
 \input{chapters/modelvalidation}
 
 \clearemptydoublepage
-\part{Breast Compression: a comparative study}\label{part:breastcompressionDM}
-\chapter{ Background }\label{chapter:compression:introduction}
+%\part{Breast Compression: a comparative study}\label{part:breastcompressionDM}
+\chapter{ Breast Compression - state of the art }\label{chapter:compression:introduction}
 \input{chapters/compression}
 
-\chapter{Breast compression quality evaluation}\label{chapter:compressionfem}
+\chapter{Breast compression and patient comfort: a comparative study}\label{chapter:compressionfem}
 \input{chapters/compressionfem}
 
 \clearemptydoublepage
-\part{Thesis review}\label{part:thesisreview}
+%\part{Thesis review}\label{part:thesisreview}
 \input{chapters/thesisreview}
 
 
@@ -148,9 +150,9 @@ hesis}
 %\input{chapters/conclusions}
 
 %\clearemptydoublepage
-
+1
 %Choose a good bibliography style, plain would do often, but these might be nice to6eplot
-esel
+
 %\bibliographystyle{these}
 \bibliographystyle{apalike}
 \bibliography{fetheory,pain_and_discomfort,my_biomeca_model,breast_cancer_statistics,biomecanical_model,hyperelastic_parameters,breast_anatomy}

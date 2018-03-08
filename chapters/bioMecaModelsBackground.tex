@@ -1,4 +1,3 @@
-\section{Introduction}\label{section:introductionbiomecamodelsbackground}
 
 
 Finite elements models are widely used to estimate body parts deformation udder predefined boundary conditions. Several biomechanical models of the breast were recently developed providing physics-based predictions of tissue motion and internal stress and strain intensity.  In our work, we assume that the strain intensity obtained during the tissues deformation may by correlated with the patient discomfort. Thus, a biomechanical model obtained from the patient's MRI volume can be subsequently used to mimic breast compression during the mammographic acquisition. The resulting tissues strain cartography can be used as a first quantification of the patient inconfort.
@@ -332,9 +331,9 @@ $\overline{I}_1=\frac{I_1}{I_3^{2/3}} $;  $\overline{I}_2=\frac{I_2}{I_3^{4/3}}$
 \end{center}
 
 We also define the \textbf{ Bulk moduli} \nomenclature{K}{Bulk moduli} as measure of a material's resistance to compression; the \textbf{shear moduli}\nomenclature{$\mu$}{shear moduli} as the ratio of shear stress to the shear strain; and the \textbf{Poisson ratio} \nomenclature{$\nu$}{Poisson ratio} as the ratio between longitudinal strain to the transverse strain describing the body shape change . For small deformation the Bulk moduli and shear moduli are linked to the Young's moduli and Poisson ratio by the next relations:
- \begin{center}
-  $K = \frac{\lambda}{3(1-2\nu)}$ and $\mu = \frac{\lambda}{2(1+\nu)}$
- \end{center}
+ \begin{equation} 
+  K = \frac{\lambda}{3(1-2\nu)} \ \ and \ \ \mu = \frac{\lambda}{2(1+\nu)}
+\end{equation}
   
 \subsubsection*{Neo-Hookean potential function}
 The Neo-Hookean \citep{treloar_elasticity_1943} law is an extension of the Hook's law to large deformations. The potential function is based only on the first invariant and is given by 
@@ -762,7 +761,7 @@ Dirichlet conditions are usually used to constrain the sternum/axilla ends and t
 
   Later, several teams using biomechanical breast models for multy modality image registration or surgical planing showed that including the sliding boundary conditions \citep{georgii_simulation_2016,han_nonlinear_2014}  improves the registration accuracy. However the most studies in which the biomechanical model is designed for breast compression, the tissues sliding over the chest wall is neglected and fixed boundary conditions are usually assumed \citep{sturgeon_finite_element_2016, martinez_finite_2017}.
   
- \subsection{Conclusion}
+ \subsection{Summary}
  
  During the last decades, several breast biomechanical models were proposed. However, only a small part of them \citep{carter_biomechanical_2009,gamage_modelling_2012,han_nonlinear_2014} were evaluated with respect to real tissues deformations. As we intend to build-up a subject specific breast biomechanical model capable of estimating multi-loading gravity deformations, we will only consider as relevant the biomechanical models that were evaluated and compared with real data. In this chapter, three biggest challenges were identified:  the estimation of the breast reference geometry, the estimation of patient specific material properties and the definition of the boundary condition and namely the breast-muscle interface. Today's outstanding breast biomechanical models are represented by the next three models:   \cite{eiben_surface_2016}, \cite{han_nonlinear_2014}, \cite{gamage_modelling_2012}.   
 

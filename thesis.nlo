@@ -1,38 +1,44 @@
-\nomenclatureentry{aUOQ@[{UOQ}]\begingroup Upper Outer Quadrant\nomeqref {1.0}|nompageref}{12}
-\nomenclatureentry{aUIQ@[{UIQ}]\begingroup Upper Inner Quadrant\nomeqref {1.0}|nompageref}{12}
-\nomenclatureentry{aLOQ@[{LOQ}]\begingroup Lower Outer Quadrant\nomeqref {1.0}|nompageref}{12}
-\nomenclatureentry{aLIQ@[{LIQ}]\begingroup Lower Inner Quadrant\nomeqref {1.0}|nompageref}{12}
-\nomenclatureentry{aILC@[{ILC}]\begingroup Invasive lobular carcinoma\nomeqref {1.0}|nompageref}{18}
-\nomenclatureentry{aUS@[{US}]\begingroup Ultrasound\nomeqref {1.0}|nompageref}{19}
-\nomenclatureentry{aMRI@[{MRI}]\begingroup Magnetic Resonance Imaging\nomeqref {1.0}|nompageref}{19}
-\nomenclatureentry{aFDA@[{FDA}]\begingroup Food and Drug Administration \nomeqref {1.0}|nompageref}{19}
-\nomenclatureentry{aFFDM@[{FFDM}]\begingroup Full Field Digital Mammography\nomeqref {1.0}|nompageref}{19}
-\nomenclatureentry{aCC@[{CC}]\begingroup Cranial-Caudal view\nomeqref {1.0}|nompageref}{20}
-\nomenclatureentry{aMLO@[{MLO}]\begingroup Mediolateral-Oblique view\nomeqref {1.0}|nompageref}{20}
-\nomenclatureentry{aSWE@[{SWE}]\begingroup Shear-Wave Elastography\nomeqref {1.0}|nompageref}{21}
-\nomenclatureentry{aRF@[{RF}]\begingroup  Radio-Frequency waves\nomeqref {1.0}|nompageref}{21}
-\nomenclatureentry{aFE@[{FE}]\begingroup Finite Element\nomeqref {1.0}|nompageref}{22}
-\nomenclatureentry{aIQ@[{IQ}]\begingroup Image Quality\nomeqref {1.0}|nompageref}{22}
-\nomenclatureentry{aAGD@[{AGD}]\begingroup Average Glandular Dose\nomeqref {1.0}|nompageref}{22}
-\nomenclatureentry{a$\mathcal{B}$@[{$\mathcal{B}$}]\begingroup Body\nomeqref {2.0}|nompageref}{25}
-\nomenclatureentry{a$p$@[{$p$}]\begingroup Particle or material point\nomeqref {2.0}|nompageref}{25}
-\nomenclatureentry{a$\Omega$@[{$\Omega$}]\begingroup Domain occupied by the body\nomeqref {2.0}|nompageref}{25}
-\nomenclatureentry{a$\Omega_1$@[{$\Omega_1$}]\begingroup Current or analyzed body configuration \nomeqref {2.0}|nompageref}{25}
-\nomenclatureentry{a$\Omega_0$@[{$\Omega_0$}]\begingroup Reference body configuration \nomeqref {2.0}|nompageref}{25}
-\nomenclatureentry{a$X$@[{$X$}]\begingroup Point position on the reference configuration\nomeqref {2.0}|nompageref}{25}
-\nomenclatureentry{a$x$@[{$x$}]\begingroup Point position on the current configuration\nomeqref {2.0}|nompageref}{25}
-\nomenclatureentry{a$u$@[{$u$}]\begingroup Particle displacement\nomeqref {2.1}|nompageref}{25}
-\nomenclatureentry{a$m$@[{$m$}]\begingroup Body mass\nomeqref {2.2}|nompageref}{26}
-\nomenclatureentry{a$F$@[{$F$}]\begingroup Deformation gradient\nomeqref {2.2}|nompageref}{27}
-\nomenclatureentry{a$J$@[{$J$}]\begingroup Jacobian determinant of the deformation gradient tensor\nomeqref {2.5}|nompageref}{27}
-\nomenclatureentry{a$l$@[{$l$}]\begingroup body stretch\nomeqref {2.6}|nompageref}{27}
-\nomenclatureentry{a$\lambda$@[{$\lambda$}]\begingroup Young's moduli\nomeqref {2.27}|nompageref}{33}
-\nomenclatureentry{aK@[{K}]\begingroup Bulk moduli\nomeqref {2.28}|nompageref}{34}
-\nomenclatureentry{a$\mu$@[{$\mu$}]\begingroup shear moduli\nomeqref {2.28}|nompageref}{34}
-\nomenclatureentry{a$\nu$@[{$\nu$}]\begingroup Poisson ratio\nomeqref {2.28}|nompageref}{34}
-\nomenclatureentry{aGBM@[{GBM}]\begingroup generalized momentum balance\nomeqref {2.33}|nompageref}{35}
-\nomenclatureentry{aPDE@[{PDE}]\begingroup partial differential equations\nomeqref {2.33}|nompageref}{36}
-\nomenclatureentry{a$\alpha$@[{$\alpha$}]\begingroup multiplicative regularization factor\nomeqref {3.0}|nompageref}{62}
-\nomenclatureentry{a$D_i$@[{$D_i$}]\begingroup position difference of the node $i$ between the estimated and measured breast prone configurations\nomeqref {3.0}|nompageref}{62}
-\nomenclatureentry{a$\lambda_{xx}$@[{$\lambda_{xx}$}]\begingroup Youngs's moduli of the material $xx$\nomeqref {3.0}|nompageref}{65}
-\nomenclatureentry{a$\lambda_{xx}^{l/r}$@[{$\lambda_{xx}^{l/r}$}]\begingroup Young's modulus of the material xx for the left/right breast\nomeqref {3.0}|nompageref}{67}
+\nomenclatureentry{aUOQ@[{UOQ}]\begingroup Upper Outer Quadrant\nomeqref {1.0}|nompageref}{9}
+\nomenclatureentry{aUIQ@[{UIQ}]\begingroup Upper Inner Quadrant\nomeqref {1.0}|nompageref}{9}
+\nomenclatureentry{aLOQ@[{LOQ}]\begingroup Lower Outer Quadrant\nomeqref {1.0}|nompageref}{9}
+\nomenclatureentry{aLIQ@[{LIQ}]\begingroup Lower Inner Quadrant\nomeqref {1.0}|nompageref}{9}
+\nomenclatureentry{aILC@[{ILC}]\begingroup Invasive lobular carcinoma\nomeqref {1.0}|nompageref}{15}
+\nomenclatureentry{aUS@[{US}]\begingroup Ultrasound\nomeqref {1.0}|nompageref}{16}
+\nomenclatureentry{aMRI@[{MRI}]\begingroup Magnetic Resonance Imaging\nomeqref {1.0}|nompageref}{16}
+\nomenclatureentry{aFDA@[{FDA}]\begingroup Food and Drug Administration \nomeqref {1.0}|nompageref}{16}
+\nomenclatureentry{aFFDM@[{FFDM}]\begingroup Full Field Digital Mammography\nomeqref {1.0}|nompageref}{16}
+\nomenclatureentry{aCC@[{CC}]\begingroup Cranial-Caudal view\nomeqref {1.0}|nompageref}{17}
+\nomenclatureentry{aMLO@[{MLO}]\begingroup Mediolateral-Oblique view\nomeqref {1.0}|nompageref}{17}
+\nomenclatureentry{aSWE@[{SWE}]\begingroup Shear-Wave Elastography\nomeqref {1.0}|nompageref}{18}
+\nomenclatureentry{aRF@[{RF}]\begingroup  Radio-Frequency waves\nomeqref {1.0}|nompageref}{18}
+\nomenclatureentry{aFE@[{FE}]\begingroup Finite Element\nomeqref {1.0}|nompageref}{19}
+\nomenclatureentry{aIQ@[{IQ}]\begingroup Image Quality\nomeqref {1.0}|nompageref}{19}
+\nomenclatureentry{aAGD@[{AGD}]\begingroup Average Glandular Dose\nomeqref {1.0}|nompageref}{19}
+\nomenclatureentry{a$\mathcal{B}$@[{$\mathcal{B}$}]\begingroup Body\nomeqref {2.0}|nompageref}{22}
+\nomenclatureentry{a$p$@[{$p$}]\begingroup Particle or material point\nomeqref {2.0}|nompageref}{22}
+\nomenclatureentry{a$\Omega$@[{$\Omega$}]\begingroup Domain occupied by the body\nomeqref {2.0}|nompageref}{22}
+\nomenclatureentry{a$\Omega_1$@[{$\Omega_1$}]\begingroup Current or analyzed body configuration \nomeqref {2.0}|nompageref}{22}
+\nomenclatureentry{a$\Omega_0$@[{$\Omega_0$}]\begingroup Reference body configuration \nomeqref {2.0}|nompageref}{22}
+\nomenclatureentry{a$X$@[{$X$}]\begingroup Point position on the reference configuration\nomeqref {2.0}|nompageref}{22}
+\nomenclatureentry{a$x$@[{$x$}]\begingroup Point position on the current configuration\nomeqref {2.0}|nompageref}{22}
+\nomenclatureentry{a$u$@[{$u$}]\begingroup Particle displacement\nomeqref {2.1}|nompageref}{22}
+\nomenclatureentry{a$m$@[{$m$}]\begingroup Body mass\nomeqref {2.2}|nompageref}{23}
+\nomenclatureentry{a$F$@[{$F$}]\begingroup Deformation gradient\nomeqref {2.2}|nompageref}{24}
+\nomenclatureentry{a$J$@[{$J$}]\begingroup Jacobian determinant of the deformation gradient tensor\nomeqref {2.5}|nompageref}{24}
+\nomenclatureentry{a$l$@[{$l$}]\begingroup body stretch\nomeqref {2.6}|nompageref}{24}
+\nomenclatureentry{a$\lambda$@[{$\lambda$}]\begingroup Young's moduli\nomeqref {2.27}|nompageref}{30}
+\nomenclatureentry{aK@[{K}]\begingroup Bulk moduli\nomeqref {2.28}|nompageref}{31}
+\nomenclatureentry{a$\mu$@[{$\mu$}]\begingroup shear moduli\nomeqref {2.28}|nompageref}{31}
+\nomenclatureentry{a$\nu$@[{$\nu$}]\begingroup Poisson ratio\nomeqref {2.28}|nompageref}{31}
+\nomenclatureentry{aGBM@[{GBM}]\begingroup generalized momentum balance\nomeqref {2.34}|nompageref}{32}
+\nomenclatureentry{aPDE@[{PDE}]\begingroup partial differential equations\nomeqref {2.34}|nompageref}{33}
+\nomenclatureentry{a$\alpha$@[{$\alpha$}]\begingroup multiplicative regularization factor\nomeqref {3.0}|nompageref}{59}
+\nomenclatureentry{a$D_i$@[{$D_i$}]\begingroup position difference of the node $i$ between the estimated and measured breast prone configurations\nomeqref {3.0}|nompageref}{59}
+\nomenclatureentry{a$\lambda_{xx}$@[{$\lambda_{xx}$}]\begingroup Youngs's moduli of the material $xx$\nomeqref {3.0}|nompageref}{62}
+\nomenclatureentry{a$\lambda_{xx}^{l/r}$@[{$\lambda_{xx}^{l/r}$}]\begingroup Young's modulus of the material xx for the left/right breast\nomeqref {3.0}|nompageref}{64}
+\nomenclatureentry{aSRP@[{SRP}]\begingroup  standard rigid paddle\nomeqref {5.0}|nompageref}{77}
+\nomenclatureentry{aSFP@[{SFP}]\begingroup standard flex paddles\nomeqref {5.0}|nompageref}{77}
+\nomenclatureentry{aAOP@[{AOP}]\begingroup automatic optimization of parameters\nomeqref {5.0}|nompageref}{81}
+\nomenclatureentry{aAEC@[{AEC}]\begingroup automatic exposure control\nomeqref {5.0}|nompageref}{81}
+\nomenclatureentry{aDgN@[{DgN}]\begingroup normalized dose\nomeqref {5.0}|nompageref}{82}
+\nomenclatureentry{aNRS@[{NRS}]\begingroup numerical rating scale\nomeqref {5.0}|nompageref}{83}
