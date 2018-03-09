@@ -33,7 +33,7 @@
 \BOOKMARK [1][-]{section.2.3}{Contact mechanics}{chapter.2}% 33
 \BOOKMARK [2][-]{subsection.2.3.1}{Contact inteface equations}{section.2.3}% 34
 \BOOKMARK [2][-]{subsection.2.3.2}{Surface interaction models}{section.2.3}% 35
-\BOOKMARK [2][-]{subsection.2.3.3}{Contact formulation algorithm: Pure Penalty model}{section.2.3}% 36
+\BOOKMARK [2][-]{subsection.2.3.3}{Contact formulation algorithm: pure penalty model}{section.2.3}% 36
 \BOOKMARK [1][-]{section.2.4}{Breast biomechanical model: overview}{chapter.2}% 37
 \BOOKMARK [2][-]{subsection.2.4.1}{Breast reference configuration}{section.2.4}% 38
 \BOOKMARK [2][-]{subsection.2.4.2}{Constitutive models}{section.2.4}% 39

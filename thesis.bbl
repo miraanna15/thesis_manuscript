@@ -146,6 +146,12 @@ Cheung, J. T.-M., Zhang, M., and An, K.-N. (2004).
   the ankle--foot complex.
 \newblock {\em Clinical Biomechanics}, 19(8):839--846.
 
+\bibitem[Chida et~al., 2009]{chida_reduced_2009}
+Chida, K., Komatsu, Y., Sai, M., Nakagami, A., Yamada, T., Yamashita, T., Mori,
+  I., Ishibashi, T., Maruoka, S., and Zuguchi, M. (2009).
+\newblock Reduced compression mammography to reduce breast pain.
+\newblock {\em Clinical imaging}, 33(1):7--10.
+
 \bibitem[Chung et~al., 2008]{chung_modelling_2008}
 Chung, J.-H., Rajagopal, V., Nielsen, P.~M., and Nash, M.~P. (2008).
 \newblock Modelling mammographic compression of the breast.
@@ -184,16 +190,30 @@ de~Groot, J.~E., Broeders, M.~J., Grimbergen, C.~A., and den Heeten, G.~J.
   breast compression cycle.
 \newblock {\em BMC women's health}, 15(1):26.
 
+\bibitem[Domar et~al., 2005]{domar_relaxation_2005}
+Domar, A.~D., Eyvazzadeh, A., Allen, S., Roman, K., Wolf, R., Orav, J.,
+  Albright, N., and Baum, J. (2005).
+\newblock Relaxation techniques for reducing pain and anxiety during screening
+  mammography.
+\newblock {\em American Journal of Roentgenology}, 184(2):445--447.
+
 \bibitem[Dullum et~al., 2000]{dullum_rates_2000}
 Dullum, J.~R., Lewis, E.~C., and Mayer, J.~A. (2000).
 \newblock Rates and correlates of discomfort associated with mammography.
 \newblock {\em Radiology}, 214(2):547--552.
 
-\bibitem[Dustler et~al., 2012]{dustler_breast_2012}
+\bibitem[Dustler et~al., 2012a]{dustler_breast_2012}
 Dustler, M., Andersson, I., Brorson, H., Fr{\"o}jd, P., Mattsson, S., Tingberg,
-  A., Zackrisson, S., and F{\"o}rnvik, D. (2012).
+  A., Zackrisson, S., and F{\"o}rnvik, D. (2012a).
 \newblock Breast compression in mammography: pressure distribution patterns.
 \newblock {\em Acta Radiologica}, 53(9):973--980.
+
+\bibitem[Dustler et~al., 2012b]{dustler_effect_2012}
+Dustler, M., Andersson, I., F{\"o}rnvik, D., and Tingberg, A. (2012b).
+\newblock The effect of breast positioning on breast compression in
+  mammography: a pressure distribution perspective.
+\newblock In {\em Medical Imaging 2012: Physics of Medical Imaging}, volume
+  8313, page 83134M. International Society for Optics and Photonics.
 
 \bibitem[Eder et~al., 2014]{eder_comparison_2014}
 Eder, M., Raith, S., Jalali, J., Volf, A., Settles, M., Machens, H.-G., and
@@ -514,6 +534,12 @@ Mercer, C., Hogg, P., Lawson, R., Diffey, J., and Denton, E. (2013).
   preliminary study.
 \newblock {\em The British journal of radiology}, 86(1022):20110596.
 
+\bibitem[Miller et~al., 2008]{miller_interventions_2008}
+Miller, D., Livingstone, V., and Herbison, P. (2008).
+\newblock Interventions for relieving the pain and discomfort of screening
+  mammography.
+\newblock {\em Cochrane Database Syst Rev}, 1.
+
 \bibitem[Mugea and Shiffman, 2014]{mugea2014aesthetic}
 Mugea, T.~T. and Shiffman, M.~A. (2014).
 \newblock {\em Aesthetic Surgery of the Breast}.
@@ -722,6 +748,12 @@ Saunders, R.~S. and Samei, E. (2008).
 \newblock The effect of breast compression on mass conspicuity in digital
   mammography.
 \newblock {\em Medical physics}, 35(10):4464--4473.
+
+\bibitem[Shrestha and Poulos, 2001]{shrestha_effect_2001}
+Shrestha, S. and Poulos, A. (2001).
+\newblock The effect of verbal information on the experience of discomfort in
+  mammography.
+\newblock {\em Radiography}, 7(4):271--277.
 
 \bibitem[Sinkus et~al., 2005]{sinkus_viscoelastic_2005}
 Sinkus, R., Tanter, M., Xydeas, T., Catheline, S., Bercoff, J., and Fink, M.
