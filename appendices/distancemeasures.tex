@@ -1,0 +1,44 @@
+For the sake of simplicity, only the distance between discrete 3D-surfaces represented by triangular meshes will be defined. A discrete 3D-surface is usually represented by a set of point $S = \lbrace p^1, p^2, ..,p^n \rbrace$; thus, the similarity between two surfaces is measures by computing distance measures between the respective points sets.  
+
+ First, the definition pf the point to point Euclidean distance is given, followed by different surface to surfaces distances derived form the Euclidean one.
+
+\subsubsection*{Euclidean distance between two points}
+The Euclidian distance is defined as the shortest possible path through space between two points, also called the $L^2-norm$.  Let consider two points $p$ and $p'$ defined in a 3-dimensional space, the distance magnitude is defined as 
+\begin{equation}
+D(p,p') =\Vert p-p' \Vert_2  =(\sum_{n=0}^{3} \vert p_i - p'_i \vert^2)^{\frac{1}{2}}
+\end{equation}
+\subsubsection*{Node to surface distance}
+The distance $D'(p, S')$ between the point $p$ and the surface $S'$ is defined as
+\begin{equation}
+D^s(p,S') = min_{q \in S'} \Vert p-p'\Vert_2
+\end{equation}
+\subsubsection*{Minimal distance between two surfaces}
+The minimal distance between two surfaces $S$ and $S'$ is defined as 
+\begin{equation}
+D^S_{min}(S, S') =  min_{p \in S} \lbrace D^s(p, S') \rbrace
+\end{equation}
+\subsubsection*{Maximal distance between two surfaces}
+The maximal distance between two surfaces $S$ and $S'$ is defined as 
+\begin{equation}
+D^S_{max}(S, S') =  max_{p \in S} \lbrace D^s(p, S')\rbrace
+\end{equation}
+
+\subsubsection*{Mean distance between two surfaces}
+The mean distance between two surfaces $S$ and $S'$ is defined as 
+\begin{equation}
+D^S_{mean}(S, S') = \frac{1}{\vert S \vert} \sum_{p \in S}  D^s(p, S') 
+\end{equation}
+
+where $\vert S \vert$ is the number of nodes bellowing the surface S.
+\subsubsection*{Hausdorff distance between two surfaces}
+The Hausdorff distance \citep{huttenlocher_comparing_1993} between two surfaces is defined as 
+\begin{equation}
+H(S,S') = max \lbrace D^S_{max}(S,S'), D^S_{max}(S',S)\rbrace
+\end{equation}
+\subsubsection*{Modified Hausdorff distance between two surfaces}
+The modified Hausdorff distance between two surfaces is defined as 
+\begin{equation}
+H(S,S') = max \lbrace D^S_{mean}(S,S'), D^S_{mean}(S',S)\rbrace
+\end{equation}
+
+\cite{dubuisson_modified_1994} have studied 24 measures to asses the similarities between two discrete surface mesh. According to the authors, Hausdorff distance have the best performance for object matching. 

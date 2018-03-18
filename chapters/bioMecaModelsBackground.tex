@@ -181,9 +181,8 @@ The Green-Lagrangian tensor is commonly used in practice as, by using the relati
 %E = \frac{1}{2} (C - I)
 %\end{equation}
 
-\subsection{Stress measures}%\label{subsection:stressmeasure}
+\subsection{Stress measures}\label{subsection:stressmeasure}
 
-\subsubsection*{Body and contact forces}\label{bodycontactforces}
 Generally, forces are categorized as internal and external forces. An \textbf{external force } is a force caused by an external agent outside of the system, and contrariwise an \textbf{internal force} is a force exchanged by the particle in the system. The external forces, in turn, are categorized in \textbf{body forces} (acting at the distance) and \textbf{contact forces} (acting on the body surface). The relation between body forces per unit undeformed volume $\tilde{b}(X)$ (Lagrangian coordinates) and body forces per unit deformed volume $b(x)$ is given by the following relation:
 \begin{equation}
 \tilde{b} = \frac{dv}{dV} b = Jb.
@@ -439,7 +438,7 @@ From the week form of the GMB equations, the numerical system of equations is fo
 \label{discretization}
 \end{figure}
 
- The mechanical displacement is approximated at the discretization points called finite element\textbf{nodes}. The nodes are at the vertices corners of the elements for a linear type, and at the vertices corners and midsides of the elements edges for a quadratic type (figure \ref{discretization}.b). The displacement of each point within an element is interpolated from the values of the displacements of the nodes of the element. In this way, the problem of finding the displacement of every point within the body is replaced by the problem of finding the displacements of a finite number of nodes.
+ The mechanical displacement is approximated at the discretization points called finite element \textbf{nodes}. The nodes are at the vertices of the elements for a linear type, and at the vertices and midsides of the elements edges for a quadratic type (figure \ref{discretization}.b). The displacement of each point within an element is interpolated from the values of the displacements of the nodes of the element. In this way, the problem of finding the displacement of every point within the body is replaced by the problem of finding the displacements of a finite number of nodes.
  
  As in a Lagrangian mesh the nodes are following the motions, for large deformation the finite elements can be highly distorted. Therefore, the elements shape quality is generally checked all along the deformation process. Several shape parameters for each element type have been proposed such as: aspect ratio, maximum corner angle, Jacobian ratio, skewness, parallel deviation, warping factor. The acceptable limit values of these shape factors are proper to the elements types. 
  

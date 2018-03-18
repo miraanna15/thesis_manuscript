@@ -46,11 +46,11 @@ hesis}
 
 \setlength\aftertitleunit{\baselineskip}
 
-\titleformat{\chapter}[display]
-  {\normalfont\huge\bfseries}{}{0pt}{\Huge}
-\titleformat{name=\chapter,numberless}[display]
-  {\normalfont\huge\bfseries}{}{0pt}{\Huge}
-\titlespacing*{\chapter}{0pt}{50pt}{*2}
+%\titleformat{\chapter}[display]
+%  {\normalfont\huge\bfseries}{}{0pt}{\Huge}
+%\titleformat{name=\chapter,numberless}[display]
+%  {\normalfont\huge\bfseries}{}{0pt}{\Huge}
+%\titlespacing*{\chapter}{0pt}{50pt}{*2}
 
 
 
@@ -77,14 +77,15 @@ hesis}
 
 \clearemptydoublepage
 
-\listoffigures
+%\listoffigures
 
-\clearemptydoublepage
+%\clearemptydoublepage
 
-\listoftables
+%\listoftables
 
 \clearemptydoublepage
 % Generate the glossary
+\addcontentsline{toc}{chapter}{List of Symbols}
 \printnomenclature
 \clearemptydoublepage
 
@@ -93,8 +94,7 @@ hesis}
 %\clearemptydoublepage
 
 %\chapter{Introduction}\label{chapter:introduction}
-\setcounter{page}{0}
-\pagenumbering{arabic}
+
 %from here on, start the 'real' page numbering, from 1, with normal digits
 %\input{chapters/introduction}
 
@@ -102,12 +102,13 @@ hesis}
 %\chapter{Preliminaries}\label{chapter:preliminaries}
 
 \clearemptydoublepage
+\setcounter{page}{0}
+\pagenumbering{arabic}
 
-
-\part{Introduction}\label{chapter:introduction}
 \input{chapters/introduction}
 %clinical background
 \clearemptydoublepage
+
 
 \chapter{ Clinical background}\label{chapter:clinicalbachground}
 \input{chapters/background}
@@ -115,21 +116,21 @@ hesis}
 \clearemptydoublepage
 %\part{Biomechanical breast modeling}\label{part:bioMecaModels}
 
-\chapter{Biomechanical model of the breast -  state of the art}\label{chapter:bioMecaModelsBackground}
+\chapter{Biomechanical breast modeling\\ \textit{State of the art}}\label{chapter:bioMecaModelsBackground}
 
 \input{chapters/bioMecaModelsBackground}
 
-\chapter{A new biomechanical breast model}\label{chapter:myBioMecaModel}
+\chapter{A new biomechanical breast model evaluated on real data}\label{chapter:myBioMecaModel}
 \input{chapters/mybioMecaModel}
-\chapter{Model validation}\label{chapter:modelvalidation}
+
 \input{chapters/modelvalidation}
 
 \clearemptydoublepage
 %\part{Breast Compression: a comparative study}\label{part:breastcompressionDM}
-\chapter{ Breast Compression - state of the art }\label{chapter:compression:introduction}
+\chapter{Breast Compression\\ \textit{State of the art} }\label{chapter:compression:introduction}
 \input{chapters/compression}
 
-\chapter{Breast compression and patient comfort: a comparative study}\label{chapter:compressionfem}
+\chapter{Breast compression \& comfort \\ \textit{A comparative study}}\label{chapter:compressionfem}
 \input{chapters/compressionfem}
 
 \clearemptydoublepage
@@ -149,8 +150,23 @@ hesis}
 %\chapter{Conclusions}\label{chapter:conclusions}
 %\input{chapters/conclusions}
 
-%\clearemptydoublepage
-1
+\clearemptydoublepage
+
+
+\begin{appendices}
+
+
+\chapter{Distance measures}
+\label{appendice:distancemeasures}
+\input{appendices/distancemeasures}
+
+\chapter{Mesh Convergence}\label{appendice:meshconvergence}
+\input{appendices/meshconvergence}
+
+\chapter{Bondary conditions \\ \textit{contact models}}\label{appendice:contactmodels}
+\input{appendices/contactSurface}
+\end{appendices}
+\clearemptydoublepage
 %Choose a good bibliography style, plain would do often, but these might be nice to6eplot
 
 %\bibliographystyle{these}
@@ -158,8 +174,6 @@ hesis}
 \bibliography{fetheory,pain_and_discomfort,my_biomeca_model,breast_cancer_statistics,biomecanical_model,hyperelastic_parameters,breast_anatomy}
 
 %
-\clearemptydoublepage
-
 
 
 %\appendix

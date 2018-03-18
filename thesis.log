@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.24)  9 MAR 2018 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.24)  18 MAR 2018 18:12
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -620,6 +620,12 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup7
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count153
+\c@@ppsavesec=\count154
+\c@@ppsaveapp=\count155
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
@@ -660,13 +666,13 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen144
-\Hy@linkcounter=\count153
-\Hy@pagecounter=\count154
+\Hy@linkcounter=\count156
+\Hy@pagecounter=\count157
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count155
+\Hy@SavedSpaceFactor=\count158
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -689,7 +695,7 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-\c@Hy@tempcnt=\count156
+\c@Hy@tempcnt=\count159
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
@@ -697,7 +703,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen145
-\Fld@menulength=\count157
+\Fld@menulength=\count160
 \Field@Width=\dimen146
 \Fld@charsize=\dimen147
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -709,31 +715,31 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count158
-\c@Item=\count159
-\c@Hfootnote=\count160
+\Hy@abspage=\count161
+\c@Item=\count162
+\c@Hfootnote=\count163
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count161
-\c@bookmark@seq@number=\count162
+\Fld@listcount=\count164
+\c@bookmark@seq@number=\count165
 \Hy@SectionHShift=\skip79
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lineno\lineno.sty"
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count163
+\linenopenalty=\count166
 \output=\toks43
-\linenoprevgraf=\count164
+\linenoprevgraf=\count167
 \linenumbersep=\dimen148
 \linenumberwidth=\dimen149
-\c@linenumber=\count165
-\c@pagewiselinenumber=\count166
-\c@LN@truepage=\count167
-\c@internallinenumber=\count168
-\c@internallinenumbers=\count169
+\c@linenumber=\count168
+\c@pagewiselinenumber=\count169
+\c@LN@truepage=\count170
+\c@internallinenumber=\count171
+\c@internallinenumbers=\count172
 \quotelinenumbersep=\dimen150
 \bframerule=\dimen151
 \bframesep=\dimen152
@@ -760,7 +766,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen158
 \caption@hangindent=\dimen159
 )
-\c@ContinuedFloat=\count170
+\c@ContinuedFloat=\count173
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -770,17 +776,17 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 )
-\c@KVtest=\count171
+\c@KVtest=\count174
 \sf@farskip=\skip80
 \sf@captopadj=\dimen160
 \sf@capskip=\skip81
 \sf@nearskip=\skip82
-\c@subfigure=\count172
-\c@subfigure@save=\count173
-\c@lofdepth=\count174
-\c@subtable=\count175
-\c@subtable@save=\count176
-\c@lotdepth=\count177
+\c@subfigure=\count175
+\c@subfigure@save=\count176
+\c@lofdepth=\count177
+\c@subtable=\count178
+\c@subtable@save=\count179
+\c@lotdepth=\count180
 \sf@top=\skip83
 \sf@bottom=\skip84
 )
@@ -796,13 +802,23 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen168
 \cmidrulekern=\dimen169
 \defaultaddspace=\dimen170
-\@cmidla=\count178
-\@cmidlb=\count179
+\@cmidla=\count181
+\@cmidlb=\count182
 \@aboverulesep=\dimen171
 \@belowrulesep=\dimen172
-\@thisruleclass=\count180
-\@lastruleclass=\count181
+\@thisruleclass=\count183
+\@lastruleclass=\count184
 \@thisrulewidth=\dimen173
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fncychap\fncychap.sty"
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip85
+\mylen=\skip86
+\myhi=\skip87
+\px=\skip88
+\py=\skip89
+\pyy=\skip90
+\pxx=\skip91
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\textpos\textpos.sty"
 Package: textpos 2016/06/07 v1.8
@@ -826,23 +842,23 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TP@prevdepth=\dimen181
 TextBlockOrigin set to 0pt x 0pt
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count182
+\lst@mode=\count185
 \lst@gtempboxa=\box66
 \lst@token=\toks45
-\lst@length=\count183
+\lst@length=\count186
 \lst@currlwidth=\dimen182
-\lst@column=\count184
-\lst@pos=\count185
+\lst@column=\count187
+\lst@pos=\count188
 \lst@lostspace=\dimen183
 \lst@width=\dimen184
-\lst@newlines=\count186
-\lst@lineno=\count187
+\lst@newlines=\count189
+\lst@lineno=\count190
 \lst@maxwidth=\dimen185
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count188
-\lst@skipnumbers=\count189
+\c@lstnumber=\count191
+\lst@skipnumbers=\count192
 \lst@framebox=\box67
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
@@ -858,24 +874,28 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip85
-\bibsep=\skip86
+\bibhang=\skip92
+\bibsep=\skip93
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count190
+\c@NAT@ctr=\count193
 )
 \@nomenclaturefile=\write3
 \openout3 = `thesis.nlo'.
 
 
 Writing nomenclature file thesis.nlo
-("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\ttlkeys.def"
-File: ttlkeys.def 2016/03/15
-\c@ttlp@side=\count191
-\ttlp@side=\count192
-) (thesis.aux
-(titlepage.aux)
+(thesis.aux (titlepage.aux)
+
+LaTeX Warning: Label `fig:optimizationresults' multiply defined.
+
 
 LaTeX Warning: Label `fig:compressionpaddles' multiply defined.
+
+
+LaTeX Warning: Label `fig:bondedcontact' multiply defined.
+
+
+LaTeX Warning: Label `fig:bondedcontact' multiply defined.
 
 )
 \openout1 = `thesis.aux'.
@@ -910,16 +930,16 @@ LaTeX Font Info:    ... okay on input line 57.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count193
+\scratchcounter=\count194
 \scratchdimen=\dimen186
 \scratchbox=\box68
-\nofMPsegments=\count194
-\nofMParguments=\count195
+\nofMPsegments=\count195
+\nofMParguments=\count196
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count196
+\MPscratchCnt=\count197
 \MPscratchDim=\dimen187
-\MPnumerator=\count197
-\makeMPintoPDFobject=\count198
+\MPnumerator=\count198
+\makeMPintoPDFobject=\count199
 \everyMPtoPDFconversion=\toks47
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -944,7 +964,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count199
+\c@section@level=\count266
 )
 LaTeX Info: Redefining \ref on input line 57.
 LaTeX Info: Redefining \pageref on input line 57.
@@ -959,18 +979,18 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
-\c@lstlisting=\count266
+\c@lstlisting=\count267
 \openout2 = `titlepage.aux'.
 
  (titlepage.tex
-<figures/univGrenobleAlpes.jpg, id=323, 280.04625pt x 181.67876pt>
+<figures/univGrenobleAlpes.jpg, id=326, 280.04625pt x 181.67876pt>
 File: figures/univGrenobleAlpes.jpg Graphic file (type jpg)
 <use figures/univGrenobleAlpes.jpg>
 Package pdftex.def Info: figures/univGrenobleAlpes.jpg  used on input line 3. o
 n input line 3.
 Package pdftex.def Info: Requested size: 87.71506pt x 56.9055pt on input line 3
 .
-\backupparindent=\skip87
+\backupparindent=\skip94
 LaTeX Font Info:    Try loading font information for U+stmry on input line 33.
 
 (C:\Users\212416541\AppData\Roaming\MiKTeX\2.9\tex\latex\stmaryrd\ustmry.fd)
@@ -1009,32 +1029,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  [5] [6
 
-] (thesis.lof [7
-
-] [8])
-\tf@lof=\write6
-\openout6 = `thesis.lof'.
-
- [9] [10
-
-] (thesis.lot
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-)
-\tf@lot=\write7
-\openout7 = `thesis.lot'.
-
- [11
-
-] [12
-
-] (thesis.nls
-[13
-
-]) [14] [1
+] (thesis.nls [7
 
 
+]) [8] [9] [10
 
 ] (chapters/introduction.tex
 Missing character: There is no â in font cmr12!
@@ -1043,23 +1041,39 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [2
+ [1
+
+
+]
+[2
 
 ] [3
 
 ] [4
 
-] [5
+]) [5
 
-]) [6
+] [6
 
 ]
 Chapter 1.
+LaTeX Font Info:    Try loading font information for OT1+pzc on input line 113.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pzc.fd"
+File: ot1pzc.fd 2001/06/04 font definitions for OT1/pzc.
+)
+LaTeX Font Info:    Font shape `OT1/pzc/m/n' in size <76> not available
+(Font)              Font shape `OT1/pzc/mb/it' tried instead on input line 113.
+
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 113--113
+[][][][][][][][][]  
+ []
+
 (chapters/background.tex [7
 
-
 ]
-<figures/breast_evolution_my.png, id=704, 989.19562pt x 460.72125pt>
+<figures/breast_evolution_my.png, id=514, 989.19562pt x 460.72125pt>
 File: figures/breast_evolution_my.png Graphic file (type png)
 <use figures/breast_evolution_my.png>
 Package pdftex.def Info: figures/breast_evolution_my.png  used on input line 21
@@ -1069,30 +1083,34 @@ e 21.
  [8
 
  <./figures/breast_evolution_my.png>]
-<figures/breastEvol_fascia_my.jpg, id=724, 652.839pt x 164.41425pt>
+<figures/breastEvol_fascia_my.jpg, id=534, 652.839pt x 164.41425pt>
 File: figures/breastEvol_fascia_my.jpg Graphic file (type jpg)
 <use figures/breastEvol_fascia_my.jpg>
 Package pdftex.def Info: figures/breastEvol_fascia_my.jpg  used on input line 3
 7. on input line 37.
 Package pdftex.def Info: Requested size: 414.6463pt x 104.42947pt on input line
  37.
-<figures/Breast_quadrants_full.png, id=732, 1410.0178pt x 445.665pt>
+<figures/Breast_quadrants_full.png, id=542, 1410.0178pt x 445.665pt>
 File: figures/Breast_quadrants_full.png Graphic file (type png)
 <use figures/Breast_quadrants_full.png>
 Package pdftex.def Info: figures/Breast_quadrants_full.png  used on input line 
 51. on input line 51.
 Package pdftex.def Info: Requested size: 460.72124pt x 145.62143pt on input lin
 e 51.
- [9 <./figures/breastEvol_fascia_my.jpg> <./figures/Breast_quadrants_full.png>]
- [10]
-<figures/anatomieSeinEuBlack2.png, id=766, 1075.01625pt x 555.57562pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9 <./figures/breastEvol_fascia_my.jpg>] [10 <./figures/Breast_quadrants_full.p
+ng>]
+<figures/anatomieSeinEuBlack2.png, id=584, 1075.01625pt x 555.57562pt>
 File: figures/anatomieSeinEuBlack2.png Graphic file (type png)
 <use figures/anatomieSeinEuBlack2.png>
 Package pdftex.def Info: figures/anatomieSeinEuBlack2.png  used on input line 7
 9. on input line 79.
 Package pdftex.def Info: Requested size: 460.72124pt x 238.10445pt on input lin
 e 79.
-<figures/skin_2.jpg, id=774, 728.7225pt x 537.50812pt>
+<figures/skin_2.jpg, id=592, 728.7225pt x 537.50812pt>
 File: figures/skin_2.jpg Graphic file (type jpg)
 <use figures/skin_2.jpg>
 Package pdftex.def Info: figures/skin_2.jpg  used on input line 92. on input li
@@ -1104,14 +1122,14 @@ e 92.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11 <./figures/anatomieSeinEuBlack2.png>] [12 <./figures/skin_2.jpg>]
-<figures/breastLigaments2.png, id=813, 390.86024pt x 195.129pt>
+<figures/breastLigaments2.png, id=633, 390.86024pt x 195.129pt>
 File: figures/breastLigaments2.png Graphic file (type png)
 <use figures/breastLigaments2.png>
 Package pdftex.def Info: figures/breastLigaments2.png  used on input line 110. 
 on input line 110.
 Package pdftex.def Info: Requested size: 322.50345pt x 161.00722pt on input lin
 e 110.
-<figures/lyphaticDrainageandArtery.PNG, id=822, 785.93625pt x 328.22626pt>
+<figures/lyphaticDrainageandArtery.PNG, id=642, 785.93625pt x 328.22626pt>
 File: figures/lyphaticDrainageandArtery.PNG Graphic file (type png)
 <use figures/lyphaticDrainageandArtery.PNG>
 Package pdftex.def Info: figures/lyphaticDrainageandArtery.PNG  used on input l
@@ -1124,7 +1142,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13 <./figures/breastLigaments2.png>] [14 <./figures/lyphaticDrainageandArtery.
 PNG>] [15] [16]
-<figures/xraymammo.PNG, id=909, 234.1247pt x 134.00063pt>
+<figures/xraymammo.PNG, id=729, 234.1247pt x 134.00063pt>
 File: figures/xraymammo.PNG Graphic file (type png)
 <use figures/xraymammo.PNG>
 Package pdftex.def Info: figures/xraymammo.PNG  used on input line 187. on inpu
@@ -1134,25 +1152,43 @@ e 187.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [17 <./figures/xraymammo.PNG>] [18]) [19] [20
+ [17 <./figures/xraymammo.PNG>]
+Underfull \vbox (badness 1478) has occurred while \output is active []
 
-]
+ [18]
+[19]) [20]
 Chapter 2.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 119.
+
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 119--119
+[][][][][][][][][]  
+ []
+
 (chapters/bioMecaModelsBackground.tex [21
 
+
 ]
-<figures/referenceFig.png, id=981, 1055.44313pt x 590.95781pt>
+<figures/referenceFig.png, id=806, 1055.44313pt x 590.95781pt>
 File: figures/referenceFig.png Graphic file (type png)
 <use figures/referenceFig.png>
 Package pdftex.def Info: figures/referenceFig.png  used on input line 36. on in
 put line 36.
 Package pdftex.def Info: Requested size: 322.50345pt x 180.571pt on input line 
 36.
- [22
+
+
+Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22
 
 ] [23 <./figures/referenceFig.png>]
-<figures/deformationTensorDecomposition.png, id=1001, 441.90094pt x 174.6525pt>
-
+<figures/deformationTensorDecomposition.png, id=826, 441.90094pt x 174.6525pt>
 File: figures/deformationTensorDecomposition.png Graphic file (type png)
 <use figures/deformationTensorDecomposition.png>
 Package pdftex.def Info: figures/deformationTensorDecomposition.png  used on in
@@ -1166,143 +1202,143 @@ es named \OT1/cmr/bx/n/12 the prin-cipal stretches\OT1/cmr/m/n/12 .
  []
 
 [24] [25 <./figures/deformationTensorDecomposition.png>] [26]
-<figures/internalcontactForceDefinition.png, id=1032, 470.50781pt x 194.97844pt
->
+<figures/internalcontactForceDefinition.png, id=857, 470.50781pt x 194.97844pt>
+
 File: figures/internalcontactForceDefinition.png Graphic file (type png)
 <use figures/internalcontactForceDefinition.png>
 Package pdftex.def Info: figures/internalcontactForceDefinition.png  used on in
-put line 198. on input line 198.
+put line 197. on input line 197.
 Package pdftex.def Info: Requested size: 322.50345pt x 133.64569pt on input lin
-e 198.
+e 197.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [27 <./figures/internalcontactForceDefinition.png>]
-<figures/stressnotion.png, id=1041, 632.3625pt x 179.92218pt>
+<figures/stressnotion.png, id=867, 632.3625pt x 179.92218pt>
 File: figures/stressnotion.png Graphic file (type png)
 <use figures/stressnotion.png>
-Package pdftex.def Info: figures/stressnotion.png  used on input line 227. on i
-nput line 227.
+Package pdftex.def Info: figures/stressnotion.png  used on input line 226. on i
+nput line 226.
 Package pdftex.def Info: Requested size: 322.50345pt x 91.76184pt on input line
- 227.
+ 226.
  [28 <./figures/stressnotion.png>] [29]
 [30] [31]
-Overfull \hbox (5.26451pt too wide) in paragraph at lines 361--362
+Overfull \hbox (5.26451pt too wide) in paragraph at lines 360--361
 \OT1/cmr/m/n/12 The Og-den ([][][]Og-den[][], [][]1972[][]) ma-ter-ial model is
  based on the three prin-cipal stretches ($\OML/cmm/m/it/12 []; []; []$\OT1/
 cmr/m/n/12 )
  []
 
 [32]
-<figures/lagrangian_mesh.jpg, id=1115, 733.99219pt x 335.00156pt>
+<figures/lagrangian_mesh.jpg, id=940, 733.99219pt x 335.00156pt>
 File: figures/lagrangian_mesh.jpg Graphic file (type jpg)
 <use figures/lagrangian_mesh.jpg>
-Package pdftex.def Info: figures/lagrangian_mesh.jpg  used on input line 403. o
-n input line 403.
+Package pdftex.def Info: figures/lagrangian_mesh.jpg  used on input line 402. o
+n input line 402.
 Package pdftex.def Info: Requested size: 368.57838pt x 168.22623pt on input lin
-e 403.
+e 402.
  [33 <./figures/lagrangian_mesh.jpg>]
-<figures/fe_method.jpg, id=1123, 1115.66812pt x 182.93344pt>
+<figures/fe_method.jpg, id=950, 1115.66812pt x 182.93344pt>
 File: figures/fe_method.jpg Graphic file (type jpg)
 <use figures/fe_method.jpg>
-Package pdftex.def Info: figures/fe_method.jpg  used on input line 420. on inpu
-t line 420.
+Package pdftex.def Info: figures/fe_method.jpg  used on input line 419. on inpu
+t line 419.
 Package pdftex.def Info: Requested size: 368.57838pt x 60.43521pt on input line
- 420.
-<figures/discretization.jpg, id=1125, 1147.28625pt x 303.38344pt>
+ 419.
+<figures/discretization.jpg, id=952, 1147.28625pt x 303.38344pt>
 File: figures/discretization.jpg Graphic file (type jpg)
 <use figures/discretization.jpg>
-Package pdftex.def Info: figures/discretization.jpg  used on input line 437. on
- input line 437.
+Package pdftex.def Info: figures/discretization.jpg  used on input line 436. on
+ input line 436.
 Package pdftex.def Info: Requested size: 460.72124pt x 121.82803pt on input lin
-e 437.
+e 436.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [34 <./figures/fe_method.jpg>]
-<figures/aspectRatio.png, id=1134, 974.89218pt x 310.15875pt>
+<figures/aspectRatio.png, id=963, 974.89218pt x 310.15875pt>
 File: figures/aspectRatio.png Graphic file (type png)
 <use figures/aspectRatio.png>
-Package pdftex.def Info: figures/aspectRatio.png  used on input line 454. on in
-put line 454.
+Package pdftex.def Info: figures/aspectRatio.png  used on input line 453. on in
+put line 453.
 Package pdftex.def Info: Requested size: 414.6463pt x 131.91747pt on input line
- 454.
+ 453.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [35 <./figures/discretization.jpg>]
-<figures/maximalcornerangle.png, id=1142, 658.71094pt x 236.38312pt>
+<figures/maximalcornerangle.png, id=971, 658.71094pt x 236.38312pt>
 File: figures/maximalcornerangle.png Graphic file (type png)
 <use figures/maximalcornerangle.png>
-Package pdftex.def Info: figures/maximalcornerangle.png  used on input line 464
-. on input line 464.
+Package pdftex.def Info: figures/maximalcornerangle.png  used on input line 463
+. on input line 463.
 Package pdftex.def Info: Requested size: 276.43555pt x 99.20087pt on input line
- 464.
-<figures/skewness.png, id=1144, 664.4022pt x 313.17pt>
+ 463.
+<figures/skewness.png, id=973, 664.4022pt x 313.17pt>
 File: figures/skewness.png Graphic file (type png)
 <use figures/skewness.png>
-Package pdftex.def Info: figures/skewness.png  used on input line 476. on input
- line 476.
+Package pdftex.def Info: figures/skewness.png  used on input line 475. on input
+ line 475.
 Package pdftex.def Info: Requested size: 276.43555pt x 130.3024pt on input line
- 476.
+ 475.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [36 <./figures/aspectRatio.png> <./figures/maximalcornerangle.png>] [37 <./figu
 res/skewness.png>]
-<figures/contact_bodies.jpg, id=1158, 476.53032pt x 415.5525pt>
+<figures/contact_bodies.jpg, id=990, 476.53032pt x 415.5525pt>
 File: figures/contact_bodies.jpg Graphic file (type jpg)
 <use figures/contact_bodies.jpg>
-Package pdftex.def Info: figures/contact_bodies.jpg  used on input line 505. on
- input line 505.
+Package pdftex.def Info: figures/contact_bodies.jpg  used on input line 504. on
+ input line 504.
 Package pdftex.def Info: Requested size: 184.28568pt x 160.70789pt on input lin
-e 505.
+e 504.
  [38 <./figures/contact_bodies.jpg>]
-Overfull \hbox (4.73544pt too wide) in paragraph at lines 547--562
+Overfull \hbox (4.73544pt too wide) in paragraph at lines 546--561
  [] 
  []
 
 [39]
-<figures/pinball.jpg, id=1178, 1434.10782pt x 404.26031pt>
+<figures/pinball.jpg, id=1012, 1434.10782pt x 404.26031pt>
 File: figures/pinball.jpg Graphic file (type jpg)
 <use figures/pinball.jpg>
-Package pdftex.def Info: figures/pinball.jpg  used on input line 594. on input 
-line 594.
+Package pdftex.def Info: figures/pinball.jpg  used on input line 593. on input 
+line 593.
 Package pdftex.def Info: Requested size: 460.72124pt x 129.87175pt on input lin
-e 594.
+e 593.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/gap_penetration.jpg, id=1180, 1258.7025pt x 386.19281pt>
+<figures/gap_penetration.jpg, id=1014, 1258.7025pt x 386.19281pt>
 File: figures/gap_penetration.jpg Graphic file (type jpg)
 <use figures/gap_penetration.jpg>
-Package pdftex.def Info: figures/gap_penetration.jpg  used on input line 609. o
-n input line 609.
+Package pdftex.def Info: figures/gap_penetration.jpg  used on input line 608. o
+n input line 608.
 Package pdftex.def Info: Requested size: 460.72124pt x 141.35696pt on input lin
-e 609.
+e 608.
 [40]
-<figures/projecte_surface.jpg, id=1189, 916.92563pt x 246.9225pt>
+<figures/projecte_surface.jpg, id=1025, 916.92563pt x 246.9225pt>
 File: figures/projecte_surface.jpg Graphic file (type jpg)
 <use figures/projecte_surface.jpg>
-Package pdftex.def Info: figures/projecte_surface.jpg  used on input line 621. 
-on input line 621.
+Package pdftex.def Info: figures/projecte_surface.jpg  used on input line 620. 
+on input line 620.
 Package pdftex.def Info: Requested size: 460.72124pt x 124.0713pt on input line
- 621.
+ 620.
  [41 <./figures/pinball.jpg> <./figures/gap_penetration.jpg>]
 Underfull \vbox (badness 3291) has occurred while \output is active []
 
  [42 <./figures/projecte_surface.jpg>] [43]
-<figures/prediction-correction.jpg, id=1270, 1276.77pt x 653.44125pt>
+<figures/prediction-correction.jpg, id=1107, 1276.77pt x 653.44125pt>
 File: figures/prediction-correction.jpg Graphic file (type jpg)
 <use figures/prediction-correction.jpg>
 Package pdftex.def Info: figures/prediction-correction.jpg  used on input line 
-676. on input line 676.
+675. on input line 675.
 Package pdftex.def Info: Requested size: 460.72124pt x 235.78705pt on input lin
-e 676.
+e 675.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1311,6 +1347,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45 <./figures/prediction-correction.jpg>]
+Overfull \hbox (3.41862pt too wide) in paragraph at lines 707--707
+[]|\OT1/cmr/m/n/12 Indentation-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 707--707
+[]|\OT1/cmr/m/n/12 Linear
+ []
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 707--707
+[]|$\OML/cmm/m/it/12  \OT1/cmr/m/n/12 = 33 \OMS/cmsy/m/n/12 
+ []
+
+
 Overfull \hbox (3.41862pt too wide) in paragraph at lines 708--708
 []|\OT1/cmr/m/n/12 Indentation-
  []
@@ -1322,12 +1373,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 708--708
 
 
 Underfull \hbox (badness 6332) in paragraph at lines 708--708
-[]|$\OML/cmm/m/it/12  \OT1/cmr/m/n/12 = 33 \OMS/cmsy/m/n/12 
+[]|$\OML/cmm/m/it/12  \OT1/cmr/m/n/12 = 57 \OMS/cmsy/m/n/12 
  []
 
 
-Overfull \hbox (3.41862pt too wide) in paragraph at lines 709--709
-[]|\OT1/cmr/m/n/12 Indentation-
+Underfull \hbox (badness 10000) in paragraph at lines 709--709
+[]|\OT1/cmr/m/n/12 Indentation
  []
 
 
@@ -1336,11 +1387,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 709--709
  []
 
 
-Underfull \hbox (badness 6332) in paragraph at lines 709--709
-[]|$\OML/cmm/m/it/12  \OT1/cmr/m/n/12 = 57 \OMS/cmsy/m/n/12 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 710--710
 []|\OT1/cmr/m/n/12 Indentation
  []
@@ -1352,64 +1398,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 710--710
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 711--711
-[]|\OT1/cmr/m/n/12 Indentation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 711--711
-[]|\OT1/cmr/m/n/12 Linear
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 712--712
 []|\OT1/cmr/m/n/12 Exp.
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 713--713
+Underfull \hbox (badness 6876) in paragraph at lines 712--712
 []|[][]\OT1/cmr/m/n/12 Samani and Plewes[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--713
+Underfull \hbox (badness 10000) in paragraph at lines 712--712
 []|\OT1/cmr/m/n/12 Linear
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 713--713
+Underfull \hbox (badness 2302) in paragraph at lines 712--712
 []|$\OML/cmm/m/it/12  \OT1/cmr/m/n/12 = 3\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 25 
 \OMS/cmsy/m/n/12 
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 713--713
+Underfull \hbox (badness 2302) in paragraph at lines 712--712
 []|$\OML/cmm/m/it/12  \OT1/cmr/m/n/12 = 3\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 24 
 \OMS/cmsy/m/n/12 
  []
 
 
-Underfull \hbox (badness 6364) in paragraph at lines 715--715
+Underfull \hbox (badness 6364) in paragraph at lines 714--714
 []|[][]\OT1/cmr/m/n/12 Van Houten et al.[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--715
+Underfull \hbox (badness 10000) in paragraph at lines 714--714
 []|\OT1/cmr/m/n/12 Linear
  []
 
 
-Underfull \hbox (badness 6332) in paragraph at lines 715--715
+Underfull \hbox (badness 6332) in paragraph at lines 714--714
 []|$\OML/cmm/m/it/12  \OT1/cmr/m/n/12 = 17 \OMS/cmsy/m/n/12  
  []
 
 
-Underfull \hbox (badness 6332) in paragraph at lines 715--715
+Underfull \hbox (badness 6332) in paragraph at lines 714--714
 []|$\OML/cmm/m/it/12  \OT1/cmr/m/n/12 = 26 \OMS/cmsy/m/n/12  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 716--716
+Underfull \hbox (badness 10000) in paragraph at lines 715--715
 []|\OT1/cmr/m/n/12 Visco-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 716--716
+[]|\OT1/cmr/m/n/12 Neo-
  []
 
 
@@ -1423,28 +1464,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 718--718
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 719--719
-[]|\OT1/cmr/m/n/12 Neo-
- []
-
-
-Underfull \hbox (badness 2302) in paragraph at lines 719--719
+Underfull \hbox (badness 2302) in paragraph at lines 718--718
 []|$\OML/cmm/m/it/12  \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 22 
 \OMS/cmsy/m/n/12  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--720
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
 []|\OT1/cmr/m/n/12 Neo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--721
+Underfull \hbox (badness 10000) in paragraph at lines 720--720
 []|[][]\OT1/cmr/m/n/12 Griesenauer et al.[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--721
+Underfull \hbox (badness 10000) in paragraph at lines 720--720
 []|\OT1/cmr/m/n/12 Hooks
  []
 
@@ -1733,190 +1769,219 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )) [50] [51]
 Chapter 3.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 123--123
+[][][][][][][][][]  
+ []
+
 (chapters/mybioMecaModel.tex [52
 
 ]
-<figures/patientData.png, id=1586, 536.0025pt x 304.88907pt>
+<figures/patientData.png, id=1426, 536.0025pt x 304.88907pt>
 File: figures/patientData.png Graphic file (type png)
 <use figures/patientData.png>
-Package pdftex.def Info: figures/patientData.png  used on input line 20. on inp
-ut line 20.
+Package pdftex.def Info: figures/patientData.png  used on input line 19. on inp
+ut line 19.
 Package pdftex.def Info: Requested size: 414.6463pt x 235.85858pt on input line
- 20.
+ 19.
  [53
 
  <./figures/patientData.png>]
-<figures/tissues_segmentation.png, id=1598, 955.31906pt x 227.34938pt>
+
+Package natbib Warning: Citation `ho_random_1995' on page 54 undefined on input
+ line 51.
+
+<figures/tissues_segmentation.png, id=1442, 955.31906pt x 227.34938pt>
 File: figures/tissues_segmentation.png Graphic file (type png)
 <use figures/tissues_segmentation.png>
-Package pdftex.def Info: figures/tissues_segmentation.png  used on input line 4
-4. on input line 44.
+Package pdftex.def Info: figures/tissues_segmentation.png  used on input line 6
+0. on input line 60.
 Package pdftex.def Info: Requested size: 460.72124pt x 109.64334pt on input lin
-e 44.
- [54 <./figures/tissues_segmentation.png>]
-<figures/patientDataRegistered.png, id=1608, 356.83313pt x 295.85532pt>
+e 60.
+[54 <./figures/tissues_segmentation.png>]
+<figures/patientDataRegistered.png, id=1454, 356.83313pt x 295.85532pt>
 File: figures/patientDataRegistered.png Graphic file (type png)
 <use figures/patientDataRegistered.png>
 Package pdftex.def Info: figures/patientDataRegistered.png  used on input line 
-62. on input line 62.
+78. on input line 78.
 Package pdftex.def Info: Requested size: 322.50345pt x 267.40494pt on input lin
-e 62.
- [55 <./figures/patientDataRegistered.png>]
-<figures/xyz_axis_directions.png, id=1614, 407.27156pt x 456.95718pt>
+e 78.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/xyz_axis_directions.png, id=1455, 407.27156pt x 456.95718pt>
 File: figures/xyz_axis_directions.png Graphic file (type png)
 <use figures/xyz_axis_directions.png>
-Package pdftex.def Info: figures/xyz_axis_directions.png  used on input line 70
-. on input line 70.
+Package pdftex.def Info: figures/xyz_axis_directions.png  used on input line 86
+. on input line 86.
 Package pdftex.def Info: Requested size: 322.50345pt x 361.86378pt on input lin
-e 70.
+e 86.
 
-[56 <./figures/xyz_axis_directions.png>]
-<figures/3dgeometries.png, id=1622, 877.77937pt x 150.5625pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+<figures/3dgeometries.png, id=1463, 877.77937pt x 150.5625pt>
 File: figures/3dgeometries.png Graphic file (type png)
 <use figures/3dgeometries.png>
-Package pdftex.def Info: figures/3dgeometries.png  used on input line 83. on in
-put line 83.
-Package pdftex.def Info: Requested size: 414.6463pt x 71.12277pt on input line 
-83.
+Package pdftex.def Info: figures/3dgeometries.png  used on input line 97. on in
+put line 97.
+Package pdftex.def Info: Requested size: 460.72124pt x 79.0281pt on input line 
+97.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[56 <./figures/patientDataRegistered.png>] [57 <./figures/xyz_axis_directions.p
+ng> <./figures/3dgeometries.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [57 <./figures/3dgeometries.png>]
-<figures/meshquality.png, id=1647, 647.41875pt x 115.02975pt>
-File: figures/meshquality.png Graphic file (type png)
-<use figures/meshquality.png>
-Package pdftex.def Info: figures/meshquality.png  used on input line 100. on in
-put line 100.
-Package pdftex.def Info: Requested size: 460.72124pt x 81.8595pt on input line 
-100.
-<figures/mesh3components.png, id=1649, 1024.42725pt x 198.7425pt>
+<figures/mesh3components.png, id=1494, 1024.42725pt x 198.7425pt>
 File: figures/mesh3components.png Graphic file (type png)
 <use figures/mesh3components.png>
-Package pdftex.def Info: figures/mesh3components.png  used on input line 109. o
-n input line 109.
-Package pdftex.def Info: Requested size: 414.6463pt x 80.44174pt on input line 
-109.
+Package pdftex.def Info: figures/mesh3components.png  used on input line 111. o
+n input line 111.
+Package pdftex.def Info: Requested size: 460.72124pt x 89.38173pt on input line
+ 111.
+<figures/meshquality.jpg, id=1497, 1919.67188pt x 361.35pt>
+File: figures/meshquality.jpg Graphic file (type jpg)
+<use figures/meshquality.jpg>
+Package pdftex.def Info: figures/meshquality.jpg  used on input line 119. on in
+put line 119.
+Package pdftex.def Info: Requested size: 460.72124pt x 86.72025pt on input line
+ 119.
 
-[58 <./figures/meshquality.png> <./figures/mesh3components.png>]
-<figures/stress_free_config_algo.jpg, id=1655, 1257.19687pt x 895.84688pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[58 <./figures/mesh3components.png>]
+<figures/stress_free_config_algo.jpg, id=1510, 1257.19687pt x 895.84688pt>
 File: figures/stress_free_config_algo.jpg Graphic file (type jpg)
 <use figures/stress_free_config_algo.jpg>
 Package pdftex.def Info: figures/stress_free_config_algo.jpg  used on input lin
-e 118. on input line 118.
+e 135. on input line 135.
 Package pdftex.def Info: Requested size: 414.6463pt x 295.46635pt on input line
- 118.
+ 135.
 
-Underfull \vbox (badness 4765) has occurred while \output is active []
 
- [59 <./figures/stress_free_config_algo.jpg>]
-<figures/mesh_parts_2.png, id=1665, 10202.82353pt x 6495.79765pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[59 <./figures/meshquality.jpg>]
+<figures/mesh_parts_2.png, id=1521, 10202.82353pt x 6495.79765pt>
 File: figures/mesh_parts_2.png Graphic file (type png)
 <use figures/mesh_parts_2.png>
-Package pdftex.def Info: figures/mesh_parts_2.png  used on input line 134. on i
-nput line 134.
+Package pdftex.def Info: figures/mesh_parts_2.png  used on input line 151. on i
+nput line 151.
 Package pdftex.def Info: Requested size: 414.6463pt x 263.9506pt on input line 
-134.
-<figures/overslidingProblem.jpg, id=1676, 2093.57156pt x 1052.43187pt>
+151.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[60 <./figures/stress_free_config_algo.jpg>]
+<figures/overslidingProblem.jpg, id=1541, 2093.57156pt x 1052.43187pt>
 File: figures/overslidingProblem.jpg Graphic file (type jpg)
 <use figures/overslidingProblem.jpg>
-Package pdftex.def Info: figures/overslidingProblem.jpg  used on input line 143
-. on input line 143.
+Package pdftex.def Info: figures/overslidingProblem.jpg  used on input line 160
+. on input line 160.
 Package pdftex.def Info: Requested size: 322.50345pt x 162.11354pt on input lin
-e 143.
- [60 <./figures/mesh_parts_2.png>] [61 <./figures/overslidingProblem.jpg>]
-<figures/mesh_components.png, id=1692, 475.02469pt x 204.01219pt>
+e 160.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 1831) has occurred while \output is active []
+
+ [61 <./figures/mesh_parts_2.png>]
+<figures/mesh_components.png, id=1552, 475.02469pt x 204.01219pt>
 File: figures/mesh_components.png Graphic file (type png)
 <use figures/mesh_components.png>
-Package pdftex.def Info: figures/mesh_components.png  used on input line 156. o
-n input line 156.
+Package pdftex.def Info: figures/mesh_components.png  used on input line 173. o
+n input line 173.
 Package pdftex.def Info: Requested size: 414.6463pt x 178.08685pt on input line
- 156.
- [62 <./figures/mesh_components.png>]
-<figures/optimizationMaterialParameters.png, id=1698, 1052.43187pt x 687.31781p
+ 173.
+ [62 <./figures/overslidingProblem.jpg> <./figures/mesh_components.png>]
+<figures/optimizationMaterialParameters.png, id=1559, 1052.43187pt x 687.31781p
 t>
 File: figures/optimizationMaterialParameters.png Graphic file (type png)
 <use figures/optimizationMaterialParameters.png>
 Package pdftex.def Info: figures/optimizationMaterialParameters.png  used on in
-put line 174. on input line 174.
+put line 191. on input line 191.
 Package pdftex.def Info: Requested size: 414.6463pt x 270.80061pt on input line
- 174.
-<figures/poissonRatio.jpg, id=1706, 1114.1625pt x 320.69812pt>
-File: figures/poissonRatio.jpg Graphic file (type jpg)
-<use figures/poissonRatio.jpg>
-Package pdftex.def Info: figures/poissonRatio.jpg  used on input line 187. on i
-nput line 187.
-Package pdftex.def Info: Requested size: 414.6463pt x 119.34642pt on input line
- 187.
+ 191.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[63 <./figures/optimizationMaterialParameters.png>] [64 <./figures/poissonRatio
-.jpg>]
+[63]
+<figures/poissonRatio.jpg, id=1577, 1114.1625pt x 320.69812pt>
+File: figures/poissonRatio.jpg Graphic file (type jpg)
+<use figures/poissonRatio.jpg>
+Package pdftex.def Info: figures/poissonRatio.jpg  used on input line 204. on i
+nput line 204.
+Package pdftex.def Info: Requested size: 460.72124pt x 132.61256pt on input lin
+e 204.
+ [64 <./figures/optimizationMaterialParameters.png> <./figures/poissonRatio.jpg
+>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-<figures/materialPropDiscretization.png, id=1727, 481.8pt x 443.256pt>
+ [65]
+<figures/materialPropDiscretization.png, id=1598, 1134.48843pt x 843.90282pt>
 File: figures/materialPropDiscretization.png Graphic file (type png)
 <use figures/materialPropDiscretization.png>
 Package pdftex.def Info: figures/materialPropDiscretization.png  used on input 
-line 228. on input line 228.
-Package pdftex.def Info: Requested size: 414.6463pt x 381.48355pt on input line
- 228.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/optimizationMaterialParameters2.png.jpg, id=1729, 467.127pt x 532.17pt
->
+line 245. on input line 245.
+Package pdftex.def Info: Requested size: 460.72124pt x 342.7059pt on input line
+ 245.
+ [66 <./figures/materialPropDiscretization.png>]
+<figures/optimizationMaterialParameters2.png.jpg, id=1605, 1348.28719pt x 1583.
+16469pt>
 File: figures/optimizationMaterialParameters2.png.jpg Graphic file (type jpg)
 <use figures/optimizationMaterialParameters2.png.jpg>
 Package pdftex.def Info: figures/optimizationMaterialParameters2.png.jpg  used 
-on input line 239. on input line 239.
-Package pdftex.def Info: Requested size: 414.6463pt x 472.37929pt on input line
- 239.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[65] [66 <./figures/materialPropDiscretization.png>]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
- [67 <./figures/optimizationMaterialParameters2.png.jpg>]) [68]
-Chapter 4.
-(chapters/modelvalidation.tex [69
-
-]
-<figures/modelevaluation.png, id=1756, 705.837pt x 583.58025pt>
+on input line 256. on input line 256.
+Package pdftex.def Info: Requested size: 414.6463pt x 486.86253pt on input line
+ 256.
+ [67 <./figures/optimizationMaterialParameters2.png.jpg>]
+<figures/optimizationresults.png, id=1613, 1114.1625pt x 443.256pt>
+File: figures/optimizationresults.png Graphic file (type png)
+<use figures/optimizationresults.png>
+Package pdftex.def Info: figures/optimizationresults.png  used on input line 27
+3. on input line 273.
+Package pdftex.def Info: Requested size: 460.72124pt x 183.29175pt on input lin
+e 273.
+ [68 <./figures/optimizationresults.png>]) (chapters/modelvalidation.tex
+<figures/modelevaluation.png, id=1624, 611.886pt x 444.4605pt>
 File: figures/modelevaluation.png Graphic file (type png)
 <use figures/modelevaluation.png>
-Package pdftex.def Info: figures/modelevaluation.png  used on input line 35. on
- input line 35.
-Package pdftex.def Info: Requested size: 414.6463pt x 342.83118pt on input line
- 35.
+Package pdftex.def Info: figures/modelevaluation.png  used on input line 11. on
+ input line 11.
+Package pdftex.def Info: Requested size: 276.43555pt x 200.79886pt on input lin
+e 11.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[70
-
-] [71 <./figures/modelevaluation.png>]) [72] [73] [74
+[69] [70 <./figures/modelevaluation.png>]) [71] [72
 
 ]
-Chapter 5.
-(chapters/compression.tex [75
+Chapter 4.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 130.
+
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 130--130
+[][][][][][][][][]  
+ []
+
+(chapters/compression.tex [73
 
 ]
-<figures/cc_mlo_view.jpg, id=1790, 334.24875pt x 199.49532pt>
+<figures/cc_mlo_view.jpg, id=1656, 334.24875pt x 199.49532pt>
 File: figures/cc_mlo_view.jpg Graphic file (type jpg)
 <use figures/cc_mlo_view.jpg>
 Package pdftex.def Info: figures/cc_mlo_view.jpg  used on input line 17. on inp
@@ -1926,62 +1991,62 @@ Package pdftex.def Info: Requested size: 230.36061pt x 137.4936pt on input line
 
 Underfull \vbox (badness 3612) has occurred while \output is active []
 
- [76
+ [74
 
  <./figures/cc_mlo_view.jpg>]
-<figures/compressionpaddlestypes.jpg, id=1804, 850.67813pt x 377.91188pt>
+<figures/compressionpaddlestypes.jpg, id=1672, 850.67813pt x 377.91188pt>
 File: figures/compressionpaddlestypes.jpg Graphic file (type jpg)
 <use figures/compressionpaddlestypes.jpg>
 Package pdftex.def Info: figures/compressionpaddlestypes.jpg  used on input lin
-e 34. on input line 34.
+e 35. on input line 35.
 Package pdftex.def Info: Requested size: 414.6463pt x 184.20967pt on input line
- 34.
-<figures/compressionpaddles.jpg, id=1805, 800.9925pt x 179.16937pt>
+ 35.
+<figures/compressionpaddles.jpg, id=1673, 800.9925pt x 179.16937pt>
 File: figures/compressionpaddles.jpg Graphic file (type jpg)
 <use figures/compressionpaddles.jpg>
-Package pdftex.def Info: figures/compressionpaddles.jpg  used on input line 45.
- on input line 45.
+Package pdftex.def Info: figures/compressionpaddles.jpg  used on input line 46.
+ on input line 46.
 Package pdftex.def Info: Requested size: 414.6463pt x 92.75032pt on input line 
-45.
+46.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[77 <./figures/compressionpaddlestypes.jpg>]
+[75 <./figures/compressionpaddlestypes.jpg>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-<figures/breast_compression_cycle.jpg, id=1817, 224.037pt x 270.41025pt>
+<figures/breast_compression_cycle.jpg, id=1686, 224.037pt x 270.41025pt>
 File: figures/breast_compression_cycle.jpg Graphic file (type jpg)
 <use figures/breast_compression_cycle.jpg>
 Package pdftex.def Info: figures/breast_compression_cycle.jpg  used on input li
-ne 62. on input line 62.
+ne 63. on input line 63.
 Package pdftex.def Info: Requested size: 322.50345pt x 389.26666pt on input lin
-e 62.
+e 63.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/thickness_force_patterns_groot.jpg, id=1826, 349.305pt x 337.86224pt>
+<figures/thickness_force_patterns_groot.jpg, id=1695, 349.305pt x 337.86224pt>
 File: figures/thickness_force_patterns_groot.jpg Graphic file (type jpg)
 <use figures/thickness_force_patterns_groot.jpg>
 Package pdftex.def Info: figures/thickness_force_patterns_groot.jpg  used on in
-put line 71. on input line 71.
+put line 72. on input line 72.
 Package pdftex.def Info: Requested size: 276.43555pt x 267.39284pt on input lin
-e 71.
-[78 <./figures/compressionpaddles.jpg>]
+e 72.
+[76 <./figures/compressionpaddles.jpg>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[79 <./figures/breast_compression_cycle.jpg>]
+[77 <./figures/breast_compression_cycle.jpg>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [80 <./figures/thickness_force_patterns_groot.jpg>] [81]
+ [78 <./figures/thickness_force_patterns_groot.jpg>] [79]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [82]
+ [80]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ˜ in font cmr12!
@@ -1991,99 +2056,226 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ˜ in font cmr12!
- [83] [84] [85]) [86]
-Chapter 6.
-(chapters/compressionfem.tex [87
+ [81] [82] [83]) [84]
+Chapter 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 133.
+
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 133--133
+[][][][][][][][][]  
+ []
+
+(chapters/compressionfem.tex [85
 
 ]
+<figures/deflectionAngle.jpg, id=1889, 1070.49937pt x 367.3725pt>
+File: figures/deflectionAngle.jpg Graphic file (type jpg)
+<use figures/deflectionAngle.jpg>
+Package pdftex.def Info: figures/deflectionAngle.jpg  used on input line 19. on
+ input line 19.
+Package pdftex.def Info: Requested size: 414.6463pt x 142.2993pt on input line 
+19.
 
-Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
- Make it at least 27.05003pt.
+
+Package Fancyhdr Warning: \headheight is too small (27.05003pt): 
+ Make it at least 27.18335pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[88
+[86
 
-]
-<figures/microcalcifications.png, id=2028, 713.064pt x 462.528pt>
+ <./figures/deflectionAngle.jpg>]
+<figures/compressionforceNH.jpg, id=1909, 1193.96063pt x 564.60938pt>
+File: figures/compressionforceNH.jpg Graphic file (type jpg)
+<use figures/compressionforceNH.jpg>
+Package pdftex.def Info: figures/compressionforceNH.jpg  used on input line 36.
+ on input line 36.
+Package pdftex.def Info: Requested size: 414.6463pt x 196.08272pt on input line
+ 36.
+ [87 <./figures/compressionforceNH.jpg>]
+Missing character: There is no â in font cmr8!
+Missing character: There is no ˆ in font cmr8!
+Missing character: There is no ’ in font cmr8!
+Missing character: There is no Î in font cmr12!
+Missing character: There is no ¼ in font cmr12!
+
+[88]
+<figures/microcalcifications.png, id=1926, 713.064pt x 462.528pt>
 File: figures/microcalcifications.png Graphic file (type png)
 <use figures/microcalcifications.png>
-Package pdftex.def Info: figures/microcalcifications.png  used on input line 42
-. on input line 42.
+Package pdftex.def Info: figures/microcalcifications.png  used on input line 64
+. on input line 64.
 Package pdftex.def Info: Requested size: 230.36061pt x 149.4235pt on input line
- 42.
-<figures/forceThicknessResults.png, id=2029, 1053.9375pt x 304.13625pt>
+ 64.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+Underfull \vbox (badness 5077) has occurred while \output is active []
+
+ [89 <./figures/microcalcifications.png>] [90]
+<figures/forceThicknessResults.png, id=1938, 1053.9375pt x 304.13625pt>
 File: figures/forceThicknessResults.png Graphic file (type png)
 <use figures/forceThicknessResults.png>
 Package pdftex.def Info: figures/forceThicknessResults.png  used on input line 
-54. on input line 54.
+102. on input line 102.
 Package pdftex.def Info: Requested size: 414.6463pt x 119.65681pt on input line
- 54.
+ 102.
 
+Overfull \hbox (13.7671pt too wide) in paragraph at lines 106--109
+\OT1/cmr/m/n/12 between FCP and RCP in pres-sure dis-tri-bu-tion over the skin 
+sur-face or in in-ternal stress/strain
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[89 <./figures/microcalcifications.png>]
-<figures/subject1_compressionResults.png, id=2035, 846.16125pt x 1158.12675pt>
+<figures/subject1_compressionResults.png, id=1941, 846.16125pt x 1158.12675pt>
 File: figures/subject1_compressionResults.png Graphic file (type png)
 <use figures/subject1_compressionResults.png>
 Package pdftex.def Info: figures/subject1_compressionResults.png  used on input
- line 65. on input line 65.
+ line 113. on input line 113.
 Package pdftex.def Info: Requested size: 437.68376pt x 599.04851pt on input lin
-e 65.
+e 113.
 
-
-LaTeX Warning: Float too large for page by 2.5485pt on input line 67.
+LaTeX Warning: Float too large for page by 2.5485pt on input line 115.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/subject2_compressionResults.png, id=2036, 844.95676pt x 1157.5245pt>
+<figures/subject2_compressionResults.png, id=1942, 844.95676pt x 1157.5245pt>
 File: figures/subject2_compressionResults.png Graphic file (type png)
 <use figures/subject2_compressionResults.png>
 Package pdftex.def Info: figures/subject2_compressionResults.png  used on input
- line 71. on input line 71.
+ line 119. on input line 119.
 Package pdftex.def Info: Requested size: 437.68376pt x 599.60245pt on input lin
-e 71.
+e 119.
 
-LaTeX Warning: Float too large for page by 3.10243pt on input line 73.
+LaTeX Warning: Float too large for page by 3.10243pt on input line 121.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/table_compression_results.png, id=2037, 554.07pt x 124.0635pt>
+[91 <./figures/forceThicknessResults.png>]
+<figures/table_compression_results.png, id=1952, 1102.87032pt x 344.78813pt>
 File: figures/table_compression_results.png Graphic file (type png)
 <use figures/table_compression_results.png>
 Package pdftex.def Info: figures/table_compression_results.png  used on input l
-ine 79. on input line 79.
-Package pdftex.def Info: Requested size: 437.68376pt x 98.0034pt on input line 
-79.
+ine 127. on input line 127.
+Package pdftex.def Info: Requested size: 460.72124pt x 144.03665pt on input lin
+e 127.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Missing character: There is no Â in font cmr12!
 Missing character: There is no µ in font cmr12!
-
-Underfull \vbox (badness 1484) has occurred while \output is active []
-
- [90 <./figures/forceThicknessResults.png>] [91] [92 <./figures/subject1_compre
-ssionResults.png>] [93 <./figures/subject2_compressionResults.png>] [94 <./figu
-res/table_compression_results.png>]) [95
-
-] [96
+[92] [93 <./figures/subject1_compressionResults.png>] [94 <./figures/subject2_c
+ompressionResults.png>] [95 <./figures/table_compression_results.png>])
+[96
 
 ] (chapters/thesisreview.tex [97
 
+
 ] [98
 
-])
-(thesis.bbl (thesis.brf)
-\tf@brf=\write8
-\openout8 = `thesis.brf'.
+]) [99
 
- [99
+] [100
+
+] [101
+
 
 ]
+Appendix A.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 159--159
+[][][][][][][][][]  
+ []
+
+(appendices/distancemeasures.tex [102
+
+]) [103]
+Appendix B.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 163--163
+[][][][][][][][][]  
+ []
+
+(appendices/meshconvergence.tex
+<figures/meshConvergence.jpg, id=2021, 954.56625pt x 793.46437pt>
+File: figures/meshConvergence.jpg Graphic file (type jpg)
+<use figures/meshConvergence.jpg>
+Package pdftex.def Info: figures/meshConvergence.jpg  used on input line 21. on
+ input line 21.
+Package pdftex.def Info: Requested size: 460.72124pt x 382.96524pt on input lin
+e 21.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [104
+
+] [105 <./figures/meshConvergence.jpg>]
+Appendix C.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 166.
+
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 166--166
+[][][][][][][][][]  
+ []
+
+(appendices/contactSurface.tex
+<figures/contactSurface.jpg, id=2034, 886.06032pt x 207.77625pt>
+File: figures/contactSurface.jpg Graphic file (type jpg)
+<use figures/contactSurface.jpg>
+Package pdftex.def Info: figures/contactSurface.jpg  used on input line 8. on i
+nput line 8.
+Package pdftex.def Info: Requested size: 414.6463pt x 97.23317pt on input line 
+8.
+<figures/bondedcontact.jpg, id=2035, 1028.34187pt x 256.70906pt>
+File: figures/bondedcontact.jpg Graphic file (type jpg)
+<use figures/bondedcontact.jpg>
+Package pdftex.def Info: figures/bondedcontact.jpg  used on input line 22. on i
+nput line 22.
+Package pdftex.def Info: Requested size: 414.6463pt x 103.5122pt on input line 
+22.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/supinetilted_sliding.jpg, id=2036, 679.78969pt x 166.37157pt>
+File: figures/supinetilted_sliding.jpg Graphic file (type jpg)
+<use figures/supinetilted_sliding.jpg>
+Package pdftex.def Info: figures/supinetilted_sliding.jpg  used on input line 3
+1. on input line 31.
+Package pdftex.def Info: Requested size: 414.6463pt x 101.48141pt on input line
+ 31.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/mixtcontactarea.jpg, id=2037, 811.53188pt x 215.30438pt>
+File: figures/mixtcontactarea.jpg Graphic file (type jpg)
+<use figures/mixtcontactarea.jpg>
+Package pdftex.def Info: figures/mixtcontactarea.jpg  used on input line 40. on
+ input line 40.
+Package pdftex.def Info: Requested size: 414.6463pt x 110.01074pt on input line
+ 40.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [106
+
+ <./figures/contactSurface.jpg>]) [107 <./figures/bondedcontact.jpg> <./figures
+/supinetilted_sliding.jpg> <./figures/mixtcontactarea.jpg>] [108
+
+] (thesis.bbl
+(thesis.brf)
+\tf@brf=\write6
+\openout6 = `thesis.brf'.
+
+
 Underfull \hbox (badness 1057) in paragraph at lines 20--20
 []\OT1/cmr/m/n/12 ACS (2017).  Amer-ican can-cer so-ci-ety: Types of breast can
 -cer.  [][]$\OT1/cmtt/m/n/12 https : / / www .
@@ -2098,20 +2290,21 @@ breast-[]cancer-[]diagnosis /
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-[100
+[109
 
 ]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [101]
+ [110]
 Missing character: There is no â in font cmti12!
 Missing character: There is no € in font cmti12!
 Missing character: There is no “ in font cmti12!
- [102]
+ [111]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
+ [112]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -2121,54 +2314,53 @@ Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no   in font cmr12!
 
-Underfull \hbox (badness 3407) in paragraph at lines 279--279
+Underfull \hbox (badness 3407) in paragraph at lines 286--286
 []\OT1/cmr/m/n/12 FNAH (2016).  Can-cer du sein : mod-al-its sp-ci-fiques de dp
 istage pour les
  []
 
 
-Overfull \hbox (48.11774pt too wide) in paragraph at lines 279--279
+Overfull \hbox (48.11774pt too wide) in paragraph at lines 286--286
 \OT1/cmtt/m/n/12 cancer-[]du-[]sein-[]modalites-[]specifiques-[]de-[]depistage-
 []pour-[]les-[]femmes-[]a-[]haut-[]risque$[][]\OT1/cmr/m/n/12 .
  []
 
-[103] [104] [105]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 495.
+[113] [114] [115]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 513.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 495.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 513.
 
-[106]
-Underfull \hbox (badness 1226) in paragraph at lines 521--521
+Underfull \hbox (badness 1226) in paragraph at lines 539--539
 []\OT1/cmr/m/n/12 Martin, L. J. (2017).  What causes breast can-cer?  [][]$\OT1
 /cmtt/m/n/12 https : / / www . webmd . com /
  []
 
 
-Underfull \hbox (badness 5970) in paragraph at lines 553--553
+Underfull \hbox (badness 5970) in paragraph at lines 577--577
 []\OT1/cmr/m/n/12 NCI (2012).  Breast and ad-ja-cent lymph nodes, na-tional can
 -cer in-sti-tute.
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 559--559
+Underfull \hbox (badness 1701) in paragraph at lines 583--583
 []\OT1/cmr/m/n/12 NHSBSP (2012).  2012 re-view of the uk breast screen-ing pro-
 gramme.  [][]$\OT1/cmtt/m/n/12 http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 583--583
 \OT1/cmtt/m/n/12 / / www . cancerresearchuk . org / about-[]cancer / breast-[]c
 ancer / screening /
  []
 
+[116]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-[107]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ³ in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -2176,83 +2368,76 @@ Missing character: There is no © in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
+ [117]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
- [108] [109]
-Underfull \hbox (badness 10000) in paragraph at lines 776--776
+ [118]
+Underfull \hbox (badness 10000) in paragraph at lines 800--800
 []\OT1/cmr/m/n/12 SPF (2016).  Sante pub-lique france: Can-cer du sein.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 776--776
+Underfull \hbox (badness 10000) in paragraph at lines 800--800
 \OT1/cmr/m/n/12 http://invs.santepubliquefrance.fr/Dossiers-thematiques/Maladie
 s-chroniques-et-
  []
 
+[119]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
-[110]) [111] [112
+ [120])
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
+[121]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
  (thesis.aux (titlepage.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: FA31842BFE897D65CBB81D1570E84A2C;5649.
+(rerunfilecheck)             Checksum: 7896BA9ED44843CD348A0D383A19EEDD;5872.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: B86E9396AEB9FDF9D6A8785F9A54F9C8;18675.
+(rerunfilecheck)             Checksum: A7F89B396A12456F9199305A6790D48F;18963.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16213 strings out of 493312
- 260742 string characters out of 3138886
- 379121 words of memory out of 3000000
- 18890 multiletter control sequences out of 15000+200000
- 19682 words of font info for 78 fonts, out of 3000000 for 9000
+ 16448 strings out of 493312
+ 264630 string characters out of 3138886
+ 374981 words of memory out of 3000000
+ 19097 multiletter control sequences out of 15000+200000
+ 22061 words of font info for 83 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,18n,98p,2010b,766s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{page.{\\protect\040\\edef\040OT1{OT1}\\let\040\\e
-nc@update\040\\relax\040\\protect\040\\xdef\040\\OT1/cmr/m/n/12\040{\\OT1/cmr/m
-/n/12\040}\\OT1/cmr/m/n/12\040\\size@update\040\\enc@update\040ix}} has been re
-ferenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{page.{\\protect\040\\edef\040OT1{OT1}\\let\040\\enc
-@update\040\\relax\040\\protect\040\\xdef\040\\OT1/cmr/m/it/12\040{\\OT1/cmr/m/
-n/12\040}\\OT1/cmr/m/it/12\040\\size@update\040\\enc@update\040viii}} has been 
-referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{page.{\\protect\040\\edef\040OT1{OT1}\\let\040\\enc
-@update\040\\relax\040\\protect\040\\xdef\040\\OT1/cmr/m/it/12\040{\\OT1/cmr/m/
-n/12\040}\\OT1/cmr/m/it/12\040\\size@update\040\\enc@update\040vii}} has been r
-eferenced but does not exist, replaced by a fixed one
-
- <C:\Users\212416541\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\tcrm1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmtt12.pfb><C:/Users/212416541/AppData/Roaming/MiKTeX/2.9
-/fonts/type1/public/hoekwater/stmary10.pfb>
-Output written on thesis.pdf (126 pages, 14547601 bytes).
+ 68i,18n,98p,2010b,788s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\212416541\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
+600\tcrm1200.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users
+/212416541/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/hoekwater/stmary10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on thesis.pdf (131 pages, 16590657 bytes).
 PDF statistics:
- 2560 PDF objects out of 2984 (max. 8388607)
- 460 named destinations out of 1000 (max. 500000)
- 891 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2553 PDF objects out of 2984 (max. 8388607)
+ 474 named destinations out of 1000 (max. 500000)
+ 955 words of extra memory for PDF output out of 10000 (max. 10000000)
 

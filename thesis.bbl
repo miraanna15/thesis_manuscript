@@ -197,6 +197,13 @@ Domar, A.~D., Eyvazzadeh, A., Allen, S., Roman, K., Wolf, R., Orav, J.,
   mammography.
 \newblock {\em American Journal of Roentgenology}, 184(2):445--447.
 
+\bibitem[Dubuisson and Jain, 1994]{dubuisson_modified_1994}
+Dubuisson, M.-P. and Jain, A.~K. (1994).
+\newblock A modified hausdorff distance for object matching.
+\newblock In {\em Pattern Recognition, 1994. Vol. 1-Conference A: Computer
+  Vision \& Image Processing., Proceedings of the 12th IAPR International
+  Conference on}, volume~1, pages 566--568. IEEE.
+
 \bibitem[Dullum et~al., 2000]{dullum_rates_2000}
 Dullum, J.~R., Lewis, E.~C., and Mayer, J.~A. (2000).
 \newblock Rates and correlates of discomfort associated with mammography.
@@ -309,6 +316,11 @@ Garcia, E., Oliver, A., Diaz, O., Diez, Y., Gubern-Merida, A., Marti, R., and
 \newblock In {\em SPIE Medical Imaging}, pages 1013504--1013504. International
   Society for Optics and Photonics.
 
+\bibitem[Gaur et~al., 2013]{gaur_architectural_2013}
+Gaur, S., Dialani, V., Slanetz, P.~J., and Eisenberg, R.~L. (2013).
+\newblock Architectural distortion of the breast.
+\newblock {\em American Journal of Roentgenology}, 201(5):W662--W670.
+
 \bibitem[Geeraert et~al., 2012]{geeraert_breast_2012}
 Geeraert, N., Klausza, R., Mullera, S., et~al. (2012).
 \newblock Breast characteristics and dosimetric data in x-ray mammography a
@@ -402,6 +414,17 @@ Hendriks, F., Brokken, D., Oomens, C., Bader, D., and Baaijens, F. (2006).
   behavior of human skin in vivo using suction experiments.
 \newblock {\em Medical engineering \& physics}, 28(3):259--266.
 
+\bibitem[Henrot et~al., 2014]{henrot_breast_2014}
+Henrot, P., Leroux, A., Barlier, C., and G{\'e}nin, P. (2014).
+\newblock Breast microcalcifications: the lesions in anatomical pathology.
+\newblock {\em Diagnostic and interventional imaging}, 95(2):141--152.
+
+\bibitem[Ho, 1995]{ho_random_1995}
+Ho, T.~K. (1995).
+\newblock Random decision forests.
+\newblock In {\em Document analysis and recognition, 1995., proceedings of the
+  third international conference on}, volume~1, pages 278--282. IEEE.
+
 \bibitem[Hofvind et~al., 2012]{hofvind_sensitivity_2012}
 Hofvind, S., Geller, B., Skelly, J., and Vacek, P. (2012).
 \newblock Sensitivity and specificity of mammographic screening as practised in
@@ -422,10 +445,11 @@ Huang, S.-Y., Boone, J.~M., Yang, K., Packard, N.~J., McKenney, S.~E., Prionas,
   breast ct.
 \newblock {\em Medical physics}, 38(4):2180--2191.
 
-\bibitem[Ikeda and Sickles, 1988]{ikeda_second_1988}
-Ikeda, D.~M. and Sickles, E.~A. (1988).
-\newblock Second-screening mammography: one versus two views per breast.
-\newblock {\em Radiology}, 168(3):651--656.
+\bibitem[Huttenlocher et~al., 1993]{huttenlocher_comparing_1993}
+Huttenlocher, D.~P., Klanderman, G.~A., and Rucklidge, W.~J. (1993).
+\newblock Comparing images using the hausdorff distance.
+\newblock {\em IEEE Transactions on pattern analysis and machine intelligence},
+  15(9):850--863.
 
 \bibitem[Itoh et~al., 2006]{itoh_breast_2006}
 Itoh, A., Ueno, E., Tohno, E., Kamma, H., Takahashi, H., Shiina, T., Yamakawa,
@@ -527,6 +551,12 @@ Mart{\'\i}nez-Mart{\'\i}nez, F., Rup{\'e}rez-Moreno, M., Mart{\'\i}nez-Sober,
 \newblock A finite element-based machine learning approach for modeling the
   mechanical behavior of the breast tissues under compression in real-time.
 \newblock {\em Computers in Biology and Medicine}, 90:116--124.
+
+\bibitem[McKenna, 1994]{mckenna_abnormal_1994}
+McKenna, R.~J. (1994).
+\newblock The abnormal mammogram radiographic findings, diagnostic options,
+  pathology, and stage of cancer diagnosis.
+\newblock {\em Cancer}, 74(S1):244--255.
 
 \bibitem[Mercer et~al., 2013]{mercer_practitioner_2013}
 Mercer, C., Hogg, P., Lawson, R., Diffey, J., and Denton, E. (2013).
@@ -873,6 +903,13 @@ Youk, J.~H., Gweon, H.~M., and Son, E.~J. (2017).
 \newblock Shear-wave elastography in breast ultrasonography: the state of the
   art.
 \newblock {\em Ultrasonography}, 36(4):300.
+
+\bibitem[Yushkevich et~al., 2006]{yushkevich_user_2006}
+Yushkevich, P.~A., Piven, J., Cody~Hazlett, H., Gimpel~Smith, R., Ho, S., Gee,
+  J.~C., and Gerig, G. (2006).
+\newblock User-guided {3D} active contour segmentation of anatomical
+  structures: Significantly improved efficiency and reliability.
+\newblock {\em Neuroimage}, 31(3):1116--1128.
 
 \bibitem[Zajac, 1989]{zajac_muscle_1989}
 Zajac, F.~E. (1989).
