@@ -3,7 +3,7 @@
 \BOOKMARK [0][-]{Doc-Start}{General Problem statement}{}% 3
 \BOOKMARK [0][-]{Doc-Start}{Technical approach}{}% 4
 \BOOKMARK [0][-]{Doc-Start}{Thesis overview}{}% 5
-\BOOKMARK [0][-]{Doc-Start}{Software}{}% 6
+\BOOKMARK [0][-]{Doc-Start}{Publications}{}% 6
 \BOOKMARK [0][-]{Doc-Start}{Ethics}{}% 7
 \BOOKMARK [0][-]{chapter.1}{ Clinical background}{}% 8
 \BOOKMARK [1][-]{section.1.1}{Breast anatomy}{chapter.1}% 9
@@ -52,32 +52,35 @@
 \BOOKMARK [1][-]{section.3.6}{Model validation}{chapter.3}% 52
 \BOOKMARK [1][-]{section.3.7}{Discussions and conclusion}{chapter.3}% 53
 \BOOKMARK [0][-]{chapter.4}{Breast Compression State of the art }{}% 54
-\BOOKMARK [1][-]{section.4.1}{Mammographic positioning}{chapter.4}% 55
+\BOOKMARK [1][-]{section.4.1}{Mammography positioning}{chapter.4}% 55
 \BOOKMARK [1][-]{section.4.2}{Paddles designs}{chapter.4}% 56
 \BOOKMARK [1][-]{section.4.3}{Compression mechanics}{chapter.4}% 57
 \BOOKMARK [1][-]{section.4.4}{Compression quality metrics}{chapter.4}% 58
 \BOOKMARK [2][-]{subsection.4.4.1}{Image quality}{section.4.4}% 59
 \BOOKMARK [2][-]{subsection.4.4.2}{Average glandular dose}{section.4.4}% 60
 \BOOKMARK [2][-]{subsection.4.4.3}{Pain and discomfort}{section.4.4}% 61
-\BOOKMARK [1][-]{section.4.5}{Summary}{chapter.4}% 62
+\BOOKMARK [1][-]{section.4.5}{Recent advances in breast compression}{chapter.4}% 62
 \BOOKMARK [0][-]{chapter.5}{Breast compression \046 comfort \040A comparative study}{}% 63
 \BOOKMARK [1][-]{section.5.1}{Breast compression modeling}{chapter.5}% 64
 \BOOKMARK [2][-]{subsection.5.1.1}{FE modeling of compression paddles}{section.5.1}% 65
 \BOOKMARK [2][-]{subsection.5.1.2}{Breast compression mechanics}{section.5.1}% 66
-\BOOKMARK [1][-]{section.5.2}{Image acquisition simulation }{chapter.5}% 67
-\BOOKMARK [2][-]{subsection.5.2.1}{Microcalcifications}{section.5.2}% 68
-\BOOKMARK [2][-]{subsection.5.2.2}{Simulation of digital images}{section.5.2}% 69
-\BOOKMARK [1][-]{section.5.3}{Compression quality metrics}{chapter.5}% 70
-\BOOKMARK [2][-]{subsection.5.3.1}{Patient comfort}{section.5.3}% 71
-\BOOKMARK [2][-]{subsection.5.3.2}{Image quality }{section.5.3}% 72
-\BOOKMARK [2][-]{subsection.5.3.3}{ Average glandular dose}{section.5.3}% 73
-\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 74
-\BOOKMARK [1][-]{section.5.5}{Discussions and conclusion}{chapter.5}% 75
-\BOOKMARK [0][-]{section.5.5}{Conclusion}{}% 76
-\BOOKMARK [0][-]{section.5.5}{Key contributions}{}% 77
-\BOOKMARK [0][-]{section.5.5}{Perspective}{}% 78
-\BOOKMARK [0][-]{section*.58}{Appendices}{}% 79
-\BOOKMARK [0][-]{Appendix.a.A}{Distance measures}{}% 80
-\BOOKMARK [0][-]{Appendix.a.B}{Mesh Convergence}{}% 81
-\BOOKMARK [0][-]{Appendix.a.C}{Bondary conditions \040contact models}{}% 82
-\BOOKMARK [0][-]{figure.caption.64}{Bibliography}{}% 83
+\BOOKMARK [2][-]{subsection.5.1.3}{Updated material constitutive models}{section.5.1}% 67
+\BOOKMARK [1][-]{section.5.2}{Simulation of digital images }{chapter.5}% 68
+\BOOKMARK [2][-]{subsection.5.2.1}{Breast phantom objects}{section.5.2}% 69
+\BOOKMARK [2][-]{subsection.5.2.2}{Physical characteristics}{section.5.2}% 70
+\BOOKMARK [1][-]{section.5.3}{Compression quality metrics}{chapter.5}% 71
+\BOOKMARK [2][-]{subsection.5.3.1}{Patient comfort}{section.5.3}% 72
+\BOOKMARK [2][-]{subsection.5.3.2}{Image quality }{section.5.3}% 73
+\BOOKMARK [2][-]{subsection.5.3.3}{Average glandular dose}{section.5.3}% 74
+\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 75
+\BOOKMARK [2][-]{subsection.5.4.1}{Compression quality for rigid and flex paddles}{section.5.4}% 76
+\BOOKMARK [2][-]{subsection.5.4.2}{Breast positioning impact on compression mechanics}{section.5.4}% 77
+\BOOKMARK [1][-]{section.5.5}{Discussions and conclusion}{chapter.5}% 78
+\BOOKMARK [0][-]{section.5.5}{Conclusion}{}% 79
+\BOOKMARK [0][-]{section.5.5}{Perspective}{}% 80
+\BOOKMARK [0][-]{section.5.5}{Key contributions}{}% 81
+\BOOKMARK [0][-]{section*.62}{Appendices}{}% 82
+\BOOKMARK [0][-]{Appendix.a.A}{Distance measures}{}% 83
+\BOOKMARK [0][-]{Appendix.a.B}{Mesh Convergence}{}% 84
+\BOOKMARK [0][-]{Appendix.a.C}{Bondary conditions \040contact models}{}% 85
+\BOOKMARK [0][-]{figure.caption.68}{Bibliography}{}% 86

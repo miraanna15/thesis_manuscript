@@ -2,86 +2,98 @@
 
  \nomgroup{A}
 
-  \item [{$\alpha$}]\begingroup multiplicative regularization factor\nomeqref {3.0}
-		\nompageref{59}
+  \item [{$\alpha$}]\begingroup Multiplicative regularization factor\nomeqref {3.0}
+		\nompageref{61}
   \item [{$\lambda$}]\begingroup Young's moduli\nomeqref {2.27}
-		\nompageref{30}
+		\nompageref{32}
   \item [{$\lambda_{xx}$}]\begingroup Youngs's moduli of the material $xx$\nomeqref {3.0}
-		\nompageref{63}
-  \item [{$\lambda_{xx}^{l/r}$}]\begingroup Young's modulus of the material xx for the left/right breast\nomeqref {3.0}
 		\nompageref{65}
-  \item [{$\mathcal{B}$}]\begingroup Body\nomeqref {2.0}\nompageref{22}
-  \item [{$\mu$}]\begingroup shear moduli\nomeqref {2.28}
-		\nompageref{31}
+  \item [{$\lambda_{xx}^{l/r}$}]\begingroup Young's modulus of the material xx for the left/right breast\nomeqref {3.0}
+		\nompageref{67}
+  \item [{$\mathcal{B}$}]\begingroup Body\nomeqref {2.0}\nompageref{24}
+  \item [{$\mu calc$}]\begingroup Microcalcifications\nomeqref {1.0}
+		\nompageref{18}
+  \item [{$\mu$}]\begingroup Shear moduli\nomeqref {2.28}
+		\nompageref{33}
   \item [{$\nu$}]\begingroup Poisson ratio\nomeqref {2.28}
-		\nompageref{31}
+		\nompageref{33}
   \item [{$\Omega$}]\begingroup Domain occupied by the body\nomeqref {2.0}
-		\nompageref{22}
+		\nompageref{24}
   \item [{$\Omega_0$}]\begingroup Reference body configuration \nomeqref {2.0}
-		\nompageref{22}
+		\nompageref{24}
   \item [{$\Omega_1$}]\begingroup Current or analyzed body configuration \nomeqref {2.0}
-		\nompageref{22}
+		\nompageref{24}
   \item [{$D_i$}]\begingroup position difference of the node $i$ between the estimated and measured breast prone configurations\nomeqref {3.0}
-		\nompageref{59}
+		\nompageref{61}
   \item [{$F$}]\begingroup Deformation gradient\nomeqref {2.2}
-		\nompageref{24}
+		\nompageref{26}
   \item [{$J$}]\begingroup Jacobian determinant of the deformation gradient tensor\nomeqref {2.5}
-		\nompageref{24}
-  \item [{$l$}]\begingroup body stretch\nomeqref {2.6}\nompageref{24}
-  \item [{$m$}]\begingroup Body mass\nomeqref {2.2}\nompageref{23}
+		\nompageref{26}
+  \item [{$l$}]\begingroup Body stretch\nomeqref {2.6}\nompageref{26}
+  \item [{$m$}]\begingroup Body mass\nomeqref {2.2}\nompageref{25}
   \item [{$p$}]\begingroup Particle or material point\nomeqref {2.0}
-		\nompageref{22}
+		\nompageref{24}
   \item [{$u$}]\begingroup Particle displacement\nomeqref {2.1}
-		\nompageref{22}
+		\nompageref{24}
   \item [{$X$}]\begingroup Point position on the reference configuration\nomeqref {2.0}
-		\nompageref{22}
+		\nompageref{24}
   \item [{$x$}]\begingroup Point position on the current configuration\nomeqref {2.0}
-		\nompageref{22}
-  \item [{AEC}]\begingroup automatic exposure control\nomeqref {5.0}
+		\nompageref{24}
+  \item [{AEC}]\begingroup Automatic Exposure Control\nomeqref {4.0}
 		\nompageref{81}
   \item [{AGD}]\begingroup Average Glandular Dose\nomeqref {1.0}
-		\nompageref{19}
-  \item [{AOP}]\begingroup automatic optimization of parameters\nomeqref {5.0}
+		\nompageref{22}
+  \item [{AOP}]\begingroup Automatic Optimization of Parameters\nomeqref {4.0}
 		\nompageref{81}
-  \item [{DgN}]\begingroup normalized dose\nomeqref {5.0}
+  \item [{DgN}]\begingroup Normalized dose\nomeqref {4.0}
 		\nompageref{82}
+  \item [{EPM}]\begingroup Elastic Paddle Model\nomeqref {5.0}
+		\nompageref{89}
   \item [{FDA}]\begingroup Food and Drug Administration \nomeqref {1.0}
-		\nompageref{17}
-  \item [{FE}]\begingroup Finite Element\nomeqref {1.0}\nompageref{19}
+		\nompageref{19}
+  \item [{FE}]\begingroup Finite Element\nomeqref {1.0}\nompageref{22}
   \item [{FFDM}]\begingroup Full Field Digital Mammography\nomeqref {1.0}
-		\nompageref{17}
-  \item [{GBM}]\begingroup generalized momentum balance\nomeqref {2.34}
-		\nompageref{32}
+		\nompageref{19}
+  \item [{FPM}]\begingroup Flex Paddle Model\nomeqref {5.0}
+		\nompageref{88}
+  \item [{GMB}]\begingroup Generalized Momentum Balance\nomeqref {2.34}
+		\nompageref{34}
   \item [{ILC}]\begingroup Invasive lobular carcinoma\nomeqref {1.0}
-		\nompageref{16}
-  \item [{IQ}]\begingroup Image Quality\nomeqref {1.0}\nompageref{19}
-  \item [{K}]\begingroup Bulk moduli\nomeqref {2.28}\nompageref{31}
-  \item [{LIQ}]\begingroup Lower Inner Quadrant\nomeqref {1.0}
-		\nompageref{9}
-  \item [{LOQ}]\begingroup Lower Outer Quadrant\nomeqref {1.0}
-		\nompageref{9}
-  \item [{MRI}]\begingroup Magnetic Resonance Imaging\nomeqref {1.0}
-		\nompageref{16}
-  \item [{NRS}]\begingroup numerical rating scale\nomeqref {5.0}
-		\nompageref{83}
-  \item [{PDE}]\begingroup partial differential equations\nomeqref {2.34}
-		\nompageref{33}
-  \item [{RF}]\begingroup  Radio-Frequency waves\nomeqref {1.0}
 		\nompageref{18}
-  \item [{SFP}]\begingroup standard flex paddles\nomeqref {5.0}
+  \item [{IQ}]\begingroup Image Quality\nomeqref {1.0}\nompageref{22}
+  \item [{K}]\begingroup Bulk moduli\nomeqref {2.28}\nompageref{33}
+  \item [{LIQ}]\begingroup Lower Inner Quadrant\nomeqref {1.0}
+		\nompageref{11}
+  \item [{LOQ}]\begingroup Lower Outer Quadrant\nomeqref {1.0}
+		\nompageref{11}
+  \item [{MRI}]\begingroup Magnetic Resonance Imaging\nomeqref {1.0}
+		\nompageref{18}
+  \item [{NRS}]\begingroup Numerical Rating Scale\nomeqref {4.0}
+		\nompageref{83}
+  \item [{PDE}]\begingroup Partial Differential Equations\nomeqref {2.34}
+		\nompageref{35}
+  \item [{RF}]\begingroup  Radio-Frequency waves\nomeqref {1.0}
+		\nompageref{21}
+  \item [{RPM}]\begingroup Rigid Paddle Model\nomeqref {5.0}
+		\nompageref{88}
+  \item [{SDNR}]\begingroup Signal Difference to Noise Ratio\nomeqref {5.0}
+		\nompageref{95}
+  \item [{SFP}]\begingroup Standard Flex Paddles\nomeqref {4.0}
 		\nompageref{77}
-  \item [{SRP}]\begingroup  standard rigid paddle\nomeqref {5.0}
+  \item [{SNR}]\begingroup Signal to Noise Ratio\nomeqref {5.0}
+		\nompageref{94}
+  \item [{SRP}]\begingroup  Standard Rigid Paddle\nomeqref {4.0}
 		\nompageref{77}
   \item [{SWE}]\begingroup Shear-Wave Elastography\nomeqref {1.0}
-		\nompageref{18}
+		\nompageref{20}
   \item [{UIQ}]\begingroup Upper Inner Quadrant\nomeqref {1.0}
-		\nompageref{9}
+		\nompageref{11}
   \item [{UOQ}]\begingroup Upper Outer Quadrant\nomeqref {1.0}
-		\nompageref{9}
-  \item [{US}]\begingroup Ultrasound\nomeqref {1.0}\nompageref{16}
-  \item [{VAS}]\begingroup visual analogue scale\nomeqref {5.0}
+		\nompageref{11}
+  \item [{US}]\begingroup Ultrasound\nomeqref {1.0}\nompageref{18}
+  \item [{VAS}]\begingroup Visual Analogue Scale\nomeqref {4.0}
 		\nompageref{83}
-  \item [{VRS}]\begingroup verbal rating scale\nomeqref {5.0}
+  \item [{VRS}]\begingroup Verbal Rating Scale\nomeqref {4.0}
 		\nompageref{83}
 
 \end{thenomenclature}

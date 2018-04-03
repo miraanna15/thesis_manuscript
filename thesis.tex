@@ -16,15 +16,14 @@
 %
 % These commands need to be defined in order to produce a correct nad personalized document
 %
-\newcommand{\shortdoctitle}{PhD T
-hesis}
-\newcommand{\doctitle}{Report}
-\newcommand{\docsubtitle}{Mid-term}
+\newcommand{\shortdoctitle}{PhD Thesis}
+\newcommand{\doctitle}{Draft}
+\newcommand{\docsubtitle}{ }
 
 \newcommand{\me}{MIRA Anna}
 \newcommand{\keywords}{Breast mechanics,FEM, Mammography}
-\newcommand{\version}{V2}
-\newcommand{\monthYear}{2017}
+\newcommand{\version}{V4}
+\newcommand{\monthYear}{2018}
 
 %Be sure to use all the titles for your committee members!!! (their names show up on the very first page!)
 \newcommand{\firstCommitteeMember}{ Yohan Payan, TIMC-IMAG Lab, CNRS \& Univ. Grenoble Alpes}
@@ -88,7 +87,8 @@ hesis}
 \addcontentsline{toc}{chapter}{List of Symbols}
 \printnomenclature
 \clearemptydoublepage
-
+\setcounter{page}{0}
+\pagenumbering{arabic}
 %\lstlistoflistings
 
 %\clearemptydoublepage
@@ -96,16 +96,16 @@ hesis}
 %\chapter{Introduction}\label{chapter:introduction}
 
 %from here on, start the 'real' page numbering, from 1, with normal digits
-%\input{chapters/introduction}
+\input{chapters/introduction}
 
 %\clearemptydoublepage
 %\chapter{Preliminaries}\label{chapter:preliminaries}
 
 \clearemptydoublepage
-\setcounter{page}{0}
-\pagenumbering{arabic}
 
-\input{chapters/introduction}
+
+
+%\input{chapters/introduction}
 %clinical background
 \clearemptydoublepage
 
@@ -130,31 +130,20 @@ hesis}
 \chapter{Breast Compression\\ \textit{State of the art} }\label{chapter:compression:introduction}
 \input{chapters/compression}
 
-\chapter{Breast compression \& comfort \\ \textit{A comparative study}}\label{chapter:compressionfem}
+\chapter{Breast compression \& comfort \\ \textit{A comparative study}}
+\label{chapter:compressionfem}
 \input{chapters/compressionfem}
 
 \clearemptydoublepage
+
 %\part{Thesis review}\label{part:thesisreview}
 \input{chapters/thesisreview}
 
 
-%\chapter{State of the Art}\label{chapter:stateoftheart}
-%\input{chapters/stateoftheart}
-%\clearemptydoublepage
-
-%\chapter{Report}\label{chapter:validation}
-%\input{chapters/validation}
-
-%\clearemptydoublepage
-
-%\chapter{Conclusions}\label{chapter:conclusions}
-%\input{chapters/conclusions}
-
 \clearemptydoublepage
 
-
+\pagenumbering{roman}
 \begin{appendices}
-
 
 \chapter{Distance measures}
 \label{appendice:distancemeasures}
@@ -172,8 +161,6 @@ hesis}
 %\bibliographystyle{these}
 \bibliographystyle{apalike}
 \bibliography{fetheory,pain_and_discomfort,my_biomeca_model,breast_cancer_statistics,biomecanical_model,hyperelastic_parameters,breast_anatomy}
-
-%
 
 
 %\appendix

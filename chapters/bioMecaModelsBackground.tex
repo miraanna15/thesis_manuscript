@@ -2,7 +2,7 @@
 
 Finite elements models are widely used to estimate body parts deformation udder predefined boundary conditions. Several biomechanical models of the breast were recently developed providing physics-based predictions of tissue motion and internal stress and strain intensity.  In our work, we assume that the strain intensity obtained during the tissues deformation may by correlated with the patient discomfort. Thus, a biomechanical model obtained from the patient's MRI volume can be subsequently used to mimic breast compression during the mammographic acquisition. The resulting tissues strain cartography can be used as a first quantification of the patient inconfort.
 
-This chapter provide theoretical background on continuous mechanic theory applied to soft tissues modeling. The principle of finite elements theory is defined including solid bodies and contact mechanics. A review of the existing biomechanical breast model is given describing the main challenges in the field and the proposed solution. These works proved the core foundation for the next developed patient specific breast model. 
+This chapter provide theoretical background on continuous mechanic theory applied to soft tissues modeling. The principle of finite elements theory is defined including solid bodies and contact mechanics. A review of the existing biomechanical breast model is given describing the main challenges in the field and the proposed solution. These works provide the core foundation for the next developed patient specific breast model. 
       
 \clearpage
 \section{Continuous mechanics}
@@ -87,23 +87,23 @@ the body deformation in the vicinity of a particle p. This deformation consists 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.7\textwidth,keepaspectratio]{figures/deformationTensorDecomposition.png} 
-\caption[]{Decomposition by rotation and a stretch of a material particle.  }
+\caption[]{Local decomposition of the deformation tensor into rotation and stretch .  }
 \label{deformationGradientDecom}
 \end{center}
 \end{figure}
 
 
-Generally, the body stretch is defined as the ratio of the deformed line elements to the length of the corresponding undeformed line element \nomenclature{$l$}{body stretch}
+Generally, the body stretch is defined as the ratio of the deformed line elements to the length of the corresponding undeformed line element \nomenclature{$l$}{Body stretch}
 \begin{equation}
 l = \frac{\vert dx \vert}{\vert dX \vert},
 \end{equation} 
 and consists locally on three mutually orthogonal stretches named \textbf{the principal stretches}.
 
-According to the polar decomposition theorem, the deformation tensor can be written as the product of a proper orthogonal tensor $R$ representing the rotational part, and a symmetric positive defined tensor $U$ representing the body distorsion. 
+According to the polar decomposition theorem, the deformation tensor can be written as the product of a proper orthogonal tensor $R$ representing the rotational part, and a symmetric positive defined tensor $U$ representing the body distorsions. 
 \begin{equation}
 F = R \cdot U.
 \end{equation}
-where $U$ and $R$ are given by the relations $U = (F^T \cdot F)^ {\frac{1}{2}} $ and $R = F \cdot U^{-1}$. The essential property of tensor $U$ is that it is symmetric and positive, therefor it has three real positive eigenvalues
+where $U$ and $R$ are given by the relations $U = (F^T \cdot F)^ {\frac{1}{2}} $ and $R = F \cdot U^{-1}$. The essential property of tensor $U$ is that it is symmetric and positive, therefore it has three real positive eigenvalues
 $\lambda_1, \lambda_2, \lambda_3$ and a corresponding triplet of orthonormal eigenvectors $r_1, r_2, r_3$. Thus then an infinitesimal segment $dx$ is stretched by the tensor $U$, the segment is distorted in the principal direction of U by amounts of the corresponding eigenvalues of U. 
 
 The tensor $U$ is also called the \textbf{right stretch tensor}.  Since there is a one-to-one relation between $U$ ans $U^2$, for the simplification of numerical calculus the stretch tensor can by replaced by the \textbf{Green deformation tensor} $C = F^T \cdot F$.
@@ -242,7 +242,7 @@ Accordingly, two pseudostress tensors are defined based on pseudostress vectors:
 \item $T^N = P \cdot N$, $P$ is called \textbf{first Piola-Kircchoff stress tensor},
 \item  $\tilde{T}^N = S \cdot N $, $S$ is called \textbf{second Piola-Kircchoff stress tensor}. 
 \end{itemize} 
-were $N$ is the normal vector of unit area $dA$.
+were $N$ is the normal vector of unit area $dA$ in the reference configuration.
 
 The three stress tensors are linked by the next relation 
 \begin{equation}
@@ -329,7 +329,7 @@ For the simplification of potential expressions, we define the first and the sec
 $\overline{I}_1=\frac{I_1}{I_3^{2/3}} $;  $\overline{I}_2=\frac{I_2}{I_3^{4/3}}$
 \end{center}
 
-We also define the \textbf{ Bulk moduli} \nomenclature{K}{Bulk moduli} as measure of a material's resistance to compression; the \textbf{shear moduli}\nomenclature{$\mu$}{shear moduli} as the ratio of shear stress to the shear strain; and the \textbf{Poisson ratio} \nomenclature{$\nu$}{Poisson ratio} as the ratio between longitudinal strain to the transverse strain describing the body shape change . For small deformation the Bulk moduli and shear moduli are linked to the Young's moduli and Poisson ratio by the next relations:
+We also define the \textbf{ Bulk moduli} \nomenclature{K}{Bulk moduli} as measure of a material's resistance to compression; the \textbf{shear moduli}\nomenclature{$\mu$}{Shear moduli} as the ratio of shear stress to the shear strain; and the \textbf{Poisson ratio} \nomenclature{$\nu$}{Poisson ratio} as the ratio between longitudinal strain to the transverse strain describing the body shape change . For small deformation the Bulk moduli and shear moduli are linked to the Young's moduli and Poisson ratio by the next relations:
  \begin{equation} 
   K = \frac{\lambda}{3(1-2\nu)} \ \ and \ \ \mu = \frac{\lambda}{2(1+\nu)}
 \end{equation}
@@ -386,11 +386,11 @@ We consider a body $\mathcal{B}$ which occupies in the reference configuration t
 
 Where we note $\Gamma_0^{t_i}$ the set of prescribed traction  $\overline{t}$ on the body boundary $\Gamma_0$ ; and $\Gamma_0^{int}$ is the union of all surfaces where the stresses are discontinuous in the body (material interfaces).
 
-The momentum equation together with the traction boundary condition and interior traction continuity condition are called generalized momentum balance (GMB) \nomenclature{GBM}{generalized momentum balance}.
+The momentum equation together with the traction boundary condition and interior traction continuity condition are called generalized momentum balance (GMB) \nomenclature{GMB}{Generalized Momentum Balance}.
 \section{Finite Element Discretization}
 
 \label{section:lagrangianmesh}
-In continuous mechanics the body deformation is expressed in terms of partial differential equations (PDE \nomenclature{PDE}{partial differential equations}). For the majority of problems, the PDEs cannot be solved analytically, therefore approximation methods are developed. To this end, the finite element (FE) method has become the standard numerical calculation to compute such approximations. The computational domain, the unknown solution, and its partial derivatives are discretized, so as to obtain a set of algebraic equations for the function values at a finite number of discrete locations. The unknowns of the discrete problem are
+In continuous mechanics the body deformation is expressed in terms of partial differential equations (PDE \nomenclature{PDE}{Partial Differential Equations}). For the majority of problems, the PDEs cannot be solved analytically, therefore approximation methods are developed. To this end, the finite element (FE) method has become the standard numerical calculation to compute such approximations. The computational domain, the unknown solution, and its partial derivatives are discretized, so as to obtain a set of algebraic equations for the function values at a finite number of discrete locations. The unknowns of the discrete problem are
 associated with a computational mesh which represents a subdivision of the domain $\Omega_0$ into many small control volumes $\Omega_k$
 
 \subsection{Eulerian and Lagrangian mesh description}
@@ -734,7 +734,7 @@ Muscle is a kinematically, geometrically, and materially complex tissue. Muscle 
 \citep{zajac_muscle_1989}, Feldman’s lambda model \citep{feldman_once_1986} which are considering the variation of muscle elasticity in function of muscle state. In breast biomechanical models the muscle is combined with the thoracic cage and is frequently considered as a rigid breast support. In most of models, the pectoral muscle is modeled by imposing zero-displacement conditions on nodes closer to the chest wall \citep{abbas_biomechanical_2001,chung_modelling_2008,rajagopal_mapping_2010}  
 or by allowing them to slide along the chest wall line \citep{han_nonlinear_2014,georgii_simulation_2016}.   
 
-The muscle is nonlinear, anisotropic, incompressible material.  The bibliographic data on static mechanical properties of the muscle-tendon unit assessed by supersonic shear wave imaging elastography state a Young's modullus in range of $20kPa$ to $300kPa$ depending on the muscle location and subject's physical condition \citep{lima_eassessment_2018}.  The muscle shear moduli on the upper trapezius was studied by \cite{leong_quantitative_2013}, according to authors the muscle shear elasticity at rest was $17.11\pm 5.82 kPa$, and this increased to $26.56\pm 12.32 kPa$ during active arm holding at 30\textdegree  abduction. 
+The muscle is nonlinear, anisotropic, incompressible material.  The bibliographic data on static mechanical properties of the muscle-tendon unit assessed by supersonic shear wave imaging elastography state a Young's modullus in range of $20kPa$ to $300kPa$ depending on the muscle location and subject's physical condition \citep{lima_eassessment_2018}.  The muscle shear moduli on the upper trapezius was studied by \cite{leong_quantitative_2013}, according to authors the muscle shear elasticity at rest was $17.11\pm 5.82 kPa$, and this increased to $26.56\pm 12.32 kPa$ during active arm holding at 30 degrees abduction. 
 
 \subsubsection*{Skin biomechanical properties}
 Several studies have shown the importance of skin in biomechanical breast modeling. According to \cite{carter_biomechanical_2009}, a model which includes the skin estimates better the tissues deformation under gravity loading.

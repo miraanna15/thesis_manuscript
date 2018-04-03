@@ -127,6 +127,12 @@ Catanuto, G., Spano, A., Pennati, A., Riggio, E., Farinella, G.~M., Impoco, G.,
 \newblock {\em Journal of Plastic, Reconstructive \& Aesthetic Surgery},
   61(3):314--318.
 
+\bibitem[Chagnon et~al., 2004]{chagnon_comparison_2004}
+Chagnon, G., Marckmann, G., and Verron, E. (2004).
+\newblock A comparison of the hart-smith model with arruda-boyce and gent
+  formulations for rubber elasticity.
+\newblock {\em Rubber chemistry and technology}, 77(4):724--735.
+
 \bibitem[Chan et~al., 1987]{chan_image_1987}
 Chan, H.-P., Galhotra, S., Vyborny, C.~J., MacMahon, H., Jokich, P.~M., et~al.
   (1987).
@@ -182,6 +188,11 @@ Dance, D., Skinner, C., Young, K., Beckett, J., and Kotre, C. (2000).
   using the uk mammography dosimetry protocol.
 \newblock {\em Physics in medicine \& biology}, 45(11):3225.
 
+\bibitem[de~Carvalho, 2014]{de_low_2014}
+de~Carvalho, P.~M. (2014).
+\newblock {\em Low-Dose 3D Quantitative Vascular X-ray Imaging of the Breast}.
+\newblock PhD thesis, Universit{\'e} Paris Sud-Paris XI.
+
 \bibitem[de~Groot et~al., 2015]{de_pain_2015}
 de~Groot, J.~E., Broeders, M.~J., Grimbergen, C.~A., and den Heeten, G.~J.
   (2015).
@@ -189,6 +200,13 @@ de~Groot, J.~E., Broeders, M.~J., Grimbergen, C.~A., and den Heeten, G.~J.
   simultaneously recorded pain and breast mechanics throughout the entire
   breast compression cycle.
 \newblock {\em BMC women's health}, 15(1):26.
+
+\bibitem[De~Man et~al., 2007]{de_catsim_2007}
+De~Man, B., Basu, S., Chandra, N., Dunham, B., Edic, P., Iatrou, M., McOlash,
+  S., Sainath, P., Shaughnessy, C., Tower, B., et~al. (2007).
+\newblock Catsim: a new computer assisted tomography simulation environment.
+\newblock In {\em Medical Imaging 2007: Physics of Medical Imaging}, volume
+  6510, page 65102G. International Society for Optics and Photonics.
 
 \bibitem[Domar et~al., 2005]{domar_relaxation_2005}
 Domar, A.~D., Eyvazzadeh, A., Allen, S., Roman, K., Wolf, R., Orav, J.,
