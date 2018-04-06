@@ -85,8 +85,9 @@
 \clearemptydoublepage
 % Generate the glossary
 \addcontentsline{toc}{chapter}{List of Symbols}
-\printnomenclature
+\printnomenclature[2cm]
 \clearemptydoublepage
+
 \setcounter{page}{0}
 \pagenumbering{arabic}
 %\lstlistoflistings
@@ -107,7 +108,6 @@
 
 %\input{chapters/introduction}
 %clinical background
-\clearemptydoublepage
 
 
 \chapter{ Clinical background}\label{chapter:clinicalbachground}
@@ -119,7 +119,7 @@
 \chapter{Biomechanical breast modeling\\ \textit{State of the art}}\label{chapter:bioMecaModelsBackground}
 
 \input{chapters/bioMecaModelsBackground}
-
+\clearemptydoublepage
 \chapter{A new biomechanical breast model evaluated on real data}\label{chapter:myBioMecaModel}
 \input{chapters/mybioMecaModel}
 
@@ -129,6 +129,7 @@
 %\part{Breast Compression: a comparative study}\label{part:breastcompressionDM}
 \chapter{Breast Compression\\ \textit{State of the art} }\label{chapter:compression:introduction}
 \input{chapters/compression}
+\clearemptydoublepage
 
 \chapter{Breast compression \& comfort \\ \textit{A comparative study}}
 \label{chapter:compressionfem}
@@ -144,7 +145,7 @@
 
 \pagenumbering{roman}
 \begin{appendices}
-
+\clearemptydoublepage
 \chapter{Distance measures}
 \label{appendice:distancemeasures}
 \input{appendices/distancemeasures}

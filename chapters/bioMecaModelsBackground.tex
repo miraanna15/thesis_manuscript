@@ -13,7 +13,7 @@ In this section the continuous mechanis theory applied to solids bodys was discr
 \subsection{Deformation and strain}\label{subsection:defromationandstrain}
 Continuous mechanics is the mathematical description of how physical objects that occur in nature respond to the application of forces.
 
-	A \textbf{body} is the mathematical abstraction of an \textit{object} and is defined by its geometric and constitutive properties.  At a macroscopic level, a solid \textit{object} is described as homogeneous and continuous body, i.e. the substance of the object has a unique composition and completely fills the space it occupies thus, ignoring the granular (atomic) nature of matter. In continuous mechanics, a body $\mathcal{B}$\nomenclature{$\mathcal{B}$}{Body} is composed of a set of \textbf{particles} $p$ \nomenclature{$p$}{Particle or material point} (or material points). Each particle is located at some defined \textbf{point}  $x$ in three dimensional space. The set of all the points in space, corresponding to the locations of all the particles, is the \textbf{domain} $\Omega$ \nomenclature{$\Omega$}{Domain occupied by the body} occupied by the body in a given configuration, here also named $geometry$. A particular body can change its configuration and therefore the occupied region in the space when exposed to some external stimuli like force, pressure or heat.
+	A \textbf{body} is the mathematical abstraction of an \textit{object} and is defined by its geometric and constitutive properties.  At a macroscopic level, a solid \textit{object} is described as homogeneous and continuous body, i.e. the substance of the object has a unique composition and completely fills the space it occupies thus, ignoring the granular (atomic) nature of matter. In continuous mechanics, a body $\mathcal{B}$\nomenclature{$\mathcal{B}$}{Body} is composed of \textbf{particles} $p$ \nomenclature{$p$}{Particle or material point} (or material points). Each particle is located at some defined \textbf{point}  $x$ in three dimensional space. The set of all the points in space, corresponding to the locations of all the particles, is the \textbf{domain} $\Omega$ \nomenclature{$\Omega$}{Domain occupied by the body} occupied by the body in a given configuration, here also named $geometry$. A particular body can change its configuration and therefore the occupied region in the space when exposed to some external stimuli like force, pressure or heat.
 	
  The \textbf{configuration} of a body is defined as a one-to-one mapping between the particle $p$ and position $x$, $\Omega_0 = \chi_0 (\mathcal{B})$ (see figure \ref{reference_config_theory}). To describe the solid's respond to external stimuli one needs to know the changes in geometrical characteristics between at least two configurations: the configuration that one wishes to analyze $\Omega_1$ \nomenclature{$\Omega_1$}{Current or analyzed body configuration }, and the \textbf{reference configuration} relative to which the changes are to be measured $\Omega_0$  \nomenclature{$\Omega_0$}{Reference body configuration }. Here, see figure \ref{reference_config_theory}, the mappings $\chi_0$ and $\chi_1$ take $p \rightarrow X$\nomenclature{$X$}{Point position on the reference configuration} and $p \rightarrow x$\nomenclature{$x$}{Point position on the current configuration}, thus $X$ and $x$ are the positions of particle $p$ in the two configurations under consideration.
 
@@ -141,12 +141,10 @@ Referring to small deformations, the engineering nominal strain is defined as th
 
 When the body is not deformed, the deformation gradient $F$ and therefore the right stretch tensor $U$ is equal to identity tensor $I$. The strain in such a case is equal to zero. 
 
-For most biological soft tissues, large deformation has to be considered. In that case, the previously defined strain is no more applicable. For large deformations, a measure of strain can be any monotonically increasing function related to stretch in a one-to-one manner, this function has to vanish in the reference configuration.
-
-In orthogonal coordinate system, an admissible function is 
+For most biological soft tissues, large deformation has to be considered. In that case, the previously defined strain is no more applicable. For large deformations, a measure of strain can be any monotonically increasing function related to stretch in a one-to-one manner, this function has to vanish in the reference configuration \citep{mcmeeking_finite_1975}. In orthogonal coordinate system, an admissible function is  
 
 \begin{equation}
-f(x) = \frac{1}{m}(x^m-1) \ for \ (m \neq 0)\  \ and \ ln(x) \ for \ (m=0)
+f(x) = \frac{1}{m}(x^m-1) \ for \ (m \in \mathbb R _{\ne 0})\  \ and \ ln(x) \ for \ (m=0)
 \end{equation}
 
 
@@ -342,7 +340,7 @@ W =\frac{\mu}{2} (\overline{I}_1-3) + \frac{K}{2}(J-1)^2,
 \end{equation}
 where $\mu$ and $K$ are initial shear moduli and initial Bulk moduli respectively. 
 \subsubsection*{Mooney-Rivlin potential function}
-The potential function of a Mooney-Rivlin \citep{rivlin_large_1951} material is defined as:
+The potential function of a Mooney-Rivlin \citep{rivlin_large_1951} material can be defined as:
 \begin{equation}
 \label{eq:mooneyRivlingmodel}
 W=\frac{\mu_1}{2}(\overline{I}_1-3)+\frac{\mu_2}{2}(\overline{I}_2-3)+\frac{K}{2}(J-2)^2,
@@ -682,7 +680,7 @@ To model the breast tissues deformation under gravity loading, the reference sta
 
 \subsection{Constitutive models}
 
-Global breast mechanics is governed by breast tissue compositions and their individual mechanical properties. The breast soft tissues are known to be incompressible, nonlinear, anisotropic, and viscous materials. However, according to \cite{wellman_breast_1999} the breast tissues viscosity can be neglected when the mechanical load is applied within short time scales.  
+Global breast mechanics is governed by breast tissue compositions and their individual mechanical properties. The breast soft tissues are known to be incompressible, nonlinear, anisotropic, and viscous materials. However, according to \cite{wellman_breast_1999} the breast tissues viscosity can be neglected even when short time scales loads are applied.  
 
 Under large compression and body position changes, the breast volume can vary due to blood flows. Thus, soft tissues are frequently modeled as quasi-incompressible materials with a Poisson ratio ranging between $\nu = {0.45-0.5}$. The influence of the Poisson ratio within linear constitutive models was studied for breast by \cite{tanner_factors_2006}; according to the authors, the best estimates are obtained with high Poisson ratio ($\nu = {0.495,0.499}$). The breast tissues are predominately composed of water; therefore, the density is considered to be equal to $981\ kg/m^3$.  
 
@@ -766,11 +764,11 @@ Dirichlet conditions are usually used to constrain the sternum/axilla ends and t
 
  \cite{gamage_modelling_2012} proposed a finite elements model capable to estimate the supine breast configuration from the prone one. The breast stress-free configuration was estimated using a prediction-correction iterative algorithm optimization process, in this purpose the skin surfaces on prone configuration was used as ground-truth. Contrariwise, the material constitutive parameters were identified using the skin surface on supine breast configuration by applying a non-linear optimization algorithm. Breast tissues sliding over the chest wall was considered partially by modeling the pectoral muscle as a soft structure and including it into the optimization process. The models were evaluated for the supine breast configuration by computing the root-mean-squared error (RMSE) from the point to surface distance between the estimated and measured data. Conform to the authors, the breast supine geometry was estimated within an RMSE of 5mm (maximal distance of 9.3 mm). 
 
-In the same time, \cite{han_nonlinear_2014} developed a breast biomechanical model for image registration. The estimates of supine breast configuration were computed for five subjects, and the accuracy was assessed by computing the Euclidian distance between anatomical landmarks.  The mean Euclidian distance range between 11.5 mm and 39.2 mm (maximal Euclidian distance ranged between 20.3mm and 61.7mm). The authors modelled the elongation of the pectoral muscle using a contact sliding model. Only the material constitutive parameters were adapted to the patient’s breast mechanics, the stress-free breast geometry being estimated by inverse gravity. 
+Then, \cite{han_nonlinear_2014} developed a breast biomechanical model for image registration. The estimates of supine breast configuration were computed for five subjects, and the accuracy was assessed by computing the Euclidian distance between anatomical landmarks.  The mean Euclidian distance range between 11.5 mm and 39.2 mm (maximal Euclidian distance ranged between 20.3mm and 61.7mm). The authors modelled the elongation of the pectoral muscle using a contact sliding model. Only the material constitutive parameters were adapted to the patient’s breast mechanics, the stress-free breast geometry being estimated by inverse gravity. 
 
 Finally, \cite{eiben_surface_2016} proposed a new model to estimate the up-standing breast configuration from the prone one. The model was evaluated on 3 subject. The patient specific stress-free geometry was computed using an inverse finite elements u-p formulation. The material parameters were optimized such that the best fit in supine configuration is obtained. The estimates quality was measured in terms of the mean Eulerian Distance between manually selected internal landmarks. Thus, the supine breast configuration was estimated within a mean distance ranging between $12.2mm$ and $19.8 mm$. The model evaluation for the up-standing configuration was not presented.
 
-A new biomechanical breast model is proposed in the next chapter considering the patient specific breast geometry and elastic properties as proposed by the previous models. In addition, the breast tissues sliding over the chest wall is modeled by including new anatomical structures as superficial fascia and suspensory ligaments. We believe that global breast mechanics are driven by these stiff structures. Finally, the model will be evaluated by confrontation with real data collected from MR images.        
+We propose a new biomechanical breast model that will be described with more details in the next chapter considering the patient specific breast geometry and elastic properties as proposed by previous models. We introduce the modeling of the breast tissues sliding over the chest wall by including new anatomical structures as superficial fascia and suspensory ligaments. We believe that global breast mechanics are driven by these stiff structures. Finally, the model will be evaluated by confrontation with real data collected from MR images.        
  
  \input{appendices/biomechanicalmodeltable.tex}
 

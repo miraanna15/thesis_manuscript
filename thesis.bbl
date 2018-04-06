@@ -182,12 +182,6 @@ Conley, R.~H., Meszoely, I.~M., Weis, J.~A., Pheiffer, T.~S., Arlinghaus,
 \newblock {\em International journal of computer assisted radiology and
   surgery}, 10(12):1985--1996.
 
-\bibitem[Dance et~al., 2000]{dance_additional_2000}
-Dance, D., Skinner, C., Young, K., Beckett, J., and Kotre, C. (2000).
-\newblock Additional factors for the estimation of mean glandular breast dose
-  using the uk mammography dosimetry protocol.
-\newblock {\em Physics in medicine \& biology}, 45(11):3225.
-
 \bibitem[de~Carvalho, 2014]{de_low_2014}
 de~Carvalho, P.~M. (2014).
 \newblock {\em Low-Dose 3D Quantitative Vascular X-ray Imaging of the Breast}.
@@ -575,6 +569,12 @@ McKenna, R.~J. (1994).
 \newblock The abnormal mammogram radiographic findings, diagnostic options,
   pathology, and stage of cancer diagnosis.
 \newblock {\em Cancer}, 74(S1):244--255.
+
+\bibitem[McMeeking and Rice, 1975]{mcmeeking_finite_1975}
+McMeeking, R.~M. and Rice, J. (1975).
+\newblock Finite-element formulations for problems of large elastic-plastic
+  deformation.
+\newblock {\em International Journal of Solids and Structures}, 11(5):601--616.
 
 \bibitem[Mercer et~al., 2013]{mercer_practitioner_2013}
 Mercer, C., Hogg, P., Lawson, R., Diffey, J., and Denton, E. (2013).

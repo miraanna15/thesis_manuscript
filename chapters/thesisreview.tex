@@ -1,12 +1,59 @@
 
-\chapter*{Conclusion}\label{section:generalconclusion}
+\chapter*{Conclusion and Perspectives}\label{section:generalconclusion}
 \addcontentsline{toc}{chapter}{Conclusion}
-\cleardoublepage
-\chapter*{Perspective}\label{section:perspectives}
-\addcontentsline{toc}{chapter}{Perspective}
 
- This simulation environment will allow us not only to evaluate the existing compression techniques, but also to perform a first evaluation of new, not yet conceived, paddles designs at a numerical level. 
- \cleardoublepage
+
+The primary aim of this work is to develop a simulation framework capable of assessing the quality of breast compression in function of the paddle design, compression force intensity or breast positioning. The image quality and the average glandular dose as well as the patient comfort have to be considered then comparing different compression strategies.
+
+ Monte-Carlo based simulation able to compute the X-ray propagation trough matter are well known and largely accepted on the field. Such software was used to mimic a mammography exam and thus to assess the image quality whatever is the compressed breast geometry. The average glandular dose is computed using the method proposed by \citep{dance_additional_2000}. The method was build based on a very simplistic template and requires only the knowledge of the compressed breast thickness and breast glandularity. 
+ 
+ To assess the tissues deformation depending on the paddle design or the applied force a biomechanical model is used. The latter allows to estimates the outer breast shape after compression but also the physical patient comfort associated to the internal strain/stress intensity and distribution.
+  
+ \section{Biomechanical breast model }
+  Before modeling the breast compression as during a mammography exam, the biomechanical model capabilities to reproduce the breast tissues deformation had to be assessed. In this  purpose, subject specific data describing the in-vivo breast mechanics were needed. The MRI is the sole imaging modality allowing to extract the hole 3D breast geometry and the corresponding internal structures distribution.  Therefore, MR images of two volunteers in three body positions, prone, supine and supine tilted were acquired and used in this study. The boundary conditions describing breast deformation under gravity loading are easy to reproduce in a simulation framework. Thus the data describing the breast geometry in the three configurations made possible the biomechanical model calibration and evaluation.
+  
+ The MR image of breast in the supine position was used to build the finite element mesh. Then, combined with the MRI from the prone body position, it was used to estimate the subject specific constitutive parameters and the corresponding the stress-free geometry. 
+ 
+ The first simulations showed the importance of considering the sliding boundary conditions at the juncture surface between  the muscle and the breast. The deformation due to the tissues elasticity only was not enough to reflect the geometrical changes between the supine and prone breast configurations. Therefore the breast tissues were allowed to slide over the muscle surface. Additional boundary conditions were considered by modeling the breast suspensory ligaments and fascial system. Including stiffer structure, representing the support matrix of soft tissues, improved solution convergence capabilities. This new structures allowed to estimate the breast deformations for a larger range of constitutive parameters of soft tissues. Which have respectively improved the result of the model optimization process.   
+ 
+ According to the literature, a well defined breast model have to consider in-vivo measured constitutive parameters. To this end, the tissues Yound's modulus giving the best fit between the simulated and measured breast geometries were computed. The optimal estimates, assuming Neo-Hookean materials models, were given by $\lambda_{breast}^r=0.3\ kPa$, $\lambda_{breast}^l=0.2\ kPa$, $\lambda_{skin}=4\ kPa$, $\lambda_{fascia}=120\ kPa$. The obtained mechanical properties are comparable with the ones proposed in the literature then considering only the breast models with similar simulation frameworks \cite{rajagopal_modelling_2007, gamage_modelling_2012, griesenauer_breast_2017}. These results allowed to compute the breast geometry in supine and prone configuration within an error of $1.70\ mm$ and $2.17\ mm$ respectively. 
+ 
+The model fidelity to the global breast deformation was assessed using the supine tilted position. The Hausdorff distance between the breast skin surface measured on the MRI and the simulated skin surface was equal to $5.90 \ mm$. The larger error ($\sim 20 \ mm$) is obtained on the left breast where the tissues lateral displacement is overestimated. These results may be improved by developing a more complex breast support matrix or region dependent stiffness for some tissues as the skin or the fascial system. Adding stiffer materials in the strategically localized areas on the contact surface may limit the fascia deformations under large stress rates thus limit the breast tissues sliding in supine tilted configuration. 
+
+Despite providing good results in a multi-loading gravity framework, the optimized breast model turn out to be less efficient in simulating the breast tissues compression. The maximal force needed to simulate the breast flattening was estimated relatively small then compared to the mean recommended force for a mammography exam (10 N vs 100 N). The low value of the compression force is caused by the tissues abnormal softening under large stress rate.  The tissues relaxation from a given stress threshold is a well known phenomenon then using Neo-Hookean materials . This issue was overcome by replacing the Neo-Hookean model by a Gent model for all involved hyperelastic tissues. The advantage of using the Gent strain energy function is its similarity with the Neo-Hookean model. The stress-strain relation remains the same for both models bellow a stress threshold defined by the $J_m$ parameter. Beyond the respective threshold the Gent materials model is stiffening exponentially resulting in an asymptotic behavior . These properties allows to change the tissues mechanical response only for large stress ranges, as during the breast compression. And on the other hand, allows to preserve the same mechanical response for relatively small stresses as induced by gravity loading.
+
+Using a Gent material model improved the tissues mechanical response then compressed between the paddle and the image receptor. A compression force of $22 \ N$ was estimated for the first volunteers which correspond well with the data from the last mammogram. Then looking back to gravity loading simulations, introducing a Gent tissues model must not impact the breast deformation obtained in prone and supine configurations. However, for the supine tilted configuration, large deformations were observed at the fascia and skin surfaces. Therefore introducing the gent model must reduce the lest breast lateral sliding. 
+
+\section{Breast compression and patient comfort}
+The developed biomechanical breast model together with the image simulation framework were used to assess the clinical compression quality then using different compression strategies. Flex and rigid paddle compression were compared for two breast volumes. The results showed that using the flex paddle may improve the patient comfort without affecting the image quality and the delivered average glandular dose. Moreover, despite a breast thickness varying linearly from chest wall to nipple the image quality seems to be preserved or improved compared to the image quality obtained with a rigid compression paddle. The improved image quality for the flex paddle could be explained by a better overall breast compression. The paddle tilt allows to better compress the tissues closer to the nipple and in the same time relaxing the tissues closet to the chest wall. A maximal difference of ?? mm in breast thickness at the juxtathoracic area in observed between the flex and the rigid paddles. This difference dose not significantly decrease the image quality. 
+\cleardoublepage
 \chapter*{Key contributions}\label{section:keycontributions}
 \addcontentsline{toc}{chapter}{Key contributions}
+
+The key contributions concerning the finite element breast modeling are the following:
+
+\begin{itemize}
+\item We introduced new boundary conditions which reflect the motion of the breast over the thoracic cage.  They include sliding contact surface based on Coulombs friction law combined with stiff support structures. To our knowledge,  the breast support matrix was considered for the first time into the finite element model. The generic model include suspensory ligaments together with the fascial system, and was built based on their anatomical description.   
+
+\item The iterative algorithms allowing to estimate the breast stress-free  geometry are usually using only one configuration (supine or prone breast configuration). In this work we propose an optimization algorithm which estimate the breast stress-free geometry starting from supine configuration and then iteratively correct it based on the prone configurations. 
+
+\item  We disposed of an exceptional set of data of MR images breast from two volunteers in three different body positions. Therefore,  we proposed, first to use the breast supine and prone configuration to  develop the biomechanical  model. Then, to evaluate it using the  breast geometry extracted from MR images of body supine-tilted configuration.
+
+\item Develop a simulation framework mimicking the breast compression during mammography 
+\end{itemize}
+
+A list of publications resuming the results of this work is provided below.
+\cleardoublepage
+ 
+\chapter*{Publications}\label{section:publications}
+\addcontentsline{toc}{chapter}{Publications}
+\begin{description}
+
+\item  Mîra, A., Payan, Y., Carton, A. K., de Carvalho, P. M., Li, Z., Devauges, V., \& Muller, S. (2018, March). Simulation of breast compression using a new biomechanical model. \textit {In Medical Imaging 2018:Physics of Medical Imaging} (Vol. 10573, p. 105735A). International Society for Optics and Photonics. \\
+
+\item  Mîra A., Carton A.K., Muller S. \& Payan Y. (2018). Breast biomechanical modeling for compression optimization in digital breast tomosynthesis. \textit{Computer Methods in Biomechanics and Biomedical Engineering}, Lecture Notes in Bioengineering, A. Gefen and D. Weihs editors, pp. 29-35, DOI $10.1007/978-3-319-59764-5\_4$ \\
+
+\item  Mîra A., Carton A.K., Muller S. \& Payan Y. (2016). Breast biomechanical modeling for compression optimization in digital breast tomosynthesis. \textit{Proceedings of the 22nd Congress of the European Society of Biomechanics (ESB2016)}
+\end{description}
+
 \cleardoublepage

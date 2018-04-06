@@ -23,7 +23,7 @@
 		\nompageref{24}
   \item [{$\Omega_1$}]\begingroup Current or analyzed body configuration \nomeqref {2.0}
 		\nompageref{24}
-  \item [{$D_i$}]\begingroup position difference of the node $i$ between the estimated and measured breast prone configurations\nomeqref {3.0}
+  \item [{$D_i$}]\begingroup Position difference of the node $i$ between the estimated and measured breast prone configurations\nomeqref {3.0}
 		\nompageref{61}
   \item [{$F$}]\begingroup Deformation gradient\nomeqref {2.2}
 		\nompageref{26}
@@ -45,10 +45,12 @@
 		\nompageref{22}
   \item [{AOP}]\begingroup Automatic Optimization of Parameters\nomeqref {4.0}
 		\nompageref{81}
+  \item [{CC}]\begingroup Cranio-Caudal view\nomeqref {4.0}
+		\nompageref{76}
   \item [{DgN}]\begingroup Normalized dose\nomeqref {4.0}
 		\nompageref{82}
   \item [{EPM}]\begingroup Elastic Paddle Model\nomeqref {5.0}
-		\nompageref{89}
+		\nompageref{88}
   \item [{FDA}]\begingroup Food and Drug Administration \nomeqref {1.0}
 		\nompageref{19}
   \item [{FE}]\begingroup Finite Element\nomeqref {1.0}\nompageref{22}
@@ -66,26 +68,24 @@
 		\nompageref{11}
   \item [{LOQ}]\begingroup Lower Outer Quadrant\nomeqref {1.0}
 		\nompageref{11}
+  \item [{MLO}]\begingroup Mediolateral Oblique view\nomeqref {4.0}
+		\nompageref{76}
   \item [{MRI}]\begingroup Magnetic Resonance Imaging\nomeqref {1.0}
 		\nompageref{18}
   \item [{NRS}]\begingroup Numerical Rating Scale\nomeqref {4.0}
 		\nompageref{83}
   \item [{PDE}]\begingroup Partial Differential Equations\nomeqref {2.34}
 		\nompageref{35}
-  \item [{RF}]\begingroup  Radio-Frequency waves\nomeqref {1.0}
-		\nompageref{21}
   \item [{RPM}]\begingroup Rigid Paddle Model\nomeqref {5.0}
 		\nompageref{88}
   \item [{SDNR}]\begingroup Signal Difference to Noise Ratio\nomeqref {5.0}
 		\nompageref{95}
+  \item [{SFM}]\begingroup Screen-Film Mammography\nomeqref {4.0}
+		\nompageref{83}
   \item [{SFP}]\begingroup Standard Flex Paddles\nomeqref {4.0}
 		\nompageref{77}
-  \item [{SNR}]\begingroup Signal to Noise Ratio\nomeqref {5.0}
-		\nompageref{94}
   \item [{SRP}]\begingroup  Standard Rigid Paddle\nomeqref {4.0}
 		\nompageref{77}
-  \item [{SWE}]\begingroup Shear-Wave Elastography\nomeqref {1.0}
-		\nompageref{20}
   \item [{UIQ}]\begingroup Upper Inner Quadrant\nomeqref {1.0}
 		\nompageref{11}
   \item [{UOQ}]\begingroup Upper Outer Quadrant\nomeqref {1.0}
