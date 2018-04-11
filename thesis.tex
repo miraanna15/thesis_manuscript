@@ -17,18 +17,21 @@
 % These commands need to be defined in order to produce a correct nad personalized document
 %
 \newcommand{\shortdoctitle}{PhD Thesis}
-\newcommand{\doctitle}{Draft}
+\newcommand{\doctitle}{Biomechanical breast modeling to\\ assess the compression quality  during\\ mammography}
 \newcommand{\docsubtitle}{ }
 
-\newcommand{\me}{MIRA Anna}
+\newcommand{\me}{MÎRA Anna}
 \newcommand{\keywords}{Breast mechanics,FEM, Mammography}
-\newcommand{\version}{V4}
-\newcommand{\monthYear}{2018}
+\newcommand{\version}{V5}
+\newcommand{\monthYear}{July 2018}
 
 %Be sure to use all the titles for your committee members!!! (their names show up on the very first page!)
-\newcommand{\firstCommitteeMember}{ Yohan Payan, TIMC-IMAG Lab, CNRS \& Univ. Grenoble Alpes}
-\newcommand{\secondCommitteeMember}{Serge Muller, GE-Healthcare, France}
-\newcommand{\thirdCommitteeMember}{Ann-Katherine Carton, GE-Healthcare, France}
+\newcommand{\firstSupervisor}{Yohan \textsc{Payan}, CNRS \& Univ. Grenoble Alpes}
+\newcommand{\secondSupervisor}{Serge \textsc{Muller}, GE Healthcare}
+\newcommand{\thirdSupervisor}{Ann-Katherine \textsc{Carton}, GE Healthcare}
+
+\newcommand{\firstCommitteeMember}{Hilde \textsc{Bosmans }, KU Leuven}
+\newcommand{\secondCommitteeMember}{Martyn P. \textsc{Nash}, University of Auckland}
 
 \author{\me}
 
@@ -54,7 +57,7 @@
 
 
 \begin{document}
-
+\includepdf[pages={1}]{couverture_these.pdf}
 %use this include for PDF and distribution versions
 \pagenumbering{roman}
 \include{titlepage}
@@ -64,13 +67,19 @@
 \clearemptydoublepage
 
 %Sometimes line numbers are nice, uncomment the next line to enable:
-\linenumbers
+%\linenumbers
 
+\chapter*{Résumé}\label{resume}
+\markboth{\textsc{Résumé}}{}
+\input{chapters/abstract_fr}
+\cleardoublepage
+\chapter*{Abstract}\label{resume}
+\markboth{\textsc{Abstract}}{}
+\input{chapters/abstract_en}
+\cleardoublepage
 %It could be handy to have a list of todos and brainstorms in your thesis
 %\chapter*{*General todos*}\todo{remove this chapter}
 %\input{chapters/general_todos}
-
-
 
 \tableofcontents
 
@@ -85,6 +94,7 @@
 \clearemptydoublepage
 % Generate the glossary
 \addcontentsline{toc}{chapter}{List of Symbols}
+\markboth{List of Symbols}{}
 \printnomenclature[2cm]
 \clearemptydoublepage
 

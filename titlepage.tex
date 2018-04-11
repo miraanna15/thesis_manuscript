@@ -1,10 +1,9 @@
 \begin{titlepage}
-\begin{center}
-\includegraphics[height=2cm]{figures/univGrenobleAlpes.jpg}\\
+%\includegraphics[height=2cm]{figures/univGrenobleAlpes.jpg}\\
 %\LARGE
 %Eindhoven University of Technology \\
-\LARGE Universit\'e Grenoble Alpes
-\vspace*{10cm}
+%\LARGE Universit\'e Grenoble Alpes
+%\vspace*{10cm}
 
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{\TPHorizModule}
@@ -16,7 +15,7 @@
 % Begins a textbox at 72 mm from the left of the edge of the paper and 89 mm from the top
 % The width of the textbox is 95 mm (167 - 72 mm)
 % The height of the box cannot be defined, so it is your task to keep the text not too long
-\begin{textblock}{95}(62,89)
+\begin{textblock}{167}(25,89)
     \vspace*{1mm}
     \huge
     \textbf{\doctitle \\}
@@ -28,23 +27,31 @@
     \me\\
 \end{textblock}
 
+\begin{textblock}{167}(25,150)
+	\Large
+	Supervised by: \\
+    \hspace*{5cm}\firstSupervisor\\
+     \hspace*{5cm}\secondSupervisor\\
+     \hspace*{5cm}\thirdSupervisor\\
+     
+     \vspace*{1cm}
+     Jury members:\\
+     \hspace*{5cm}\firstCommitteeMember\\
+	 \hspace*{5cm}\secondCommitteeMember\\
+	 
+
+\end{textblock}
+
+%\version
+\mbox{~} % ou tout simplement l'espace insécable ~ mais on risque de l'oublier. 
+\vfill 
+\begin{center}
 \large
-Supervisors:\\
-\begin{tabular}{rl}
-    \firstCommitteeMember\\
-    \secondCommitteeMember\\
-    \thirdCommitteeMember\\
-\end{tabular}
-
-\vfill
-\version
-
-\vfill
+Defense \monthYear\\
+\end{center}
 %\docdate \\
-\large
-Buc, \monthYear\\
 
 % Put the Paragraph Indent back to its original value
 \setlength{\parindent}{\backupparindent}
-\end{center}
+
 \end{titlepage} 

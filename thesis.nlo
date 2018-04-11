@@ -33,18 +33,18 @@
 \nomenclatureentry{a$d_j$@[{$d_j$}]\begingroup Position difference of the node $j$ between the estimated and measured breast prone configurations\nomeqref {3.0}|nompageref}{62}
 \nomenclatureentry{a$\lambda_{xx}$@[{$\lambda_{xx}$}]\begingroup Youngs's moduli of the material $xx$\nomeqref {3.0}|nompageref}{66}
 \nomenclatureentry{a$\lambda_{xx}^{l/r}$@[{$\lambda_{xx}^{l/r}$}]\begingroup Young's modulus of the material xx for the left/right breast\nomeqref {3.0}|nompageref}{68}
-\nomenclatureentry{aCC@[{CC}]\begingroup Cranio-Caudal view\nomeqref {4.0}|nompageref}{78}
-\nomenclatureentry{aMLO@[{MLO}]\begingroup Mediolateral Oblique view\nomeqref {4.0}|nompageref}{78}
-\nomenclatureentry{aSRP@[{SRP}]\begingroup  Standard Rigid Paddle\nomeqref {4.0}|nompageref}{79}
-\nomenclatureentry{aSFP@[{SFP}]\begingroup Standard Flex Paddles\nomeqref {4.0}|nompageref}{79}
-\nomenclatureentry{aAOP@[{AOP}]\begingroup Automatic Optimization of Parameters\nomeqref {4.0}|nompageref}{83}
-\nomenclatureentry{aAEC@[{AEC}]\begingroup Automatic Exposure Control\nomeqref {4.0}|nompageref}{83}
-\nomenclatureentry{aDgN@[{DgN}]\begingroup Normalized dose\nomeqref {4.0}|nompageref}{84}
-\nomenclatureentry{aSFM@[{SFM}]\begingroup Screen-Film Mammography\nomeqref {4.0}|nompageref}{85}
-\nomenclatureentry{aVAS@[{VAS}]\begingroup Visual Analogue Scale\nomeqref {4.0}|nompageref}{85}
-\nomenclatureentry{aNRS@[{NRS}]\begingroup Numerical Rating Scale\nomeqref {4.0}|nompageref}{85}
-\nomenclatureentry{aVRS@[{VRS}]\begingroup Verbal Rating Scale\nomeqref {4.0}|nompageref}{85}
-\nomenclatureentry{aRPM@[{RPM}]\begingroup Rigid Paddle Model\nomeqref {5.0}|nompageref}{90}
-\nomenclatureentry{aFPM@[{FPM}]\begingroup Flex Paddle Model\nomeqref {5.0}|nompageref}{90}
-\nomenclatureentry{aEPM@[{EPM}]\begingroup Elastic Paddle Model\nomeqref {5.0}|nompageref}{90}
-\nomenclatureentry{aSDNR@[{SDNR}]\begingroup Signal Difference to Noise Ratio\nomeqref {5.0}|nompageref}{97}
+\nomenclatureentry{aCC@[{CC}]\begingroup Cranio-Caudal view\nomeqref {4.0}|nompageref}{76}
+\nomenclatureentry{aMLO@[{MLO}]\begingroup Mediolateral Oblique view\nomeqref {4.0}|nompageref}{76}
+\nomenclatureentry{aSRP@[{SRP}]\begingroup  Standard Rigid Paddle\nomeqref {4.0}|nompageref}{77}
+\nomenclatureentry{aSFP@[{SFP}]\begingroup Standard Flex Paddles\nomeqref {4.0}|nompageref}{77}
+\nomenclatureentry{aAOP@[{AOP}]\begingroup Automatic Optimization of Parameters\nomeqref {4.0}|nompageref}{81}
+\nomenclatureentry{aAEC@[{AEC}]\begingroup Automatic Exposure Control\nomeqref {4.0}|nompageref}{81}
+\nomenclatureentry{aDgN@[{DgN}]\begingroup Normalized dose\nomeqref {4.0}|nompageref}{82}
+\nomenclatureentry{aSFM@[{SFM}]\begingroup Screen-Film Mammography\nomeqref {4.0}|nompageref}{83}
+\nomenclatureentry{aVAS@[{VAS}]\begingroup Visual Analogue Scale\nomeqref {4.0}|nompageref}{83}
+\nomenclatureentry{aNRS@[{NRS}]\begingroup Numerical Rating Scale\nomeqref {4.0}|nompageref}{83}
+\nomenclatureentry{aVRS@[{VRS}]\begingroup Verbal Rating Scale\nomeqref {4.0}|nompageref}{83}
+\nomenclatureentry{aRPM@[{RPM}]\begingroup Rigid Paddle Model\nomeqref {5.0}|nompageref}{88}
+\nomenclatureentry{aFPM@[{FPM}]\begingroup Flex Paddle Model\nomeqref {5.0}|nompageref}{88}
+\nomenclatureentry{aEPM@[{EPM}]\begingroup Elastic Paddle Model\nomeqref {5.0}|nompageref}{88}
+\nomenclatureentry{aSDNR@[{SDNR}]\begingroup Signal Difference to Noise Ratio\nomeqref {5.0}|nompageref}{95}
