@@ -10,19 +10,19 @@
 
 %all the other includes etc. are done in the thesis.sty file.
 \usepackage{thesis}
-\usepackage[authoryear]{natbib}
+\usepackage{natbib}
 \makenomenclature
 \definecolor{mygray}{gray}{0.9}
 %
 % These commands need to be defined in order to produce a correct nad personalized document
 %
 \newcommand{\shortdoctitle}{PhD Thesis}
-\newcommand{\doctitle}{Biomechanical breast modeling to\\ assess the compression quality  during\\ mammography}
+\newcommand{\doctitle}{Breast biomechanical modeling for the evaluation of the compression and the discomfort perception in mammography.}
 \newcommand{\docsubtitle}{ }
 
 \newcommand{\me}{MÎRA Anna}
 \newcommand{\keywords}{Breast mechanics,FEM, Mammography}
-\newcommand{\version}{V5}
+\newcommand{\version}{V6}
 \newcommand{\monthYear}{July 2018}
 
 %Be sure to use all the titles for your committee members!!! (their names show up on the very first page!)
@@ -32,7 +32,9 @@
 
 \newcommand{\firstCommitteeMember}{Hilde \textsc{Bosmans }, KU Leuven}
 \newcommand{\secondCommitteeMember}{Martyn P. \textsc{Nash}, University of Auckland}
-
+\newcommand{\thirdCommitteeMember}{Corinne \textsc{Balleyguier}, Inst. Gustave Roussy}
+\newcommand{\fourthCommitteeMember}{Christian \textsc{Herlin}, CHU Montpellier}
+ 
 \author{\me}
 
 %
@@ -59,18 +61,18 @@
 \begin{document}
 \includepdf[pages={1}]{couverture_these.pdf}
 %use this include for PDF and distribution versions
-\pagenumbering{roman}
+\clearemptydoublepage
 \include{titlepage}
 
 \normalsize
 
 \clearemptydoublepage
-
+\pagenumbering{roman}
 %Sometimes line numbers are nice, uncomment the next line to enable:
 %\linenumbers
 
-\chapter*{Résumé}\label{resume}
-\markboth{\textsc{Résumé}}{}
+\chapter*{Abstract }\label{resume}
+\markboth{\textsc{Abstract}}{}
 \input{chapters/abstract_fr}
 \cleardoublepage
 \chapter*{Abstract}\label{resume}
@@ -114,11 +116,9 @@
 
 \clearemptydoublepage
 
-
-
-%\input{chapters/introduction}
-%clinical background
-
+%\chapter*{Résumé}
+%\addcontentsline{toc}{chapter}{Résumé}
+%\input{chapters/resume}
 
 \chapter{ Clinical background}\label{chapter:clinicalbachground}
 \input{chapters/background}
@@ -149,6 +149,7 @@
 
 %\part{Thesis review}\label{part:thesisreview}
 \input{chapters/thesisreview}
+\label{chapter:thesisreview}
 
 
 \clearemptydoublepage
@@ -163,14 +164,16 @@
 \chapter{Mesh Convergence}\label{appendice:meshconvergence}
 \input{appendices/meshconvergence}
 
-\chapter{Bondary conditions \\ \textit{contact models}}\label{appendice:contactmodels}
+\chapter{Buondary conditions \\ \textit{contact models}}\label{appendice:contactmodels}
 \input{appendices/contactSurface}
+\label{appendix:contactSurface}
+
 \end{appendices}
 \clearemptydoublepage
 %Choose a good bibliography style, plain would do often, but these might be nice to6eplot
 
-%\bibliographystyle{these}
-\bibliographystyle{apalike}
+\bibliographystyle{abbrv}
+%\bibliographystyle{numeric-comp}
 \bibliography{fetheory,pain_and_discomfort,my_biomeca_model,breast_cancer_statistics,biomecanical_model,hyperelastic_parameters,breast_anatomy}
 
 

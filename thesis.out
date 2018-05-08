@@ -31,7 +31,7 @@
 \BOOKMARK [2][-]{subsection.2.3.1}{Contact inteface equations}{section.2.3}% 31
 \BOOKMARK [2][-]{subsection.2.3.2}{Surface interaction models}{section.2.3}% 32
 \BOOKMARK [2][-]{subsection.2.3.3}{Contact formulation algorithm: pure penalty model}{section.2.3}% 33
-\BOOKMARK [1][-]{section.2.4}{Breast biomechanical model: overview}{chapter.2}% 34
+\BOOKMARK [1][-]{section.2.4}{Breast biomechanical model: an overview}{chapter.2}% 34
 \BOOKMARK [2][-]{subsection.2.4.1}{Breast reference configuration}{section.2.4}% 35
 \BOOKMARK [2][-]{subsection.2.4.2}{Constitutive models}{section.2.4}% 36
 \BOOKMARK [2][-]{subsection.2.4.3}{Boundary conditions}{section.2.4}% 37
@@ -41,7 +41,7 @@
 \BOOKMARK [2][-]{subsection.3.1.1}{Data acquisition}{section.3.1}% 41
 \BOOKMARK [2][-]{subsection.3.1.2}{Image segmentation}{section.3.1}% 42
 \BOOKMARK [2][-]{subsection.3.1.3}{Image registration}{section.3.1}% 43
-\BOOKMARK [2][-]{subsection.3.1.4}{Patient-specific 3D geometry}{section.3.1}% 44
+\BOOKMARK [2][-]{subsection.3.1.4}{Subject-specific 3D geometry}{section.3.1}% 44
 \BOOKMARK [1][-]{section.3.2}{ Finite Elements Mesh}{chapter.3}% 45
 \BOOKMARK [1][-]{section.3.3}{Breast reference configuration}{chapter.3}% 46
 \BOOKMARK [1][-]{section.3.4}{Boundary conditions}{chapter.3}% 47
@@ -60,29 +60,31 @@
 \BOOKMARK [2][-]{subsection.4.4.3}{Pain and discomfort}{section.4.4}% 60
 \BOOKMARK [1][-]{section.4.5}{Recent advances in breast compression}{chapter.4}% 61
 \BOOKMARK [0][-]{chapter.5}{Breast compression \046 comfort \040A comparative study}{}% 62
-\BOOKMARK [1][-]{section.5.1}{Breast compression modelling}{chapter.5}% 63
-\BOOKMARK [2][-]{subsection.5.1.1}{FE modelling of compression paddles}{section.5.1}% 64
+\BOOKMARK [1][-]{section.5.1}{Breast compression modeling}{chapter.5}% 63
+\BOOKMARK [2][-]{subsection.5.1.1}{FE modeling of compression paddles}{section.5.1}% 64
 \BOOKMARK [2][-]{subsection.5.1.2}{Breast compression mechanics}{section.5.1}% 65
-\BOOKMARK [2][-]{subsection.5.1.3}{Updated material constitutive models}{section.5.1}% 66
-\BOOKMARK [1][-]{section.5.2}{Simulation of digital images }{chapter.5}% 67
-\BOOKMARK [2][-]{subsection.5.2.1}{Physical characteristics}{section.5.2}% 68
-\BOOKMARK [2][-]{subsection.5.2.2}{Breast phantom objects}{section.5.2}% 69
-\BOOKMARK [1][-]{section.5.3}{Compression quality metrics}{chapter.5}% 70
-\BOOKMARK [2][-]{subsection.5.3.1}{Patient comfort}{section.5.3}% 71
-\BOOKMARK [2][-]{subsection.5.3.2}{Image quality }{section.5.3}% 72
-\BOOKMARK [2][-]{subsection.5.3.3}{Average glandular dose}{section.5.3}% 73
-\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 74
-\BOOKMARK [2][-]{subsection.5.4.1}{Compression quality for rigid and flex paddles}{section.5.4}% 75
-\BOOKMARK [2][-]{subsection.5.4.2}{Breast positioning impact on compression mechanics}{section.5.4}% 76
-\BOOKMARK [1][-]{section.5.5}{Discussions and conclusion}{chapter.5}% 77
-\BOOKMARK [0][-]{chapter.6}{Conclusion and Perspectives}{}% 78
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 79
-\BOOKMARK [1][-]{section.6.1}{Biomechanical breast model }{chapter.6}% 80
-\BOOKMARK [1][-]{section.6.2}{Breast compression and patient comfort}{chapter.6}% 81
-\BOOKMARK [0][-]{section.6.2}{Key contributions}{}% 82
-\BOOKMARK [0][-]{section.6.2}{Publications}{}% 83
-\BOOKMARK [0][-]{section*.66}{Appendices}{}% 84
-\BOOKMARK [0][-]{Appendix.a.A}{Distance measures}{}% 85
-\BOOKMARK [0][-]{Appendix.a.B}{Mesh Convergence}{}% 86
-\BOOKMARK [0][-]{Appendix.a.C}{Bondary conditions \040contact models}{}% 87
-\BOOKMARK [0][-]{figure.caption.72}{Bibliography}{}% 88
+\BOOKMARK [2][-]{subsection.5.1.3}{Gent strain energy function}{section.5.1}% 66
+\BOOKMARK [2][-]{subsection.5.1.4}{Updated material constitutive models}{section.5.1}% 67
+\BOOKMARK [2][-]{subsection.5.1.5}{ Gent model and breast mechanics under gravity loading}{section.5.1}% 68
+\BOOKMARK [1][-]{section.5.2}{Simulation of digital images }{chapter.5}% 69
+\BOOKMARK [2][-]{subsection.5.2.1}{Physical characteristics}{section.5.2}% 70
+\BOOKMARK [2][-]{subsection.5.2.2}{Breast phantom objects}{section.5.2}% 71
+\BOOKMARK [1][-]{section.5.3}{Compression quality metrics}{chapter.5}% 72
+\BOOKMARK [2][-]{subsection.5.3.1}{Patient comfort}{section.5.3}% 73
+\BOOKMARK [2][-]{subsection.5.3.2}{Image quality }{section.5.3}% 74
+\BOOKMARK [2][-]{subsection.5.3.3}{Average glandular dose}{section.5.3}% 75
+\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 76
+\BOOKMARK [2][-]{subsection.5.4.1}{Compression quality for rigid and flex paddles}{section.5.4}% 77
+\BOOKMARK [2][-]{subsection.5.4.2}{Paddle positioning impact on compression mechanics}{section.5.4}% 78
+\BOOKMARK [1][-]{section.5.5}{Discussion and conclusion}{chapter.5}% 79
+\BOOKMARK [0][-]{chapter.6}{Conclusion and Perspectives}{}% 80
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 81
+\BOOKMARK [1][-]{section.6.1}{Biomechanical breast model }{chapter.6}% 82
+\BOOKMARK [1][-]{section.6.2}{Breast compression and patient comfort}{chapter.6}% 83
+\BOOKMARK [0][-]{section.6.2}{Key contributions}{}% 84
+\BOOKMARK [0][-]{section.6.2}{Publications}{}% 85
+\BOOKMARK [0][-]{section*.68}{Appendices}{}% 86
+\BOOKMARK [0][-]{Appendix.a.A}{Distance measures}{}% 87
+\BOOKMARK [0][-]{Appendix.a.B}{Mesh Convergence}{}% 88
+\BOOKMARK [0][-]{Appendix.a.C}{Buondary conditions \040contact models}{}% 89
+\BOOKMARK [0][-]{figure.caption.74}{Bibliography}{}% 90

@@ -1,944 +1,943 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{100}
 
-\bibitem[Abeyaratne, 2012]{abeyaratne_continuum_2012}
-Abeyaratne, R. (2012).
+\bibitem{abeyaratne_continuum_2012}
+R.~Abeyaratne.
 \newblock {\em Continuum Mechanics: Volume II of Lecture Notes on The Mechanics
   of Elastic Solids}.
-\newblock Cambridge MA and Singapore.
+\newblock Cambridge MA and Singapore, 2012.
 
-\bibitem[Abu-Hijleh et~al., 2006]{abu_membranous_2006}
-Abu-Hijleh, M., Roshier, A., Al-Shboul, Q., Dharap, A., and Harris, P. (2006).
+\bibitem{abu_membranous_2006}
+M.~Abu-Hijleh, A.~Roshier, Q.~Al-Shboul, A.~Dharap, and P.~Harris.
 \newblock The membranous layer of superficial fascia: evidence for its
   widespread distribution in the body.
-\newblock {\em Surgical and Radiologic Anatomy}, 28(6):606--619.
+\newblock {\em Surgical and Radiologic Anatomy}, 28(6):606--619, 2006.
 
-\bibitem[ACS, 2017]{acs_cancer_2017}
-ACS (2017).
+\bibitem{acs_cancer_2017}
+ACS.
 \newblock American cancer society: Types of breast cancer.
 \newblock
-  \url{https://www.cancer.org/cancer/breast-cancer/understanding-a-breast-cancer-diagnosis/types-of-breast-cancer.html}.
+  \url{https://www.cancer.org/cancer/breast-cancer/understanding-a-breast-cancer-diagnosis/types-of-breast-cancer.html},
+  2017.
 
-\bibitem[Andolina and Lill{\'e}, 2011]{andolina2011mammographic}
-Andolina, V. and Lill{\'e}, S. (2011).
+\bibitem{andolina2011mammographic}
+V.~Andolina and S.~Lill{\'e}.
 \newblock {\em Mammographic imaging: a practical guide}.
-\newblock Lippincott Williams \& Wilkins.
+\newblock Lippincott Williams \& Wilkins, 2011.
 
-\bibitem[Andrews, 2001]{andrews_pain_2001}
-Andrews, F.~J. (2001).
+\bibitem{andrews_pain_2001}
+F.~J. Andrews.
 \newblock Pain during mammography: implications for breast screening
   programmes.
 \newblock {\em Journal of Medical Imaging and Radiation Oncology},
-  45(2):113--117.
+  45(2):113--117, 2001.
 
-\bibitem[ANSYS, 2017a]{ansys_contact_2017}
-ANSYS (2017a).
-\newblock {\em ANSYS Contact Technology Guide}, 17 edition.
+\bibitem{ansys_contact_2017}
+ANSYS.
+\newblock {\em ANSYS Contact Technology Guide}, 17 edition, 2017.
 
-\bibitem[ANSYS, 2017b]{ansys_theory_2017}
-ANSYS (2017b).
+\bibitem{ansys_theory_2017}
+ANSYS.
 \newblock {\em Theory reference for the mechanical APDL and mechanical
-  applications}, 17 edition.
+  applications}, 17 edition, 2017.
 
-\bibitem[Aro et~al., 1996]{aro_pain_1996}
-Aro, A.~R., Absetz-Yl{\"o}stalo, P., Eerola, T., Pamilo, M., and L{\"o}nnqvist,
-  J. (1996).
+\bibitem{aro_pain_1996}
+A.~R. Aro, P.~Absetz-Yl{\"o}stalo, T.~Eerola, M.~Pamilo, and J.~L{\"o}nnqvist.
 \newblock Pain and discomfort during mammography.
-\newblock {\em European Journal of Cancer}, 32(10):1674--1679.
+\newblock {\em European Journal of Cancer}, 32(10):1674--1679, 1996.
 
-\bibitem[Aro et~al., 1999]{aro_psychosocial_1999}
-Aro, A.~R., De~Koning, H.~J., Absetz, P., and Schreck, M. (1999).
+\bibitem{aro_psychosocial_1999}
+A.~R. Aro, H.~J. De~Koning, P.~Absetz, and M.~Schreck.
 \newblock Psychosocial predictors of first attendance for organised mammography
   screening.
-\newblock {\em Journal of Medical Screening}, 6(2):82--88.
+\newblock {\em Journal of Medical Screening}, 6(2):82--88, 1999.
 
-\bibitem[Askhar and Zaki, 2017]{askhar_female_2017}
-Askhar, L.~K. and Zaki, Y.~H. (2017).
+\bibitem{askhar_female_2017}
+L.~K. Askhar and Y.~H. Zaki.
 \newblock Female patients’ perception of pain caused by mammography in the
   western region of saudi arabia.
-\newblock {\em Saudi medical journal}, 38(7):768.
+\newblock {\em Saudi medical journal}, 38(7):768, 2017.
 
-\bibitem[Azar et~al., 2002]{azar_methods_2002}
-Azar, F.~S., Metaxas, D.~N., and Schnall, M.~D. (2002).
+\bibitem{azar_methods_2002}
+F.~S. Azar, D.~N. Metaxas, and M.~D. Schnall.
 \newblock Methods for modeling and predicting mechanical deformations of the
   breast under external perturbations.
-\newblock {\em Medical Image Analysis}, 6(1):1--27.
+\newblock {\em Medical Image Analysis}, 6(1):1--27, 2002.
 
-\bibitem[Bayati and Seckel, 1995]{bayati_inframammary_1995}
-Bayati, S. and Seckel, B.~R. (1995).
+\bibitem{bayati_inframammary_1995}
+S.~Bayati and B.~R. Seckel.
 \newblock Inframammary crease ligament.
-\newblock {\em Plastic and reconstructive surgery}, 95(3):501--508.
+\newblock {\em Plastic and reconstructive surgery}, 95(3):501--508, 1995.
 
-\bibitem[Belytschko et~al., 2013]{belytschko_nonlinear_2013}
-Belytschko, T., Liu, W.~K., Moran, B., and Elkhodary, K. (2013).
+\bibitem{belytschko_nonlinear_2013}
+T.~Belytschko, W.~K. Liu, B.~Moran, and K.~Elkhodary.
 \newblock {\em Nonlinear finite elements for continua and structures}.
-\newblock John wiley \& sons.
+\newblock John wiley \& sons, 2013.
 
-\bibitem[Boone, 1999]{boone_glandular_1999}
-Boone, J.~M. (1999).
+\bibitem{boone_glandular_1999}
+J.~M. Boone.
 \newblock Glandular breast dose for monoenergetic and high-energy x-ray beams:
   Monte carlo assessment.
-\newblock {\em Radiology}, 213(1):23--37.
+\newblock {\em Radiology}, 213(1):23--37, 1999.
 
-\bibitem[Broeders et~al., 2015]{broeders_comparison_2015}
-Broeders, M.~J., ten Voorde, M., Veldkamp, W.~J., van Engen, R.~E., van
-  Landsveld-Verhoeven, C., NL’t Jong-Gunneman, M., de~Win, J., Droogh-de
-  Greve, K., Paap, E., and den Heeten, G.~J. (2015).
+\bibitem{broeders_comparison_2015}
+M.~J. Broeders, M.~ten Voorde, W.~J. Veldkamp, R.~E. van Engen, C.~van
+  Landsveld-Verhoeven, M.~NL’t Jong-Gunneman, J.~de~Win, K.~Droogh-de Greve,
+  E.~Paap, and G.~J. den Heeten.
 \newblock Comparison of a flexible versus a rigid breast compression paddle:
   pain experience, projected breast area, radiation dose and technical image
   quality.
-\newblock {\em European radiology}, 25(3):821--829.
+\newblock {\em European radiology}, 25(3):821--829, 2015.
 
-\bibitem[Bucki et~al., 2010]{bucki_fast_2010}
-Bucki, M., Lobos, C., and Payan, Y. (2010).
+\bibitem{bucki_fast_2010}
+M.~Bucki, C.~Lobos, and Y.~Payan.
 \newblock A fast and robust patient specific finite element mesh registration
   technique: application to 60 clinical cases.
-\newblock {\em Medical image analysis}, 14(3):303--317.
+\newblock {\em Medical image analysis}, 14(3):303--317, 2010.
 
-\bibitem[Calvo-Gallego et~al., 2015]{calvo_polynomial_2015}
-Calvo-Gallego, J.~L., Mart{\'\i}nez-Reina, J., and Dom{\'\i}nguez, J. (2015).
+\bibitem{calvo_polynomial_2015}
+J.~L. Calvo-Gallego, J.~Mart{\'\i}nez-Reina, and J.~Dom{\'\i}nguez.
 \newblock A polynomial hyperelastic model for the mixture of fat and glandular
   tissue in female breast.
 \newblock {\em International Journal for numerical methods in biomedical
-  engineering}, 31(9).
+  engineering}, 31(9), 2015.
 
-\bibitem[Carter, 2009a]{carter_determining_2009}
-Carter (2009a).
-\newblock {\em Determining material properties of the breast for image-guided
-  surgery}. International Society for Optics and Photonics.
+\bibitem{carter_determining_2009}
+{\em Determining material properties of the breast for image-guided surgery}.
+  International Society for Optics and Photonics, 2009.
 
-\bibitem[Carter et~al., 2012]{carter_application_2012}
-Carter, T., Han, L., Taylor, Z., Tanner, C., Beechy-Newman, N., Ourselin, S.,
-  and Hawkes, D. (2012).
+\bibitem{carter_application_2012}
+T.~Carter, L.~Han, Z.~Taylor, C.~Tanner, N.~Beechy-Newman, S.~Ourselin, and
+  D.~Hawkes.
 \newblock Application of biomechanical modelling to image-guided breast
   surgery.
 \newblock {\em Soft Tissue Biomechanical Modeling for Computer Assisted
-  Surgery}, pages 71--94.
+  Surgery}, pages 71--94, 2012.
 
-\bibitem[Carter, 2009b]{carter_biomechanical_2009}
-Carter, T.~J. (2009b).
+\bibitem{carter_biomechanical_2009}
+T.~J. Carter.
 \newblock {\em Biomechanical modelling of the breast for image-guided surgery}.
-\newblock PhD thesis, University of London.
+\newblock PhD thesis, University of London, 2009.
 
-\bibitem[Catanuto et~al., 2008]{catanuto2008experimental}
-Catanuto, G., Spano, A., Pennati, A., Riggio, E., Farinella, G.~M., Impoco, G.,
-  Spoto, S., Gallo, G., and Nava, M.~B. (2008).
+\bibitem{catanuto2008experimental}
+G.~Catanuto, A.~Spano, A.~Pennati, E.~Riggio, G.~M. Farinella, G.~Impoco,
+  S.~Spoto, G.~Gallo, and M.~B. Nava.
 \newblock Experimental methodology for digital breast shape analysis and
   objective surgical outcome evaluation.
 \newblock {\em Journal of Plastic, Reconstructive \& Aesthetic Surgery},
-  61(3):314--318.
+  61(3):314--318, 2008.
 
-\bibitem[Chagnon et~al., 2004]{chagnon_comparison_2004}
-Chagnon, G., Marckmann, G., and Verron, E. (2004).
+\bibitem{chagnon_comparison_2004}
+G.~Chagnon, G.~Marckmann, and E.~Verron.
 \newblock A comparison of the hart-smith model with arruda-boyce and gent
   formulations for rubber elasticity.
-\newblock {\em Rubber chemistry and technology}, 77(4):724--735.
+\newblock {\em Rubber chemistry and technology}, 77(4):724--735, 2004.
 
-\bibitem[Chan et~al., 1987]{chan_image_1987}
-Chan, H.-P., Galhotra, S., Vyborny, C.~J., MacMahon, H., Jokich, P.~M., et~al.
-  (1987).
+\bibitem{chan_image_1987}
+H.-P. Chan, S.~Galhotra, C.~J. Vyborny, H.~MacMahon, P.~M. Jokich, et~al.
 \newblock Image feature analysis and computer-aided diagnosis in digital
   radiography. i. automated detection of microcalcifications in mammography.
-\newblock {\em Medical physics}, 14(4):538--548.
+\newblock {\em Medical physics}, 14(4):538--548, 1987.
 
-\bibitem[Chen et~al., 2012]{chen_analysis_2012}
-Chen, B., Wang, Y., Sun, X., Guo, W., Zhao, M., Cui, G., Hu, L., Li, P., Ren,
-  Y., Feng, J., et~al. (2012).
+\bibitem{chen_analysis_2012}
+B.~Chen, Y.~Wang, X.~Sun, W.~Guo, M.~Zhao, G.~Cui, L.~Hu, P.~Li, Y.~Ren,
+  J.~Feng, et~al.
 \newblock Analysis of patient dose in full field digital mammography.
-\newblock {\em European journal of radiology}, 81(5):868--872.
+\newblock {\em European journal of radiology}, 81(5):868--872, 2012.
 
-\bibitem[Cheung et~al., 2004]{cheung_effects_2004}
-Cheung, J. T.-M., Zhang, M., and An, K.-N. (2004).
+\bibitem{cheung_effects_2004}
+J.~T.-M. Cheung, M.~Zhang, and K.-N. An.
 \newblock Effects of plantar fascia stiffness on the biomechanical responses of
   the ankle--foot complex.
-\newblock {\em Clinical Biomechanics}, 19(8):839--846.
+\newblock {\em Clinical Biomechanics}, 19(8):839--846, 2004.
 
-\bibitem[Chida et~al., 2009]{chida_reduced_2009}
-Chida, K., Komatsu, Y., Sai, M., Nakagami, A., Yamada, T., Yamashita, T., Mori,
-  I., Ishibashi, T., Maruoka, S., and Zuguchi, M. (2009).
+\bibitem{chida_reduced_2009}
+K.~Chida, Y.~Komatsu, M.~Sai, A.~Nakagami, T.~Yamada, T.~Yamashita, I.~Mori,
+  T.~Ishibashi, S.~Maruoka, and M.~Zuguchi.
 \newblock Reduced compression mammography to reduce breast pain.
-\newblock {\em Clinical imaging}, 33(1):7--10.
+\newblock {\em Clinical imaging}, 33(1):7--10, 2009.
 
-\bibitem[Chung et~al., 2008]{chung_modelling_2008}
-Chung, J.-H., Rajagopal, V., Nielsen, P.~M., and Nash, M.~P. (2008).
+\bibitem{chung_modelling_2008}
+J.-H. Chung, V.~Rajagopal, P.~M. Nielsen, and M.~P. Nash.
 \newblock Modelling mammographic compression of the breast.
 \newblock In {\em Medical Image Computing and Computer-Assisted
-  Intervention–{MICCAI} 2008}, pages 758--765. Springer.
+  Intervention–{MICCAI} 2008}, pages 758--765. Springer, 2008.
 
-\bibitem[Ciocca and Fanelli, 1997]{ciocca_estrogen_1997}
-Ciocca, D.~R. and Fanelli, M.~A. (1997).
+\bibitem{ciocca_estrogen_1997}
+D.~R. Ciocca and M.~A. Fanelli.
 \newblock Estrogen receptors and cell proliferation in breast cancer.
-\newblock {\em Trends in Endocrinology \& Metabolism}, 8(8):313--321.
+\newblock {\em Trends in Endocrinology \& Metabolism}, 8(8):313--321, 1997.
 
-\bibitem[Clemente, 2011]{clemente2011anatomy}
-Clemente, C.~D. (2011).
+\bibitem{clemente2011anatomy}
+C.~D. Clemente.
 \newblock {\em Anatomy: a regional atlas of the human body}.
-\newblock Wolters Kluwer/Lippincott Williams \& Wilkins Health.
+\newblock Wolters Kluwer/Lippincott Williams \& Wilkins Health, 2011.
 
-\bibitem[Conley et~al., 2015]{conley_realization_2015}
-Conley, R.~H., Meszoely, I.~M., Weis, J.~A., Pheiffer, T.~S., Arlinghaus,
-  L.~R., Yankeelov, T.~E., and Miga, M.~I. (2015).
+\bibitem{conley_realization_2015}
+R.~H. Conley, I.~M. Meszoely, J.~A. Weis, T.~S. Pheiffer, L.~R. Arlinghaus,
+  T.~E. Yankeelov, and M.~I. Miga.
 \newblock Realization of a biomechanical model-assisted image guidance system
   for breast cancer surgery using supine mri.
 \newblock {\em International journal of computer assisted radiology and
-  surgery}, 10(12):1985--1996.
+  surgery}, 10(12):1985--1996, 2015.
 
-\bibitem[Dance et~al., 2000]{dance_additional_2000}
-Dance, D., Skinner, C., Young, K., Beckett, J., and Kotre, C. (2000).
+\bibitem{dance_additional_2000}
+D.~Dance, C.~Skinner, K.~Young, J.~Beckett, and C.~Kotre.
 \newblock Additional factors for the estimation of mean glandular breast dose
   using the uk mammography dosimetry protocol.
-\newblock {\em Physics in medicine \& biology}, 45(11):3225.
+\newblock {\em Physics in medicine \& biology}, 45(11):3225, 2000.
 
-\bibitem[de~Carvalho, 2014]{de_low_2014}
-de~Carvalho, P.~M. (2014).
+\bibitem{de_low_2014}
+P.~M. de~Carvalho.
 \newblock {\em Low-Dose 3D Quantitative Vascular X-ray Imaging of the Breast}.
-\newblock PhD thesis, Universit{\'e} Paris Sud-Paris XI.
+\newblock PhD thesis, Universit{\'e} Paris Sud-Paris XI, 2014.
 
-\bibitem[de~Groot et~al., 2015]{de_pain_2015}
-de~Groot, J.~E., Broeders, M.~J., Grimbergen, C.~A., and den Heeten, G.~J.
-  (2015).
+\bibitem{de_pain_2015}
+J.~E. de~Groot, M.~J. Broeders, C.~A. Grimbergen, and G.~J. den Heeten.
 \newblock Pain-preventing strategies in mammography: an observational study of
   simultaneously recorded pain and breast mechanics throughout the entire
   breast compression cycle.
-\newblock {\em BMC women's health}, 15(1):26.
+\newblock {\em BMC women's health}, 15(1):26, 2015.
 
-\bibitem[De~Man et~al., 2007]{de_catsim_2007}
-De~Man, B., Basu, S., Chandra, N., Dunham, B., Edic, P., Iatrou, M., McOlash,
-  S., Sainath, P., Shaughnessy, C., Tower, B., et~al. (2007).
+\bibitem{de_catsim_2007}
+B.~De~Man, S.~Basu, N.~Chandra, B.~Dunham, P.~Edic, M.~Iatrou, S.~McOlash,
+  P.~Sainath, C.~Shaughnessy, B.~Tower, et~al.
 \newblock Catsim: a new computer assisted tomography simulation environment.
 \newblock In {\em Medical Imaging 2007: Physics of Medical Imaging}, volume
-  6510, page 65102G. International Society for Optics and Photonics.
+  6510, page 65102G. International Society for Optics and Photonics, 2007.
 
-\bibitem[Domar et~al., 2005]{domar_relaxation_2005}
-Domar, A.~D., Eyvazzadeh, A., Allen, S., Roman, K., Wolf, R., Orav, J.,
-  Albright, N., and Baum, J. (2005).
+\bibitem{domar_relaxation_2005}
+A.~D. Domar, A.~Eyvazzadeh, S.~Allen, K.~Roman, R.~Wolf, J.~Orav, N.~Albright,
+  and J.~Baum.
 \newblock Relaxation techniques for reducing pain and anxiety during screening
   mammography.
-\newblock {\em American Journal of Roentgenology}, 184(2):445--447.
+\newblock {\em American Journal of Roentgenology}, 184(2):445--447, 2005.
 
-\bibitem[Dubuisson and Jain, 1994]{dubuisson_modified_1994}
-Dubuisson, M.-P. and Jain, A.~K. (1994).
+\bibitem{dubuisson_modified_1994}
+M.-P. Dubuisson and A.~K. Jain.
 \newblock A modified hausdorff distance for object matching.
 \newblock In {\em Pattern Recognition, 1994. Vol. 1-Conference A: Computer
   Vision \& Image Processing., Proceedings of the 12th IAPR International
-  Conference on}, volume~1, pages 566--568. IEEE.
+  Conference on}, volume~1, pages 566--568. IEEE, 1994.
 
-\bibitem[Dullum et~al., 2000]{dullum_rates_2000}
-Dullum, J.~R., Lewis, E.~C., and Mayer, J.~A. (2000).
+\bibitem{dullum_rates_2000}
+J.~R. Dullum, E.~C. Lewis, and J.~A. Mayer.
 \newblock Rates and correlates of discomfort associated with mammography.
-\newblock {\em Radiology}, 214(2):547--552.
+\newblock {\em Radiology}, 214(2):547--552, 2000.
 
-\bibitem[Dustler et~al., 2012a]{dustler_breast_2012}
-Dustler, M., Andersson, I., Brorson, H., Fr{\"o}jd, P., Mattsson, S., Tingberg,
-  A., Zackrisson, S., and F{\"o}rnvik, D. (2012a).
+\bibitem{dustler_breast_2012}
+M.~Dustler, I.~Andersson, H.~Brorson, P.~Fr{\"o}jd, S.~Mattsson, A.~Tingberg,
+  S.~Zackrisson, and D.~F{\"o}rnvik.
 \newblock Breast compression in mammography: pressure distribution patterns.
-\newblock {\em Acta Radiologica}, 53(9):973--980.
+\newblock {\em Acta Radiologica}, 53(9):973--980, 2012.
 
-\bibitem[Dustler et~al., 2012b]{dustler_effect_2012}
-Dustler, M., Andersson, I., F{\"o}rnvik, D., and Tingberg, A. (2012b).
+\bibitem{dustler_effect_2012}
+M.~Dustler, I.~Andersson, D.~F{\"o}rnvik, and A.~Tingberg.
 \newblock The effect of breast positioning on breast compression in
   mammography: a pressure distribution perspective.
 \newblock In {\em Medical Imaging 2012: Physics of Medical Imaging}, volume
-  8313, page 83134M. International Society for Optics and Photonics.
+  8313, page 83134M. International Society for Optics and Photonics, 2012.
 
-\bibitem[Eder et~al., 2014]{eder_comparison_2014}
-Eder, M., Raith, S., Jalali, J., Volf, A., Settles, M., Machens, H.-G., and
-  Kovacs, L. (2014).
+\bibitem{eder_comparison_2014}
+M.~Eder, S.~Raith, J.~Jalali, A.~Volf, M.~Settles, H.-G. Machens, and
+  L.~Kovacs.
 \newblock Comparison of {Different} {Material} {Models} to {Simulate} 3-{D}
   {Breast} {Deformations} {Using} {Finite} {Element} {Analysis}.
-\newblock {\em Annals of Biomedical Engineering}, 42(4):843--857.
+\newblock {\em Annals of Biomedical Engineering}, 42(4):843--857, Apr. 2014.
 
-\bibitem[Eiben et~al., 2016a]{eiben_breast_2016}
-Eiben, B., Lacher, R., Vavourakis, V., Hipwell, J.~H., Stoyanov, D., Williams,
-  N.~R., Sabczynski, J., B{\"u}low, T., Kutra, D., Meetz, K., et~al. (2016a).
+\bibitem{eiben_breast_2016}
+B.~Eiben, R.~Lacher, V.~Vavourakis, J.~H. Hipwell, D.~Stoyanov, N.~R. Williams,
+  J.~Sabczynski, T.~B{\"u}low, D.~Kutra, K.~Meetz, et~al.
 \newblock Breast conserving surgery outcome prediction: A patient-specific,
   integrated multi-modal imaging and mechano-biological modelling framework.
 \newblock In {\em International Workshop on Digital Mammography}, pages
-  274--281. Springer.
+  274--281. Springer, 2016.
 
-\bibitem[Eiben et~al., 2016b]{eiben_symmetric_2016}
-Eiben, B., Vavourakis, V., Hipwell, J.~H., Kabus, S., Buelow, T., Lorenz, C.,
-  Mertzanidou, T., Reis, S., Williams, N.~R., Keshtgar, M., and Hawkes, D.~J.
-  (2016b).
+\bibitem{eiben_symmetric_2016}
+B.~Eiben, V.~Vavourakis, J.~H. Hipwell, S.~Kabus, T.~Buelow, C.~Lorenz,
+  T.~Mertzanidou, S.~Reis, N.~R. Williams, M.~Keshtgar, and D.~J. Hawkes.
 \newblock Symmetric {Biomechanically} {Guided} {Prone}-to-{Supine} {Breast}
   {Image} {Registration}.
-\newblock {\em Annals of Biomedical Engineering}, 44(1):154--173.
+\newblock {\em Annals of Biomedical Engineering}, 44(1):154--173, Jan. 2016.
 
-\bibitem[Eiben et~al., 2014]{eiben_breast_2014}
-Eiben, B., Vavourakis, V., Hipwell, J.~H., Kabus, S., Lorenz, C., Buelow, T.,
-  and Hawkes, D.~J. (2014).
+\bibitem{eiben_breast_2014}
+B.~Eiben, V.~Vavourakis, J.~H. Hipwell, S.~Kabus, C.~Lorenz, T.~Buelow, and
+  D.~J. Hawkes.
 \newblock Breast deformation modelling: comparison of methods to obtain a
   patient specific unloaded configuration.
-\newblock {\em Proc. SPIE}, 9036:903615--8.
+\newblock {\em Proc. SPIE}, 9036:903615--8, 2014.
 
-\bibitem[Eiben et~al., 2016c]{eiben_surface_2016}
-Eiben, B., Vavourakis, V., Hipwell, J.~H., Kabus, S., Lorenz, C., Buelow, T.,
-  Williams, N.~R., Keshtgar, M., and Hawkes, D.~J. (2016c).
+\bibitem{eiben_surface_2016}
+B.~Eiben, V.~Vavourakis, J.~H. Hipwell, S.~Kabus, C.~Lorenz, T.~Buelow, N.~R.
+  Williams, M.~Keshtgar, and D.~J. Hawkes.
 \newblock Surface driven biomechanical breast image registration.
 \newblock In {\em SPIE Medical Imaging}, pages 97860W--97860W. International
-  Society for Optics and Photonics.
+  Society for Optics and Photonics, 2016.
 
-\bibitem[Fanelli et~al., 1996]{fanelli_estrogen_1996}
-Fanelli, M.~A., Vargas-Roig, L.~M., Gago, F.~E., Tello, O., De~Angelis, R.~L.,
-  and Ciocca, D.~R. (1996).
+\bibitem{fanelli_estrogen_1996}
+M.~A. Fanelli, L.~M. Vargas-Roig, F.~E. Gago, O.~Tello, R.~L. De~Angelis, and
+  D.~R. Ciocca.
 \newblock Estrogen receptors, progesterone receptors, and cell proliferation in
   human breast cancer.
-\newblock {\em Breast cancer research and treatment}, 37(3):217--228.
+\newblock {\em Breast cancer research and treatment}, 37(3):217--228, 1996.
 
-\bibitem[Feldman, 1986]{feldman_once_1986}
-Feldman, A.~G. (1986).
+\bibitem{feldman_once_1986}
+A.~G. Feldman.
 \newblock Once more on the equilibrium-point hypothesis ($\lambda$ model) for
   motor control.
-\newblock {\em Journal of motor behavior}, 18(1):17--54.
+\newblock {\em Journal of motor behavior}, 18(1):17--54, 1986.
 
-\bibitem[Fleming et~al., 2013]{fleming_intermittent_2013}
-Fleming, P., O’Neill, S., Owens, M., Mooney, T., and Fitzpatrick, P. (2013).
+\bibitem{fleming_intermittent_2013}
+P.~Fleming, S.~O’Neill, M.~Owens, T.~Mooney, and P.~Fitzpatrick.
 \newblock Intermittent attendance at breast cancer screening.
-\newblock {\em Journal of public health research}, 2(2).
+\newblock {\em Journal of public health research}, 2(2), 2013.
 
-\bibitem[FNAH, 2016]{HAS_2016}
-FNAH (2016).
+\bibitem{HAS_2016}
+FNAH.
 \newblock Cancer du sein : modalités spécifiques de dépistage pour les
   femmes à haut risque.
 \newblock \url
-  {https://www.has-sante.fr/portail/jcms/c_1740821/fr/cancer-du-sein-modalites-specifiques-de-depistage-pour-les-femmes-a-haut-risque}.
+  {https://www.has-sante.fr/portail/jcms/c_1740821/fr/cancer-du-sein-modalites-specifiques-de-depistage-pour-les-femmes-a-haut-risque},
+  2016.
 
-\bibitem[FRM, 2017]{frm_chiffres_2017}
-FRM (2017).
+\bibitem{frm_chiffres_2017}
+FRM.
 \newblock Les chiffres du cancer du sein.
-\newblock \url{https://www.frm.org/cancer-du-sein/}.
+\newblock \url{https://www.frm.org/cancer-du-sein/}, 2017.
 
-\bibitem[Fung, 2013]{fung_biomechanics_2013}
-Fung, Y.-c. (2013).
+\bibitem{fung_biomechanics_2013}
+Y.-c. Fung.
 \newblock {\em Biomechanics: mechanical properties of living tissues}.
-\newblock Springer Science \& Business Media.
+\newblock Springer Science \& Business Media, 2013.
 
-\bibitem[Fung et~al., 2017]{fung_classical_2017}
-Fung, Y.-c., Tong, P., and Chen, X. (2017).
+\bibitem{fung_classical_2017}
+Y.-c. Fung, P.~Tong, and X.~Chen.
 \newblock {\em Classical and computational solid mechanics}, volume~2.
-\newblock World Scientific Publishing Company.
+\newblock World Scientific Publishing Company, 2017.
 
-\bibitem[Gamage et~al., 2012]{gamage_modelling_2012}
-Gamage, T. P.~B., Boyes, R., Rajagopal, V., Nielsen, P. M.~F., and Nash, M.~P.
-  (2012).
+\bibitem{gamage_modelling_2012}
+T.~P.~B. Gamage, R.~Boyes, V.~Rajagopal, P.~M.~F. Nielsen, and M.~P. Nash.
 \newblock Modelling prone to supine breast deformation under gravity loading
   using heterogeneous finite element models.
 \newblock In {Poul M.F. Nielsen}, {Adam Wittek}, and {Karol Miller}, editors,
   {\em Computational Biomechanics for Medicine}, pages 29--38. Springer New
-  York.
+  York, 2012.
 
-\bibitem[Garcia et~al., 2017]{garcia_mapping_2017}
-Garcia, E., Oliver, A., Diaz, O., Diez, Y., Gubern-Merida, A., Marti, R., and
-  Marti, J. (2017).
+\bibitem{garcia_mapping_2017}
+E.~Garcia, A.~Oliver, O.~Diaz, Y.~Diez, A.~Gubern-Merida, R.~Marti, and
+  J.~Marti.
 \newblock Mapping 3d breast lesions from full-field digital mammograms using
   subject-specific finite element models.
 \newblock In {\em SPIE Medical Imaging}, pages 1013504--1013504. International
-  Society for Optics and Photonics.
+  Society for Optics and Photonics, 2017.
 
-\bibitem[Gaur et~al., 2013]{gaur_architectural_2013}
-Gaur, S., Dialani, V., Slanetz, P.~J., and Eisenberg, R.~L. (2013).
+\bibitem{gaur_architectural_2013}
+S.~Gaur, V.~Dialani, P.~J. Slanetz, and R.~L. Eisenberg.
 \newblock Architectural distortion of the breast.
-\newblock {\em American Journal of Roentgenology}, 201(5):W662--W670.
+\newblock {\em American Journal of Roentgenology}, 201(5):W662--W670, 2013.
 
-\bibitem[Geeraert et~al., 2012]{geeraert_breast_2012}
-Geeraert, N., Klausza, R., Mullera, S., et~al. (2012).
+\bibitem{geeraert_breast_2012}
+N.~Geeraert, R.~Klausza, S.~Mullera, et~al.
 \newblock Breast characteristics and dosimetric data in x-ray mammography a
   large sample worldwide survey.
-\newblock In {\em Bonn: IAEA conference}. Citeseer.
+\newblock In {\em Bonn: IAEA conference}. Citeseer, 2012.
 
-\bibitem[Gefen, 2003]{gefen_vivo_2003}
-Gefen, A. (2003).
+\bibitem{gefen_vivo_2003}
+A.~Gefen.
 \newblock The in vivo elastic properties of the plantar fascia during the
   contact phase of walking.
-\newblock {\em Foot \& ankle international}, 24(3):238--244.
+\newblock {\em Foot \& ankle international}, 24(3):238--244, 2003.
 
-\bibitem[Gefen and Dilmoney, 2007]{gefen_mechanics_2007}
-Gefen, A. and Dilmoney, B. (2007).
+\bibitem{gefen_mechanics_2007}
+A.~Gefen and B.~Dilmoney.
 \newblock Mechanics of the normal woman's breast.
-\newblock {\em Technology and Health Care}, 15(4):259--271.
+\newblock {\em Technology and Health Care}, 15(4):259--271, 2007.
 
-\bibitem[Gent, 1996]{gent_new_1996}
-Gent, A. (1996).
+\bibitem{gent_new_1996}
+A.~Gent.
 \newblock A new constitutive relation for rubber.
-\newblock {\em Rubber chemistry and technology}, 69(1):59--61.
+\newblock {\em Rubber chemistry and technology}, 69(1):59--61, 1996.
 
-\bibitem[Gent and Thomas, 1958]{gent_forms_1958}
-Gent, A. and Thomas, A. (1958).
+\bibitem{gent_forms_1958}
+A.~Gent and A.~Thomas.
 \newblock Forms for the stored (strain) energy function for vulcanized rubber.
 \newblock {\em Journal of Polymer Science Part A: Polymer Chemistry},
-  28(118):625--628.
+  28(118):625--628, 1958.
 
-\bibitem[Georgii et~al., 2016]{georgii_simulation_2016}
-Georgii, J., Paetz, T., Harz, M., Stoecker, C., Rothgang, M., Colletta, J.,
-  Schilling, K., Schlooz-Vries, M., Mann, R.~M., and Hahn, H.~K. (2016).
+\bibitem{georgii_simulation_2016}
+J.~Georgii, T.~Paetz, M.~Harz, C.~Stoecker, M.~Rothgang, J.~Colletta,
+  K.~Schilling, M.~Schlooz-Vries, R.~M. Mann, and H.~K. Hahn.
 \newblock Simulation and visualization to support breast surgery planning.
 \newblock In {\em International Workshop on Digital Mammography}, pages
-  257--264. Springer.
+  257--264. Springer, 2016.
 
-\bibitem[Govindjee and Mihalic, 1998]{govindjee_computational_1998}
-Govindjee, S. and Mihalic, P.~A. (1998).
+\bibitem{govindjee_computational_1998}
+S.~Govindjee and P.~A. Mihalic.
 \newblock Computational methods for inverse deformations in
   quasi-incompressible finite elasticity.
 \newblock {\em International Journal for Numerical Methods in Engineering},
-  43(5):821--838.
+  43(5):821--838, 1998.
 
-\bibitem[Griesenauer et~al., 2017]{griesenauer_breast_2017}
-Griesenauer, R.~H., Weis, J.~A., Arlinghaus, L.~R., Meszoely, I.~M., and Miga,
-  M.~I. (2017).
+\bibitem{griesenauer_breast_2017}
+R.~H. Griesenauer, J.~A. Weis, L.~R. Arlinghaus, I.~M. Meszoely, and M.~I.
+  Miga.
 \newblock Breast tissue stiffness estimation for surgical guidance using
   gravity-induced excitation.
-\newblock {\em Physics in Medicine and Biology}, 62(12):4756.
+\newblock {\em Physics in Medicine and Biology}, 62(12):4756, 2017.
 
-\bibitem[Groot et~al., 2015]{groot_towards_2015}
-Groot, J. E.~d., Branderhorst, W., Grimbergen, C.~A., Heeten, G. J.~d., and
-  Broeders, M.~J. (2015).
+\bibitem{groot_towards_2015}
+J.~E.~d. Groot, W.~Branderhorst, C.~A. Grimbergen, G.~J.~d. Heeten, and M.~J.
+  Broeders.
 \newblock Towards personalized compression in mammography: A comparison study
   between pressure- and force-standardization.
-\newblock {\em European Journal of Radiology}, 84(3):384--391.
+\newblock {\em European Journal of Radiology}, 84(3):384--391, 2015.
 
-\bibitem[Hafslund, 2000]{hafslund_mammography_2000}
-Hafslund, B. (2000).
+\bibitem{hafslund_mammography_2000}
+B.~Hafslund.
 \newblock Mammography and the experience of pain and anxiety.
-\newblock {\em Radiography}, 6(4):269--272.
+\newblock {\em Radiography}, 6(4):269--272, 2000.
 
-\bibitem[Hammerstein et~al., 1979]{richard_absorbed_1979}
-Hammerstein, R.~G., Miller, D.~W., White, D.~R., Ellen~Masterson, M., Woodard,
-  H.~Q., and Laughlin, J.~S. (1979).
+\bibitem{richard_absorbed_1979}
+R.~G. Hammerstein, D.~W. Miller, D.~R. White, M.~Ellen~Masterson, H.~Q.
+  Woodard, and J.~S. Laughlin.
 \newblock Absorbed radiation dose in mammography.
-\newblock {\em radiology}, 130(2):485--491.
+\newblock {\em radiology}, 130(2):485--491, 1979.
 
-\bibitem[Han et~al., 2014]{han_nonlinear_2014}
-Han, L., Hipwell, J.~H., Eiben, B., Barratt, D., Modat, M., Ourselin, S., and
-  Hawkes, D.~J. (2014).
+\bibitem{han_nonlinear_2014}
+L.~Han, J.~H. Hipwell, B.~Eiben, D.~Barratt, M.~Modat, S.~Ourselin, and D.~J.
+  Hawkes.
 \newblock A nonlinear biomechanical model based registration method for
   aligning prone and supine mr breast images.
-\newblock {\em IEEE transactions on medical imaging}, 33(3):682--694.
+\newblock {\em IEEE transactions on medical imaging}, 33(3):682--694, 2014.
 
-\bibitem[Han et~al., 2012]{han_development_2012}
-Han, L., year, J.~H., Tanner, C., Taylor, Z., Mertzanidou, T., {Jorge Cardoso},
-  {Sebastien Ourselin}, and {David J Hawkes} (2012).
+\bibitem{han_development_2012}
+L.~Han, J.~H. year, C.~Tanner, Z.~Taylor, T.~Mertzanidou, {Jorge Cardoso},
+  {Sebastien Ourselin}, and {David J Hawkes}.
 \newblock Development of patient-specific biomechanical models for predicting
   large breast deformation.
-\newblock {\em Physics in Medicine and Biology}, 57(2):455--472.
+\newblock {\em Physics in Medicine and Biology}, 57(2):455--472, 2012.
 
-\bibitem[Helvie et~al., 1994]{helvie_breast_1994}
-Helvie, M., Chan, H.-P., Adler, D., and Boyd, P. (1994).
+\bibitem{helvie_breast_1994}
+M.~Helvie, H.-P. Chan, D.~Adler, and P.~Boyd.
 \newblock Breast thickness in routine mammograms: effect on image quality and
   radiation dose.
-\newblock {\em AJR. American journal of roentgenology}, 163(6):1371--1374.
+\newblock {\em AJR. American journal of roentgenology}, 163(6):1371--1374,
+  1994.
 
-\bibitem[Hendriks et~al., 2006]{hendriks_relative_2006}
-Hendriks, F., Brokken, D., Oomens, C., Bader, D., and Baaijens, F. (2006).
+\bibitem{hendriks_relative_2006}
+F.~Hendriks, D.~Brokken, C.~Oomens, D.~Bader, and F.~Baaijens.
 \newblock The relative contributions of different skin layers to the mechanical
   behavior of human skin in vivo using suction experiments.
-\newblock {\em Medical engineering \& physics}, 28(3):259--266.
+\newblock {\em Medical engineering \& physics}, 28(3):259--266, 2006.
 
-\bibitem[Henrot et~al., 2014]{henrot_breast_2014}
-Henrot, P., Leroux, A., Barlier, C., and G{\'e}nin, P. (2014).
+\bibitem{henrot_breast_2014}
+P.~Henrot, A.~Leroux, C.~Barlier, and P.~G{\'e}nin.
 \newblock Breast microcalcifications: the lesions in anatomical pathology.
-\newblock {\em Diagnostic and interventional imaging}, 95(2):141--152.
+\newblock {\em Diagnostic and interventional imaging}, 95(2):141--152, 2014.
 
-\bibitem[Ho, 1995]{ho_random_1995}
-Ho, T.~K. (1995).
+\bibitem{ho_random_1995}
+T.~K. Ho.
 \newblock Random decision forests.
 \newblock In {\em Document analysis and recognition, 1995., proceedings of the
-  third international conference on}, volume~1, pages 278--282. IEEE.
+  third international conference on}, volume~1, pages 278--282. IEEE, 1995.
 
-\bibitem[Hofvind et~al., 2012]{hofvind_sensitivity_2012}
-Hofvind, S., Geller, B., Skelly, J., and Vacek, P. (2012).
+\bibitem{hofvind_sensitivity_2012}
+S.~Hofvind, B.~Geller, J.~Skelly, and P.~Vacek.
 \newblock Sensitivity and specificity of mammographic screening as practised in
   vermont and norway.
-\newblock {\em The British journal of radiology}, 85(1020):e1226--e1232.
+\newblock {\em The British journal of radiology}, 85(1020):e1226--e1232, 2012.
 
-\bibitem[Hopp et~al., 2013]{hopp_automatic_2013}
-Hopp, T., Dietzel, M., Baltzer, P.~A., Kreisel, P., Kaiser, W.~A., Gemmeke, H.,
-  and Ruiter, N.~V. (2013).
+\bibitem{hopp_automatic_2013}
+T.~Hopp, M.~Dietzel, P.~A. Baltzer, P.~Kreisel, W.~A. Kaiser, H.~Gemmeke, and
+  N.~V. Ruiter.
 \newblock Automatic multimodal 2d/3d breast image registration using
   biomechanical fem models and intensity-based optimization.
-\newblock {\em Medical image analysis}, 17(2):209--218.
+\newblock {\em Medical image analysis}, 17(2):209--218, 2013.
 
-\bibitem[Huang et~al., 2011]{huang2011characterization}
-Huang, S.-Y., Boone, J.~M., Yang, K., Packard, N.~J., McKenney, S.~E., Prionas,
-  N.~D., Lindfors, K.~K., and Yaffe, M.~J. (2011).
+\bibitem{huang2011characterization}
+S.-Y. Huang, J.~M. Boone, K.~Yang, N.~J. Packard, S.~E. McKenney, N.~D.
+  Prionas, K.~K. Lindfors, and M.~J. Yaffe.
 \newblock The characterization of breast anatomical metrics using dedicated
   breast ct.
-\newblock {\em Medical physics}, 38(4):2180--2191.
+\newblock {\em Medical physics}, 38(4):2180--2191, 2011.
 
-\bibitem[Huttenlocher et~al., 1993]{huttenlocher_comparing_1993}
-Huttenlocher, D.~P., Klanderman, G.~A., and Rucklidge, W.~J. (1993).
+\bibitem{huttenlocher_comparing_1993}
+D.~P. Huttenlocher, G.~A. Klanderman, and W.~J. Rucklidge.
 \newblock Comparing images using the hausdorff distance.
 \newblock {\em IEEE Transactions on pattern analysis and machine intelligence},
-  15(9):850--863.
+  15(9):850--863, 1993.
 
-\bibitem[Itoh et~al., 2006]{itoh_breast_2006}
-Itoh, A., Ueno, E., Tohno, E., Kamma, H., Takahashi, H., Shiina, T., Yamakawa,
-  M., and Matsumura, T. (2006).
+\bibitem{itoh_breast_2006}
+A.~Itoh, E.~Ueno, E.~Tohno, H.~Kamma, H.~Takahashi, T.~Shiina, M.~Yamakawa, and
+  T.~Matsumura.
 \newblock Breast disease: clinical application of us elastography for
   diagnosis.
-\newblock {\em Radiology}, 239(2):341--350.
+\newblock {\em Radiology}, 239(2):341--350, 2006.
 
-\bibitem[Kaliske and Rothert, 1997]{kaliske_finite_1997}
-Kaliske, M. and Rothert, H. (1997).
+\bibitem{kaliske_finite_1997}
+M.~Kaliske and H.~Rothert.
 \newblock On the finite element implementation of rubber-like materials at
   finite strains.
-\newblock {\em Engineering Computations}, 14(2):216--232.
+\newblock {\em Engineering Computations}, 14(2):216--232, 1997.
 
-\bibitem[Kanitakis, 2002]{kanitakis2002anatomy}
-Kanitakis, J. (2002).
+\bibitem{kanitakis2002anatomy}
+J.~Kanitakis.
 \newblock Anatomy, histology and immunohistochemistry of normal human skin.
-\newblock {\em European journal of dermatology: EJD}, 12(4):390--9.
+\newblock {\em European journal of dermatology: EJD}, 12(4):390--9, 2002.
 
-\bibitem[Keemers-Gels et~al., 2000]{keemers_pain_2000}
-Keemers-Gels, M., Groenendijk, R., Van Den~Heuvel, J., Boetes, C., Peer, P.,
-  and Wobbes, T. (2000).
+\bibitem{keemers_pain_2000}
+M.~Keemers-Gels, R.~Groenendijk, J.~Van Den~Heuvel, C.~Boetes, P.~Peer, and
+  T.~Wobbes.
 \newblock Pain experienced by women attending breast cancer screening.
-\newblock {\em Breast cancer research and treatment}, 60(3):235--240.
+\newblock {\em Breast cancer research and treatment}, 60(3):235--240, 2000.
 
-\bibitem[Kellner et~al., 2007]{kellner_simulation_2007}
-Kellner, A.~L., Nelson, T.~R., Cervino, L.~I., and Boone, J.~M. (2007).
+\bibitem{kellner_simulation_2007}
+A.~L. Kellner, T.~R. Nelson, L.~I. Cervino, and J.~M. Boone.
 \newblock Simulation of mechanical compression of breast tissue.
 \newblock {\em {IEEE} Transactions on Biomedical Engineering},
-  54(10):1885--1891.
+  54(10):1885--1891, 2007.
 
-\bibitem[Kemp~Jacobsen et~al., 2015]{kemp_comparing_2015}
-Kemp~Jacobsen, K., O'meara, E.~S., Key, D., SM~Buist, D., Kerlikowske, K.,
-  Vejborg, I., Sprague, B.~L., and Lynge, E. (2015).
+\bibitem{kemp_comparing_2015}
+K.~Kemp~Jacobsen, E.~S. O'meara, D.~Key, D.~SM~Buist, K.~Kerlikowske,
+  I.~Vejborg, B.~L. Sprague, and E.~Lynge.
 \newblock Comparing sensitivity and specificity of screening mammography in the
   united states and denmark.
-\newblock {\em International journal of cancer}, 137(9):2198--2207.
+\newblock {\em International journal of cancer}, 137(9):2198--2207, 2015.
 
-\bibitem[Kim et~al., 2006]{kim_computer_2006}
-Kim, S.~J., Moon, W.~K., Cho, N., Cha, J.~H., Kim, S.~M., and Im, J.-G. (2006).
+\bibitem{kim_computer_2006}
+S.~J. Kim, W.~K. Moon, N.~Cho, J.~H. Cha, S.~M. Kim, and J.-G. Im.
 \newblock Computer-aided detection in digital mammography: comparison of
   craniocaudal, mediolateral oblique, and mediolateral views.
-\newblock {\em Radiology}, 241(3):695--701.
+\newblock {\em Radiology}, 241(3):695--701, 2006.
 
-\bibitem[Ko et~al., 2013]{ko_dose_2013}
-Ko, M.-S., Kim, H.~H., Cha, J.~H., Shin, H.~J., Kim, J.~H., and Kim, M.~J.
-  (2013).
+\bibitem{ko_dose_2013}
+M.-S. Ko, H.~H. Kim, J.~H. Cha, H.~J. Shin, J.~H. Kim, and M.~J. Kim.
 \newblock Dose reduction in automatic optimization parameter of full field
   digital mammography: Breast phantom study.
-\newblock {\em Journal of breast cancer}, 16(1):90--96.
+\newblock {\em Journal of breast cancer}, 16(1):90--96, 2013.
 
-\bibitem[Kopans, 2007]{kopans2007breast}
-Kopans, D.~B. (2007).
+\bibitem{kopans2007breast}
+D.~B. Kopans.
 \newblock {\em Breast imaging}.
-\newblock Lippincott Williams \& Wilkins.
+\newblock Lippincott Williams \& Wilkins, 2007.
 
-\bibitem[Krouskop et~al., 1998]{krouskop_elastic_1998}
-Krouskop, T.~A., Wheeler, T.~M., Kallel, F., Garra, B.~S., and Hall, T. (1998).
+\bibitem{krouskop_elastic_1998}
+T.~A. Krouskop, T.~M. Wheeler, F.~Kallel, B.~S. Garra, and T.~Hall.
 \newblock Elastic moduli of breast and prostate tissues under compression.
-\newblock {\em Ultrasonic Imaging}, 20(4):260--274.
+\newblock {\em Ultrasonic Imaging}, 20(4):260--274, 1998.
 
-\bibitem[Kuhlmann et~al., 2013]{kuhlmann_mechanical_2013}
-Kuhlmann, M., Fear, E., Ramirez-Serrano, A., and Federico, S. (2013).
+\bibitem{kuhlmann_mechanical_2013}
+M.~Kuhlmann, E.~Fear, A.~Ramirez-Serrano, and S.~Federico.
 \newblock Mechanical model of the breast for the prediction of deformation
   during imaging.
-\newblock {\em Medical engineering {\textbackslash}\& physics}, 35(4):470--478.
+\newblock {\em Medical engineering {\textbackslash}\& physics}, 35(4):470--478,
+  2013.
 
-\bibitem[Leong et~al., 2013]{leong_quantitative_2013}
-Leong, H.-T., Ng, G. Y.-f., Leung, V. Y.-f., and Fu, S.~N. (2013).
+\bibitem{leong_quantitative_2013}
+H.-T. Leong, G.~Y.-f. Ng, V.~Y.-f. Leung, and S.~N. Fu.
 \newblock Quantitative estimation of muscle shear elastic modulus of the upper
   trapezius with supersonic shear imaging during arm positioning.
-\newblock {\em PloS one}, 8(6):e67199.
+\newblock {\em PloS one}, 8(6):e67199, 2013.
 
-\bibitem[Lima et~al., 2018]{lima_eassessment_2018}
-Lima, E., K. M.~M., J{\'u}nior, J. F. S.~C., de~Albuquerque~Pereira, W.~C., and
-  de~Oliveira, L.~F. (2018).
+\bibitem{lima_eassessment_2018}
+K.~M.~M. Lima, E., J.~F. S.~C. J{\'u}nior, W.~C. de~Albuquerque~Pereira, and
+  L.~F. de~Oliveira.
 \newblock Assessment of the mechanical properties of the muscle-tendon unit by
   supersonic shear wave imaging elastography: a review.
-\newblock {\em Ultrasonography}, 37(1):3.
+\newblock {\em Ultrasonography}, 37(1):3, 2018.
 
-\bibitem[Lorenzen et~al., 2003]{lorenzen_menstrual-cycle_2003}
-Lorenzen, J., Sinkus, R., Biesterfeldt, M., and Adam, G. (2003).
+\bibitem{lorenzen_menstrual-cycle_2003}
+J.~Lorenzen, R.~Sinkus, M.~Biesterfeldt, and G.~Adam.
 \newblock Menstrual-cycle dependence of breast parenchyma elasticity:
   estimation with magnetic resonance elastography of breast tissue during the
   menstrual cycle.
-\newblock {\em Investigative radiology}, 38(4):236--240.
+\newblock {\em Investigative radiology}, 38(4):236--240, 2003.
 
-\bibitem[Martin, 2017]{martin_webmd_2017}
-Martin, L.~J. (2017).
+\bibitem{martin_webmd_2017}
+L.~J. Martin.
 \newblock What causes breast cancer?
 \newblock
-  \url{https://www.webmd.com/breast-cancer/guide/what-causes-breast-cancer}.
+  \url{https://www.webmd.com/breast-cancer/guide/what-causes-breast-cancer},
+  2017.
 
-\bibitem[Mart{\'\i}nez-Mart{\'\i}nez et~al., 2017]{martinez_finite_2017}
-Mart{\'\i}nez-Mart{\'\i}nez, F., Rup{\'e}rez-Moreno, M., Mart{\'\i}nez-Sober,
-  M., Solves-Llorens, J., Lorente, D., Serrano-L{\'o}pez, A.,
-  Mart{\'\i}nez-Sanchis, S., Monserrat, C., and Mart{\'\i}n-Guerrero, J.
-  (2017).
+\bibitem{martinez_finite_2017}
+F.~Mart{\'\i}nez-Mart{\'\i}nez, M.~Rup{\'e}rez-Moreno, M.~Mart{\'\i}nez-Sober,
+  J.~Solves-Llorens, D.~Lorente, A.~Serrano-L{\'o}pez,
+  S.~Mart{\'\i}nez-Sanchis, C.~Monserrat, and J.~Mart{\'\i}n-Guerrero.
 \newblock A finite element-based machine learning approach for modeling the
   mechanical behavior of the breast tissues under compression in real-time.
-\newblock {\em Computers in Biology and Medicine}, 90:116--124.
+\newblock {\em Computers in Biology and Medicine}, 90:116--124, 2017.
 
-\bibitem[McKenna, 1994]{mckenna_abnormal_1994}
-McKenna, R.~J. (1994).
+\bibitem{mckenna_abnormal_1994}
+R.~J. McKenna.
 \newblock The abnormal mammogram radiographic findings, diagnostic options,
   pathology, and stage of cancer diagnosis.
-\newblock {\em Cancer}, 74(S1):244--255.
+\newblock {\em Cancer}, 74(S1):244--255, 1994.
 
-\bibitem[McMeeking and Rice, 1975]{mcmeeking_finite_1975}
-McMeeking, R.~M. and Rice, J. (1975).
+\bibitem{mcmeeking_finite_1975}
+R.~M. McMeeking and J.~Rice.
 \newblock Finite-element formulations for problems of large elastic-plastic
   deformation.
-\newblock {\em International Journal of Solids and Structures}, 11(5):601--616.
+\newblock {\em International Journal of Solids and Structures}, 11(5):601--616,
+  1975.
 
-\bibitem[Mercer et~al., 2013]{mercer_practitioner_2013}
-Mercer, C., Hogg, P., Lawson, R., Diffey, J., and Denton, E. (2013).
+\bibitem{mercer_practitioner_2013}
+C.~Mercer, P.~Hogg, R.~Lawson, J.~Diffey, and E.~Denton.
 \newblock Practitioner compression force variability in mammography: a
   preliminary study.
-\newblock {\em The British journal of radiology}, 86(1022):20110596.
+\newblock {\em The British journal of radiology}, 86(1022):20110596, 2013.
 
-\bibitem[Miller et~al., 2008]{miller_interventions_2008}
-Miller, D., Livingstone, V., and Herbison, P. (2008).
+\bibitem{miller_interventions_2008}
+D.~Miller, V.~Livingstone, and P.~Herbison.
 \newblock Interventions for relieving the pain and discomfort of screening
   mammography.
-\newblock {\em Cochrane Database Syst Rev}, 1.
+\newblock {\em Cochrane Database Syst Rev}, 1, 2008.
 
-\bibitem[Mugea and Shiffman, 2014]{mugea2014aesthetic}
-Mugea, T.~T. and Shiffman, M.~A. (2014).
+\bibitem{mugea2014aesthetic}
+T.~T. Mugea and M.~A. Shiffman.
 \newblock {\em Aesthetic Surgery of the Breast}.
-\newblock Springer.
+\newblock Springer, 2014.
 
-\bibitem[NCI, 2012]{NCI_2012}
-NCI (2012).
+\bibitem{NCI_2012}
+NCI.
 \newblock Breast and adjacent lymph nodes, national cancer institute.
 \newblock
-  https://www.cancer.gov/publications/patient-education/wyntk-breast-cancer.
+  https://www.cancer.gov/publications/patient-education/wyntk-breast-cancer,
+  2012.
 
-\bibitem[NHSBSP, 2012]{NHSBSP_2012}
-NHSBSP (2012).
+\bibitem{NHSBSP_2012}
+NHSBSP.
 \newblock 2012 review of the uk breast screening programme.
 \newblock \url
-  {http://www.cancerresearchuk.org/about-cancer/breast-cancer/screening/screening-2012-review}.
+  {http://www.cancerresearchuk.org/about-cancer/breast-cancer/screening/screening-2012-review},
+  2012.
 
-\bibitem[Nordez and Hug, 2010]{nordez_muscle_2010}
-Nordez, A. and Hug, F. (2010).
+\bibitem{nordez_muscle_2010}
+A.~Nordez and F.~Hug.
 \newblock Muscle shear elastic modulus measured using supersonic shear imaging
   is highly related to muscle activity level.
-\newblock {\em Journal of applied physiology}, 108(5):1389--1394.
+\newblock {\em Journal of applied physiology}, 108(5):1389--1394, 2010.
 
-\bibitem[Obenauer et~al., 2002]{obenauer_screen_2002}
-Obenauer, S., Luftner-Nagel, S., Von~Heyden, D., Munzel, U., Baum, F., and
-  Grabbe, E. (2002).
+\bibitem{obenauer_screen_2002}
+S.~Obenauer, S.~Luftner-Nagel, D.~Von~Heyden, U.~Munzel, F.~Baum, and
+  E.~Grabbe.
 \newblock Screen film vs full-field digital mammography: image quality,
   detectability and characterization of lesions.
-\newblock {\em European radiology}, 12(7):1697--1702.
+\newblock {\em European radiology}, 12(7):1697--1702, 2002.
 
-\bibitem[Ogden, 1972]{ogden_large_1972}
-Ogden, R.~W. (1972).
+\bibitem{ogden_large_1972}
+R.~W. Ogden.
 \newblock Large deformation isotropic elasticity--on the correlation of theory
   and experiment for incompressible rubberlike solids.
 \newblock In {\em Proc. R. Soc. Lond. A}, volume 326, pages 565--584. The Royal
-  Society.
+  Society, 1972.
 
-\bibitem[O’Leary et~al., 2011]{oleary_compression_2011}
-O’Leary, D., Teape, A., Hammond, J., Rainford, L., and Grant, T. (2011).
+\bibitem{oleary_compression_2011}
+D.~O’Leary, A.~Teape, J.~Hammond, L.~Rainford, and T.~Grant.
 \newblock Compression force recommendations in mammography must be linked to
   image quality.
 \newblock In {\em Proceedings of the European Congress of Radiology}, pages
-  1--19.
+  1--19, 2011.
 
-\bibitem[Olgun et~al., 2014]{olgun_use_2014}
-Olgun, D.~{\c{C}}., Korkmazer, B., K{\i}l{\i}{\c{c}}, F., Dikici, A.~S.,
-  Velidedeo{\u{g}}lu, M., Aydo{\u{g}}an, F., Kantarc{\i}, F., and Y{\i}lmaz,
-  M.~H. (2014).
+\bibitem{olgun_use_2014}
+D.~{\c{C}}. Olgun, B.~Korkmazer, F.~K{\i}l{\i}{\c{c}}, A.~S. Dikici,
+  M.~Velidedeo{\u{g}}lu, F.~Aydo{\u{g}}an, F.~Kantarc{\i}, and M.~H. Y{\i}lmaz.
 \newblock Use of shear wave elastography to differentiate benign and malignant
   breast lesions.
-\newblock {\em Diagnostic and Interventional Radiology}, 20(3):239.
+\newblock {\em Diagnostic and Interventional Radiology}, 20(3):239, 2014.
 
-\bibitem[{\O}ster{\aa}s et~al., 2018]{osteraas_average_2018}
-{\O}ster{\aa}s, B.~H., Skaane, P., Gullien, R., and Martinsen, A. C.~T. (2018).
+\bibitem{osteraas_average_2018}
+B.~H. {\O}ster{\aa}s, P.~Skaane, R.~Gullien, and A.~C.~T. Martinsen.
 \newblock Average glandular dose in paired digital mammography and digital
   breast tomosynthesis acquisitions in a population based screening program:
   effects of measuring breast density, air kerma and beam quality.
-\newblock {\em Physics in medicine and biology}.
+\newblock {\em Physics in medicine and biology}, 2018.
 
-\bibitem[Palomar et~al., 2008]{palomar_finite_2008}
-Palomar, A. P.~d., Calvo, B., Herrero, J., López, J., and Doblaré, M. (2008).
+\bibitem{palomar_finite_2008}
+A.~P.~d. Palomar, B.~Calvo, J.~Herrero, J.~López, and M.~Doblaré.
 \newblock A finite element model to accurately predict real deformations of the
   breast.
-\newblock {\em Medical Engineering \& Physics}, 30(9):1089--1097.
+\newblock {\em Medical Engineering \& Physics}, 30(9):1089--1097, 2008.
 
-\bibitem[Pandya and Moore, 2011]{pandya_breast_2011}
-Pandya, S. and Moore, R.~G. (2011).
+\bibitem{pandya_breast_2011}
+S.~Pandya and R.~G. Moore.
 \newblock Breast development and anatomy.
-\newblock {\em Clinical obstetrics and gynecology}, 54(1):91--95.
+\newblock {\em Clinical obstetrics and gynecology}, 54(1):91--95, 2011.
 
-\bibitem[Patete et~al., 2013]{patete_multi_2013}
-Patete, P., Iacono, M.~I., Spadea, M.~F., Trecate, G., Vergnaghi, D., Mainardi,
-  L.~T., and Baroni, G. (2013).
+\bibitem{patete_multi_2013}
+P.~Patete, M.~I. Iacono, M.~F. Spadea, G.~Trecate, D.~Vergnaghi, L.~T.
+  Mainardi, and G.~Baroni.
 \newblock A multi-tissue mass-spring model for computer assisted breast
   surgery.
-\newblock {\em Medical Engineering and Physics}, 35(1):47--53.
+\newblock {\em Medical Engineering and Physics}, 35(1):47--53, 2013.
 
-\bibitem[Pathmanathan et~al., 2008]{pathmanathan_predicting_2008}
-Pathmanathan, P., Gavaghan, D.~J., Whiteley, J.~P., Chapman, S.~J., and Brady,
-  J.~M. (2008).
+\bibitem{pathmanathan_predicting_2008}
+P.~Pathmanathan, D.~J. Gavaghan, J.~P. Whiteley, S.~J. Chapman, and J.~M.
+  Brady.
 \newblock Predicting tumor location by modeling the deformation of the breast.
 \newblock {\em {IEEE} Transactions on Biomedical Engineering},
-  55(10):2471--2480.
+  55(10):2471--2480, 2008.
 
-\bibitem[Pechter, 1998]{pechter_new_1998}
-Pechter, E.~A. (1998).
+\bibitem{pechter_new_1998}
+E.~A. Pechter.
 \newblock A new method for determining bra size and predicting postaugmentation
   breast size.
-\newblock {\em Plastic and reconstructive surgery}, 102(4):1259--1265.
+\newblock {\em Plastic and reconstructive surgery}, 102(4):1259--1265, 1998.
 
-\bibitem[Peipins et~al., 2006]{peipins_impact_2006}
-Peipins, L.~A., Shapiro, J.~A., Bobo, J.~K., and Berkowitz, Z. (2006).
+\bibitem{peipins_impact_2006}
+L.~A. Peipins, J.~A. Shapiro, J.~K. Bobo, and Z.~Berkowitz.
 \newblock Impact of women’s experiences during mammography on adherence to
   rescreening (united states).
-\newblock {\em Cancer causes \& control}, 17(4):439--447.
+\newblock {\em Cancer causes \& control}, 17(4):439--447, 2006.
 
-\bibitem[Perry et~al., 2008]{perry_european_2008}
-Perry, N., Broeders, M., de~Wolf, C., T{\"o}rnberg, S., Holland, R., and von
-  Karsa, L. (2008).
+\bibitem{perry_european_2008}
+N.~Perry, M.~Broeders, C.~de~Wolf, S.~T{\"o}rnberg, R.~Holland, and L.~von
+  Karsa.
 \newblock European guidelines for quality assurance in breast cancer screening
   and diagnosis. —summary document.
-\newblock {\em Annals of Oncology}, 19(4):614--622.
+\newblock {\em Annals of Oncology}, 19(4):614--622, 2008.
 
-\bibitem[Peters et~al., 2008]{peters_meta_2008}
-Peters, N.~H., Borel~Rinkes, I.~H., Zuithoff, N.~P., Mali, W.~P., Moons, K.~G.,
-  and Peeters, P.~H. (2008).
+\bibitem{peters_meta_2008}
+N.~H. Peters, I.~H. Borel~Rinkes, N.~P. Zuithoff, W.~P. Mali, K.~G. Moons, and
+  P.~H. Peeters.
 \newblock Meta-analysis of mr imaging in the diagnosis of breast lesions.
-\newblock {\em Radiology}, 246(1):116--124.
+\newblock {\em Radiology}, 246(1):116--124, 2008.
 
-\bibitem[Peto et~al., 2000]{peto_uk_2000}
-Peto, R., Boreham, J., Clarke, M., Davies, C., and Beral, V. (2000).
+\bibitem{peto_uk_2000}
+R.~Peto, J.~Boreham, M.~Clarke, C.~Davies, and V.~Beral.
 \newblock Uk and usa breast cancer deaths down 25\% in year 2000 at ages 20--69
   years.
-\newblock {\em The Lancet}, 355(9217):1822.
+\newblock {\em The Lancet}, 355(9217):1822, 2000.
 
-\bibitem[Pike et~al., 1993]{pike_estrogens_1993}
-Pike, M.~C., Spicer, D.~V., Dahmoush, L., and Press, M.~F. (1993).
+\bibitem{pike_estrogens_1993}
+M.~C. Pike, D.~V. Spicer, L.~Dahmoush, and M.~F. Press.
 \newblock Estrogens progestogens normal breast cell proliferation and breast
   cancer risk.
-\newblock {\em Epidemiologic reviews}, 15(1):17--35.
+\newblock {\em Epidemiologic reviews}, 15(1):17--35, 1993.
 
-\bibitem[Pilcher, 1917]{pilcher_breast_1917}
-Pilcher, L.~S. (1917).
+\bibitem{pilcher_breast_1917}
+L.~S. Pilcher.
 \newblock The breast, its anomalies, its diseases and their treatment.
-\newblock {\em Annals of Surgery}, 65(4):527.
+\newblock {\em Annals of Surgery}, 65(4):527, 1917.
 
-\bibitem[Poulos et~al., 2003]{poulos_breast_2003}
-Poulos, A., McLean, D., Rickard, M., and Heard, R. (2003).
+\bibitem{poulos_breast_2003}
+A.~Poulos, D.~McLean, M.~Rickard, and R.~Heard.
 \newblock Breast compression in mammography: how much is enough?
 \newblock {\em Journal of Medical Imaging and Radiation Oncology},
-  47(2):121--126.
+  47(2):121--126, 2003.
 
-\bibitem[Rajagopal et~al., 2010a]{rajagopal_mapping_2010}
-Rajagopal, V., Chung, J.-H., Highnam, R.~P., Warren, R., Nielsen, P.~M., and
-  {Martyn P. Nash} (2010a).
+\bibitem{rajagopal_mapping_2010}
+V.~Rajagopal, J.-H. Chung, R.~P. Highnam, R.~Warren, P.~M. Nielsen, and {Martyn
+  P. Nash}.
 \newblock Mapping microcalcifications between 2d mammograms and 3d {MRI} using
   a biomechanical model of the breast.
 \newblock In {Karol Miller} and {Poul M.F. Nielsen}, editors, {\em
-  Computational Biomechanics for Medicine}, pages 17--28. Springer.
+  Computational Biomechanics for Medicine}, pages 17--28. Springer, 2010.
 
-\bibitem[Rajagopal et~al., 2007]{rajagopal_modelling_2007}
-Rajagopal, V. et~al. (2007).
+\bibitem{rajagopal_modelling_2007}
+V.~Rajagopal et~al.
 \newblock {\em Modelling breast tissue mechanics under gravity loading}.
-\newblock PhD thesis, ResearchSpace@ Auckland.
+\newblock PhD thesis, ResearchSpace@ Auckland, 2007.
 
-\bibitem[Rajagopal et~al., 2008]{rajagopal_creating_2008}
-Rajagopal, V., Lee, A., Chung, J.-H., Warren, R., Highnam, R.~P., Nash, M.~P.,
-  and Nielsen, P.~M. (2008).
+\bibitem{rajagopal_creating_2008}
+V.~Rajagopal, A.~Lee, J.-H. Chung, R.~Warren, R.~P. Highnam, M.~P. Nash, and
+  P.~M. Nielsen.
 \newblock Creating individual-specific biomechanical models of the breast for
   medical image analysis.
-\newblock {\em Academic Radiology}, 15(11):1425--1436.
+\newblock {\em Academic Radiology}, 15(11):1425--1436, 2008.
 
-\bibitem[Rajagopal et~al., 2010b]{rajagopal_modeling_2010}
-Rajagopal, V., Nielsen, P. M.~F., and Nash, M.~P. (2010b).
+\bibitem{rajagopal_modeling_2010}
+V.~Rajagopal, P.~M.~F. Nielsen, and M.~P. Nash.
 \newblock Modeling breast biomechanics for multi-modal image analysis-successes
   and challenges.
 \newblock {\em Wiley Interdisciplinary Reviews: Systems Biology and Medicine},
-  2(3):293--304.
+  2(3):293--304, 2010.
 
-\bibitem[Riggio et~al., 2000]{riggio_anatomical_2000}
-Riggio, E., Quattrone, P., and Nava, M. (2000).
+\bibitem{riggio_anatomical_2000}
+E.~Riggio, P.~Quattrone, and M.~Nava.
 \newblock Anatomical study of the breast superficial fascial system: the
   inframammary fold unit.
-\newblock {\em European Journal of Plastic Surgery}, 23(6):310--315.
+\newblock {\em European Journal of Plastic Surgery}, 23(6):310--315, 2000.
 
-\bibitem[Rivlin and Saunders, 1951]{rivlin_large_1951}
-Rivlin, R.~S. and Saunders, D. (1951).
+\bibitem{rivlin_large_1951}
+R.~S. Rivlin and D.~Saunders.
 \newblock Large elastic deformations of isotropic materials vii. experiments on
   the deformation of rubber.
-\newblock {\em Phil. Trans. R. Soc. Lond. A}, 243(865):251--288.
+\newblock {\em Phil. Trans. R. Soc. Lond. A}, 243(865):251--288, 1951.
 
-\bibitem[Rohan et~al., 2014]{rohan_finite_2014}
-Rohan, P.-Y., Lobos, C., Nazari, M.~A., Perrier, P., and Payan, Y. (2014).
+\bibitem{rohan_finite_2014}
+P.-Y. Rohan, C.~Lobos, M.~A. Nazari, P.~Perrier, and Y.~Payan.
 \newblock Finite element modelling of nearly incompressible materials and
   volumetric locking: a case study.
 \newblock {\em Computer methods in biomechanics and biomedical engineering},
-  17(sup1):192--193.
+  17(sup1):192--193, 2014.
 
-\bibitem[Ruiter et~al., 2006]{ruiter_model_based_2006}
-Ruiter, N.~V., Stotzka, R., {MULLER}, T.-O., Gemmeke, H., Reichenbach, J.~R.,
-  and Kaiser, W. (2006).
+\bibitem{ruiter_model_based_2006}
+N.~V. Ruiter, R.~Stotzka, T.-O. {MULLER}, H.~Gemmeke, J.~R. Reichenbach, and
+  W.~Kaiser.
 \newblock Model-based registration of x-ray mammograms and {MR} images of the
   female breast.
-\newblock {\em {IEEE} Transactions on Nuclear Science}, 53(1):204--211.
+\newblock {\em {IEEE} Transactions on Nuclear Science}, 53(1):204--211, 2006.
 
-\bibitem[Samani et~al., 2001]{abbas_biomechanical_2001}
-Samani, A., Bishop, J., Yaffe, M.~J., and Plewes, D.~B. (2001).
+\bibitem{abbas_biomechanical_2001}
+A.~Samani, J.~Bishop, M.~J. Yaffe, and D.~B. Plewes.
 \newblock Biomechanical 3-d finite element modeling of the human breast using
   {MRI} data.
-\newblock {\em Medical Imaging, {IEEE} Transactions on}, 20(4):271--279.
+\newblock {\em Medical Imaging, {IEEE} Transactions on}, 20(4):271--279, 2001.
 
-\bibitem[Samani and Plewes, 2004]{samani_method_2004}
-Samani, A. and Plewes, D. (2004).
+\bibitem{samani_method_2004}
+A.~Samani and D.~Plewes.
 \newblock A method to measure the hyperelastic parameters of ex vivo breast
   tissue samples.
-\newblock {\em Physics in Medicine and Biology}, 49(18):4395--4405.
+\newblock {\em Physics in Medicine and Biology}, 49(18):4395--4405, 2004.
 
-\bibitem[Samani et~al., 2007]{samani_elastic_2007}
-Samani, A., Zubovits, J., and Plewes, D. (2007).
+\bibitem{samani_elastic_2007}
+A.~Samani, J.~Zubovits, and D.~Plewes.
 \newblock Elastic moduli of normal and pathological human breast tissues: an
   inversion-technique-based investigation of 169 samples.
-\newblock {\em Physics in medicine and biology}, 52(6):1565.
+\newblock {\em Physics in medicine and biology}, 52(6):1565, 2007.
 
-\bibitem[Saunders and Samei, 2008]{saunders_effect_2008}
-Saunders, R.~S. and Samei, E. (2008).
+\bibitem{saunders_effect_2008}
+R.~S. Saunders and E.~Samei.
 \newblock The effect of breast compression on mass conspicuity in digital
   mammography.
-\newblock {\em Medical physics}, 35(10):4464--4473.
+\newblock {\em Medical physics}, 35(10):4464--4473, 2008.
 
-\bibitem[Shrestha and Poulos, 2001]{shrestha_effect_2001}
-Shrestha, S. and Poulos, A. (2001).
+\bibitem{shrestha_effect_2001}
+S.~Shrestha and A.~Poulos.
 \newblock The effect of verbal information on the experience of discomfort in
   mammography.
-\newblock {\em Radiography}, 7(4):271--277.
+\newblock {\em Radiography}, 7(4):271--277, 2001.
 
-\bibitem[Sinkus et~al., 2005]{sinkus_viscoelastic_2005}
-Sinkus, R., Tanter, M., Xydeas, T., Catheline, S., Bercoff, J., and Fink, M.
-  (2005).
+\bibitem{sinkus_viscoelastic_2005}
+R.~Sinkus, M.~Tanter, T.~Xydeas, S.~Catheline, J.~Bercoff, and M.~Fink.
 \newblock Viscoelastic shear properties of in vivo breast lesions measured by
   mr elastography.
-\newblock {\em Magnetic resonance imaging}, 23(2):159--165.
+\newblock {\em Magnetic resonance imaging}, 23(2):159--165, 2005.
 
-\bibitem[Skandalakis, 2009]{skandalakis_embryology_2009}
-Skandalakis, J.~E. (2009).
+\bibitem{skandalakis_embryology_2009}
+J.~E. Skandalakis.
 \newblock Embryology and anatomy of the breast.
 \newblock {\em Breast augmentation: principles and practice. Springer, Berlin},
-  12.
+  12, 2009.
 
-\bibitem[SPF, 2016]{spf_chiffres_2017}
-SPF (2016).
+\bibitem{spf_chiffres_2017}
+SPF.
 \newblock Sante publique france: Cancer du sein.
 \newblock
-  http://invs.santepubliquefrance.fr/Dossiers-thematiques/Maladies-chroniques-et-traumatismes/Cancers/Donnees-par-localisation/Cancer-du-sein.
+  http://invs.santepubliquefrance.fr/Dossiers-thematiques/Maladies-chroniques-et-traumatismes/Cancers/Donnees-par-localisation/Cancer-du-sein,
+  2016.
 
-\bibitem[Sturgeon et~al., 2016]{sturgeon_finite_element_2016}
-Sturgeon, G.~M., Kiarashi, N., Lo, J.~Y., Samei, E., and Segars, W.~P. (2016).
+\bibitem{sturgeon_finite_element_2016}
+G.~M. Sturgeon, N.~Kiarashi, J.~Y. Lo, E.~Samei, and W.~P. Segars.
 \newblock Finite-element modeling of compression and gravity on a population of
   breast phantoms for multimodality imaging simulation.
-\newblock {\em Medical Physics}, 43(5):2207--2217.
+\newblock {\em Medical Physics}, 43(5):2207--2217, 2016.
 
-\bibitem[Sutradhar and Miller, 2013]{sutradhar_vivo_2013}
-Sutradhar, A. and Miller, M.~J. (2013).
+\bibitem{sutradhar_vivo_2013}
+A.~Sutradhar and M.~J. Miller.
 \newblock In vivo measurement of breast skin elasticity and breast skin
   thickness.
-\newblock {\em Skin Research and Technology}, 19(1).
+\newblock {\em Skin Research and Technology}, 19(1), 2013.
 
-\bibitem[Tab{\'a}r et~al., 2001]{tabar_beyond_2001}
-Tab{\'a}r, L., Vitak, B., Chen, H.-H.~T., Yen, M.-F., Duffy, S.~W., and Smith,
-  R.~A. (2001).
+\bibitem{tabar_beyond_2001}
+L.~Tab{\'a}r, B.~Vitak, H.-H.~T. Chen, M.-F. Yen, S.~W. Duffy, and R.~A. Smith.
 \newblock Beyond randomized controlled trials.
-\newblock {\em Cancer}, 91(9):1724--1731.
+\newblock {\em Cancer}, 91(9):1724--1731, 2001.
 
-\bibitem[Tanner et~al., 2006]{tanner_factors_2006}
-Tanner, C., Schnabel, J.~A., Hill, D. L.~G., Hawkes, D.~J., Leach, M.~O., and
-  Hose, D.~R. (2006).
+\bibitem{tanner_factors_2006}
+C.~Tanner, J.~A. Schnabel, D.~L.~G. Hill, D.~J. Hawkes, M.~O. Leach, and D.~R.
+  Hose.
 \newblock Factors influencing the accuracy of biomechanical breast models.
-\newblock {\em Medical Physics}, 33(6):1758.
+\newblock {\em Medical Physics}, 33(6):1758, 2006.
 
-\bibitem[Treloar, 1943]{treloar_elasticity_1943}
-Treloar, L. (1943).
+\bibitem{treloar_elasticity_1943}
+L.~Treloar.
 \newblock The elasticity of a network of long-chain molecules—ii.
-\newblock {\em Transactions of the Faraday Society}, 39:241--246.
+\newblock {\em Transactions of the Faraday Society}, 39:241--246, 1943.
 
-\bibitem[Ulger et~al., 2003]{ulger2003effect}
-Ulger, H., Erdogan, N., Kumanlioglu, S., and Unur, E. (2003).
+\bibitem{ulger2003effect}
+H.~Ulger, N.~Erdogan, S.~Kumanlioglu, and E.~Unur.
 \newblock Effect of age, breast size, menopausal and hormonal status on
   mammographic skin thickness.
-\newblock {\em Skin Research and Technology}, 9(3):284--289.
+\newblock {\em Skin Research and Technology}, 9(3):284--289, 2003.
 
-\bibitem[Van~Houten et~al., 2003]{van_initial_2003}
-Van~Houten, E.~E., Doyley, M.~M., Kennedy, F.~E., Weaver, J.~B., and Paulsen,
-  K.~D. (2003).
+\bibitem{van_initial_2003}
+E.~E. Van~Houten, M.~M. Doyley, F.~E. Kennedy, J.~B. Weaver, and K.~D. Paulsen.
 \newblock Initial in vivo experience with steady-state subzone-based mr
   elastography of the human breast.
-\newblock {\em Journal of magnetic resonance imaging}, 17(1):72--85.
+\newblock {\em Journal of magnetic resonance imaging}, 17(1):72--85, 2003.
 
-\bibitem[Vandeput and Nelissen, 2002]{vandeput2002considerations}
-Vandeput, J. and Nelissen, M. (2002).
+\bibitem{vandeput2002considerations}
+J.~Vandeput and M.~Nelissen.
 \newblock Considerations on anthropometric measurements of the female breast.
-\newblock {\em Aesthetic plastic surgery}, 26(5):348--355.
+\newblock {\em Aesthetic plastic surgery}, 26(5):348--355, 2002.
 
-\bibitem[Vavourakis et~al., 2016]{vavourakis_inverse_2016}
-Vavourakis, V., Hipwell, J.~H., and Hawkes, D.~J. (2016).
+\bibitem{vavourakis_inverse_2016}
+V.~Vavourakis, J.~H. Hipwell, and D.~J. Hawkes.
 \newblock An inverse finite element u/p-formulation to predict the unloaded
   state of in vivo biological soft tissues.
-\newblock {\em Annals of biomedical engineering}, 44(1):187--201.
+\newblock {\em Annals of biomedical engineering}, 44(1):187--201, 2016.
 
-\bibitem[Wellman et~al., 1999]{wellman_breast_1999}
-Wellman, P., Howe, R.~D., Dalton, E., and Kern, K.~A. (1999).
+\bibitem{wellman_breast_1999}
+P.~Wellman, R.~D. Howe, E.~Dalton, and K.~A. Kern.
 \newblock Breast tissue stiffness in compression is correlated to histological
   diagnosis.
-\newblock {\em Harvard {BioRobotics} Laboratory Technical Report}, pages 1--15.
+\newblock {\em Harvard {BioRobotics} Laboratory Technical Report}, pages 1--15,
+  1999.
 
-\bibitem[Wenger et~al., 2007]{wenger_mechanical_2007}
-Wenger, M.~P., Bozec, L., Horton, M.~A., and Mesquida, P. (2007).
+\bibitem{wenger_mechanical_2007}
+M.~P. Wenger, L.~Bozec, M.~A. Horton, and P.~Mesquida.
 \newblock Mechanical properties of collagen fibrils.
-\newblock {\em Biophysical journal}, 93(4):1255--1263.
+\newblock {\em Biophysical journal}, 93(4):1255--1263, 2007.
 
-\bibitem[Whelehan et~al., 2013]{whelehan_effect_2013}
-Whelehan, P., Evans, A., Wells, M., and MacGillivray, S. (2013).
+\bibitem{whelehan_effect_2013}
+P.~Whelehan, A.~Evans, M.~Wells, and S.~MacGillivray.
 \newblock The effect of mammography pain on repeat participation in breast
   cancer screening: a systematic review.
-\newblock {\em The Breast}, 22(4):389--394.
+\newblock {\em The Breast}, 22(4):389--394, 2013.
 
-\bibitem[Williams et~al., 2008]{williams_optimization_2008}
-Williams, M.~B., Raghunathan, P., More, M.~J., Seibert, J.~A., Kwan, A., Lo,
-  J.~Y., Samei, E., Ranger, N.~T., Fajardo, L.~L., McGruder, A., et~al. (2008).
+\bibitem{williams_optimization_2008}
+M.~B. Williams, P.~Raghunathan, M.~J. More, J.~A. Seibert, A.~Kwan, J.~Y. Lo,
+  E.~Samei, N.~T. Ranger, L.~L. Fajardo, A.~McGruder, et~al.
 \newblock Optimization of exposure parameters in full field digital
   mammography.
-\newblock {\em Medical physics}, 35(6Part1):2414--2423.
+\newblock {\em Medical physics}, 35(6Part1):2414--2423, 2008.
 
-\bibitem[Williamson and Hoggart, 2005]{williamson_pain_2005}
-Williamson, A. and Hoggart, B. (2005).
+\bibitem{williamson_pain_2005}
+A.~Williamson and B.~Hoggart.
 \newblock Pain: a review of three commonly used pain rating scales.
-\newblock {\em Journal of clinical nursing}, 14(7):798--804.
+\newblock {\em Journal of clinical nursing}, 14(7):798--804, 2005.
 
-\bibitem[Yaffe et~al., 2009]{yaffe2009myth}
-Yaffe, M., Boone, J., Packard, N., Alonzo-Proulx, O., Huang, S.-Y., Peressotti,
-  C., Al-Mayah, A., and Brock, K. (2009).
+\bibitem{yaffe2009myth}
+M.~Yaffe, J.~Boone, N.~Packard, O.~Alonzo-Proulx, S.-Y. Huang, C.~Peressotti,
+  A.~Al-Mayah, and K.~Brock.
 \newblock The myth of the 50-50 breast.
-\newblock {\em Medical physics}, 36(12):5437--5443.
+\newblock {\em Medical physics}, 36(12):5437--5443, 2009.
 
-\bibitem[Yeoh, 1990]{yeoh_characterization_1990}
-Yeoh, O. (1990).
+\bibitem{yeoh_characterization_1990}
+O.~Yeoh.
 \newblock Characterization of elastic properties of carbon-black-filled rubber
   vulcanizates.
-\newblock {\em Rubber chemistry and technology}, 63(5):792--805.
+\newblock {\em Rubber chemistry and technology}, 63(5):792--805, 1990.
 
-\bibitem[Youk et~al., 2017]{youk_shear_2017}
-Youk, J.~H., Gweon, H.~M., and Son, E.~J. (2017).
+\bibitem{youk_shear_2017}
+J.~H. Youk, H.~M. Gweon, and E.~J. Son.
 \newblock Shear-wave elastography in breast ultrasonography: the state of the
   art.
-\newblock {\em Ultrasonography}, 36(4):300.
+\newblock {\em Ultrasonography}, 36(4):300, 2017.
 
-\bibitem[Yushkevich et~al., 2006]{yushkevich_user_2006}
-Yushkevich, P.~A., Piven, J., Cody~Hazlett, H., Gimpel~Smith, R., Ho, S., Gee,
-  J.~C., and Gerig, G. (2006).
+\bibitem{yushkevich_user_2006}
+P.~A. Yushkevich, J.~Piven, H.~Cody~Hazlett, R.~Gimpel~Smith, S.~Ho, J.~C. Gee,
+  and G.~Gerig.
 \newblock User-guided {3D} active contour segmentation of anatomical
   structures: Significantly improved efficiency and reliability.
-\newblock {\em Neuroimage}, 31(3):1116--1128.
+\newblock {\em Neuroimage}, 31(3):1116--1128, 2006.
 
-\bibitem[Zajac, 1989]{zajac_muscle_1989}
-Zajac, F.~E. (1989).
+\bibitem{zajac_muscle_1989}
+F.~E. Zajac.
 \newblock Muscle and tendon properties models scaling and application to
   biomechanics and motor.
-\newblock {\em Critical reviews in biomedical engineering}, 17(4):359--411.
+\newblock {\em Critical reviews in biomedical engineering}, 17(4):359--411,
+  1989.
 
 \end{thebibliography}

@@ -1,6 +1,6 @@
 \babel@toc {british}{}
-\contentsline {chapter}{Contents}{{\fontencoding {OT1}\selectfont vii}}{Doc-Start}
-\contentsline {chapter}{List of Symbols}{{\fontencoding {OT1}\selectfont xi}}{Doc-Start}
+\contentsline {chapter}{Contents}{{\fontencoding {OT1}\selectfont v}}{Doc-Start}
+\contentsline {chapter}{List of Symbols}{1}{Doc-Start}
 \contentsline {chapter}{General Problem statement}{1}{Doc-Start}
 \contentsline {chapter}{Technical approach}{3}{Doc-Start}
 \contentsline {chapter}{Thesis overview}{5}{Doc-Start}
@@ -15,9 +15,9 @@
 \contentsline {subsection}{\numberline {1.2.1}Cancer classification }{17}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Breast cancer screening}{18}{subsection.1.2.2}
 \contentsline {section}{\numberline {1.3}Medical imaging}{18}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}X-ray mammography}{19}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}X-ray mammography}{18}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Ultrasounds}{20}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Magnetic resonance imaging}{21}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}Magnetic resonance imaging}{20}{subsection.1.3.3}
 \contentsline {section}{\numberline {1.4}Conclusion}{21}{section.1.4}
 \contentsline {chapter}{\numberline {2}Biomechanical breast modeling\\ \textit {State of the art}}{23}{chapter.2}
 \contentsline {section}{\numberline {2.1}Continuous mechanics}{24}{section.2.1}
@@ -32,58 +32,60 @@
 \contentsline {subsection}{\numberline {2.3.1}Contact inteface equations}{40}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Surface interaction models}{41}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Contact formulation algorithm: pure penalty model}{42}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Breast biomechanical model: overview}{44}{section.2.4}
+\contentsline {section}{\numberline {2.4}Breast biomechanical model: an overview}{44}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Breast reference configuration}{45}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Constitutive models}{47}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Boundary conditions}{51}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.2}Constitutive models}{46}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Boundary conditions}{50}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}Summary}{51}{subsection.2.4.4}
 \contentsline {chapter}{\numberline {3}A new biomechanical breast model evaluated on real data}{55}{chapter.3}
 \contentsline {section}{\numberline {3.1}Geometry extraction}{56}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Data acquisition}{56}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Image segmentation}{57}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}Image registration}{58}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Patient-specific 3D geometry}{59}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.4}Subject-specific 3D geometry}{60}{subsection.3.1.4}
 \contentsline {section}{\numberline {3.2} Finite Elements Mesh}{61}{section.3.2}
 \contentsline {section}{\numberline {3.3}Breast reference configuration}{62}{section.3.3}
-\contentsline {section}{\numberline {3.4}Boundary conditions}{63}{section.3.4}
+\contentsline {section}{\numberline {3.4}Boundary conditions}{64}{section.3.4}
 \contentsline {section}{\numberline {3.5}Material constitutive models}{66}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Model simplification}{67}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Estimation of the optimal constitutive parameters}{70}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.1}Model simplification}{68}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Estimation of the optimal constitutive parameters}{69}{subsection.3.5.2}
 \contentsline {section}{\numberline {3.6}Model validation}{72}{section.3.6}
 \contentsline {section}{\numberline {3.7}Discussions and conclusion}{74}{section.3.7}
-\contentsline {chapter}{\numberline {4}Breast Compression\\ \textit {State of the art} }{75}{chapter.4}
-\contentsline {section}{\numberline {4.1}Mammography positioning}{76}{section.4.1}
-\contentsline {section}{\numberline {4.2}Paddles designs}{77}{section.4.2}
-\contentsline {section}{\numberline {4.3}Compression mechanics}{78}{section.4.3}
-\contentsline {section}{\numberline {4.4}Compression quality metrics}{80}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Image quality}{81}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Average glandular dose}{82}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Pain and discomfort}{83}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Recent advances in breast compression}{84}{section.4.5}
-\contentsline {chapter}{\numberline {5}Breast compression \& comfort \\ \textit {A comparative study}}{87}{chapter.5}
-\contentsline {section}{\numberline {5.1}Breast compression modelling}{88}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}FE modelling of compression paddles}{88}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Breast compression mechanics}{89}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Updated material constitutive models}{91}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Simulation of digital images }{92}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Physical characteristics}{92}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Breast phantom objects}{93}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Compression quality metrics}{94}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Patient comfort}{94}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Image quality }{95}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Average glandular dose}{95}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Results}{96}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Compression quality for rigid and flex paddles}{96}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Breast positioning impact on compression mechanics}{100}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}Discussions and conclusion}{102}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusion and Perspectives}{103}{chapter.6}
-\contentsline {chapter}{Conclusion}{103}{chapter.6}
-\contentsline {section}{\numberline {6.1}Biomechanical breast model }{104}{section.6.1}
-\contentsline {section}{\numberline {6.2}Breast compression and patient comfort}{108}{section.6.2}
-\contentsline {chapter}{Key contributions}{109}{section.6.2}
-\contentsline {chapter}{Publications}{111}{section.6.2}
-\contentsline {chapter}{Appendices}{{\fontencoding {OT1}\selectfont i}}{section*.66}
+\contentsline {chapter}{\numberline {4}Breast Compression\\ \textit {State of the art} }{77}{chapter.4}
+\contentsline {section}{\numberline {4.1}Mammography positioning}{78}{section.4.1}
+\contentsline {section}{\numberline {4.2}Paddles designs}{79}{section.4.2}
+\contentsline {section}{\numberline {4.3}Compression mechanics}{80}{section.4.3}
+\contentsline {section}{\numberline {4.4}Compression quality metrics}{82}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Image quality}{83}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Average glandular dose}{84}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Pain and discomfort}{85}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Recent advances in breast compression}{86}{section.4.5}
+\contentsline {chapter}{\numberline {5}Breast compression \& comfort \\ \textit {A comparative study}}{89}{chapter.5}
+\contentsline {section}{\numberline {5.1}Breast compression modeling}{90}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}FE modeling of compression paddles}{90}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Breast compression mechanics}{91}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Gent strain energy function}{93}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Updated material constitutive models}{94}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5} Gent model and breast mechanics under gravity loading}{96}{subsection.5.1.5}
+\contentsline {section}{\numberline {5.2}Simulation of digital images }{99}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Physical characteristics}{99}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Breast phantom objects}{99}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Compression quality metrics}{101}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Patient comfort}{101}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Image quality }{101}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Average glandular dose}{102}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Results}{102}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Compression quality for rigid and flex paddles}{103}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Paddle positioning impact on compression mechanics}{107}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Discussion and conclusion}{109}{section.5.5}
+\contentsline {chapter}{\numberline {6}Conclusion and Perspectives}{111}{chapter.6}
+\contentsline {chapter}{Conclusion}{111}{chapter.6}
+\contentsline {section}{\numberline {6.1}Biomechanical breast model }{112}{section.6.1}
+\contentsline {section}{\numberline {6.2}Breast compression and patient comfort}{115}{section.6.2}
+\contentsline {chapter}{Key contributions}{117}{section.6.2}
+\contentsline {chapter}{Publications}{119}{section.6.2}
+\contentsline {chapter}{Appendices}{{\fontencoding {OT1}\selectfont i}}{section*.68}
 \contentsline {chapter}{\numberline {A}Distance measures}{{\fontencoding {OT1}\selectfont iii}}{Appendix.a.A}
 \contentsline {chapter}{\numberline {B}Mesh Convergence}{{\fontencoding {OT1}\selectfont v}}{Appendix.a.B}
-\contentsline {chapter}{\numberline {C}Bondary conditions \\ \textit {contact models}}{{\fontencoding {OT1}\selectfont vii}}{Appendix.a.C}
-\contentsline {chapter}{Bibliography}{{\fontencoding {OT1}\selectfont xi}}{figure.caption.72}
+\contentsline {chapter}{\numberline {C}Buondary conditions \\ \textit {contact models}}{{\fontencoding {OT1}\selectfont vii}}{Appendix.a.C}
+\contentsline {chapter}{Bibliography}{{\fontencoding {OT1}\selectfont xi}}{figure.caption.74}

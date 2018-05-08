@@ -1,14 +1,20 @@
 \noindent
-\textbf{Contexte} La mammographie est une modalité d’imagerie médicale à faible dose d'irradiation permettant la détection du cancer à une stade précoce. Pendant l'examen, le sein est comprimé entre deux plaques afin d'uniformiser l'épaisseur du sein et d'étaler les tissus mous.  Cette technique amélior la qualité de l'examen mais est aussi considéré une potentiel source d'inconfort et parfois de douleur pour la patiente. Bien que la mammographie soit la méthode de dépistage du cancer du sein la plus efficace, l’inconfort ressentie pendant l'examen peut dissuader les femmes de passer cet examine. Par conséquent, une technique alternative de compression du sein permettant en compte le confort du patient en plus de l’amélioration de la qualité d'image présente un grand intérêt.
+\textbf{Contexte} La mammographie est une modalité d’imagerie médicale à faible dose permettant la détection du cancer mammaire à un stade précoce. Lors de l'examen, le sein est comprimé entre deux plaques afin d'uniformiser son épaisseur et d'étaler les tissus. Cette compression améliore la qualité clinique de l'examen mais elle est également source d'inconfort chez les patientes. Bien que la mammographie soit la méthode de dépistage la plus efficace du cancer du sein, l’inconfort ressenti peut dissuader les femmes de passer cet examen. Par conséquent, une technique alternative de compression du sein prenant en compte le confort de la patiente, en plus de l’amélioration de la qualité d'image, présente un grand intérêt.\\
 
 \noindent
-\textbf{Méthodes}
+\textbf{Méthodes} Dans ce travail, nous avons proposé un nouvel environnement de simulation permettant l'évaluation de différentes techniques de compression du sein.  La qualité de la compression a été caractérisée en termes de confort de la patiente, de la qualité d'image et de la dose glandulaire moyenne délivrée. Afin d'évaluer la déformation du sein lors de la compression, un modèle biomécanique par éléments finis du sein a été développé. Ce dernier a été calibré et évalué en utilisant des volumes IRM d'une volontaire dans trois configurations différentes (sur le dos, le ventre et de côté). Par ailleurs, la qualité d'image a été évaluée en utilisant un environnement de simulation d'imagerie auparavant validé pour la simulation de l'acquisition d'images en mammographie.\\
 
 \noindent
-\textbf{Résultats}
+\textbf{Résultats} La capacité de notre modèle biomécanique à reproduire les déformations réelles des tissus a été évaluée. Tout d'abord, la géométrie du sein dans les trois configurations a été estimée en utilisant des matériaux Néo-Hookeens pour la modélisation des tissus mous. Les propriétés mécaniques des différents constituants du sein ont été estimés afin que les géométries du sein dans les positions couché sur le ventre et couché soient les plus proches possibles des mesures. La distance de Hausdorff entre les données estimées et les données mesurées est égale à $2.17 \ mm$ en position couché sur le ventre et $1.72\ mm$ en position couché sur le dos. Le modèle a ensuite été évalué dans une troisième configuration sur le côté, avec une distance de Hausdorff étant alors égale à $6,14 \ mm $. Cependant, nous avons montré que le modèle Néo-Hookeen ne peut pas décrire intégralement le comportement mécanique riche des tissus mous. Par conséquent, nous avons introduit d'autres modèles de matériaux basés sur la fonction d'énergie de Gent. Cette dernière hypothèse a permis de réduire l'erreur maximale dans la configuration couché sur le ventre et dos incliné d’environ $10\ mm $.\\ 
 
 \noindent
-\textbf{Conclusion}
+Le couplage entre la simulation de la mécanique du sein et la simulation d'aquisition d'image nous ont permis d'effectuer deux études préliminaires. Dans la première étude, les différences entre les pelotes de compression standard rigide et flex ont été évaluées. Selon les simulations effectuées, l'utilisation de la pelote flex pour la compression du sein a le potentiel d'améliorer le confort de la patiente sans affecter la qualité de l'image ou la dose glandulaire moyenne.\\
 
 \noindent
-\textbf{Mots clé}
+Dans la seconde étude, l'impact du positionnement du sein sur la mécanique globale de la compression mammaire a été étudié. Nos simulations confirment que rapprocher la pelote de compression de la cage thoracique peut augmenter l'inconfort de la patiente. Selon les données estimées, pour une même épaisseur du sein sous compression, la force appliquée au sein peut être s'accroitre de 150 $ \% $. \\
+
+\noindent
+\textbf{Conclusion} L'estimation réaliste de la géométrie du sein pour différentes configurations sous l'effet de la gravité, ainsi que les résultats conformes aux descriptions cliniques sur la compression du sein, ont confirmé l'interêt d'un environnement de simulation dans le cadre de nos études. \\
+
+\noindent
+\textbf{Mots clés} Mammographie, compression mammaire, confort du patient, modèle biomécanique

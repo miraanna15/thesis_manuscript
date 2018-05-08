@@ -5,30 +5,30 @@
 
 Today, mammography is the primary imaging modality for breast cancer screening and plays an important role in cancer diagnosis. Subtle soft-tissue findings and microcalcifications that may represent early breast cancer are visualized by means of X-rays images. After investigation, the abnormal findings are taken in charge for further evaluation.  
 
-A standard mammographic protocol always includes breast compression prior to image acquisition. Women breast is compressed between two plates until a nearly uniform breast thickness is obtained. The breast flattening improves diagnostic image quality and reduces the absorbed dose of ionizing photons. However, the discomfort and pain produced by this procedure sometimes might deter women from attending breast screening by mammography. \cite{fleming_intermittent_2013} show in a study of 2500 women that 15\% of those who skipped the second appointment cited an unpleasant or painful first mammogram.  
+A standard mammography protocol always includes breast compression prior to image acquisition. Women breast is compressed between two plates until a nearly uniform breast thickness is obtained. The breast flattening improves diagnostic image quality and reduces the absorbed dose of ionizing photons. However, the discomfort and pain induced by this compression procedure might deter women from attending a mammography. Fleming et al. \citep{fleming_intermittent_2013} showed in a 2500 women panel study that 15\% of those who skipped the second appointment cited an unpleasant or painful first mammogram.  
 
-An important improvement concerning the patient comfort could be achieved with the emergence of Full-Field Digital Mammography. Due to the improved detector capabilities, digital mammography became better in terms of image quality and radiation dose than Film–Screen Mammography. Moreover, the use of the automatic parameters optimization mode and the automatic exposure control authorized a slight reduction of the compression force intensity (from 200N to 140N). These technologies allowed to estimate the acquisition parameters which provide the optimal image quality and average glandular dose for a given breast thickness and glandularity. Therefore, even for a reduced breast compression, the gold standards on clinical image quality are still followed.
+An important improvement concerning the patient comfort could be achieved with the emergence of Full-Field Digital Mammography (FFDM). Due to the improved detector capabilities, digital mammography became better in terms of image quality and radiation dose than Film–Screen Mammography. The use of Automatic Exposure Control (AEC) allowed to estimate the acquisition parameters providing the optimal image quality and average glandular dose for a given breast thickness and glandularity. Therefore, FFDM may reduce breast compression while respecting the clinical gold standards on image quality.
 
-In this context, there is an opportunity to leverage the potential of the recent imaging technologies by proposing alternative breast compression techniques. The new techniques must consider the patient comfort in addition to an improved image quality and a reduced ionizing radiation dose. This may imply a different paddle geometry or peculiar material properties as well as distinct breast positioning.
+Subsequently, there is an opportunity to leverage the potential of the recent imaging technologies by developing alternative breast compression techniques. The new techniques have to consider the patient comfort in addition to an improved image quality and a reduced ionizing radiation dose. This may imply another paddle geometry or peculiar material properties as well as distinct compression paddle positioning.
 
-The goal of this PhD thesis was to develop a simulation environment able to characterize the impact of the paddle design on the patient comfort and its repercussion on the mammography image quality and average glandular dose.  Because of a lake of malleability in such a complex clinical study, a realistic simulation framework is of a large interest. To this end, in this work the following tasks were considered.
+The goal of this PhD thesis was to develop a simulation environment able to characterize the impact of the paddle design on the patient comfort and its repercussion on the mammography image quality and average glandular dose. Due to the complexity of in-vivo clinical studies, a realistic simulation framework is of a large interest. To this end, the following tasks were considered.
 \begin{itemize}
-\item Develop a biomechanical breast model taking into consideration the subject-specific breast geometry and tissues mechanical properties. 
+\item To develop a biomechanical breast model taking into consideration the subject-specific breast geometry and tissues' mechanical properties. 
 
-\item Evaluate the biomechanical breast model. 
+\item To evaluate this biomechanical breast model. 
 
-\item Model breast deformation under compression.
+\item To model the breast deformations under compression.
 
-\item Integrate the deformable breast phantom into the image simulation framework CatSim.
-\item Compute compression quality measures able to characterize the differences between different breast compression techniques in terms of patient comfort, image quality and average glandular dose.  
+\item To integrate the corresponding deformable breast phantom into the image acquisition simulation framework.
+\item To compute compression quality measures able to characterize the differences between various breast compression techniques in terms of patient comfort, image quality and average glandular dose.  
 
 \end{itemize}   
 
-Using the developed tools, two studies could be performed using physical characteristics and motion mechanics describing the existing standard compression paddles.
+Using the developed tools, two studies could be performed.
 \begin{itemize}
-\item Assess the differences between standard rigid and flex paddle in terms of patient comfort, image quality and average glandular dose for two breast volumes.
+\item To assess the differences between standard rigid and flex paddles in terms of patient comfort, image quality and average glandular dose for two different breast volumes.
 
-\item Assess the breast positioning impact on compression mechanics and patient comfort, considering one breast volume and one paddle model.
+\item To assess the breast positioning impact on compression mechanics and patient comfort, considering one breast volume and one paddle model.
 \end{itemize}
  
 \cleardoublepage
@@ -36,40 +36,37 @@ Using the developed tools, two studies could be performed using physical charact
 \addcontentsline{toc}{chapter}{Technical approach}
 \markboth{\textsc{Technical approach}}{}
 
-To study the impact of the paddle design on the compression clinical quality a simulation framework was developed.  The breast mechanics and patient comfort are addressed by the means of finite element modelling (ANSYS\footnote{https://www.ansys.com/}). On the other hand, the image quality could be assessed by using an image simulation framework modelling the X-rays propagation trough matter (CatSim\footnote{Milioni de Carvalho P. 2014, PhD thesis}). 
+To study the impact of the paddle design on the compression quality, a simulation framework was developed.  The breast mechanics and patient comfort were addressed by the means of finite element modeling (ANSYS\footnote{https://www.ansys.com/}). On the other hand, the image quality could be assessed by using an image simulation framework modeling the X-rays propagation trough matter during acquisition of a mammography image (CatSim\footnote{Milioni de Carvalho P. 2014, PhD thesis}). 
 
-First, to develop a subject-specific breast model, the MR images of two volunteers in three distinct positions were acquired. The MRIs were processed (ITK\footnote{https://itk.org/}/VTK\footnote{https://www.vtk.org/}/CamiTk\footnote{http://camitk.imag.fr/}) and segmented (ITK-Snap\footnote{http://www.itksnap.org}). Then, the resulting images were used to extract the 3D surfaces, compatibles with ANSYS Mechanical meshing software. The breast geometry was discretized using tetrahedral solid elements and was the subject of hyper-elastic quasi-static simulations. An exhaustive optimization process was performed to determine the subject-specific tissues mechanical properties as well as the corresponding breast stress-free configuration. The model was developed and calibrated such as the best estimates of supine and prone breast configurations were obtained. The model accuracy was assessed in terms of Hausdorff distance between the measured and estimated breast surfaces in supine tilted configuration.
+First, to develop a subject-specific breast model, the MR images of two volunteers in three distinct positions (supine,prone and supine tilted) were acquired. The MRI volumes were processed (ITK\footnote{https://itk.org/}/ VTK\footnote{https://www.vtk.org/}/ CamiTK\footnote{http://camitk.imag.fr/}) and segmented (ITK-Snap\footnote{http://www.itksnap.org}). Then, the processed images were used to extract the 3D surfaces of the breast, compatible with ANSYS Mechanical meshing software. The breast geometries was discretized using tetrahedral solid elements and were the subjects of hyper-elastic quasi-static simulations. An exhaustive optimization process was performed to determine the subject-specific tissues mechanical properties as well as the corresponding breast stress-free configuration. The model was developed and calibrated such as the best estimates of supine and prone breast configurations were obtained. The model accuracy was assessed in terms of Hausdorff distance between the measured and estimated breast surfaces in supine tilted configuration.
 
-Once the model is created and evaluated, it was used to quantify the breast compression quality. To this end, different paddles finite elements models were developed with peculiar assumption on their flexibility and degree of freedom. For each compression simulation, the physical patient comfort was associated with the internal tissues stress/strain distribution and the pressure range at the skin surface. The mean average dose was computed using the model proposed by \cite{dance_additional_2000} and the resulting breast thickness from finite element simulation. The compressed breast geometry was then imported into the image simulation software (CatSim) together with an embedded set of microcalcifications. Synthetic projections were generated and the signal to noise ratio as well as signal-difference to noise ratio were computed to characterize the resulting image quality.   
+Once the model was created and evaluated, it was used to quantify the breast compression quality. To this end, different finite element models of the paddle were developed with peculiar assumption on their flexibility and degrees of freedom. For each simulation of breast compression, the patient comfort was associated with the internal tissues stress/strain distribution and the pressure range at the skin surface. The mean average dose was computed using the model proposed by Dance D. et al. \cite{dance_additional_2000} for the corresponding breast thickness was derived from finite element simulations. The compressed breast geometry was then imported into the image simulation software (CatSim) together with an embedded set of virtual microcalcifications. Synthetic projections were then generated and the signal to noise ratio as well as the signal-difference to noise ratio were computed to characterize the resulting image quality.   
 
 \cleardoublepage
 \chapter*{Thesis overview}\label{section:thesisoverview}
 \addcontentsline{toc}{chapter}{Thesis overview}
 \markboth{\textsc{Thesis overview}}{}
 
-This thesis is divided into five major chapters. The \textbf{first chapter} specify the clinical background  requested for a good understanding of the following work. Wherein, the breast internal and external structure are described. The role of regular screening for breast cancer is discussed with a list of involved medical imaging technologies. 
+This manuscript is divided into six major chapters.  \textbf{Chapter \ref{chapter:clinicalbachground}}, describes the clinical background  required for a good understanding of our work. Both internal and external structure of the breast are described. The role of regular screening for breast cancer is discussed with a list of involved medical imaging technologies. 
 
-The Chapters 2 and 3 are focused on breast biomechanical modelling and are organized as follows. The \textbf{Chapter 2} provide a brief introduction to the continuous and contact mechanics and describes the finite elements numerical methods for solving such problems.  This chapter provide also a review on biomechanical modelling of the breast. Successes and failures of experiments reported in the literature performed to determine the tissues material properties and breast stress-free geometry are discussed. The most advanced biomechanical models are listed with their corresponding errors with reference to real breast deformations. 
+Chapters 2 and 3 are focused on breast biomechanical modeling. \textbf{Chapter \ref{chapter:bioMecaModelsBackground}} provides a brief introduction to the continuous and contact mechanics and describes the finite element numerical method able to solve such problems.  This chapter provides also a review on biomechanical modeling of the breast. Successes and failures of experiments reported in the literature, to determine the tissues material properties and breast stress-free geometry, are discussed. The most advanced biomechanical models are listed with their corresponding errors with reference to real breast deformations. \textbf{Chapter \ref{chapter:myBioMecaModel}} describes the breast biomechanical model we have proposed and the multi-loading gravity simulations that we performed to evaluate the model. First, the patient data acquisition as well as the required image pre-processing operations are presented. The optimal mesh size for such simulations is determined. Then, the model sensitivity to different boundary conditions and constitutive parameters is studied. The best modeling techniques of the main anatomical structures, such as the suspensory ligaments and the pectoral fascia, are selected. The results of the optimization process allowing to estimate the subject specific mechanical properties of breast tissues and stress-free geometry are presented.
+Finally, the model fidelity to the real deformations, as measured in MR images of the breast in three different configurations, is discussed.
 
-\textbf{Chapter 3} deals with the construction of a biomechanical model needed to model the
-deformation of the breast under gravity loading. First the patient data acquisition as well as the required image pre-processing techniques are presented. The optimal mesh size for such simulation is determined and model sensitivity to different boundary conditions and constitutive parameters is studied. The best modelling techniques of the main anatomical structures as the suspensory ligaments and pectoral fascia are selected. The results on the optimization process allowing to estimate the patient specific tissues mechanical properties and stress-free geometry are presented.
-Finally, the model fidelity to the real deformations as measured in MR images of breast in three different configurations is estimated.
-
-Chapters 4 and 5 are focused on the modelling of breast deformation under compression, as well as on the assessment of compression quality.  \textbf{Chapter 4} describes the breast compression process and its associated mechanics as recorded during mammography. The part of tissues compression in mammography exam and nowadays gold standards on image quality and average glandular dose are discussed. The last proposed technologies dealing with patient comfort and pain reducing techniques are outlined with their impact on patient comfort.      
-
-In \textbf{Chapter 5} the two studies on breast compression quality are described. First, the finite element models of standard compression paddles are provided with the corresponding assumptions on their dynamics. The resulting compression mechanics are compared to the corresponding parameters described in literature. The derived adjustments of tissues constitutive models is provided. The details on mammography images simulation and breast phantom creation are also discussed. Next, the metrics on image quality, AGD and patient comfort are defined and used to compare the compression quality between different paddle models and different paddle positions. 
+Chapters 4 and 5 are focused in breast deformation under compression modeling, as well as on the assessment of the compression quality in mammography. \textbf{Chapter \ref{chapter:compression:introduction}} describes the breast compression process and its associated mechanics as recorded during real mammography acquisitions. The role of tissues compression in mammography as well as the current gold standards for image quality and average glandular dose are discussed. The last proposed technologies dealing with patient comfort and pain reducing techniques are outlined with their impact on patient comfort. In \textbf{Chapter \ref{chapter:compressionfem}}, two studies on breast compression quality are described. First, the finite element models of standard compression paddles are provided with the corresponding assumptions on their dynamics. The computed compression force and breast thickness are compared to the corresponding parameters issued from real mammography exams underwent by the volunteers. The derived adjustments of tissues constitutive models are provided. The details for mammography images simulation and breast phantom creation are also discussed. Next, the metrics of image quality, average glandular dose and patient comfort are defined and used to compare the compression quality between different paddle models and different paddle positions. 
  
-Last parts of the manuscript summarize the work reported on this thesis and generalize the corresponding results. The perspective and directives for future work are also provided.  
+Finally, \textbf{Chapter \ref{section:generalconclusion}} summarizes the work reported on this manuscript and generalizes the corresponding results. Perspectives and directions for future work are also provided.  
 
 \cleardoublepage  
 
-\chapter*{Ethics}\label{section:ethics}
+\chapter*{Ethics and Funding}\label{section:ethics}
 \addcontentsline{toc}{chapter}{Ethics}
-\markboth{\textsc{Ethics}}{}
+\markboth{\textsc{Ethics and Funding}}{}
 
-This research project is financially supported by \textbf{ANRT}, CIFRE convention n°2014/1357.
+This research project is financially supported by ANRT, CIFRE n°2014/1357.
 \\
 
-\noindent We are thanking the \textbf{IRMaGe} MRI facility (Grenoble,France) for their participation in image data acquisition. 
+\noindent
+The two involved volunteers agreed to participate in a pilot study approved by an ethical committee, MammoBio MAP-VS pilot study.
+% We are thanking the \textbf{IRMaGe} MRI facility (Grenoble,France) for their participation in image data acquisition. 
 
 \cleardoublepage
