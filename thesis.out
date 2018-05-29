@@ -4,87 +4,88 @@
 \BOOKMARK [0][-]{Doc-Start}{Technical approach}{}% 4
 \BOOKMARK [0][-]{Doc-Start}{Thesis overview}{}% 5
 \BOOKMARK [0][-]{Doc-Start}{Ethics}{}% 6
-\BOOKMARK [0][-]{chapter.1}{ Clinical background}{}% 7
-\BOOKMARK [1][-]{section.1.1}{Breast anatomy}{chapter.1}% 8
-\BOOKMARK [2][-]{subsection.1.1.1}{Breast embryogenesis}{section.1.1}% 9
-\BOOKMARK [2][-]{subsection.1.1.2}{Breast external appearance}{section.1.1}% 10
-\BOOKMARK [2][-]{subsection.1.1.3}{Internal structures}{section.1.1}% 11
-\BOOKMARK [2][-]{subsection.1.1.4}{Adult breast texture changes}{section.1.1}% 12
-\BOOKMARK [1][-]{section.1.2}{Breast Cancer}{chapter.1}% 13
-\BOOKMARK [2][-]{subsection.1.2.1}{Cancer classification }{section.1.2}% 14
-\BOOKMARK [2][-]{subsection.1.2.2}{Breast cancer screening}{section.1.2}% 15
-\BOOKMARK [1][-]{section.1.3}{Medical imaging}{chapter.1}% 16
-\BOOKMARK [2][-]{subsection.1.3.1}{X-ray mammography}{section.1.3}% 17
-\BOOKMARK [2][-]{subsection.1.3.2}{Ultrasounds}{section.1.3}% 18
-\BOOKMARK [2][-]{subsection.1.3.3}{Magnetic resonance imaging}{section.1.3}% 19
-\BOOKMARK [1][-]{section.1.4}{Conclusion}{chapter.1}% 20
-\BOOKMARK [0][-]{chapter.2}{Biomechanical breast modeling State of the art}{}% 21
-\BOOKMARK [1][-]{section.2.1}{Continuous mechanics}{chapter.2}% 22
-\BOOKMARK [2][-]{subsection.2.1.1}{Deformation and strain}{section.2.1}% 23
-\BOOKMARK [2][-]{subsection.2.1.2}{Stress measures}{section.2.1}% 24
-\BOOKMARK [2][-]{subsection.2.1.3}{Conservation equations}{section.2.1}% 25
-\BOOKMARK [2][-]{subsection.2.1.4}{Constitutive models}{section.2.1}% 26
-\BOOKMARK [1][-]{section.2.2}{Finite Element Discretization}{chapter.2}% 27
-\BOOKMARK [2][-]{subsection.2.2.1}{Eulerian and Lagrangian mesh description}{section.2.2}% 28
-\BOOKMARK [2][-]{subsection.2.2.2}{Lagrangian mesh}{section.2.2}% 29
-\BOOKMARK [1][-]{section.2.3}{Contact mechanics}{chapter.2}% 30
-\BOOKMARK [2][-]{subsection.2.3.1}{Contact inteface equations}{section.2.3}% 31
-\BOOKMARK [2][-]{subsection.2.3.2}{Surface interaction models}{section.2.3}% 32
-\BOOKMARK [2][-]{subsection.2.3.3}{Contact formulation algorithm: pure penalty model}{section.2.3}% 33
-\BOOKMARK [1][-]{section.2.4}{Breast biomechanical model: an overview}{chapter.2}% 34
-\BOOKMARK [2][-]{subsection.2.4.1}{Breast reference configuration}{section.2.4}% 35
-\BOOKMARK [2][-]{subsection.2.4.2}{Constitutive models}{section.2.4}% 36
-\BOOKMARK [2][-]{subsection.2.4.3}{Boundary conditions}{section.2.4}% 37
-\BOOKMARK [2][-]{subsection.2.4.4}{Summary}{section.2.4}% 38
-\BOOKMARK [0][-]{chapter.3}{A new biomechanical breast model evaluated on real data}{}% 39
-\BOOKMARK [1][-]{section.3.1}{Geometry extraction}{chapter.3}% 40
-\BOOKMARK [2][-]{subsection.3.1.1}{Data acquisition}{section.3.1}% 41
-\BOOKMARK [2][-]{subsection.3.1.2}{Image segmentation}{section.3.1}% 42
-\BOOKMARK [2][-]{subsection.3.1.3}{Image registration}{section.3.1}% 43
-\BOOKMARK [2][-]{subsection.3.1.4}{Subject-specific 3D geometry}{section.3.1}% 44
-\BOOKMARK [1][-]{section.3.2}{ Finite Elements Mesh}{chapter.3}% 45
-\BOOKMARK [1][-]{section.3.3}{Breast reference configuration}{chapter.3}% 46
-\BOOKMARK [1][-]{section.3.4}{Boundary conditions}{chapter.3}% 47
-\BOOKMARK [1][-]{section.3.5}{Material constitutive models}{chapter.3}% 48
-\BOOKMARK [2][-]{subsection.3.5.1}{Model simplification}{section.3.5}% 49
-\BOOKMARK [2][-]{subsection.3.5.2}{Estimation of the optimal constitutive parameters}{section.3.5}% 50
-\BOOKMARK [1][-]{section.3.6}{Model validation}{chapter.3}% 51
-\BOOKMARK [1][-]{section.3.7}{Discussions and conclusion}{chapter.3}% 52
-\BOOKMARK [0][-]{chapter.4}{Breast Compression State of the art }{}% 53
-\BOOKMARK [1][-]{section.4.1}{Mammography positioning}{chapter.4}% 54
-\BOOKMARK [1][-]{section.4.2}{Paddles designs}{chapter.4}% 55
-\BOOKMARK [1][-]{section.4.3}{Compression mechanics}{chapter.4}% 56
-\BOOKMARK [1][-]{section.4.4}{Compression quality metrics}{chapter.4}% 57
-\BOOKMARK [2][-]{subsection.4.4.1}{Image quality}{section.4.4}% 58
-\BOOKMARK [2][-]{subsection.4.4.2}{Average glandular dose}{section.4.4}% 59
-\BOOKMARK [2][-]{subsection.4.4.3}{Pain and discomfort}{section.4.4}% 60
-\BOOKMARK [1][-]{section.4.5}{Recent advances in breast compression}{chapter.4}% 61
-\BOOKMARK [0][-]{chapter.5}{Breast compression \046 comfort \040A comparative study}{}% 62
-\BOOKMARK [1][-]{section.5.1}{Breast compression modeling}{chapter.5}% 63
-\BOOKMARK [2][-]{subsection.5.1.1}{FE modeling of compression paddles}{section.5.1}% 64
-\BOOKMARK [2][-]{subsection.5.1.2}{Breast compression mechanics}{section.5.1}% 65
-\BOOKMARK [2][-]{subsection.5.1.3}{Gent strain energy function}{section.5.1}% 66
-\BOOKMARK [2][-]{subsection.5.1.4}{Updated material constitutive models}{section.5.1}% 67
-\BOOKMARK [2][-]{subsection.5.1.5}{ Gent model and breast mechanics under gravity loading}{section.5.1}% 68
-\BOOKMARK [1][-]{section.5.2}{Simulation of digital images }{chapter.5}% 69
-\BOOKMARK [2][-]{subsection.5.2.1}{Physical characteristics}{section.5.2}% 70
-\BOOKMARK [2][-]{subsection.5.2.2}{Breast phantom objects}{section.5.2}% 71
-\BOOKMARK [1][-]{section.5.3}{Compression quality metrics}{chapter.5}% 72
-\BOOKMARK [2][-]{subsection.5.3.1}{Patient comfort}{section.5.3}% 73
-\BOOKMARK [2][-]{subsection.5.3.2}{Image quality }{section.5.3}% 74
-\BOOKMARK [2][-]{subsection.5.3.3}{Average glandular dose}{section.5.3}% 75
-\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 76
-\BOOKMARK [2][-]{subsection.5.4.1}{Compression quality for rigid and flex paddles}{section.5.4}% 77
-\BOOKMARK [2][-]{subsection.5.4.2}{Paddle positioning impact on compression mechanics}{section.5.4}% 78
-\BOOKMARK [1][-]{section.5.5}{Discussion and conclusion}{chapter.5}% 79
-\BOOKMARK [0][-]{chapter.6}{Conclusion and Perspectives}{}% 80
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 81
-\BOOKMARK [1][-]{section.6.1}{Biomechanical breast model }{chapter.6}% 82
-\BOOKMARK [1][-]{section.6.2}{Breast compression and patient comfort}{chapter.6}% 83
-\BOOKMARK [0][-]{section.6.2}{Key contributions}{}% 84
-\BOOKMARK [0][-]{section.6.2}{Publications}{}% 85
-\BOOKMARK [0][-]{section*.68}{Appendices}{}% 86
-\BOOKMARK [0][-]{Appendix.a.A}{Distance measures}{}% 87
-\BOOKMARK [0][-]{Appendix.a.B}{Mesh Convergence}{}% 88
-\BOOKMARK [0][-]{Appendix.a.C}{Buondary conditions \040contact models}{}% 89
-\BOOKMARK [0][-]{figure.caption.74}{Bibliography}{}% 90
+\BOOKMARK [0][-]{Doc-Start}{R\351sum\351}{}% 7
+\BOOKMARK [0][-]{chapter.1}{ Clinical background}{}% 8
+\BOOKMARK [1][-]{section.1.1}{Breast anatomy}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.1.1}{Breast embryogenesis}{section.1.1}% 10
+\BOOKMARK [2][-]{subsection.1.1.2}{Breast external appearance}{section.1.1}% 11
+\BOOKMARK [2][-]{subsection.1.1.3}{Internal structures}{section.1.1}% 12
+\BOOKMARK [2][-]{subsection.1.1.4}{Adult breast texture changes}{section.1.1}% 13
+\BOOKMARK [1][-]{section.1.2}{Breast Cancer}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.2.1}{Cancer classification }{section.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.2}{Breast cancer screening}{section.1.2}% 16
+\BOOKMARK [1][-]{section.1.3}{Medical imaging}{chapter.1}% 17
+\BOOKMARK [2][-]{subsection.1.3.1}{X-ray mammography}{section.1.3}% 18
+\BOOKMARK [2][-]{subsection.1.3.2}{Ultrasounds}{section.1.3}% 19
+\BOOKMARK [2][-]{subsection.1.3.3}{Magnetic resonance imaging}{section.1.3}% 20
+\BOOKMARK [1][-]{section.1.4}{Conclusion}{chapter.1}% 21
+\BOOKMARK [0][-]{chapter.2}{Biomechanical breast modeling State of the art}{}% 22
+\BOOKMARK [1][-]{section.2.1}{Continuous mechanics}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.1.1}{Deformation and strain}{section.2.1}% 24
+\BOOKMARK [2][-]{subsection.2.1.2}{Stress measures}{section.2.1}% 25
+\BOOKMARK [2][-]{subsection.2.1.3}{Conservation equations}{section.2.1}% 26
+\BOOKMARK [2][-]{subsection.2.1.4}{Constitutive models}{section.2.1}% 27
+\BOOKMARK [1][-]{section.2.2}{Finite Element Discretization}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.2.1}{Eulerian and Lagrangian mesh description}{section.2.2}% 29
+\BOOKMARK [2][-]{subsection.2.2.2}{Lagrangian mesh}{section.2.2}% 30
+\BOOKMARK [1][-]{section.2.3}{Contact mechanics}{chapter.2}% 31
+\BOOKMARK [2][-]{subsection.2.3.1}{Contact inteface equations}{section.2.3}% 32
+\BOOKMARK [2][-]{subsection.2.3.2}{Surface interaction models}{section.2.3}% 33
+\BOOKMARK [2][-]{subsection.2.3.3}{Contact formulation algorithm: pure penalty model}{section.2.3}% 34
+\BOOKMARK [1][-]{section.2.4}{Breast biomechanical model: an overview}{chapter.2}% 35
+\BOOKMARK [2][-]{subsection.2.4.1}{Breast reference configuration}{section.2.4}% 36
+\BOOKMARK [2][-]{subsection.2.4.2}{Constitutive models}{section.2.4}% 37
+\BOOKMARK [2][-]{subsection.2.4.3}{Boundary conditions}{section.2.4}% 38
+\BOOKMARK [2][-]{subsection.2.4.4}{Summary}{section.2.4}% 39
+\BOOKMARK [0][-]{chapter.3}{A new biomechanical breast model evaluated on real data}{}% 40
+\BOOKMARK [1][-]{section.3.1}{Geometry extraction}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.1.1}{Data acquisition}{section.3.1}% 42
+\BOOKMARK [2][-]{subsection.3.1.2}{Image segmentation}{section.3.1}% 43
+\BOOKMARK [2][-]{subsection.3.1.3}{Image registration}{section.3.1}% 44
+\BOOKMARK [2][-]{subsection.3.1.4}{Subject-specific 3D geometry}{section.3.1}% 45
+\BOOKMARK [1][-]{section.3.2}{ Finite Elements Mesh}{chapter.3}% 46
+\BOOKMARK [1][-]{section.3.3}{Breast reference configuration}{chapter.3}% 47
+\BOOKMARK [1][-]{section.3.4}{Boundary conditions}{chapter.3}% 48
+\BOOKMARK [1][-]{section.3.5}{Material constitutive models}{chapter.3}% 49
+\BOOKMARK [2][-]{subsection.3.5.1}{Model simplification}{section.3.5}% 50
+\BOOKMARK [2][-]{subsection.3.5.2}{Estimation of the optimal constitutive parameters}{section.3.5}% 51
+\BOOKMARK [1][-]{section.3.6}{Model validation}{chapter.3}% 52
+\BOOKMARK [1][-]{section.3.7}{Discussions and conclusion}{chapter.3}% 53
+\BOOKMARK [0][-]{chapter.4}{Breast Compression State of the art }{}% 54
+\BOOKMARK [1][-]{section.4.1}{Mammography positioning}{chapter.4}% 55
+\BOOKMARK [1][-]{section.4.2}{Paddle designs}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.3}{Compression mechanics}{chapter.4}% 57
+\BOOKMARK [1][-]{section.4.4}{Compression quality metrics}{chapter.4}% 58
+\BOOKMARK [2][-]{subsection.4.4.1}{Image quality}{section.4.4}% 59
+\BOOKMARK [2][-]{subsection.4.4.2}{Average glandular dose}{section.4.4}% 60
+\BOOKMARK [2][-]{subsection.4.4.3}{Pain and discomfort}{section.4.4}% 61
+\BOOKMARK [1][-]{section.4.5}{Recent advances in breast compression}{chapter.4}% 62
+\BOOKMARK [0][-]{chapter.5}{Breast compression \046 comfort \040A comparative study}{}% 63
+\BOOKMARK [1][-]{section.5.1}{Breast compression modeling}{chapter.5}% 64
+\BOOKMARK [2][-]{subsection.5.1.1}{FE modeling of compression paddles}{section.5.1}% 65
+\BOOKMARK [2][-]{subsection.5.1.2}{Breast compression mechanics}{section.5.1}% 66
+\BOOKMARK [2][-]{subsection.5.1.3}{Gent strain energy function}{section.5.1}% 67
+\BOOKMARK [2][-]{subsection.5.1.4}{Updated material constitutive models}{section.5.1}% 68
+\BOOKMARK [2][-]{subsection.5.1.5}{ Gent model and breast mechanics under gravity loading}{section.5.1}% 69
+\BOOKMARK [1][-]{section.5.2}{Simulation of digital images }{chapter.5}% 70
+\BOOKMARK [2][-]{subsection.5.2.1}{Physical characteristics}{section.5.2}% 71
+\BOOKMARK [2][-]{subsection.5.2.2}{Breast phantom objects}{section.5.2}% 72
+\BOOKMARK [1][-]{section.5.3}{Compression quality metrics}{chapter.5}% 73
+\BOOKMARK [2][-]{subsection.5.3.1}{Patient comfort}{section.5.3}% 74
+\BOOKMARK [2][-]{subsection.5.3.2}{Image quality }{section.5.3}% 75
+\BOOKMARK [2][-]{subsection.5.3.3}{Average glandular dose}{section.5.3}% 76
+\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 77
+\BOOKMARK [2][-]{subsection.5.4.1}{Compression quality for rigid and flex paddles}{section.5.4}% 78
+\BOOKMARK [2][-]{subsection.5.4.2}{Paddle positioning impact on compression mechanics}{section.5.4}% 79
+\BOOKMARK [1][-]{section.5.5}{Discussion and conclusion}{chapter.5}% 80
+\BOOKMARK [0][-]{chapter.6}{Conclusion and Perspectives}{}% 81
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 82
+\BOOKMARK [1][-]{section.6.1}{Biomechanical breast model }{chapter.6}% 83
+\BOOKMARK [1][-]{section.6.2}{Breast compression and patient comfort}{chapter.6}% 84
+\BOOKMARK [0][-]{section.6.2}{Key contributions}{}% 85
+\BOOKMARK [0][-]{section.6.2}{Publications}{}% 86
+\BOOKMARK [0][-]{section*.74}{Appendices}{}% 87
+\BOOKMARK [0][-]{Appendix.a.A}{Distance measures}{}% 88
+\BOOKMARK [0][-]{Appendix.a.B}{Mesh Convergence}{}% 89
+\BOOKMARK [0][-]{Appendix.a.C}{Buondary conditions \040contact models}{}% 90
+\BOOKMARK [0][-]{figure.caption.80}{Bibliography}{}% 91
